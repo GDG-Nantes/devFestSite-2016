@@ -6,7 +6,7 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://devfest.gdgnantes.com/</loc>
+        <loc>https://devfest.gdgnantes.com/</loc>
         <changefreq>monthly</changefreq>
         <priority>1</priority>
     </url>
