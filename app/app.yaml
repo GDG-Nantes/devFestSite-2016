@@ -1,0 +1,85 @@
+application: devfestnantes2016
+version: v21
+runtime: go
+api_version: go1
+threadsafe: true
+
+default_expiration: "30d"
+
+handlers:
+# re-direct to index.html if no path is give
+- url: /
+  static_files: index.html
+  upload: index.html
+  expiration: "0d 5m"
+  secure: always
+
+#- url: /logistics
+#  static_files: logistics/index.html
+#  upload: logistics/index.html
+#  expiration: "0d 15m"
+#  secure: always
+
+#- url: /schedule
+#  static_files: schedule/index.html
+#  upload: schedule/index.html
+#  expiration: "0d 5m"
+#  secure: always
+
+#- url: /speakers
+#  static_files: speakers/index.html
+#  upload: speakers/index.html
+#  expiration: "0d 15m"
+#  secure: always
+
+#- url: /cod
+#  static_files: cod/index.html
+#  upload: cod/index.html
+#  expiration: "0d 15m"
+#  secure: always
+
+#- url: /presse
+#  static_files: presse/index.html
+#  upload: presse/index.html
+#  expiration: "0d 15m"
+#  secure: always
+
+#- url: /credits
+#  static_files: credits/index.html
+#  upload: presse/index.html
+#  expiration: "0d 15m"
+#  secure: always
+
+#- url: /team
+#  static_files: team/index.html
+#  upload: team/index.html
+#  expiration: "0d 15m"
+#  secure: always
+
+# re-direct to index.html
+- url: /index.html(.*)
+  static_files: index.html
+  upload: index.html(.*)
+  expiration: "0d 5m"
+  secure: always
+
+# Cas du json de programme
+#- url: /assets/prog.json
+#  static_files: assets/prog.json
+#  upload: /assets/prog.json
+#  http_headers:
+#    Access-Control-Allow-Origin: "*"
+
+# Service Go de favoris
+- url: /api/.*
+  script: _go_app
+
+# access the static resources in the root director
+- url: /(.*\.(css|gif|png|jpg|jpeg|ico|js|html|htm|xml|txt|ttf|json|svg|woff|eot|xcf))
+  static_files: \1
+  upload: (.*\.(css|gif|png|jpg|jpeg|ico|js|html|htm|xml|txt|ttf|json|svg|woff|eot|xcf))
+
+
+skip_files:
+- ^node_modules/*.*
+- ^\.git/*.*
