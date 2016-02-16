@@ -1,0 +1,37 @@
+#application: devfestnantes2016
+#version: v3
+runtime: go
+api_version: go1
+threadsafe: true
+
+default_expiration: "30d"
+
+handlers:
+# re-direct to index.html if no path is give
+- url: /
+  static_files: index.html
+  upload: index.html
+  expiration: "0d 5m"
+  secure: always
+
+# re-direct to index.html
+- url: /index.html(.*)
+  static_files: index.html
+  upload: index.html(.*)
+  expiration: "0d 5m"
+  secure: always
+
+# Service Go de favoris
+- url: /(\.well-known|api)/.* 
+  script: _go_app
+
+# access the static resources in the root director
+- url: /(.*\.(css|gif|png|jpg|jpeg|ico|js|html|htm|xml|txt|ttf|json|svg|woff|eot|xcf))
+  static_files: \1
+  upload: (.*\.(css|gif|png|jpg|jpeg|ico|js|html|htm|xml|txt|ttf|json|svg|woff|eot|xcf))
+
+
+skip_files:
+- ^node_modules/*.*
+- ^\.git/*.*
+- ^\.tmp/*.*
