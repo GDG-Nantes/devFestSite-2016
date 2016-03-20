@@ -21,12 +21,20 @@ $secondary-color: rgb(255,64,129);
 
 body {
   margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif; 
 }
 
 /* Disable ugly boxes around images in IE10 */
 a img{
   border: 0px;
 }
+
+
+// UTILS
+
+.simple-padding-bottom {
+  padding-bottom: 15px;
+} 
 
 // HEADER SECTION -- global
 
@@ -110,26 +118,28 @@ a img{
 }
 
 
-// SECTION 1 -- Welcome page
+// SECTION HERO
 
-.devfest-section1 {
+.devfest-hero {
   position: relative;
-  height: 800px;
+  height: 650px;
   width: auto;
   background: url('../images/background.jpg') center 30% no-repeat;
   background-size: cover;
-}
-
-.logo-font {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  line-height: 1;
   color: #FFFFFF;
-  font-weight: 500;
 }
 
 .devfest-main-logo {
   font-size: 60px;
-  padding-top: 160px;
+  padding-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.devfest-main-logo img {
+  width: 100%;
+  max-width: 600px;
+
 }
 
 .devfest-slogan {
@@ -188,30 +198,32 @@ a img{
 // SECTION 'LOCATION'
 
 .devfest-location {
-  position: relative;
-  background: url('../images/background.jpg') center top no-repeat;
-  background-size: cover;
-  height: 800px;
+  width: 100%;
 }
 
 #map {
- height: 600px; 
- width: 600px; 
+ max-width: 600px;
+ max-height: 800px;
+ min-width: 100px
 }
 
 .devfest-location-band {
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  text-align: center;
   background-color: #37474f;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.devfest-location-band-inner {
+  position: relative;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .devfest-location-band-content {
-  max-width: 800px;
-  margin-left: 25%;
+  width: 100%;
   padding: 24px;
-  text-align: left;
   color: white;
 }
 
@@ -250,6 +262,46 @@ a img{
 }
 
 
+// TRANSITION
+
+.devfest-transition {
+  background-color: black;
+  height: 400px;
+}
+
+.devfest-transition-image {
+  background-color: black;
+  background: url('../images/2015/ambiance2.png') center top no-repeat;
+  filter: opacity(20%);
+  -webkit-filter: opacity(20%);
+  background-size: cover;
+  height: 400px;
+}
+
+
+// SECTION TICKETS
+
+.devfest-tickets {
+  width: 100%;
+  background-color: #37474f;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.devfest-tickets-inner {
+  position: relative;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.devfest-tickets-content {
+  width: 100%;
+  padding: 24px;
+  color: white;
+}
+
+
 
 // SECTION 4
 
@@ -266,12 +318,6 @@ a img{
 
 .devfest-section4-text p {
   padding-top: 16px;
-}
-
-.devfest-section4-image {
-  background: url('../images/background.jpg') center top no-repeat;
-  background-size: cover;
-  height: 400px;
 }
 
 
