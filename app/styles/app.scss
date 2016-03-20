@@ -133,7 +133,6 @@ a img{
 }
 
 .devfest-slogan {
-  font-size: 21px;
   padding-top: 24px;
 }
 
@@ -145,22 +144,48 @@ a img{
 }
 
 
-// SECTION 2
+// SECTION 'DESCRIPTION'
 
-.devfest-section2 {
+.devfest-description {
   position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.devfest-description-content {
+  width: 100%;
+  padding: 24px;
+}
+
+.devfest-description-title {
+  padding-top: 20px;
+}
+
+// SECTION 'STATISTICS'
+
+.devfest-statistics {
+  width: 100%;
+  background-color: #37474f;
   padding-top: 60px;
   padding-bottom: 80px;
 }
 
-.devfest-section2-content {
+.devfest-statistics-inner {
+  position: relative;
   width: 100%;
-  white-space: nowrap;
-  overflow-x: auto;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
+.devfest-statistics-content {
+  width: 100%;
+  padding: 24px;
+  color: white;
+}
 
-// SECTION LOCATION
+// SECTION 'LOCATION'
 
 .devfest-location {
   position: relative;
@@ -182,7 +207,7 @@ a img{
   background-color: #37474f;
 }
 
-.devfest-location-band-text {
+.devfest-location-band-content {
   max-width: 800px;
   margin-left: 25%;
   padding: 24px;
@@ -190,7 +215,7 @@ a img{
   color: white;
 }
 
-.devfest-location-band-text p {
+.devfest-location-band-content p {
   padding-top: 8px;
 }
 

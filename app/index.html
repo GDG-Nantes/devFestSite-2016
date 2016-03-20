@@ -129,33 +129,90 @@
     <!-- Website content -->
     <div class="devfest-content mdl-layout__content">
 
-      <!-- SECTION 1 : Welcome page -->
+      <!-- SECTION : Welcome page -->
       <a name="top"></a>
       <section class="devfest-section1 mdl-typography--text-center">
         <div class="logo-font devfest-main-logo"><img src="images/title.png"></div>
-        <div class="logo-font devfest-slogan">build the future brick by brick</div>
+        <div class="logo-font devfest-slogan mdl-typography--headline mdl-typography--font-thin  ">#Dev the future brick by brick</div>
         
-        <a href="#screens">
+        <a href="#description">
           <button class="devfest-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
             <i class="material-icons">expand_more</i>
           </button>
         </a>
       </section>
 
-      <!-- SECTION 2 -->
-      <section class="devfest-section2 mdl-typography--text-center">
-        <a name="screens"></a>
-        <div class="mdl-typography--display-1-color-contrast">Description du Devfest...</div>
-        <div class="devfest-section2-content">
-          Yeah
+      <!-- SECTION : Description -->
+      <section class="devfest-description section--center mdl-grid mdl-grid--no-spacing">
+        <a name="description"></a>
+        <div class="devfest-description-content">
+          <div class="mdl-typography--display-2 mdl-typography--font-thin">DevFest Nantes 2016</div>
+          <p class="mdl-typography--headline mdl-typography--font-thin">
+            9 & 10 Novembre 2016, à la Cité des Congrès de Nantes.
+          </p>
+          <p>Saepe Sulpicio tum pauci et P quanta tum essem in admodum erat eum capitali et vel odio ut erat ut vel amantissime profecto amantissime et admiratio tum memini saepe et domi vel consul erat multis vel saepe pauci cum admodum ut erat solebat in quanta quanta querella a Pompeio capitali in utebare magis forte et quocum Pompeio essem utebare in admodum una erat is forte solebat solebat vel hemicyclio et dissideret admiratio multum pauci dissideret pauci una Pompeio tum vel in in tum amantissime solebat pauci magis familiares et et tribunus quanta admodum dissideret et tum in qui cum multa.</p>
+        </div>
+        <div class="devfest-description-content">
+           <div class="mdl-grid mdl-grid--no-spacing">
+              <div class="mdl-cell mdl-cell--4-col mdl-typography--text-center">
+                <img src="./images/lego_happy.jpg" height="200px">
+                <p class="mdl-typography--headline devfest-description-title">Des conférences inédites</p>
+                <p>Usurpare usurpare sed varietate cum clarissimorum nec saepe cum lustratae varietate res nec peragrari imperatorum varietate regum sermonibus bellorum tuis.</p>  
+              </div>              
+              <div class="mdl-cell mdl-cell--4-col mdl-typography--text-center">
+                <img src="./images/lego_geek.jpg" height="200px">
+                <p class="mdl-typography--headline devfest-description-title">Orienté développeur</p>
+                <p>Aut si tulit tulit quod viro magis magis Quo de aut quod modo perfecto spectato.</p>     
+              </div>              
+              <div class="mdl-cell mdl-cell--4-col mdl-typography--text-center">
+                <img src="./images/lego_computer.png" height="200px">
+                <p class="mdl-typography--headline devfest-description-title">Innovations technologiques</p>
+                <p>Solitudines egressus edictus ante praesidia ante ullo egressus praesidia indicio edictus per qui amnis proditus.</p>        
+              </div>
+          </div>
         </div>
       </section>
+
+      <!-- SECTION : Statistiques -->
+      <section class="devfest-statistics section--center mdl-grid mdl-grid--no-spacing">
+        <div class="devfest-statistics-inner">
+          <a name="statistics"></a>
+          <div class="devfest-statistics-content">
+            <div class="mdl-typography--display-2 mdl-typography--font-thin">Quelques statistiques...</div>
+          </div>
+          <div class="devfest-statistics-content">
+             <div class="mdl-grid mdl-grid--no-spacing">
+                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+                  <p class="mdl-typography--display-4 mdl-typography--font-thin">1000+<p>
+                  <p class="mdl-typography--headline mdl-typography--font-thin">Participants</p>
+                  <p class="mdl-typography--font-thin">Développeurs, Architectes, CTO, Chefs de projets...</p>              
+                </div>
+                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+                  <p class="mdl-typography--display-4 mdl-typography--font-thin">50+<p>
+                  <p class="mdl-typography--headline mdl-typography--font-thin">Conférences</p>
+                  <p>Talks, quickies, codelabs, tables rondes...</p>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+                  <p class="mdl-typography--display-4 mdl-typography--font-thin">50+<p>
+                  <p class="mdl-typography--headline mdl-typography--font-thin">Speakers</p>
+                  <p>Français et Internationaux</p>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+                  <p class="mdl-typography--display-4 mdl-typography--font-thin">4<p>
+                  <p class="mdl-typography--headline mdl-typography--font-thin">Tracks</p>
+                  <p>Mobile/IoT, Web, Cloud & Découverte</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
 
       <!-- SECTION LOCATION -->   
       <section class="devfest-location">
         <div id="map"></div>
         <div class="devfest-location-band">
-          <div class="devfest-location-band-text">
+          <div class="devfest-location-band-content">
             <div class="mdl-typography--display-2 mdl-typography--font-thin">The best place to be</div>
             <p class="mdl-typography--headline mdl-typography--font-thin">
               La cité des congrès de Nantes c'est trop bien... bla bla bla
