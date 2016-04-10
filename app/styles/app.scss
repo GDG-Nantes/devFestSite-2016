@@ -77,6 +77,10 @@ a img{
   border-bottom: 4px solid transparent;
 }
 
+.devfest-navigation-active {
+  border-bottom: 4px solid $secondary-color !important;
+}
+
 .devfest-navigation .mdl-navigation__link:hover {
   border-bottom: 4px solid $secondary-color;
 }
@@ -377,6 +381,101 @@ a img{
   font-size: 16px;
 }
 
+// GENERAL - other page
+.devfest-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: #3F51B5;
+  flex-shrink: 0;
+}
+
+.devfest-ribbon-main {
+  margin-top: -35vh;
+  flex-shrink: 0;
+}
+
+.devfest-ribbon-header .mdl-layout__header-row {
+  padding-left: 40px;
+}
+
+.devfest-ribbon-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.devfest-ribbon-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+
+.ddevfest-ribbonmo-layout.is-small-screen .devfest-ribbon-content {
+  padding: 40px 28px;
+}
+
+.devfest-ribbon-content h3 {
+  margin-top: 48px;
+}
+
+.devfest-ribbon-footer {
+  padding-left: 40px;
+}
+
+.devfest-ribbon-footer .mdl-mini-footer--link-list a {
+  font-size: 13px;
+}
+
+// SPEAKERS
+.devfest-speaker-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+  margin: 5px;
+}
+.devfest-speaker-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.devfest-speaker-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+// GENERAL - AGENDA
+.devfest-agenda-card-event.mdl-card {
+  width: 100%;
+  height: 200px;
+}
+.devfest-agenda-card-event-big.mdl-card {
+  height: 100px !important;
+  min-height: 100px !important;
+}
+.devfest-agenda-card-event > .mdl-card__actions {
+  background: rgba(0, 0, 0, 0.8);
+}
+.devfest-agenda-card-event > .mdl-card__title {
+  align-items: flex-start;
+  background: rgba(0, 0, 0, 0.5);
+}
+.devfest-agenda-card-event > .mdl-card__title > h4 {
+  margin-top: 0;
+}
+.devfest-agenda-card-event > .mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
+}
+.devfest-agenda-card-event > .mdl-card__actions > .material-icons {
+  padding-right: 10px;
+}
+.devfest-agenda-card-event > .mdl-card__title,
+.devfest-agenda-card-event > .mdl-card__actions,
+.devfest-agenda-card-event > .mdl-card__actions > .mdl-button {
+  color: #fff;
+}
 
 
 // FOOTER SECTION
