@@ -270,14 +270,18 @@ a img{
 }
 
 .devfest-transition-image {
-  background-color: black;
   background: url('../images/2015/ambiance2.png') center top no-repeat;
-  filter: opacity(20%);
-  -webkit-filter: opacity(20%);
   background-size: cover;
   height: 400px;
+  line-height: 400px;
+  white-space: nowrap;
+  text-align: center;
 }
 
+.devfest-newsletter-input {
+  border-bottom: 1px solid white !important;
+  color: white !important;
+}
 
 // SECTION TICKETS
 
