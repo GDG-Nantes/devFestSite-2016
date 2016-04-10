@@ -303,24 +303,34 @@ a img{
 
 
 
-// SECTION 4
+// SECTION SPONSORS
 
-.devfest-section4 {
-  text-align: center;
+.devfest-sponsors {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.devfest-section4-text {
+.devfest-sponsors .devfest-section-title {
+  margin-left: 12px;
+  padding-top: 24px;
+}
+
+.devfest-sponsors-inner {
+  position: relative;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.devfest-sponsors-text {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  padding: 80px 16px 0 16px;
+  padding: 30px 16px 20px 16px;
 }
-
-.devfest-section4-text p {
-  padding-top: 16px;
-}
-
-
 
 
 
