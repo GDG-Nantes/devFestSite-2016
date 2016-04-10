@@ -381,6 +381,39 @@ a img{
   font-size: 16px;
 }
 
+// page Equipe
+.devfest-ribbon-equipe  {
+  background: url('../images/equipe/background.jpg') center top no-repeat;
+  background-size: cover;
+  height: 90vh !important;
+}
+
+.devfest-ribbon-main-equipe {
+  margin-top: -75vh !important;
+}
+
+// page Pratique
+.devfest-ribbon-pratique  {
+  background: url('../images/lego/place.jpg') center top no-repeat;
+  background-size: cover;
+  height: 50vh !important;
+}
+
+.devfest-ribbon-main-pratique {
+  margin-top: -45vh !important;
+}
+
+// page COD
+.devfest-ribbon-cod  {
+  background: url('../images/lego/cod.png') center top no-repeat;
+  background-size: cover;
+  height: 50vh !important;
+}
+
+.devfest-ribbon-main-cod {
+  margin-top: -45vh !important;
+}
+
 // GENERAL - other page
 .devfest-ribbon {
   width: 100%;
@@ -435,7 +468,7 @@ a img{
 .devfest-speaker-card-image > .mdl-card__actions {
   height: 52px;
   padding: 16px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
 }
 .devfest-speaker-card-image__filename {
   color: #fff;
