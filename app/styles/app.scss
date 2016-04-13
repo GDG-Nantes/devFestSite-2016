@@ -517,13 +517,25 @@ a img{
   position: relative;
 }
 
-
-.devfest-link-menu:hover {
-  cursor: pointer;
+.devfest-footer-social {
+  padding-right: 15px;
 }
 
-.devfest-social-icon {
-  padding-right: 15px;
+.devfest-footer-social img {
+  transition: all 0.3s ease 0s;
+  filter: grayscale(1);
+}
+
+.devfest-footer-social:hover img {
+  transition: all 0.3s ease 0s;
+  filter: grayscale(0);
+}
+
+
+.devfest-footer-links {
+  color:#9E9E9E;
+  font-weight: 500;
+  text-decoration:none;
 }
 
 
