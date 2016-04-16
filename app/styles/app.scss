@@ -16,7 +16,7 @@
 
 // SASS Variables
 $primary-color: rgb(63,81,181);
-$secondary-color: rgb(255,215,64);
+$secondary-color: rgb(255,82,82);
 
 
 body {
@@ -451,6 +451,63 @@ a img{
 .devfest-ribbon-main-cod {
   margin-top: -45vh !important;
 }
+
+// page Fiche session
+.devfest-ribbon-session  {
+  height: 15vh !important;
+}
+
+.devfest-ribbon-speaker-name  {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  padding-left: 20px;
+}
+
+.devfest-ribbon-speaker-name h3  {
+  margin: 0px;
+}
+
+.devfest-session-speaker-left img {
+  width: 13vw;
+}
+
+.devfest-session-speaker-left div {
+  width: 13vw;
+  margin-top: 20px;
+}
+
+.devfest-session-speaker-left-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.devfest-session-speaker-left-social a {
+  color: black;
+  transition: all 0.3s ease 0s;
+}
+
+.devfest-session-speaker-left-social a:hover {
+  color: $secondary-color;
+  transition: all 0.3s ease 0s;
+}
+
+.devfest-session-speaker-bio {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.devfest-session-content {
+  border-radius: 2px;
+  padding: 10px 10px;
+}
+
+.devfest-session-content h4 {
+  padding-top: 10px;
+}
+
 
 // GENERAL - other page
 .devfest-ribbon {
