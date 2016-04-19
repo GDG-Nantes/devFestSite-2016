@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Team @ GDG Nantes">
-    <meta name="description" content="DevFest Nantes 2016, is a two day event of conferences with 1000 developers a the Congress center of Nantes">
+    <meta name="description" content="Le DevFest Nantes 2016, ce sont 2 journées de conférences accueillant 1000 développeurs à la Cité des Congrès de Nantes">
     <meta name="keywords" content="event, gdg, devfest, google, programming, android, chrome, developers, nantes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevFest 2016 Nantes</title>
@@ -13,7 +13,7 @@
     <meta name="msapplication-tap-highlight" content="no">
 
     <!-- Web Application Manifest -->
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="/manifest.json">
 
     <!-- favicon -->
     <link rel="icon" type="image/png" href="/favicon.ico" />
@@ -30,7 +30,7 @@
     <link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#2b5797">
 
     <!-- Color the status bar on mobile devices -->
@@ -55,7 +55,7 @@
     <link rel="canonical" href="https://devfest.gdgnantes.com">
 
     <!-- Material Design Lite page styles: choose other color schemes from the CDN, more info here http://www.getmdl.io/customize/index.html -->
-    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-red.min.css">
     
     <!-- Material Design icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -71,32 +71,30 @@
     <header class="devfest-header mdl-layout__header mdl-layout__header--waterfall">
       <div class="mdl-layout__header-row">
         <span class="devfest-title mdl-layout-title">
-          <img class="devfest-logo-image" src="/images/logo-title-white.png">
+          <a href="index.html"><img class="devfest-logo-image" src="/images/logo-title-white.png"></a>
         </span>
         <!-- Add spacer, to align navigation to the right in desktop -->
         <div class="devfest-header-spacer mdl-layout-spacer"></div>
         <!-- Bar Navigation -->
         <div class="devfest-navigation-container">
           <nav class="devfest-navigation mdl-navigation">
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Schedule</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Speakers</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Sponsors</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Logistics</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">FAQ</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/"><img src="/images/France-Flag-icon.png"></a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href=""><img src="/images/United-Kingdom-flag-icon_grey.png"></a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./agenda.html">Agenda</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./speakers.html">Speakers</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./pratique.html">Pratique</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/"><img src="/images/flags/france.png"></a>
           </nav>
         </div>
         <span class="devfest-mobile-title mdl-layout-title">
-          <img class="devfest-logo-image" src="/images/logo-title-white.png">
+          <a href="index.html"><img class="devfest-logo-image" src="/images/logo-title-white.png"></a>
         </span>
         <button class="devfest-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
           <i class="material-icons">more_vert</i>
         </button>
         <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
-          <li class="mdl-menu__item">Team</li>
-          <li class="mdl-menu__item">Code of conduct</li>
-          <li class="mdl-menu__item">Credits</li>
+          <li class="mdl-menu__item"><a href="./team.html" class="devfest-menu-links">L'équipe</a></li>
+          <li class="mdl-menu__item"><a href="./faq.html" class="devfest-menu-links">FAQ</a></li>
+          <li class="mdl-menu__item"><a href="./cod.html" class="devfest-menu-links">Code of conduct</a></li>
+          <li class="mdl-menu__item"><a href="./credits.html" class="devfest-menu-links">Credits</a></li>
         </ul>
       </div>
     </header>
@@ -107,71 +105,134 @@
         <img class="devfest-logo-image" src="/images/logo-title-white.png">
       </span>
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Schedule</a>
-        <a class="mdl-navigation__link" href="">Speakers</a>
-        <a class="mdl-navigation__link" href="">Sponsors</a>
-        <a class="mdl-navigation__link" href="">Logistics</a>
-        <a class="mdl-navigation__link" href="">FAQ</a>
-        <div class="devfest-drawer-separator"></div>
-        <span class="mdl-navigation__link" href="">About</span>
-        <a class="mdl-navigation__link" href="">Team</a>
-        <a class="mdl-navigation__link" href="">Code of conduct</a>
-        <a class="mdl-navigation__link" href="">Credits</a>
-        <div class="devfest-drawer-separator"></div>
-        <span class="mdl-navigation__link" href="">Previous Editions</span>
-        <a class="mdl-navigation__link" href="">Edition 2015</a>
-        <a class="mdl-navigation__link" href="">Edition 2014</a>
-        <a class="mdl-navigation__link" href="">Edition 2013</a>
-        <a class="mdl-navigation__link" href="">Edition 2012</a>
+        <a class="mdl-navigation__link" href="./agenda.html">Agenda</a>
+        <a class="mdl-navigation__link" href="./speakers.html">Speakers</a>
+        <a class="mdl-navigation__link" href="./pratique.html">Pratique</a>
+        <a class="mdl-navigation__link" href="./team.html">L'equipe</a>
+        <a class="mdl-navigation__link" href="./faq.html">FAQ</a>
+        <a class="mdl-navigation__link" href="./cod.html">Code of conduct</a>
+        <a class="mdl-navigation__link" href="./credits.html">Credits</a>
       </nav>
     </div>
 
     <!-- Website content -->
     <div class="devfest-content mdl-layout__content">
 
-      <!-- SECTION 1 : Welcome page -->
+      <!-- SECTION : Welcome page -->
       <a name="top"></a>
-      <section class="devfest-section1 mdl-typography--text-center">
-        <div class="logo-font devfest-main-logo"><img src="/images/title.png"></div>
-        <div class="logo-font devfest-slogan">build the future brick by brick</div>
+      <section class="devfest-hero mdl-typography--text-center">
+        <div class="devfest-main-logo"><img src="/images/title.png"></div>
+        <div class="devfest-slogan mdl-typography--headline mdl-typography--font-thin  ">#Dev the future brick by brick</div>
+        <p>
+          <br>
+          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" href="#tickets">
+            <i class="material-icons">receipt</i>&nbsp;&nbsp;Réserver ma place
+          </a>
+          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" href="#" target="_NEW">
+            <i class="material-icons">lightbulb_outline</i>&nbsp;&nbsp;Proposer un talk
+          </a>
+        </p>
         
-        <a href="#screens">
+        <a href="#description">
           <button class="devfest-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
             <i class="material-icons">expand_more</i>
           </button>
         </a>
       </section>
 
-      <!-- SECTION 2 -->
-      <section class="devfest-section2 mdl-typography--text-center">
-        <a name="screens"></a>
-        <div class="mdl-typography--display-1-color-contrast">Description du Devfest...</div>
-        <div class="devfest-section2-content">
-          Yeah
+      <!-- SECTION : Description -->
+      <section class="devfest-description mdl-grid mdl-grid--no-spacing">
+        <a name="description"></a>
+        <div class="devfest-description-inner mdl-typography--text-center">
+          <div class="mdl-typography--display-3">DevFest Nantes 2016</div>
+          <br>
+          <p class="mdl-typography--headline mdl-typography--font-thin">
+            9 &amp; 10 Novembre 2016, à la Cité des Congrès de Nantes
+          </p>
+          <br>
+          <p class="mdl-typography--text-center">
+            <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="#">
+              <i class="material-icons">event</i>&nbsp;&nbsp;Ajouter à l'agenda
+            </a>
+          </p>
+          <br>
+          <p class="devfest-description-content mdl-typography--font-light mdl-typography--subhead">
+            Saepe Sulpicio tum pauci et P quanta tum essem in admodum erat eum capitali et vel odio ut erat ut vel amantissime profecto amantissime et admiratio tum memini saepe et domi vel consul erat multis vel saepe pauci cum admodum ut erat solebat in quanta quanta querella a Pompeio capitali in utebare magis forte et quocum Pompeio essem utebare in admodum una erat is forte solebat solebat vel hemicyclio et dissideret admiratio multum pauci dissideret pauci una Pompeio tum vel in in tum amantissime solebat pauci magis familiares et et tribunus quanta admodum dissideret et tum in qui cum multa.
+          </p>
+          
         </div>
       </section>
 
-      <!-- SECTION LOCATION -->   
-      <section class="devfest-location">
-        <div id="map"></div>
-        <div class="devfest-location-band">
-          <div class="devfest-location-band-text">
-            <div class="mdl-typography--display-2 mdl-typography--font-thin">The best place to be</div>
-            <p class="mdl-typography--headline mdl-typography--font-thin">
-              La cité des congrès de Nantes c'est trop bien... bla bla bla
-            </p>
-            <p>
-              <a class="mdl-typography--font-regular mdl-typography--text-uppercase devfest-alt-link" href="">
-                Lien vers le google maps&nbsp;<i class="material-icons">chevron_right</i>
-              </a>
-            </p>
+      <!-- SECTION : Items -->
+      <section class="devfest-items mdl-grid mdl-grid--no-spacing">
+        <a name="items"></a>
+        <div class="devfest-items-inner">
+          <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">A quoi s'attendre ?</div>
+           <div class="mdl-grid mdl-grid--no-spacing">
+              <div class="devfest-items-item mdl-cell mdl-cell--4-col mdl-typography--text-center">
+                <img src="/images/lego/lego_happy.jpg" height="200px">
+                <p class="mdl-typography--display-1  mdl-typography--font-thin devfest-items-item-title">Des conférences inédites</p>
+                <p class="mdl-typography--font-light mdl-typography--subhead">
+                  Usurpare usurpare sed varietate cum clarissimorum nec saepe cum lustratae varietate res nec peragrari imperatorum varietate regum sermonibus bellorum tuis.
+                </p>  
+              </div>              
+              <div class="devfest-items-item mdl-cell mdl-cell--4-col mdl-typography--text-center">
+                <img src="/images/lego/lego_geek.jpg" height="200px">
+                <p class="mdl-typography--display-1  mdl-typography--font-thin devfest-items-item-title">Orienté développeur</p>
+                <p class="mdl-typography--font-light mdl-typography--subhead">
+                  Aut si tulit tulit quod viro magis magis Quo de aut quod modo perfecto spectato.
+                </p>     
+              </div>              
+              <div class="devfest-items-item mdl-cell mdl-cell--4-col mdl-typography--text-center">
+                <img src="/images/lego/lego_computer.png" height="200px">
+                <p class="mdl-typography--display-1  mdl-typography--font-thin devfest-items-item-title">Innovations technologiques</p>
+                <p class="mdl-typography--font-light mdl-typography--subhead">
+                  Solitudines egressus edictus ante praesidia ante ullo egressus praesidia indicio edictus per qui amnis proditus.
+                </p>        
+              </div>
           </div>
         </div>
       </section>
 
+      <!-- SECTION : Statistiques -->
+      <section class="devfest-statistics section--center mdl-grid mdl-grid--no-spacing">
+        <a name="statistics"></a>
+        <div class="devfest-statistics-inner">
+          <div class="devfest-statistics-content mdl-color-text--grey-700">
+             <div class="mdl-grid mdl-grid--no-spacing">
+                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+                  <p class="mdl-typography--display-4 mdl-typography--font-thin">1000+<p>
+                  <p class="mdl-typography--display-1 mdl-typography--font-thin">Participants</p>
+                  <img class="simple-padding-bottom" src="/images/lego/brick_simple_blue.png" height="40px">
+                  <p class="mdl-typography--font-light mdl-typography--subhead">Développeurs, Architectes, CTO, Chefs de projets...</p>              
+                </div>
+                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+                  <p class="mdl-typography--display-4 mdl-typography--font-thin">50+<p>
+                  <p class="mdl-typography--display-1 mdl-typography--font-thin">Conférences</p>
+                  <img class="simple-padding-bottom" src="/images/lego/brick_simple_red.png" height="40px">
+                  <p class="mdl-typography--font-light mdl-typography--subhead">Talks, quickies, codelabs, tables rondes...</p>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+                  <p class="mdl-typography--display-4 mdl-typography--font-thin">50+<p>
+                  <p class="mdl-typography--display-1 mdl-typography--font-thin">Speakers</p>
+                  <img class="simple-padding-bottom" src="/images/lego/brick_simple_green.png" height="40px">
+                  <p class="mdl-typography--font-light mdl-typography--subhead">Français et Internationaux</p>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+                  <p class="mdl-typography--display-4 mdl-typography--font-thin">4<p>
+                  <p class="mdl-typography--display-1 mdl-typography--font-thin">Tracks</p>
+                  <img class="simple-padding-bottom" src="/images/lego/brick_simple_yellow.png" height="40px">
+                  <p class="mdl-typography--font-light mdl-typography--subhead">Mobile/IoT, Web, Cloud & Découverte</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+
       <!-- SECTION SPEAKERS -->
       <section class="devfest-speakers">
-        <div class="devfest-section-title mdl-typography--display-1-color-contrast">Top speakers</div>
+        <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Top speakers</div>
         <div class="devfest-card-container mdl-grid">
           <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
             <div class="mdl-card__media">
@@ -184,7 +245,7 @@
               <span class="mdl-typography--font-light mdl-typography--subhead">Four tips to make your switch to Android quick and easy</span>
             </div>
             <div class="mdl-card__actions">
-               <a class="devfest-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+               <a class="mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
                  Make the switch
                  <i class="material-icons">chevron_right</i>
                </a>
@@ -202,7 +263,7 @@
               <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
             </div>
             <div class="mdl-card__actions">
-               <a class="devfest-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+               <a class="mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
                  androidify.com
                  <i class="material-icons">chevron_right</i>
                </a>
@@ -220,7 +281,7 @@
               <span class="mdl-typography--font-light mdl-typography--subhead">A clean, simple, customisable home screen that comes with the power of Google Now: Traffic alerts, weather and much more, just a swipe away.</span>
             </div>
             <div class="mdl-card__actions">
-               <a class="devfest-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+               <a class="mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
                  Download now
                  <i class="material-icons">chevron_right</i>
                </a>
@@ -238,71 +299,339 @@
               <span class="mdl-typography--font-light mdl-typography--subhead">Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.</span>
             </div>
             <div class="mdl-card__actions">
-               <a class="devfest-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+               <a class="mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
                  Find apps
                  <i class="material-icons">chevron_right</i>
                </a>
             </div>
           </div>
         </div>
+        <div class="devfest-speakers-cfp mdl-typography--text-center">
+          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="https://drive.google.com/open?id=0Bx5mRU2mXdx0R2U4Q3ZJR284dkk" target="_NEW">
+            <i class="material-icons">lightbulb_outline</i>&nbsp;&nbsp;Proposer un talk
+          </a>
+          &nbsp;
+          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="./agenda.html">
+           <i class="material-icons">event</i>&nbsp;&nbsp;Accéder à l'agenda
+          </a>
+        </div>
       </section>
 
 
-      <!-- SECTION 4 -->
-      <section class="devfest-section4">
-        <div class="devfest-section4-image"></div>
-        <div class="devfest-section4-text">
-          <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Merci au sponsors</div>
-          <p class="mdl-typography--font-light">
-            Vous voulez sponsoriser, bla bla...
-            <br>
-            <a href="" class="devfest-link mdl-typography--font-light">Dossier de sponsoring</a>
-          </p>
+      <!-- SECTION LOCATION -->   
+      <section class="devfest-location">
+        <a name="location"></a>
+        <div class="devfest-location-band section--center mdl-grid mdl-grid--no-spacing">
+          <div class="devfest-location-band-inner">
+            <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Un Lieu Unique</div>
+            <div class="devfest-location-band-content">
+              <div class="mdl-typography--display-1 mdl-typography--font-thin">Cité des Congrès, Nantes</div>
+              <p class="mdl-typography--subhead mdl-typography--font-thin">
+                Située en plein cœur de ville, La Cité des Congrès de Nantes propose pour le DevFest Nantes plus de 1000m² de salles de conférences, codelabs et lieu de rencontre...  Saepe Sulpicio tum pauci et P quanta tum essem in admodum erat eum capitali et vel odio ut erat ut vel amantissime profecto amantissime et admiratio tum memini saepe et domi vel consul erat multis vel saepe pauci cum admodum ut erat solebat in quanta quanta querella a Pompeio capitali in utebare magis forte et quocum Pompeio essem utebare in
+              </p>
+              <p>
+                <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="https://www.google.fr/maps/place/La+Cit%C3%A9/@47.2129658,-1.5425652,15z/data=!4m2!3m1!1s0x0:0xede2746ae20dfebf" target="_NEW">
+                 <i class="material-icons">explore</i>&nbsp;&nbsp;google maps
+                </a>
+                &nbsp;
+                <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="./pratique.html#directions">
+                 <i class="material-icons">directions</i>&nbsp;&nbsp;Comment s'y rendre ?
+                </a>
+                &nbsp;
+                <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="./pratique.html#hotel">
+                 <i class="material-icons">hotel</i>&nbsp;&nbsp;Comment se loger ?
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
+        <!-- map -->
+        <div class="mdl-grid mdl-grid--no-spacing">
+          <div  id="map" class="mdl-cell mdl-cell--4-col mdl-typography--text-center">
+          </div>
+          <div class="mdl-cell mdl-cell--8-col mdl-typography--text-center">
+            <img src="/images/cite/background.jpg" width="100%" >
+          </div>
+        </div>
+      </section>
+
+
+      <!-- SECTION : TICKETS -->
+      <section class="devfest-tickets section--center mdl-grid mdl-grid--no-spacing">
+        <div class="devfest-tickets-inner">
+          <a name="tickets"></a>
+          <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Tickets &amp; Prix</div>
+          <div class="devfest-tickets-content">
+             <div class="devfest-card-container mdl-grid">
+
+               <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+                  <div class="mdl-card__title">
+                     <h4 class="mdl-card__title-text">Pass Standard</h4>
+                  </div>
+                  <div class="mdl-card__supporting-text">
+                    <p class="mdl-typography--font-light mdl-typography--subhead">
+                      Le pass standard est disponible sous 2 formules :
+                    </p>
+                    <ul  class="mdl-typography--font-light mdl-typography--subhead">
+                      <li>un accès pour <b>une journée à 40€</b>,
+                      <li>un accès pour les <b>2 jours complets à 70€</b>.
+                    </ul>
+                    <p  class="mdl-typography--font-light mdl-typography--subhead">Ces formules comprennent :</p>
+                    <ul  class="mdl-typography--font-light mdl-typography--subhead">
+                      <li>Un accès à toutes les conférences de la formule choisie,
+                      <li>Le repas du midi sous forme de buffet complet,
+                      <li>L'after party (uniquement pour les participants de la journée du 9/11).
+                    </ul>
+                  </div>
+                  <div class="mdl-card__actions mdl-card--border">
+                     <a class="mdl-button mdl-js-button mdl-typography--text-uppercase mdl-js-ripple-effect" href="">
+                      Réserver&nbsp;<i class="material-icons">chevron_right</i>
+                     </a>
+                  </div>
+                </div>
+
+                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+                  <div class="mdl-card__title">
+                     <h4 class="mdl-card__title-text">Pass Tarif Réduit</h4>
+                  </div>
+                  <div class="mdl-card__supporting-text">
+                    <p class="mdl-typography--font-light mdl-typography--subhead">
+                      Le pass tarif réduit à <b>10€</b> comprend l'ensemble des éléments du ticket standard pour <b>une journée</b>, mais est soumis aux conditions suivantes :
+                      <ul class="mdl-typography--font-light mdl-typography--subhead">
+                        <li>Etudiant ou universitaire
+                        <li>ou à la recherche d'un emploi, chômeur
+                      </ul>
+                    </p>
+                    <p class="mdl-typography--font-light mdl-typography--subhead">
+                      Un justificatif sera demandé à l'accueil pour récupérer son badge.
+                    </p>
+                    <p class="mdl-typography--font-light mdl-typography--subhead">
+                      Pour assiter aux 2 jours, vous devez prendre 2 tickets.
+                    </p>
+                  </div>
+                  <div class="mdl-card__actions mdl-card--border">
+                     <a class="mdl-button mdl-js-button mdl-typography--text-uppercase mdl-js-ripple-effect" href="">
+                      Réserver&nbsp;<i class="material-icons">chevron_right</i>
+                     </a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- SECTION NEWSLETTER -->
+      <section class="devfest-newsletter">
+        <a name="newsletter"></a>
+        <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Newsletter</div>
+        <div class="devfest-newsletter-inner mdl-typography--text-center">
+          <form action="https://gdgnantes.us9.list-manage.com/subscribe/post?u=b44affc3cdfd00b20bcae502c&amp;id=e0e7ceee5d" method="post" target="_blank" novalidate>
+              <div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input id="newsletter" type="email" value="" name="EMAIL" class="mdl-textfield__input devfest-newsletter-input" autocomplete="off">
+                  <label class="mdl-textfield__label" for="newsletter">Inscrivez-vous à la newsletter</label>
+                </div>
+                <input class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored" type="submit" value="S'inscrire" name="subscribe">
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;">
+                  <input type="text" name="b_b44affc3cdfd00b20bcae502c_e0e7ceee5d" tabindex="-1" value="">
+              </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- SECTION SPONSORS -->
+      <section class="devfest-sponsors section--center mdl-grid mdl-grid--no-spacing">
+        <a name="sponsors"></a>
         
+        <div class="devfest-sponsors-inner">
+          <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Merci aux sponsors</div>
+          <p class="mdl-typography--text-center">
+            <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="https://drive.google.com/open?id=0Bx5mRU2mXdx0R2U4Q3ZJR284dkk" target="_NEW">
+              <i class="material-icons">file_download</i>&nbsp;Dossier de sponsoring
+            </a>
+          </p>
+
+          <div class="devfest-sponsors-text  mdl-typography--display-1 mdl-typography--text-center">Sponsors Platinium</div>
+          <div class="mdl-grid devfest-sponsors-platinium">
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="https://www.google.com" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/google.png" ></a>           
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="http://www.epitech.eu/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/epitech.png" ></a>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="http://www.zenika.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/zenika.png" ></a>           
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="http://www.sqli.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/sqli.png" ></a> 
+            </div>
+          </div>
+          <div class="mdl-grid devfest-sponsors-platinium">
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="http://www.conserto.pro/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/conserto.png" ></a>           
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="http://www.soprasteria.com/fr" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/sopra.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="http://www.groupe-creative.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/creative.png" ></a>           
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="http://www.neo-soft.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/neosoft.png" ></a> 
+            </div>
+          </div>
+
+          <div class="devfest-sponsors-text mdl-typography--display-1 mdl-typography--text-center">Sponsors Gold</div>
+          <div class="mdl-grid devfest-sponsors-gold">
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="http://www.e-doceo.net/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/edoceo.png" ></a>           
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="https://www.accenture.com/fr-fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/accenture.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="https://www.fr.capgemini.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/cap.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="http://www.netapsys.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/netapsys.png" ></a>           
+            </div>
+          </div>
+           <div class="mdl-grid devfest-sponsors-gold">
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="http://www.open-groupe.com" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/open.png" ></a>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="http://www.groupe-sii.com/fr" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/sii.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              
+            </div>
+          </div>
+
+          <div class="devfest-sponsors-text mdl-typography--display-1 mdl-typography--text-center">Sponsors Silver</div>
+          <div class="mdl-grid devfest-sponsors-silver">
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              <a href="http://www.apside.fr" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/apside.png" ></a>           
+            </div>
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              <a href="http://www.asi.fr" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/asi.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              <a href="http://corp.beapp.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/beapp.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              <a href="http://www.beemoov.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/beemoov.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              <a href="http://www.cat-amania.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/catamania.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              <a href="http://www.externatic.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/externatic.png" ></a> 
+            </div>
+          </div>
+          <div class="mdl-grid devfest-sponsors-silver">
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              <a href="http://www.gfi.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/gfi.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              <a href="http://www.lafourchette.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/lafourchette.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              <a href="http://www.groupeonepoint.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/onepoint.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              <a href="http://seyos.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/seyos.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              <a href="http://www.softeam.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/softeam.png" ></a> 
+            </div>
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              
+            </div>
+          </div>
+          
+          <div class="devfest-sponsors-text mdl-typography--display-1 mdl-typography--text-center">Partenaires</div>
+          <div class="mdl-grid mdl-grid--no-spacing devfest-sponsors-partners">
+            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+              <a href="http://www.mstream.fr" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/mstream.png" ></a>           
+            </div>
+          </div>
+        </div>
       </section>
 
       
 
-      <footer class="devfest-footer mdl-mega-footer">
-        <div class="mdl-mega-footer--top-section">
-          <div class="mdl-mega-footer--left-section">
-            <button class="mdl-mega-footer--social-btn">Twitter</button>
-            &nbsp;
-            <button class="mdl-mega-footer--social-btn">G+</button>
-            &nbsp;
-            <button class="mdl-mega-footer--social-btn">Facebook</button>
-            &nbsp;
-            <button class="mdl-mega-footer--social-btn">Youtube</button>
-            &nbsp;
-            <button class="mdl-mega-footer--social-btn">Flicker</button>
+      <footer class="mdl-mega-footer">
+        <div class="mdl-mega-footer__middle-section">
+
+          <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">Qui sommes-nous ?</h1>
+            <ul class="mdl-mega-footer__link-list">
+              <li><a href="http://www.gdgnantes.com" target="_NEW">GDG Nantes</a></li>
+              <li><a href="https://developers.google.com" target="_NEW">Google Developers</a></li>
+              <li><a href="mailto:bureau@gdgnantes.com">Contactez-nous</a></li>
+            </ul>
           </div>
-          <div class="mdl-mega-footer--right-section">
-            <a class="mdl-typography--font-light" href="#top">
-              Back to Top
-              <i class="material-icons">expand_less</i>
-            </a>
+
+          <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">Editions précédentes</h1>
+            <ul class="mdl-mega-footer__link-list">
+              <li><a href="http://devfest2015.gdgnantes.com" target="_NEW">Devfest 2015</a></li>
+              <li><a href="http://devfest2014.gdgnantes.com" target="_NEW">Devfest 2014</a></li>
+              <li><a href="http://devfest2013.gdgnantes.com" target="_NEW">Devfest 2013</a></li>
+              <li><a href="http://devfest2012.gdgnantes.com" target="_NEW">Devfest 2012</a></li>
+            </ul>
+          </div>
+
+          <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">FAQ</h1>
+            <ul class="mdl-mega-footer__link-list">
+              <li><a href="./faq.html">Questions</a></li>
+              <li><a href="./pratique.html">Espace pratique</a></li>
+              <li><a href="./cod.html">Code de conduite</a></li>
+              <li><a href="./presse.html">Ils parlent du DevFest 2016</a></li>
+              <li><a href="./credits.html">Crédits</a></li>
+            </ul>
+          </div>
+
+          <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">Retrouvez le DevFest sur</h1>
+            <span class="mdl-mega-footer__link-list">
+                <a href="https://twitter.com/devfestnantes" class="devfest-footer-social" title="Twitter">
+                  <img src="/images/social/twitter.png">
+                </a>
+                <a href="https://www.facebook.com/gdgnantes" class="devfest-footer-social" title="Facebook">
+                  <img src="/images/social/facebook.png">
+                </a>
+                <a href="https://plus.google.com/+Gdgnantes" class="devfest-footer-social" title="Google plus">
+                  <img src="/images/social/gplus.png">
+                </a>
+                <a href="https://www.youtube.com/user/francegdg/playlists" class="devfest-footer-social" title="YouTube">
+                  <img src="/images/social/youtube.png">
+                </a>
+            </span>
+          </div>
+
+        </div>
+
+        <div class="mdl-mega-footer__bottom-section">
+          <div class="mdl-logo">
+            <img src="/images/gdev.png">
+            &nbsp; Devfest Nantes 2016 - Organisé par le <a href="http://www.gdgnantes.com" class="devfest-footer-links" target="_NEW">GDG Nantes</a>
           </div>
         </div>
 
-        <div class="mdl-mega-footer--middle-section">
-          <p class="mdl-typography--font-light">Event organised by GDG Nantes</p>
-        </div>
-
-        <div class="mdl-mega-footer--bottom-section">
-          <a class="devfest-link devfest-link-menu mdl-typography--font-light" id="version-dropdown">
-            Previous Editions
-          </a>
-          <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
-            <li class="mdl-menu__item">Edition 2015</li>
-            <li class="mdl-menu__item">Edition 2014</li>
-            <li class="mdl-menu__item">Edition 2013</li>
-            <li class="mdl-menu__item">Edition 2012</li>
-          </ul>
-          <a class="devfest-link mdl-typography--font-light" href="">GDG Nantes</a>
-          <a class="devfest-link mdl-typography--font-light" href="">Credits</a>
-        </div>
-      </footer>    
+      </footer> 
 
     </div>
 
@@ -310,7 +639,7 @@
 
     <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
     <!-- build:js(app/) ../../scripts/main.min.js -->
-    <script src="/scripts/main.js"></script>
+    <script src="scripts/main.js"></script>
     <!-- endbuild -->
 
     <script>

@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Team @ GDG Nantes">
+    <meta name="description" content="Le DevFest Nantes 2016, ce sont 2 journées de conférences accueillant 1000 développeurs à la Cité des Congrès de Nantes">
+    <meta name="keywords" content="event, gdg, devfest, google, programming, android, chrome, developers, nantes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFest 2016 Nantes</title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="/images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="/images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2b5797">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2b5797">
+
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@devfestnantes">
+    <meta name="twitter:title" content="DevFest Nantes 2016">
+    <meta name="twitter:description" content="Le DevFest Nantes 2016, ce sont 2 journées de conférences accueillant 1000 développeurs à la Cité des Congrès de Nantes">
+    <meta name="twitter:image:src" content="https://devfest.gdgnantes.com/images/sharing.png">
+
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:title" content="DevFest Nantes 2016" />
+    <meta property="og:site_name" content="DevFest Nantes 2016" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://devfest.gdgnantes.com" />
+    <meta property="og:image" content="https://devfest.gdgnantes.com/images/sharing.png" />
+    <meta property="og:description" content="Le DevFest Nantes 2016, ce sont 2 journées de conférences accueillant 1000 développeurs à la Cité des Congrès de Nantes" />
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <link rel="canonical" href="https://devfest.gdgnantes.com">
+
+    <!-- Material Design Lite page styles: choose other color schemes from the CDN, more info here http://www.getmdl.io/customize/index.html -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-red.min.css">
+    
+    <!-- Material Design icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Your styles -->
+    <link rel="stylesheet" href="/styles/app.css">
+
+  </head>
+
+  <body class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+    <!-- HEADER -->
+    <header class="devfest-header mdl-layout__header mdl-layout__header--waterfall">
+      <div class="mdl-layout__header-row">
+        <span class="devfest-title mdl-layout-title">
+          <a href="index.html"><img class="devfest-logo-image" src="/images/logo-title-white.png"></a>
+        </span>
+        <!-- Add spacer, to align navigation to the right in desktop -->
+        <div class="devfest-header-spacer mdl-layout-spacer"></div>
+        <!-- Bar Navigation -->
+        <div class="devfest-navigation-container">
+          <nav class="devfest-navigation mdl-navigation">
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./agenda.html">Agenda</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./speakers.html">Speakers</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./pratique.html">Pratique</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/"><img src="/images/flags/france.png"></a>
+          </nav>
+        </div>
+        <span class="devfest-mobile-title mdl-layout-title">
+          <a href="index.html"><img class="devfest-logo-image" src="/images/logo-title-white.png"></a>
+        </span>
+        <button class="devfest-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+          <i class="material-icons">more_vert</i>
+        </button>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+          <li class="mdl-menu__item"><a href="./team.html" class="devfest-menu-links">L'équipe</a></li>
+          <li class="mdl-menu__item"><a href="./faq.html" class="devfest-menu-links">FAQ</a></li>
+          <li class="mdl-menu__item"><a href="./cod.html" class="devfest-menu-links">Code of conduct</a></li>
+          <li class="mdl-menu__item"><a href="./credits.html" class="devfest-menu-links">Credits</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- LEFT navigation -->
+    <div class="devfest-drawer mdl-layout__drawer">
+      <span class="mdl-layout-title">
+        <img class="devfest-logo-image" src="/images/logo-title-white.png">
+      </span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="./agenda.html">Agenda</a>
+        <a class="mdl-navigation__link" href="./speakers.html">Speakers</a>
+        <a class="mdl-navigation__link" href="./pratique.html">Pratique</a>
+        <a class="mdl-navigation__link" href="./team.html">L'equipe</a>
+        <a class="mdl-navigation__link" href="./faq.html">FAQ</a>
+        <a class="mdl-navigation__link" href="./cod.html">Code of conduct</a>
+        <a class="mdl-navigation__link" href="./credits.html">Credits</a>
+      </nav>
+    </div>
+
+      <div class="devfest-ribbon"></div>
+      <main class="devfest-ribbon-main mdl-layout__content">
+        <div class="devfest-ribbon-container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="devfest-ribbon-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+            <div class="devfest-ribbon-crumbs mdl-color-text--grey-500">
+              Devfest Nantes 2016 &gt; Speakers
+            </div>
+            <h3>Speakers</h3>
+              <p>
+                Plus de 50 speakers locaux, français et internationaux ont rejoins cette 5ème édition du DevFest Nantes
+              </p>
+
+            <h5>Tracks</h5>
+              <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--3-col">
+                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="mobile">
+                    <input type="checkbox" id="mobile" class="mdl-checkbox__input" checked>
+                    <span class="mdl-checkbox__label">Mobile / IoT</span>
+                  </label>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col">
+                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="web">
+                    <input type="checkbox" id="web" class="mdl-checkbox__input" checked>
+                    <span class="mdl-checkbox__label">Web / APIs</span>
+                  </label>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col">
+                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="cloud">
+                    <input type="checkbox" id="cloud" class="mdl-checkbox__input" checked>
+                    <span class="mdl-checkbox__label">Cloud</span>
+                  </label>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col">
+                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="decouverte">
+                    <input type="checkbox" id="decouverte" class="mdl-checkbox__input" checked>
+                    <span class="mdl-checkbox__label">Découverte</span>
+                  </label>
+                </div>
+              </div>
+
+            <div class="mdl-grid">
+
+                  <div class="devfest-speaker-card-image mdl-card mdl-shadow--2dp" style="background: url('/images/speakers/amoussine.jpg') center / cover">
+                    <div class="mdl-card__title mdl-card--expand"></div>
+                    <div class="mdl-card__actions">
+                      <span class="devfest-speaker-card-image__filename">Alexis Moussine-Pouchkine</span>
+                    </div>
+                  </div>
+
+                  <div class="devfest-speaker-card-image mdl-card mdl-shadow--2dp" style="background: url('/images/speakers/acateland.jpg') center / cover">
+                    <div class="mdl-card__title mdl-card--expand"></div>
+                    <div class="mdl-card__actions">
+                      <span class="devfest-speaker-card-image__filename">Alexandre Cateland</span>
+                    </div>
+                  </div>
+
+                  <div class="devfest-speaker-card-image mdl-card mdl-shadow--2dp" style="background: url('/images/speakers/aneveu.jpg') center / cover">
+                    <div class="mdl-card__title mdl-card--expand"></div>
+                    <div class="mdl-card__actions">
+                      <span class="devfest-speaker-card-image__filename">Audrey Neveu</span>
+                    </div>
+                  </div>
+
+                  <div class="devfest-speaker-card-image mdl-card mdl-shadow--2dp" style="background: url('/images/speakers/arichard.jpg') center / cover">
+                    <div class="mdl-card__title mdl-card--expand"></div>
+                    <div class="mdl-card__actions">
+                      <span class="devfest-speaker-card-image__filename">Antoine richard</span>
+                    </div>
+                  </div>
+
+                  <div class="devfest-speaker-card-image mdl-card mdl-shadow--2dp" style="background: url('/images/speakers/cmottier.jpg') center / cover">
+                    <div class="mdl-card__title mdl-card--expand"></div>
+                    <div class="mdl-card__actions">
+                      <span class="devfest-speaker-card-image__filename">Cyril Mottier</span>
+                    </div>
+                  </div>
+
+                  <div class="devfest-speaker-card-image mdl-card mdl-shadow--2dp" style="background: url('/images/speakers/dgageot.jpg') center / cover">
+                    <div class="mdl-card__title mdl-card--expand"></div>
+                    <div class="mdl-card__actions">
+                      <span class="devfest-speaker-card-image__filename">David Gageot</span>
+                    </div>
+                  </div>
+
+                  <div class="devfest-speaker-card-image mdl-card mdl-shadow--2dp" style="background: url('/images/speakers/dgirard.jpg') center / cover">
+                    <div class="mdl-card__title mdl-card--expand"></div>
+                    <div class="mdl-card__actions">
+                      <span class="devfest-speaker-card-image__filename">Didier Girard</span>
+                    </div>
+                  </div>
+
+                  <div class="devfest-speaker-card-image mdl-card mdl-shadow--2dp" style="background: url('/images/speakers/fbeaufort.jpg') center / cover">
+                    <div class="mdl-card__title mdl-card--expand"></div>
+                    <div class="mdl-card__actions">
+                      <span class="devfest-speaker-card-image__filename">François Beaufort</span>
+                    </div>
+                  </div>
+
+                  <div class="devfest-speaker-card-image mdl-card mdl-shadow--2dp" style="background: url('/images/speakers/fcampoy.png') center / cover">
+                    <div class="mdl-card__title mdl-card--expand"></div>
+                    <div class="mdl-card__actions">
+                      <span class="devfest-speaker-card-image__filename">Francesc Campoy</span>
+                    </div>
+                  </div>
+                  
+              </div>
+
+          </div>
+        </div>
+        
+
+        <footer class="mdl-mega-footer">
+        <div class="mdl-mega-footer__middle-section">
+
+          <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">Qui sommes-nous ?</h1>
+            <ul class="mdl-mega-footer__link-list">
+              <li><a href="http://www.gdgnantes.com" target="_NEW">GDG Nantes</a></li>
+              <li><a href="https://developers.google.com" target="_NEW">Google Developers</a></li>
+              <li><a href="mailto:bureau@gdgnantes.com">Contactez-nous</a></li>
+            </ul>
+          </div>
+
+          <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">Editions précédentes</h1>
+            <ul class="mdl-mega-footer__link-list">
+              <li><a href="http://devfest2015.gdgnantes.com" target="_NEW">Devfest 2015</a></li>
+              <li><a href="http://devfest2014.gdgnantes.com" target="_NEW">Devfest 2014</a></li>
+              <li><a href="http://devfest2013.gdgnantes.com" target="_NEW">Devfest 2013</a></li>
+              <li><a href="http://devfest2012.gdgnantes.com" target="_NEW">Devfest 2012</a></li>
+            </ul>
+          </div>
+
+          <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">FAQ</h1>
+            <ul class="mdl-mega-footer__link-list">
+              <li><a href="./faq.html">Questions</a></li>
+              <li><a href="./pratique.html">Espace pratique</a></li>
+              <li><a href="./cod.html">Code de conduite</a></li>
+              <li><a href="./presse.html">Ils parlent du DevFest 2016</a></li>
+              <li><a href="./credits.html">Crédits</a></li>
+            </ul>
+          </div>
+
+          <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">Retrouvez le DevFest sur</h1>
+            <span class="mdl-mega-footer__link-list">
+                <a href="https://twitter.com/devfestnantes" class="devfest-footer-social" title="Twitter">
+                  <img src="/images/social/twitter.png">
+                </a>
+                <a href="https://www.facebook.com/gdgnantes" class="devfest-footer-social" title="Facebook">
+                  <img src="/images/social/facebook.png">
+                </a>
+                <a href="https://plus.google.com/+Gdgnantes" class="devfest-footer-social" title="Google plus">
+                  <img src="/images/social/gplus.png">
+                </a>
+                <a href="https://www.youtube.com/user/francegdg/playlists" class="devfest-footer-social" title="YouTube">
+                  <img src="/images/social/youtube.png">
+                </a>
+            </span>
+          </div>
+
+        </div>
+
+        <div class="mdl-mega-footer__bottom-section">
+          <div class="mdl-logo">
+            <img src="/images/gdev.png">
+            &nbsp; Devfest Nantes 2016 - Organisé par le <a href="http://www.gdgnantes.com" class="devfest-footer-links" target="_NEW">GDG Nantes</a>
+          </div>
+        </div>
+
+      </footer>  
+
+
+
+      </main>
+    
+
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+    <!-- build:js(app/) ../../scripts/main.min.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-35116426-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script async src='//www.google-analytics.com/analytics.js'></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+     <!-- Built with love using Web Starter Kit -->
+  </body>
+</html>
