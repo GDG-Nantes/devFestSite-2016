@@ -31,6 +31,7 @@ import runSequence from 'run-sequence';
 import browserSync from 'browser-sync';
 import swPrecache from 'sw-precache';
 import gulpLoadPlugins from 'gulp-load-plugins';
+import inject from 'gulp-inject';
 import {output as pagespeed} from 'psi';
 import pkg from './package.json';
 
@@ -102,6 +103,29 @@ gulp.task('styles', () => {
     .pipe(gulp.dest('dist/styles'));
 });
 
+function injection(filePath, file) {
+  return file.contents.toString('utf8')
+}
+
+gulp.task('inject', () =>
+  gulp.src(['./app/*.html'])
+    .pipe($.newer('.tmp'))
+    .pipe(inject(gulp.src(['./app/partials/head.html']), {
+      starttag: '<!-- inject:head:{{ext}} -->',
+      transform: injection
+    }))
+    .pipe(inject(gulp.src(['./app/partials/menu.html']), {
+      starttag: '<!-- inject:menu:{{ext}} -->',
+      transform: injection
+    }))
+    .pipe(inject(gulp.src(['./app/partials/footer.html']), {
+      starttag: '<!-- inject:footer:{{ext}} -->',
+      transform: injection
+    }))
+    .pipe(gulp.dest('.tmp'))
+    .pipe(gulp.dest('dist'))
+);
+
 // Concatenate and minify JavaScript. Optionally transpiles ES2015 code to ES5.
 // to enables ES2015 support remove the line `"only": "gulpfile.babel.js",` in the
 // `.babelrc` file.
@@ -128,12 +152,12 @@ gulp.task('scripts', () =>
 
 // Scan your HTML for assets & optimize them
 gulp.task('html', () => {
-  return gulp.src('app/**/*.html')
+  return gulp.src('.tmp/*.html')
     .pipe($.useref({searchPath: '{.tmp,app}'}))
     // Remove any unused CSS
     .pipe($.if('*.css', $.uncss({
       html: [
-        'app/index.html'
+        '.tmp/*.html'
       ],
       // CSS Selectors for UnCSS to ignore
       ignore: []
@@ -164,7 +188,7 @@ gulp.task('html', () => {
 gulp.task('clean', () => del(['.tmp', 'dist/*', '!dist/.git'], {dot: true}));
 
 // Watch files for changes & reload
-gulp.task('serve', ['scripts', 'styles'], () => {
+gulp.task('serve', ['scripts', 'styles', 'inject'], () => {
   browserSync({
     notify: false,
     // Customize the Browsersync console logging prefix
@@ -204,7 +228,7 @@ gulp.task('serve:dist', ['default'], () =>
 // Build production files, the default task
 gulp.task('default', ['clean'], cb =>
   runSequence(
-    'styles',
+    'styles', 'inject',
     ['lint', 'html', 'scripts', 'images', 'copy'],
     'generate-service-worker',
     cb
