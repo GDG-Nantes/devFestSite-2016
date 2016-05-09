@@ -1,256 +1,140 @@
 <!doctype html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Team @ GDG Nantes">
-    <meta name="description" content="Le DevFest Nantes 2016, ce sont 2 journées de conférences accueillant 1000 développeurs à la Cité des Congrès de Nantes">
-    <meta name="keywords" content="event, gdg, devfest, google, programming, android, chrome, developers, nantes">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevFest 2016 Nantes</title>
 
-    <!-- Disable tap highlight on IE -->
-    <meta name="msapplication-tap-highlight" content="no">
+<head>
+  <!-- inject:head:html -->
+  <!-- endinject -->
+</head>
 
-    <!-- Web Application Manifest -->
-    <link rel="manifest" href="./manifest.json">
+<body class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-    <!-- favicon -->
-    <link rel="icon" type="image/png" href="/favicon.ico" />
+  <!-- inject:menu:html -->
+  <!-- endinject -->
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Web Starter Kit">
-    <link rel="icon" sizes="192x192" href="/images/touch/chrome-touch-icon-192x192.png">
-
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
-    <link rel="apple-touch-icon" href="/images/touch/apple-touch-icon.png">
-
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#2b5797">
-
-    <!-- Color the status bar on mobile devices -->
-    <meta name="theme-color" content="#2b5797">
-
-    <!-- Social: Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@devfestnantes">
-    <meta name="twitter:title" content="DevFest Nantes 2016">
-    <meta name="twitter:description" content="Le DevFest Nantes 2016, ce sont 2 journées de conférences accueillant 1000 développeurs à la Cité des Congrès de Nantes">
-    <meta name="twitter:image:src" content="https://devfest.gdgnantes.com/images/sharing.png">
-
-    <!-- Social: Facebook / Open Graph -->
-    <meta property="og:title" content="DevFest Nantes 2016" />
-    <meta property="og:site_name" content="DevFest Nantes 2016" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://devfest.gdgnantes.com" />
-    <meta property="og:image" content="https://devfest.gdgnantes.com/images/sharing.png" />
-    <meta property="og:description" content="Le DevFest Nantes 2016, ce sont 2 journées de conférences accueillant 1000 développeurs à la Cité des Congrès de Nantes" />
-
-    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
-    <link rel="canonical" href="https://devfest.gdgnantes.com">
-
-    <!-- Material Design Lite page styles: choose other color schemes from the CDN, more info here http://www.getmdl.io/customize/index.html -->
-    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-red.min.css">
-    
-    <!-- Material Design icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-    <!-- Your styles -->
-    <link rel="stylesheet" href="/styles/app.css">
-
-  </head>
-
-  <body class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-
-    <!-- HEADER -->
-    <header class="devfest-header mdl-layout__header mdl-layout__header--waterfall">
-      <div class="mdl-layout__header-row">
-        <span class="devfest-title mdl-layout-title">
-          <a href="index.html"><img class="devfest-logo-image" src="/images/logo-title-white.png"></a>
-        </span>
-        <!-- Add spacer, to align navigation to the right in desktop -->
-        <div class="devfest-header-spacer mdl-layout-spacer"></div>
-        <!-- Bar Navigation -->
-        <div class="devfest-navigation-container">
-          <nav class="devfest-navigation mdl-navigation">
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./agenda.html">Agenda</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./speakers.html">Speakers</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./pratique.html">Pratique</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/"><img src="/images/flags/france.png"></a>
-          </nav>
+  <div class="devfest-ribbon"></div>
+  <main class="devfest-ribbon-main mdl-layout__content">
+    <div class="devfest-ribbon-container mdl-grid">
+      <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+      <div class="devfest-ribbon-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+        <div class="devfest-ribbon-crumbs mdl-color-text--grey-500">
+          Devfest Nantes 2016 &gt; Frequently Asked Questions
         </div>
-        <span class="devfest-mobile-title mdl-layout-title">
-          <a href="index.html"><img class="devfest-logo-image" src="/images/logo-title-white.png"></a>
-        </span>
-        <button class="devfest-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
-          <i class="material-icons">more_vert</i>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
-          <li class="mdl-menu__item"><a href="./team.html" class="devfest-menu-links">L'équipe</a></li>
-          <li class="mdl-menu__item"><a href="./faq.html" class="devfest-menu-links">FAQ</a></li>
-          <li class="mdl-menu__item"><a href="./cod.html" class="devfest-menu-links">Code of conduct</a></li>
-          <li class="mdl-menu__item"><a href="./credits.html" class="devfest-menu-links">Credits</a></li>
-        </ul>
+        <h3>Qu'est-ce que le Devfest ?</h3>
+        <p>
+          Les DevFests sont des événements communautaires de grande envergure à travers le monde, suivant la tradition des Google Developer
+          Days et organisés par des groupes d'utilisateurs locaux. Ils constituent une occasion unique de partager et d’échanger
+          autour des technologies du Web et du Cloud ! Cet événement sera suivi d'une AfterParty afin de discuter de manière
+          conviviale et faire du networking !
+        </p>
+        <h3>Qui organise cet évènement ?</h3>
+        <p>
+          Le DevFest Nantes 2016 est organisé par le <a href="http://gdgnantes.com" target="_blank">GDG Nantes</a>. Plus
+          d'infos sur la page <a href="./team.html" target="_blank">Team</a>.
+        </p>
+        <h3>Comment devenir sponsor ou partenaire ?</h3>
+        <p>
+          Simplement en consultant notre <a href="https://drive.google.com/open?id=0Bx5mRU2mXdx0R2U4Q3ZJR284dkk" target="_blank">dossier de partenariat</a>,
+          soit en nous contactant par mail à <a href="mailto:bureau@gdgnantes.com">Bureau GDG Nantes.</a>.
+        </p>
+        <h3>Est-ce que je peux déposer mes bagages ?</h3>
+        <p>
+          Bien que l'événement soit sur plusieurs jours, nous n'autorisons pas les participants à laisser leur bagages pendant l'événement.
+          Un service de vestiaire est cependant accessible gratuitement les 2 jours pour déposer sacs à dos & vestes.
+        </p>
+        <h3>Comment s'y rendre ?</h3>
+        <p>
+          Toutes les informations relatives à la venue au DevFest sont disponible sur la page <a href="./partique.html">Partique</a>.
+        </p>
+        <h3>Je suis en recherche d'emploi, puis-je bénéficier du ticket à tarif réduit ?</h3>
+        <p>
+          Le tarif réduit est disponible pour les personnes suivantes :
+          <ul>
+            <li>Les étudiants</li>
+            <li>Les enseignants</li>
+            <li>Les demandeurs d'emplois</li>
+            <li>Les personnes ayant un revenu justfiant des aides type RSA</li>
+          </ul>
+          Dans tous les cas, l'accès à l'événement pour ces billets se fera sur présentation d'un justificatif. En cas de manquement
+          à ces règles. Le participant sera invité à payer la différence ou à ne pas assister à l'événement. Aucune remboursement
+          ne sera fait.
+        </p>
+        <h3>Comment va se dérouler le DevFest ?</h3>
+        <p>La journée comprendra deux types de sessions : les conférences et les codelabs.<br> Les conférences seront des présentations
+          réalisées par des speakers renommés ou des Googlers évoquant leurs technologies favorites.<br> Les codelabs se
+          veulent plus informels et seront l'occasion de mettre les mains (et les pieds) dans le code sur une technologie
+          en compagnie d'un expert.</p>
+        <h3>Quels sont les sujets abordés ? </h3>
+        <p> Pour cette journée, quatre thèmes ont été retenus :
+          <ul>
+            <li><strong>Objets connectés & mobilité</strong> : Sujets portant sur les objets connectés et la mobilité
+              <li><strong>Web</strong> : Sujets portant sur des frameworks javascript ou des nouveautés HTML5
+                <li><strong>Cloud</strong> : Sujets portant sur les infrasturctures cloud tels AppEngine, ComputeEngine et les
+                  technologies backend élastiques
+                  <li><strong>Découverte</strong> : Sujets portant sur les nouveaux usages de l'informatiques, les nouvelles
+                    technologies et même sur l'UX
+          </ul>
+        </p>
+        <h3>Comment s'inscrire et combien cela coûte-t-il ?</h3>
+        <p>L'inscription au DevFest Nantes peut se faire directement depuis le site actuel en cliquant sur le lien disponible
+          sur la page d'accueil. L'entrée coûte 70€ le pass 2 jours, 40€ le pass une journée et 10€ pour le tarif réduit.</p>
+        <h3>Je n'ai pas pu venir, puis-je me faire rembourser ?</h3>
+        <p>
+          Nous déléguons toute notre billeterie à Yurplan, vous pourrez donc annuler vos billets dans les conditions définies par Yurplan. Passé la date de l'événement, aucun remboursement ne sera fait.
+        </p>
+        <h3>Je ne pourrais pas venir et je souhaites donner ma place à un amis</h3>
+        <p>
+          Nous acceptions les transferts de billets. Si vous avez connaissance de ce changement 2 semaines avant l'événement, vous pouvez nous prévenir pour que nous changions le nom sur le billet. Passé le délais des 2 semaines, votre "amis" devra se présenter avec votre billet et portera sur son badge votre nom.
+        </p>
+        <h3>Les présentations sont-elles filmées ?</h3>
+        <p>Toutes les sessions à l'exception des codelabs seront filmées et mise à disposition sur la chaine youtube suivante
+          : <a href="http://youtube.com/user/francegdg" target="_blank">GDG France</a></p>
+        <h3>Les présentations sont-elles en anglais ou en français ?</h3>
+        <p>Etant donné que certains intervenants viennent de l'étranger, certaines sessions seront en anglais. Ces sessions
+          seront indiquées par un pictogramme particulier.</p>
+        <h3>Combien y a-t-il de présentations en parallèle ?</h3>
+        <p>Il y aura toute la journée 6 sessions en parallèle (1 session par thème et 2 codelabs)</p>
+        <h3>Combien de temps dure le CFP ?</h3>
+        <p>Le <a href="http://cfp2016.gdgnantes.com" target="_blank">CFP</a> est déjà ouvert et se terminera le 31 Aout à 23h59</p>
+        <h3>Ma présentation a été acceptée, dois-je payer mon entrée à la conférence ?</h3>
+        <p>Chaque intervenant a son entrée offerte. Il n'est donc pas nécessaire de prendre une place. Que vous soyez tout seul
+          ou plusieurs à présenter.</p>
+        <h3>Ma présentation n'a pas encore été acceptée, dois-je payer prendre ma place au cas où ?</h3>
+        <p>Nous contacterons tous les intervenants et nous ouvrirons si nécessaire de nouvelles places pour permettre à ces
+          derniers de s'inscrire.</p>
+        <h3>Quand / Ou ?</h3>
+        <p>La conférence a lieu les 9 et 10 Novembre 2016 à la Cité des Congrès de Nantes.</p>
+        <h3>Je suis organisateur d'un User Group, comment puis-je vous aider ?</h3>
+        <p>En tant que User Group, vous pouvez nous aider sur plusieurs aspects :
+          <br>En nous aidant à trouver des speakers.
+          <br>En diffusant l'événement dans votre réseau. Pour cela, nous avons mis à votre disposition plusieurs éléments
+          dans la partie presse pour la diffusion : affiches, bannières.</p>
       </div>
-    </header>
-
-    <!-- LEFT navigation -->
-    <div class="devfest-drawer mdl-layout__drawer">
-      <span class="mdl-layout-title">
-        <img class="devfest-logo-image" src="/images/logo-title-white.png">
-      </span>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="./agenda.html">Agenda</a>
-        <a class="mdl-navigation__link" href="./speakers.html">Speakers</a>
-        <a class="mdl-navigation__link" href="./pratique.html">Pratique</a>
-        <a class="mdl-navigation__link" href="./team.html">L'equipe</a>
-        <a class="mdl-navigation__link" href="./faq.html">FAQ</a>
-        <a class="mdl-navigation__link" href="./cod.html">Code of conduct</a>
-        <a class="mdl-navigation__link" href="./credits.html">Credits</a>
-      </nav>
     </div>
 
-      <div class="devfest-ribbon"></div>
-      <main class="devfest-ribbon-main mdl-layout__content">
-        <div class="devfest-ribbon-container mdl-grid">
-          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-          <div class="devfest-ribbon-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-            <div class="devfest-ribbon-crumbs mdl-color-text--grey-500">
-              Devfest Nantes 2016 &gt; Frequently Asked Questions
-            </div>
-            <h3>Qu'est-ce que le Devfest ?</h3>
-              <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-              </p>
-            <h3>Qui organise cet évènement ?</h3>
-            <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-              </p>
-            <h3>Comment devenir sponsor ou partenaire ?</h3>
-              <p>
-                Tempor tempor aliqua in commodo cillum Lorem magna dolore proident Lorem. Esse ad consequat est excepteur irure eu irure quis aliqua qui. Do mollit esse veniam excepteur ut veniam anim minim dolore sit commodo consequat duis commodo. Sunt dolor reprehenderit ipsum minim eiusmod eu consectetur anim excepteur eiusmod. Duis excepteur anim dolor sit enim veniam deserunt anim adipisicing Lorem elit. Cillum sunt do consequat elit laboris nisi consectetur.
-              </p>
-            <h3>Est-ce que je peux déposer mes bagages ?</h3>
-              <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-              </p>
-            <h3>Comment s'y rendre ?</h3>
-              <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-              </p>
-            <h3>Je suis en recherche d'emploi, puis-je bénéficier du ticket académique ?</h3>
-              <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-              </p>
-              <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-              </p>
-              <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-              </p>
-              <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-              </p>
-              <p>
-                Cillum dolor esse sit incididunt velit eiusmod magna ad nostrud officia aute dolor dolor. Magna esse ullamco pariatur adipisicing consectetur eu commodo officia. Ex cillum consequat mollit minim elit est deserunt occaecat nisi amet. Quis aliqua nostrud Lorem occaecat sunt. Eiusmod quis amet ullamco aliquip dolore ut incididunt duis adipisicing. Elit consequat nisi eiusmod aute ipsum sunt veniam do est. Occaecat mollit aliquip ut proident consectetur amet ex dolore consectetur aliqua elit.
-              </p>
-              <p>
-                Commodo nisi non consectetur voluptate incididunt mollit duis dolore amet amet tempor exercitation. Qui amet aute ea aute id ad aliquip proident. Irure duis qui labore deserunt enim in quis nisi sint consequat aliqua. Ex proident labore et laborum tempor fugiat sint magna veniam minim. Nulla dolor labore adipisicing in enim mollit laboris fugiat eu. Aliquip minim cillum ullamco voluptate non dolore non ex duis fugiat duis ad. Deserunt cillum ad et nisi amet non voluptate culpa qui do. Labore ullamco et minim proident est laborum mollit ad labore deserunt ut irure dolore. Reprehenderit ad ad irure ut irure qui est eu velit eu excepteur adipisicing culpa. Laborum cupidatat ullamco eu duis anim reprehenderit proident aute ad consectetur eiusmod.
-              </p>
-          </div>
-        </div>
-        
 
-        <footer class="mdl-mega-footer">
-        <div class="mdl-mega-footer__middle-section">
-
-          <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-            <h1 class="mdl-mega-footer__heading">Qui sommes-nous ?</h1>
-            <ul class="mdl-mega-footer__link-list">
-              <li><a href="http://www.gdgnantes.com" target="_NEW">GDG Nantes</a></li>
-              <li><a href="https://developers.google.com" target="_NEW">Google Developers</a></li>
-              <li><a href="mailto:bureau@gdgnantes.com">Contactez-nous</a></li>
-            </ul>
-          </div>
-
-          <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-            <h1 class="mdl-mega-footer__heading">Editions précédentes</h1>
-            <ul class="mdl-mega-footer__link-list">
-              <li><a href="http://devfest2015.gdgnantes.com" target="_NEW">Devfest 2015</a></li>
-              <li><a href="http://devfest2014.gdgnantes.com" target="_NEW">Devfest 2014</a></li>
-              <li><a href="http://devfest2013.gdgnantes.com" target="_NEW">Devfest 2013</a></li>
-              <li><a href="http://devfest2012.gdgnantes.com" target="_NEW">Devfest 2012</a></li>
-            </ul>
-          </div>
-
-          <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-            <h1 class="mdl-mega-footer__heading">FAQ</h1>
-            <ul class="mdl-mega-footer__link-list">
-              <li><a href="./faq.html">Questions</a></li>
-              <li><a href="./pratique.html">Espace pratique</a></li>
-              <li><a href="./cod.html">Code de conduite</a></li>
-              <li><a href="./presse.html">Ils parlent du DevFest 2016</a></li>
-              <li><a href="./credits.html">Crédits</a></li>
-            </ul>
-          </div>
-
-          <div class="mdl-mega-footer__drop-down-section">
-            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-            <h1 class="mdl-mega-footer__heading">Retrouvez le DevFest sur</h1>
-            <span class="mdl-mega-footer__link-list">
-                <a href="https://twitter.com/devfestnantes" class="devfest-footer-social" title="Twitter">
-                  <img src="/images/social/twitter.png">
-                </a>
-                <a href="https://www.facebook.com/gdgnantes" class="devfest-footer-social" title="Facebook">
-                  <img src="/images/social/facebook.png">
-                </a>
-                <a href="https://plus.google.com/+Gdgnantes" class="devfest-footer-social" title="Google plus">
-                  <img src="/images/social/gplus.png">
-                </a>
-                <a href="https://www.youtube.com/user/francegdg/playlists" class="devfest-footer-social" title="YouTube">
-                  <img src="/images/social/youtube.png">
-                </a>
-            </span>
-          </div>
-
-        </div>
-
-        <div class="mdl-mega-footer__bottom-section">
-          <div class="mdl-logo">
-            <img src="/images/gdev.png">
-            &nbsp; Devfest Nantes 2016 - Organisé par le <a href="http://www.gdgnantes.com" class="devfest-footer-links" target="_NEW">GDG Nantes</a>
-          </div>
-        </div>
-
-      </footer>  
+    <!-- inject:footer:html -->
+    <!-- endinject -->
 
 
 
-      </main>
-    
+  </main>
 
-    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
-    <!-- build:js(app/) ../../scripts/main.min.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
 
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+  <!-- build:js(app/) ../../scripts/main.min.js -->
+  <script src="/scripts/main.js"></script>
+  <!-- endbuild -->
+
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-35116426-1', 'auto');
       ga('send', 'pageview');
-    </script>
-    <script async src='//www.google-analytics.com/analytics.js'></script>
+  </script>
+  <script async src='//www.google-analytics.com/analytics.js'></script>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    
-     <!-- Built with love using Web Starter Kit -->
-  </body>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <!-- Built with love using Web Starter Kit -->
+</body>
+
 </html>

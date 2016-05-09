@@ -108,6 +108,7 @@ function injection(filePath, file) {
 }
 
 gulp.task('inject', () =>
+  //FR
   gulp.src(['./app/*.html'])
     .pipe($.newer('.tmp'))
     .pipe(inject(gulp.src(['./app/partials/head.html']), {
@@ -123,7 +124,27 @@ gulp.task('inject', () =>
       transform: injection
     }))
     .pipe(gulp.dest('.tmp'))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('dist'))  
+);
+
+gulp.task('inject_en', () =>
+  // EN
+  gulp.src(['./app/en/*.html'])
+    .pipe($.newer('.tmp'))
+    .pipe(inject(gulp.src(['./app/en/partials/head.html']), {
+      starttag: '<!-- inject:head:{{ext}} -->',
+      transform: injection
+    }))
+    .pipe(inject(gulp.src(['./app/en/partials/menu.html']), {
+      starttag: '<!-- inject:menu:{{ext}} -->',
+      transform: injection
+    }))
+    .pipe(inject(gulp.src(['./app/en/partials/footer.html']), {
+      starttag: '<!-- inject:footer:{{ext}} -->',
+      transform: injection
+    }))
+    .pipe(gulp.dest('.tmp/en'))
+    .pipe(gulp.dest('dist/en'))
 );
 
 // Concatenate and minify JavaScript. Optionally transpiles ES2015 code to ES5.
@@ -188,7 +209,7 @@ gulp.task('html', () => {
 gulp.task('clean', () => del(['.tmp', 'dist/*', '!dist/.git'], {dot: true}));
 
 // Watch files for changes & reload
-gulp.task('serve', ['scripts', 'styles', 'inject'], () => {
+gulp.task('serve', ['scripts', 'styles', 'inject', 'inject_en'], () => {
   browserSync({
     notify: false,
     // Customize the Browsersync console logging prefix
@@ -203,7 +224,7 @@ gulp.task('serve', ['scripts', 'styles', 'inject'], () => {
     port: 3000
   });
   gulp.watch(['.tmp/**/*.html'], reload);
-  gulp.watch(['app/**/*.html'], ['inject']);
+  gulp.watch(['app/**/*.html'], ['inject', 'inject_en']);
   gulp.watch(['app/styles/**/*.{scss,css}'], ['styles', reload]);
   gulp.watch(['app/scripts/**/*.js'], ['lint', 'scripts']);
   gulp.watch(['app/images/**/*'], reload);
@@ -228,7 +249,7 @@ gulp.task('serve:dist', ['default'], () =>
 // Build production files, the default task
 gulp.task('default', ['clean'], cb =>
   runSequence(
-    'styles', 'inject',
+    'styles', 'inject', 'inject_en',
     ['lint', 'html', 'scripts', 'images', 'copy'],
     'generate-service-worker',
     cb
