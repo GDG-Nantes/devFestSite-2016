@@ -252,6 +252,18 @@ a img{
   padding-bottom: 60px;
 }
 
+.demo-speakers-card.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+
+.devfest-speakers-fab {
+  position: relative;
+  right: 15px;
+  top: 15px;
+  z-index: 3;
+}
+
 .devfest-speakers-cfp {
   padding-top: 40px;
 }
