@@ -1,4 +1,4 @@
-/**
+  /**
  *
  *  Web Starter Kit
  *  Copyright 2015 Google Inc. All rights reserved.
@@ -107,7 +107,9 @@ function injection(filePath, file) {
   return file.contents.toString('utf8')
 }
 
-gulp.task('inject', () =>
+gulp.task('inject', () => {
+  del(['.tmp/**/*.html']);
+
   //FR
   gulp.src(['./app/*.html'])
     .pipe($.newer('.tmp'))
@@ -125,9 +127,11 @@ gulp.task('inject', () =>
     }))
     .pipe(gulp.dest('.tmp'))
     .pipe(gulp.dest('dist'))  
-);
+});
 
-gulp.task('inject_en', () =>
+gulp.task('inject_en', () => {
+  del(['.tmp/**/*.html']);
+
   // EN
   gulp.src(['./app/en/*.html'])
     .pipe($.newer('.tmp'))
@@ -145,7 +149,7 @@ gulp.task('inject_en', () =>
     }))
     .pipe(gulp.dest('.tmp/en'))
     .pipe(gulp.dest('dist/en'))
-);
+});
 
 // Concatenate and minify JavaScript. Optionally transpiles ES2015 code to ES5.
 // to enables ES2015 support remove the line `"only": "gulpfile.babel.js",` in the
