@@ -283,8 +283,7 @@ a img{
 
 .devfest-location-band {
   width: 100%;
-  background-color: $background-altern;
-;
+  //background-color: $background-altern;
 }
 
 .devfest-location-band  .devfest-section-title {
@@ -313,16 +312,12 @@ a img{
 // SECTION TICKETS
 
 .devfest-tickets {
-  width: 100%;
-}
-
-.devfest-tickets-inner {
-  position: relative;
-  width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
-  margin-left: 10%;
-  margin-right: 10%;
+}
+
+.devfest-tickets-inner  {
+  justify-content: center;
 }
 
 .devfest-section-title {
@@ -487,18 +482,20 @@ a img{
 
 // page Equipe
 .devfest-ribbon-equipe  {
-  background: url('../images/equipe/background.jpg') center top no-repeat;
+  //background: url('../images/equipe/background.jpg') center top no-repeat;
   background-size: cover;
-  height: 90vh !important;
+  //height: 90vh !important;
+  height: 50vh !important;
 }
 
 .devfest-ribbon-main-equipe {
-  margin-top: -75vh !important;
+  //margin-top: -75vh !important;
+  margin-top: -45vh !important;
 }
 
 // page Pratique
 .devfest-ribbon-pratique  {
-  background: url('../images/lego/place.jpg') center top no-repeat;
+  //background: url('../images/lego/place.jpg') center top no-repeat;
   background-size: cover;
   height: 50vh !important;
 }
@@ -578,13 +575,13 @@ a img{
 // GENERAL - other page
 .devfest-ribbon {
   width: 100%;
-  height: 40vh;
+  height: 50vh;
   background-color: #3F51B5;
   flex-shrink: 0;
 }
 
 .devfest-ribbon-main {
-  margin-top: -35vh;
+  margin-top: -45vh;
   flex-shrink: 0;
 }
 
@@ -600,12 +597,8 @@ a img{
 
 .devfest-ribbon-content {
   border-radius: 2px;
-  padding: 80px 56px;
+  padding: 80px 5%;
   margin-bottom: 80px;
-}
-
-.ddevfest-ribbonmo-layout.is-small-screen .devfest-ribbon-content {
-  padding: 40px 28px;
 }
 
 .devfest-ribbon-content h3 {
