@@ -54,6 +54,19 @@ a img{
   overflow: visible;
 }
 
+.devfest-header-lang {
+  transition: all 0.3s ease 0s;
+  filter: grayscale(1);
+  opacity: 0.8;
+}
+
+.devfest-header-lang:hover {
+  transition: all 0.3s ease 0s;
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+
 // HEADER SECTION -- Navigation Bar
 
 .devfest-navigation-container {
