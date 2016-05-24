@@ -642,6 +642,23 @@ a img{
   font-weight: 500;
 }
 
+// TEAM
+.devfest-team-card-image.mdl-card {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: 5px;
+}
+.devfest-team-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.devfest-team-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
 
 // GENERAL - AGENDA
 .devfest-agenda-card-event.mdl-card {
