@@ -134,7 +134,7 @@ gulp.task('inject_en', () => {
 
   // EN
   gulp.src(['./app/en/*.html'])
-    .pipe($.newer('.tmp'))
+    .pipe($.newer('.tmp/en'))
     .pipe(inject(gulp.src(['./app/en/partials/head.html']), {
       starttag: '<!-- inject:head:{{ext}} -->',
       transform: injection
