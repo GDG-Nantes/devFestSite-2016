@@ -13,6 +13,11 @@ handlers:
   upload: index.html
   expiration: "0d 5m"
   secure: always
+- url: /en
+  static_files: en/index.html
+  upload: en/index.html
+  expiration: "0d 5m"
+  secure: always
 
 # re-direct to index.html
 - url: /index.html(.*)
