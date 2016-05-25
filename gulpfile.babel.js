@@ -227,8 +227,8 @@ gulp.task('serve', ['scripts', 'styles', 'inject', 'inject_en'], () => {
     server: ['.tmp', 'app'],
     port: 3000
   });
-  gulp.watch(['.tmp/**/*.html'], reload);
-  gulp.watch(['app/**/*.html'], ['inject', 'inject_en']);
+  gulp.watch(['.tmp/**/*.html']);
+  gulp.watch(['app/**/*.html'], ['inject', 'inject_en', reload]);
   gulp.watch(['app/styles/**/*.{scss,css}'], ['styles', reload]);
   gulp.watch(['app/scripts/**/*.js'], ['lint', 'scripts']);
   gulp.watch(['app/images/**/*'], reload);
