@@ -11,46 +11,92 @@
         <priority>1</priority>
     </url>
     <url>
-        <loc>http://devfest.gdgnantes.com/pratique.html</loc>
+        <loc>https://devfest.gdgnantes.com/pratique.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://devfest.gdgnantes.com/team.html</loc>
+        <loc>https://devfest.gdgnantes.com/team.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://devfest.gdgnantes.com/credits.html</loc>
+        <loc>https://devfest.gdgnantes.com/credits.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://devfest.gdgnantes.com/faq.html</loc>
+        <loc>https://devfest.gdgnantes.com/faq.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://devfest.gdgnantes.com/cod.html</loc>
+        <loc>https://devfest.gdgnantes.com/cod.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>http://devfest.gdgnantes.com/presse.html</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
     </url>
     <!--
     <url>
-      <loc>http://devfest.gdgnantes.com/speakers</loc>
+        <loc>https://devfest.gdgnantes.com/presse.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://devfest.gdgnantes.com/speakers.html</loc>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
     <url>
-      <loc>http://devfest.gdgnantes.com/schedule</loc>
+      <loc>https://devfest.gdgnantes.com/agenda.html</loc>
       <changefreq>weekly</changefreq>
       <priority>1</priority>
     </url>
     -->
-    <-- TODO add EN pages -->
+    <url>
+        <loc>https://devfest.gdgnantes.com/en/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1</priority>
+    </url>
+    <url>
+        <loc>https://devfest.gdgnantes.com/en/pratique.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://devfest.gdgnantes.com/en/team.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://devfest.gdgnantes.com/en/credits.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://devfest.gdgnantes.com/en/faq.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://devfest.gdgnantes.com/en/cod.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <!--
+    <url>
+        <loc>https://devfest.gdgnantes.com/en/presse.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://devfest.gdgnantes.com/en/speakers.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://devfest.gdgnantes.com/en/agenda.html</loc>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+    </url>
+    -->
 </urlset>
