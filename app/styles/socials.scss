@@ -1,0 +1,192 @@
+/*
+Gestion des sprites de social Link
+*/
+svg:not(:root) {
+    overflow: hidden;
+}
+.icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    fill: white;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+a.icon-href,a:hover.icon-href{
+    text-decoration: none;
+}
+
+.social-team{
+    display:flex;
+    justify-content: flex-end;
+    
+    .devfest-team-card-image__filename{
+        position: absolute;
+        left:16px;
+    }
+    
+    a.icon-href{
+        margin-left: 5px;
+    }
+}
+
+div.icon-vk,
+div.icon-rss,
+div.icon-site,
+div.icon-email,
+div.icon-skype,
+div.icon-github,
+div.icon-twitter,
+div.icon-youtube,
+div.icon-facebook,
+div.icon-pinterest,
+div.icon-linkedin,
+div.icon-direction,
+div.icon-google-plus,
+div.icon-stack-overflow {
+  background: url(../images/social/sprites.svg) no-repeat;
+  background-size: 256px;  
+  width : 16px;
+  height: 16px;
+}
+
+.socials .icon-vk,
+.socials .icon-rss,
+.socials .icon-site,
+.socials .icon-email,
+.socials .icon-skype,
+.socials .icon-github,
+.socials .icon-twitter,
+.socials .icon-youtube,
+.socials .icon-facebook,
+.socials .icon-pinterest,
+.socials .icon-linkedin,
+.socials .icon-direction,
+.socials .icon-google-plus,
+.socials .icon-stack-overflow {
+  background: url(../images/social/sprites.svg) no-repeat;
+  background-size: 256px;  
+  width : 32px;
+  height: 32px;
+  background-position: -528px 0px;
+}
+.socials{
+	font-size: 24px;
+}
+
+.socials button{
+	margin: 5px 0;
+}
+
+div.icon-vk {
+  background-position: -78px 0px;
+}
+
+div.icon-rss {
+  background-position: 0px 0px;
+}
+
+div.icon-site {
+  background-position: 0px 0px;
+}
+
+div.icon-email {
+  background-position: 0px 0px;
+}
+
+div.icon-skype {
+  background-position: 0px 0px;
+}
+
+div.icon-github {
+  background-position: 0px 0px;
+}
+
+div.icon-twitter {
+  background-position: -528px 0px;
+}
+
+div.icon-youtube {
+  background-position: 0px 0px;
+}
+
+div.icon-facebook {
+  background-position: 0px 0px;
+}
+
+div.icon-pinterest {
+  background-position: 0px 0px;
+}
+
+div.icon-linkedin {
+  background-position: 0px 0px;
+}
+
+div.icon-direction {
+  background-position: 0px 0px;
+}
+
+div.icon-google-plus {
+  background-position: 0px 0px;
+}
+
+div.icon-stack-overflow {
+  background-position: 0px 0px;
+}
+
+.socials button:hover .icon-vk {
+  fill: #4c75a3
+}
+
+.socials button:hover .icon-rss {
+  fill: #f99638
+}
+
+.socials button:hover .icon-site {
+  fill: #ba620b
+}
+
+.socials button:hover .icon-email {
+  fill: #e34c41
+}
+
+.socials button:hover .icon-skype {
+  fill: #01aef2
+}
+
+.socials button:hover .icon-github {
+  fill: #464646
+}
+
+.socials button:hover .icon-twitter {
+  fill: #1bb2e9
+}
+
+.socials button:hover .icon-youtube {
+  fill: #cc181e
+}
+
+.socials button:hover .icon-facebook {
+  fill: #3c599b
+}
+
+.socials button:hover .icon-pinterest {
+  fill: #ed0103
+}
+
+.socials button:hover .icon-linkedin {
+  fill: #017eb4
+}
+
+.socials button:hover .icon-direction {
+  fill: #3a84df
+}
+
+.socials button:hover .icon-google-plus {
+  fill: #ce352c
+}
+
+.socials button:hover .icon-stack-overflow {
+  fill: #ef7c02
+}
