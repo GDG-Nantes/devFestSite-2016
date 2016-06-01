@@ -659,6 +659,9 @@ a img{
   font-size: 14px;
   font-weight: 500;
 }
+.devfest-ribbon-main-equipe img[src$="nantestech.png"]{
+    max-width:100%;
+}
 
 // GENERAL - AGENDA
 .devfest-agenda-card-event.mdl-card {
@@ -780,6 +783,7 @@ a img{
       margin-top:10px;
   }
 }
+
 
 
 @import "socials";
