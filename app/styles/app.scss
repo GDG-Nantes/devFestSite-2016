@@ -723,11 +723,18 @@ a img{
   text-decoration:none;
 }
 
+.devfest-drawer .devfest-header-lang{
+    display:none;
+}
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {
   .devfest-navigation-container {
     display: none;
+  }
+  
+  .devfest-drawer .devfest-header-lang{
+    display:block;
   }
 
   .hide-mobile {
