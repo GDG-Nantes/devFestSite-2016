@@ -35,7 +35,7 @@
 
   if ('serviceWorker' in navigator &&
       (window.location.protocol === 'https:' || isLocalhost)) {
-    navigator.serviceWorker.register('service-worker.js')
+    /*navigator.serviceWorker.register('service-worker.js')
     .then(function(registration) {
       // Check to see if there's an updated version of service-worker.js with
       // new files to cache:
@@ -76,7 +76,7 @@
       };
     }).catch(function(e) {
       console.error('Error during service worker registration:', e);
-    });
+    });*/
   }
 
   // Your custom JavaScript goes here
