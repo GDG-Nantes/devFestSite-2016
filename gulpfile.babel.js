@@ -66,7 +66,7 @@ gulp.task('copy', () =>
     'app/*',
     'app.yaml',
     '!app/*.html',
-    'node_modules/apache-server-configs/dist/.htaccess'
+    //'node_modules/apache-server-configs/dist/.htaccess'
   ], {
     dot: true
   }).pipe(gulp.dest('dist'))
@@ -91,7 +91,7 @@ gulp.task('styles', () => {
   return gulp.src([
     'app/styles/**/*.scss',
     'app/styles/**/*.css',
-    '!app/styles/material.indigo-red.min.css'
+    //'!app/styles/material.indigo-red.min.css'
   ])
     .pipe($.newer('.tmp/styles'))
     .pipe($.sourcemaps.init())
