@@ -13,11 +13,16 @@ handlers:
   upload: index.html
   expiration: "0d 5m"
   secure: always
+  http_headers:
+    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style, </images/background.jpg>; rel=preload; as=image, </images/title.png>; rel=preload; as=image'
+
 - url: /en
   static_files: en/index.html
   upload: en/index.html
   expiration: "0d 5m"
   secure: always
+  http_headers:
+    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style, </images/background.jpg>; rel=preload; as=image, </images/title.png>; rel=preload; as=image'
 
 # re-direct to index.html
 - url: /index.html(.*)
@@ -25,16 +30,24 @@ handlers:
   upload: index.html(.*)
   expiration: "0d 5m"
   secure: always
+  http_headers:
+    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style, </images/background.jpg>; rel=preload; as=image, </images/title.png>; rel=preload; as=image'
+
 
 # Service Go de favoris
 - url: /(\.well-known|api)/.* 
   script: _go_app
 
 # access the static resources in the root director
-- url: /(.*\.(css|gif|png|jpg|jpeg|ico|js|html|htm|xml|txt|ttf|json|svg|woff|eot|xcf))
+- url: /(.*\.(css|gif|png|jpg|jpeg|ico|js|htm|xml|txt|ttf|json|svg|woff|eot|xcf))
   static_files: \1
-  upload: (.*\.(css|gif|png|jpg|jpeg|ico|js|html|htm|xml|txt|ttf|json|svg|woff|eot|xcf))
+  upload: (.*\.(css|gif|png|jpg|jpeg|ico|js|htm|xml|txt|ttf|json|svg|woff|eot|xcf))
 
+- url: /(.*\.(html))
+  static_files: \1
+  upload: (.*\.(html))
+  http_headers:
+    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style'
 
 skip_files:
 - ^node_modules/*.*
