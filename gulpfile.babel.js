@@ -61,7 +61,7 @@ gulp.task('images', () =>
 );
 
 // Copy all files at the root level (app)
-gulp.task('copy', () =>
+gulp.task('copy', () => {
   gulp.src([
     'app/*',
     'app.yaml',
@@ -71,7 +71,13 @@ gulp.task('copy', () =>
     dot: true
   }).pipe(gulp.dest('dist'))
     .pipe($.size({title: 'copy'}))
-);
+  return gulp.src([
+    'app/scripts/material.min.js'
+  ], {
+    dot: true
+  }).pipe(gulp.dest('dist/scripts'))
+    .pipe($.size({title: 'copy'}))
+});
 
 // Compile and automatically prefix stylesheets
 gulp.task('styles', () => {
