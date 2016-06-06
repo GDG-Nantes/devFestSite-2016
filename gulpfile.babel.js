@@ -135,8 +135,12 @@ gulp.task('inject', () => {
       starttag: '<!-- inject:footer:{{ext}} -->',
       transform: injection
     }))
+    .pipe(inject(gulp.src(['./app/partials/platiniums.html']), {
+      starttag: '<!-- inject:platiniums:{{ext}} -->',
+      transform: injection
+    }))
     .pipe(gulp.dest('.tmp'))
-    .pipe(gulp.dest('dist'))  
+    .pipe(gulp.dest('dist'))
 });
 
 gulp.task('inject_en', () => {
@@ -155,6 +159,10 @@ gulp.task('inject_en', () => {
     }))
     .pipe(inject(gulp.src(['./app/en/partials/footer.html']), {
       starttag: '<!-- inject:footer:{{ext}} -->',
+      transform: injection
+    }))
+    .pipe(inject(gulp.src(['./app/en/partials/platiniums.html']), {
+      starttag: '<!-- inject:platiniums:{{ext}} -->',
       transform: injection
     }))
     .pipe(gulp.dest('.tmp/en'))
