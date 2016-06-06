@@ -179,6 +179,20 @@ a img{
   z-index: 3;
 }
 
+.devfest-js-video {
+  height: 0;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  position: relative;
+  iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+}
+
 
 // SECTION 'DESCRIPTION'
 
