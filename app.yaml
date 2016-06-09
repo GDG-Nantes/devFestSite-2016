@@ -39,9 +39,9 @@ handlers:
   script: _go_app
 
 # access the static resources in the root director
-- url: /(.*\.(css|gif|png|jpg|jpeg|ico|js|htm|xml|txt|ttf|json|svg|woff|eot|xcf))
+- url: /(.*\.(css|gif|png|jpg|jpeg|ico|js|htm|xml|txt|ttf|json|svg|woff|eot|xcf|webm|mp4))
   static_files: \1
-  upload: (.*\.(css|gif|png|jpg|jpeg|ico|js|htm|xml|txt|ttf|json|svg|woff|eot|xcf))
+  upload: (.*\.(css|gif|png|jpg|jpeg|ico|js|htm|xml|txt|ttf|json|svg|woff|eot|xcf|webm|mp4))
 
 - url: /(.*\.(html))
   static_files: \1
