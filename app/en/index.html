@@ -17,6 +17,10 @@
       <a name="top"></a>
       <section class="devfest-hero mdl-typography--text-center">
         <div class="devfest-slogan mdl-typography--display-1">#dev the future brick by brick</div>
+        <video loop poster="/images/2015/devfest2015.png" id="bgvid">
+          <source src="/images/2015/devfest2015.webm" type="video/webm">
+          <source src="/images/2015/devfest2015.mp4" type="video/mp4">
+        </video>
         <div class="devfest-main-logo"><img src="/images/title.png"></div>
         <p>
           <br>
@@ -199,9 +203,29 @@
         </div>
       </section>
 
+      <!-- SECTION NEWSLETTER -->
+      <section class="devfest-newsletter">
+        <a name="newsletter"></a>
+        <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Newsletter</div>
+        <div class="devfest-newsletter-inner mdl-typography--text-center">
+          <form action="https://gdgnantes.us9.list-manage.com/subscribe/post?u=b44affc3cdfd00b20bcae502c&amp;id=e0e7ceee5d" method="post" target="_blank" novalidate>
+              <div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input id="newsletter" type="email" value="" name="EMAIL" class="mdl-textfield__input devfest-newsletter-input" autocomplete="off">
+                  <label class="mdl-textfield__label" for="newsletter">Subscribe to the newsletter</label>
+                </div>
+                <input class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored" type="submit" value="Subscribe" name="subscribe">
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;">
+                  <input type="text" name="b_b44affc3cdfd00b20bcae502c_e0e7ceee5d" tabindex="-1" value="">
+              </div>
+          </form>
+        </div>
+      </section>
 
       <!-- SECTION : TICKETS -->
-      <section class="devfest-tickets ">
+      <section class="devfest-tickets">
         <a name="tickets"></a>
         <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Tickets</div>
            <div class="devfest-tickets-inner devfest-card-container mdl-grid">
@@ -260,28 +284,6 @@
                 </div>
               </div>
             </div>
-      </section>
-
-
-      <!-- SECTION NEWSLETTER -->
-      <section class="devfest-newsletter">
-        <a name="newsletter"></a>
-        <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Newsletter</div>
-        <div class="devfest-newsletter-inner mdl-typography--text-center">
-          <form action="https://gdgnantes.us9.list-manage.com/subscribe/post?u=b44affc3cdfd00b20bcae502c&amp;id=e0e7ceee5d" method="post" target="_blank" novalidate>
-              <div>
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                  <input id="newsletter" type="email" value="" name="EMAIL" class="mdl-textfield__input devfest-newsletter-input" autocomplete="off">
-                  <label class="mdl-textfield__label" for="newsletter">Subscribe to the newsletter</label>
-                </div>
-                <input class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored" type="submit" value="Subscribe" name="subscribe">
-              </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;">
-                  <input type="text" name="b_b44affc3cdfd00b20bcae502c_e0e7ceee5d" tabindex="-1" value="">
-              </div>
-          </form>
-        </div>
       </section>
 
       <!-- SECTION SPONSORS -->
@@ -453,6 +455,18 @@
           });
         })();
 
+    </script>
+    <script>
+      var playing = false;
+      //The timeout time may need to be higher depending on the runtime of the mdl init...
+      document.querySelector('.mdl-js-layout').addEventListener('mdl-componentupgraded', e => {
+        if (document.querySelector('.mdl-js-layout').classList.contains('is-upgraded')) {
+          if(!playing) {
+            playing = true;
+            document.querySelector("#bgvid").play();
+          }
+        }
+      });
     </script>
 
      <!-- Built with love using Web Starter Kit -->
