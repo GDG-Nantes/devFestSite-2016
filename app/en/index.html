@@ -17,9 +17,7 @@
       <a name="top"></a>
       <section class="devfest-hero mdl-typography--text-center">
         <div class="devfest-slogan mdl-typography--display-1">#dev the future brick by brick</div>
-        <video loop poster="/images/2015/devfest2015.png" id="bgvid">
-          <source src="/images/2015/devfest2015.webm" type="video/webm">
-          <source src="/images/2015/devfest2015.mp4" type="video/mp4">
+        <video muted loop id="bgvid" data-webm="/images/2015/devfest2015.webm" data-mp4="/images/2015/devfest2015.mp4">
         </video>
         <div class="devfest-main-logo"><img src="/images/title.png"></div>
         <p>
@@ -457,16 +455,24 @@
 
     </script>
     <script>
-      var playing = false;
-      //The timeout time may need to be higher depending on the runtime of the mdl init...
-      document.querySelector('.mdl-js-layout').addEventListener('mdl-componentupgraded', e => {
-        if (document.querySelector('.mdl-js-layout').classList.contains('is-upgraded')) {
-          if(!playing) {
-            playing = true;
-            document.querySelector("#bgvid").play();
-          }
+      if (window.matchMedia("(min-width: 900px)").matches) {
+        var playing = false;
+        var video = document.querySelector("#bgvid");
+        if (video.canPlayType("video/webm") === "maybe" ||
+         video.canPlayType("video/webm") === "probably") {
+         video.src = video.getAttribute("data-webm");
+        } else {
+          video.src = video.getAttribute("data-mp4");
         }
-      });
+        document.querySelector('.mdl-js-layout').addEventListener('mdl-componentupgraded', e => {
+          if (document.querySelector('.mdl-js-layout').classList.contains('is-upgraded')) {
+            if(!playing) {
+              playing = true;
+              video.play();
+            }
+          }
+        });
+      }
     </script>
 
      <!-- Built with love using Web Starter Kit -->
