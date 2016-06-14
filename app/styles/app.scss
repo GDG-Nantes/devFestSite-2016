@@ -19,6 +19,7 @@ $primary-color: rgb(63,81,181);
 $secondary-color: rgb(255,82,82);
 $text-color: rgb(97,97,97);
 $background-altern: #F1F1F1;
+$background-base: white;
 
 
 body {
@@ -37,6 +38,35 @@ a img{
 
 .simple-padding-bottom {
   padding-bottom: 15px;
+}
+
+// VIDEO 
+video#bgvid { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover; 
+}
+
+//@media screen and (min-device-width: 900px) {
+  //video#bgvid {
+  //  background: url(/images/2015/devfest2015.png) no-repeat;
+  //}
+//}
+
+@media (max-width: 899px) {
+  video#bgvid {
+    background: url(/images/background.jpg) center 30% no-repeat;
+  }
 }
 
 // HEADER SECTION -- global
@@ -162,8 +192,8 @@ a img{
   position: relative;
   height: 650px;
   width: auto;
-  background: url('../images/background.jpg') center 30% no-repeat;
-  background-size: cover;
+  //background: url('../images/background.jpg') center 30% no-repeat;
+  //background-size: cover;
   color: #FFFFFF;
 }
 
@@ -254,6 +284,7 @@ a img{
 // SECTION 'STATISTICS'
 
 .devfest-statistics {
+  background-color: $background-base;
   width: 100%;
 }
 
@@ -275,6 +306,7 @@ a img{
 // SECTION TOP SPEAKERS
 
 .devfest-speakers {
+  background-color: $background-base;
   padding-top: 80px;
   padding-bottom: 80px;
   max-width: 1044px;
@@ -306,6 +338,7 @@ a img{
 // SECTION 'LOCATION'
 
 .devfest-location {
+  background-color: $background-base;
   width: 100%;
 }
 
@@ -346,6 +379,7 @@ a img{
 // SECTION TICKETS
 
 .devfest-tickets {
+  background-color: $background-altern;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -368,7 +402,7 @@ a img{
 // NEWSLETTER
 
 .devfest-newsletter {
-  background-color: $background-altern;
+  background-color: $background-base;
   padding-top: 70px;
   padding-bottom: 80px;
 }
@@ -388,6 +422,7 @@ a img{
 // SECTION SPONSORS
 
 .devfest-sponsors {
+  background-color: $background-base;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
