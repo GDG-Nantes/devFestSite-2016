@@ -40,32 +40,47 @@ a img{
   padding-bottom: 15px;
 }
 
-// VIDEO 
-video#bgvid { 
-  position: fixed;
+// VIDEO
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+video#bgvid {
+  position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 100%;
-  min-height: 100%;
   width: auto;
   height: auto;
-  z-index: -100;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background-size: cover; 
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 //@media screen and (min-device-width: 900px) {
-  //video#bgvid {
+  //.video-bg {
   //  background: url(/images/2015/devfest2015.png) no-repeat;
+  //}
+  //video#bgvid {
+  //  display: none;
   //}
 //}
 
 @media (max-width: 899px) {
-  video#bgvid {
+  .video-bg {
     background: url(/images/background.jpg) center 30% no-repeat;
+  }
+  video#bgvid {
+    display: none;
   }
 }
 
@@ -509,7 +524,7 @@ video#bgvid {
   width: 100%;
   object-fit: contain;
   max-width: 120px;
-  max-height: 60px;
+  max-height: 40px;
 }
 
 
