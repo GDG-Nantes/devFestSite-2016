@@ -34,6 +34,8 @@ import gulpLoadPlugins from 'gulp-load-plugins';
 import inject from 'gulp-inject';
 import {output as pagespeed} from 'psi';
 import pkg from './package.json';
+import revReplace from 'gulp-rev-replace';
+import rev from 'gulp-rev';
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -274,6 +276,7 @@ gulp.task('default', ['clean'], cb =>
     'styles', 'inject', 'inject_en',
     ['lint', 'html', 'scripts', 'images', 'copy'],
     'generate-service-worker',
+    'revreplace',
     cb
   )
 );
@@ -328,3 +331,17 @@ gulp.task('generate-service-worker', ['copy-sw-scripts'], () => {
 // Load custom tasks from the `tasks` directory
 // Run: `npm install --save-dev require-dir` from the command-line
 // try { require('require-dir')('tasks'); } catch (err) { console.error(err); }
+gulp.task("revision", () => {
+  return gulp.src(["dist/**/*.css", "dist/**/*.js"])
+    .pipe(rev())
+    .pipe(gulp.dest("dist"))
+    .pipe(rev.manifest())
+    .pipe(gulp.dest("dist"))
+})
+
+gulp.task("revreplace", ["revision"], () => {
+  var manifest = gulp.src("./dist/rev-manifest.json");
+  return gulp.src("dist/**/*.html")
+    .pipe(revReplace({manifest: manifest}))
+    .pipe(gulp.dest("dist"));
+});
