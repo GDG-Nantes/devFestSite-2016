@@ -339,7 +339,14 @@ gulp.task("revision", () => {
     .pipe(gulp.dest("dist"))
 })
 
-gulp.task("revreplace", ["revision"], () => {
+gulp.task("revreplace-yaml", () => {
+  var manifest = gulp.src("./dist/rev-manifest.json");
+  return gulp.src("dist/app.yaml")
+    .pipe(revReplace({manifest: manifest, replaceInExtensions: ".yaml"}))
+    .pipe(gulp.dest("dist"));
+})
+
+gulp.task("revreplace", ["revision", "revreplace-yaml"], () => {
   var manifest = gulp.src("./dist/rev-manifest.json");
   return gulp.src("dist/**/*.html")
     .pipe(revReplace({manifest: manifest}))
