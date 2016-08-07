@@ -45,7 +45,7 @@ gulp.task('lint', () =>
   gulp.src([
     'app/scripts/**/*.js',
     '!app/scripts/material.min.js'
-    ])
+  ])
     .pipe($.eslint())
     .pipe($.eslint.format())
     .pipe($.if(!browserSync.active, $.eslint.failOnError()))
@@ -67,18 +67,27 @@ gulp.task('copy', () => {
   gulp.src([
     'app/*',
     'app.yaml',
-    '!app/*.html',
-    //'node_modules/apache-server-configs/dist/.htaccess'
+    '!app/*.html'
+    // 'node_modules/apache-server-configs/dist/.htaccess'
   ], {
     dot: true
   }).pipe(gulp.dest('dist'))
-    .pipe($.size({title: 'copy'}))
+    .pipe($.size({title: 'copy'}));
   return gulp.src([
     'app/scripts/material.min.js'
   ], {
     dot: true
   }).pipe(gulp.dest('dist/scripts'))
-    .pipe($.size({title: 'copy'}))
+    .pipe($.size({title: 'copy'}));
+});
+
+// Copy all files at the root level (app)
+gulp.task('assets', () => {
+  gulp.src('app/assets/*')
+      .pipe($.newer('.tmp/assets'))
+      .pipe(gulp.dest('.tmp/assets'))
+      .pipe($.newer('dist/assets'))
+      .pipe(gulp.dest('dist/assets'));
 });
 
 // Compile and automatically prefix stylesheets
@@ -98,8 +107,8 @@ gulp.task('styles', () => {
   // For best performance, don't add Sass partials to `gulp.src`
   return gulp.src([
     'app/styles/**/*.scss',
-    'app/styles/**/*.css',
-    //'!app/styles/material.indigo-red.min.css'
+    'app/styles/**/*.css'
+    // '!app/styles/material.indigo-red.min.css'
   ])
     .pipe($.newer('.tmp/styles'))
     .pipe($.sourcemaps.init())
@@ -115,14 +124,20 @@ gulp.task('styles', () => {
     .pipe(gulp.dest('dist/styles'));
 });
 
+/**
+ * Inject UTF8 Tags
+ * @param {filePath} filePath .
+ * @param {file} file .
+ * @return {int} The sum of the two numbers.
+ */
 function injection(filePath, file) {
-  return file.contents.toString('utf8')
+  return file.contents.toString('utf8');
 }
 
 gulp.task('inject', () => {
   del(['.tmp/**/*.html']);
 
-  //FR
+  // FR
   gulp.src(['./app/*.html'])
     .pipe($.newer('.tmp'))
     .pipe(inject(gulp.src(['./app/partials/head.html']), {
@@ -142,7 +157,7 @@ gulp.task('inject', () => {
       transform: injection
     }))
     .pipe(gulp.dest('.tmp'))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('inject_en', () => {
@@ -168,31 +183,28 @@ gulp.task('inject_en', () => {
       transform: injection
     }))
     .pipe(gulp.dest('.tmp/en'))
-    .pipe(gulp.dest('dist/en'))
+    .pipe(gulp.dest('dist/en'));
 });
 
 // Concatenate and minify JavaScript. Optionally transpiles ES2015 code to ES5.
 // to enables ES2015 support remove the line `"only": "gulpfile.babel.js",` in the
 // `.babelrc` file.
-gulp.task('scripts', () =>
-    gulp.src([
-      // Note: Since we are not using useref in the scripts build pipeline,
-      //       you need to explicitly list your scripts here in the right order
-      //       to be correctly concatenated
-      './app/scripts/main.js'
-      // Other scripts
-    ])
-      .pipe($.newer('.tmp/scripts'))
-      .pipe($.sourcemaps.init())
-      .pipe($.babel())
-      .pipe($.sourcemaps.write())
-      .pipe(gulp.dest('.tmp/scripts'))
-      .pipe($.concat('main.js'))
-      .pipe($.uglify({preserveComments: 'some'}))
-      // Output files
-      .pipe($.size({title: 'scripts'}))
-      .pipe($.sourcemaps.write('.'))
-      .pipe(gulp.dest('dist/scripts'))
+gulp.task('scripts', () => gulp.src([
+  // Note: Since we are not using useref in the scripts build pipeline,
+  //       you need to explicitly list your scripts here in the right order
+  //       to be correctly concatenated
+  './app/scripts/main.js',
+  './app/scripts/speakers.js',
+  './app/scripts/agenda.js',
+  './app/scripts/session.js'
+  // Other scripts
+])
+  .pipe($.concat('main.js'))
+  .pipe($.uglify({preserveComments: 'some'}))
+  // .pipe($.sourcemaps.write('.'))
+  .pipe(gulp.dest('.tmp/scripts/'))
+  .pipe(gulp.dest('dist/scripts/'))
+  .pipe($.size({title: 'scripts'}))
 );
 
 // Scan your HTML for assets & optimize them
@@ -233,7 +245,7 @@ gulp.task('html', () => {
 gulp.task('clean', () => del(['.tmp', 'dist/*', '!dist/.git'], {dot: true}));
 
 // Watch files for changes & reload
-gulp.task('serve', ['scripts', 'styles', 'inject', 'inject_en'], () => {
+gulp.task('serve', ['scripts', 'styles', 'assets', 'inject', 'inject_en'], () => {
   browserSync({
     notify: false,
     // Customize the Browsersync console logging prefix
@@ -248,9 +260,10 @@ gulp.task('serve', ['scripts', 'styles', 'inject', 'inject_en'], () => {
     port: 3000
   });
   gulp.watch(['.tmp/**/*.html']);
+  gulp.watch(['app/assets/*.json']);
   gulp.watch(['app/**/*.html'], ['inject', 'inject_en', reload]);
   gulp.watch(['app/styles/**/*.{scss,css}'], ['styles', reload]);
-  gulp.watch(['app/scripts/**/*.js'], ['lint', 'scripts']);
+  gulp.watch(['app/scripts/**/*.js'], ['scripts', reload]);
   gulp.watch(['app/images/**/*'], reload);
 });
 
@@ -274,7 +287,7 @@ gulp.task('serve:dist', ['default'], () =>
 gulp.task('default', ['clean'], cb =>
   runSequence(
     'styles', 'inject', 'inject_en',
-    ['lint', 'html', 'scripts', 'images', 'copy'],
+    ['html', 'scripts', 'assets', 'images', 'copy'],
     'generate-service-worker',
     'revreplace',
     cb
@@ -294,7 +307,8 @@ gulp.task('pagespeed', cb =>
 
 // Copy over the scripts that are used in importScripts as part of the generate-service-worker task.
 gulp.task('copy-sw-scripts', () => {
-  return gulp.src(['node_modules/sw-toolbox/sw-toolbox.js', 'app/scripts/sw/runtime-caching.js'])
+  return gulp.src(['node_modules/sw-toolbox/sw-toolbox.js',
+                   'app/scripts/sw/runtime-caching.js'])
     .pipe(gulp.dest('dist/scripts/sw'));
 });
 
@@ -331,24 +345,24 @@ gulp.task('generate-service-worker', ['copy-sw-scripts'], () => {
 // Load custom tasks from the `tasks` directory
 // Run: `npm install --save-dev require-dir` from the command-line
 // try { require('require-dir')('tasks'); } catch (err) { console.error(err); }
-gulp.task("revision", () => {
-  return gulp.src(["dist/**/*.css", "dist/**/*.js"])
+gulp.task('revision', () => {
+  return gulp.src(['dist/**/*.css', 'dist/**/*.js'])
     .pipe(rev())
-    .pipe(gulp.dest("dist"))
+    .pipe(gulp.dest('dist'))
     .pipe(rev.manifest())
-    .pipe(gulp.dest("dist"))
-})
+    .pipe(gulp.dest('dist'));
+});
 
-gulp.task("revreplace-yaml", ["revision"], () => {
-  var manifest = gulp.src("./dist/rev-manifest.json");
-  return gulp.src("dist/app.yaml")
-    .pipe(revReplace({manifest: manifest, replaceInExtensions: ".yaml"}))
-    .pipe(gulp.dest("dist"));
-})
+gulp.task('revreplace-yaml', ['revision'], () => {
+  var manifest = gulp.src('./dist/rev-manifest.json');
+  return gulp.src('dist/app.yaml')
+    .pipe(revReplace({manifest: manifest, replaceInExtensions: '.yaml'}))
+    .pipe(gulp.dest('dist'));
+});
 
-gulp.task("revreplace", ["revreplace-yaml"], () => {
-  var manifest = gulp.src("./dist/rev-manifest.json");
-  return gulp.src("dist/**/*.html")
+gulp.task('revreplace', ['revreplace-yaml'], () => {
+  var manifest = gulp.src('./dist/rev-manifest.json');
+  return gulp.src('dist/**/*.html')
     .pipe(revReplace({manifest: manifest}))
-    .pipe(gulp.dest("dist"));
+    .pipe(gulp.dest('dist'));
 });
