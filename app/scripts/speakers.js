@@ -17,10 +17,9 @@ var speakersVue = new Vue({
 
     fetchData: function () {
       var self = this;
-      fetch('assets/prog.json').then(function(response) {
+      fetch('assets/devfest.json').then(function(response) {
         return response.json();
       }).then(function(json) {
-        console.log(json)
         self.speakers = json.speakers;
         self.filter();
       });
@@ -30,12 +29,12 @@ var speakersVue = new Vue({
       var self = this;
       if (this.activeFilters.length > 0) {
         this.displayedSpeakers = this.speakers.filter(function(speaker) {
-          return self.activeFilters.indexOf(speaker.category.class) !== -1;
+          return self.activeFilters.indexOf(speaker.track) !== -1;
         })
       } else {
         this.displayedSpeakers = this.speakers;
       }
     }
-    
+
   }
 });

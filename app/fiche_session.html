@@ -17,23 +17,18 @@
           <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
           <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
             <div class="devfest-session-speaker-left">
-              <img src="{{ speakers[0].image }}" class="mdl-shadow--6dp">
+              <img src="./images/speakers/amoussine.jpg" class="mdl-shadow--4dp" />
+              <h5><i>{{ speaker.firstname }} {{ speaker.name }} <span v-if="speaker.company">({{ speaker.company }})</span></i></h5>
               <div class="devfest-session-speaker-left-social">
                   <a href="#" target="_NEW"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
                   <a href="#" target="_NEW"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
                   <a href="#" target="_NEW"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
                   <a href="#" target="_NEW"><i class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
               </div>
-              <div>
-                <p class="devfest-session-speaker-bio mdl-color-text--grey-500">
-                  {{ speakers[0].about }}
-                </p>
-              </div>
             </div>
           </div>
-          <div class="mdl-cell mdl-cell--6-col mdl-color-text--white devfest-ribbon-speaker-name">
-            <h3>{{ speakers[0].firstname }} {{ speakers[0].lastname }}</h3>
-            <div class="mdl-typography--headline mdl-typography--font-thin">{{ speakers[0].company }}</div>
+          <div class="mdl-cell mdl-cell--6-col mdl-color-text--white">
+            <h4 class="mdl-card__title-text">{{ session.name }}</h4>
           </div>
         </div>
       </div>
@@ -44,62 +39,35 @@
         <div class="mdl-cell mdl-cell--6-col">
 
           <!-- Session -->
-          <div class="mdl-grid">
-            <div class="devfest-session-content mdl-color--white mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-              <!-- title & track -->
-              <div class="mdl-grid">
-                  <div class="mdl-cell mdl-cell--8-col">
-                    <h4 class="mdl-card__title-text">{{ session.title }}</h4>
-                  </div>
-                  <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-                    <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i><br>{{ session.category }}
-                  </div>
-                  <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-                    <i class="fa fa-mobile fa-2x" aria-hidden="true"></i><br>{{ session.type }}
-                  </div>
-              </div>
+          <div class="devfest-session-content mdl-color--white mdl-shadow--4dp mdl-cell mdl-cell--12-col">
 
-              <!-- Description -->
-              <div class="mdl-grid">
-                  <div class="mdl-cell mdl-cell--12-col mdl-typography--font-light mdl-typography--subhead">
-                    {{ session.desc }}
-                  </div>
-              </div>
-
-              <!-- session informations -->
-              <div class="mdl-grid mdl-color-text--grey-500 mdl-typography--text-center">
-                <div class="mdl-cell mdl-cell--4-col">
-                  <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;{{ hour.hourStart }}:{{ hour.minStart }} > {{ hour.hourEnd }}:{{ hour.minEnd }}
-                </div>
-                <div class="mdl-cell mdl-cell--3-col">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;{{ session.confRoom }}
-                </div>
-                <div class="mdl-cell mdl-cell--2-col">
-                  <i class="fa fa-language" aria-hidden="true"></i>&nbsp;&nbsp;{{ session.lang }}
-                </div>
-                <div class="mdl-cell mdl-cell--3-col">
-                  Difficulté&nbsp;&nbsp;{{ session.difficulty }}
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                </div>
-              </div>
-
-              <div class="mdl-card__actions">
-                <a class="devfest-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="#">
-                  <i class="fa fa-calendar-plus-o" aria-hidden="true"></i>&nbsp;&nbsp;Ajouter à l'agenda
-                </a>
-                <a class="devfest-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="#">
-                  <i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;Mettre en favoris
-                </a>
+            <!-- session informations -->
+            <div class="mdl-grid mdl-color-text--grey-500">
+              <div class="mdl-cell mdl-cell--12-col ">
+                <span class={{this.getTrackColor(session.track)}}>{{ session.track }}</span>
+                <span class={{this.getTypeColor(session.type)}}>{{ session.type }}</span>
+                <span class="devfest-agenda-card-chip color-bg-default">{{this.getTimeLabel(session.type)}}</span>
+                <span class="devfest-agenda-card-chip color-bg-default">{{ session.agenda.day }} - {{ session.agenda.hour }}</span>
+                <span class="devfest-agenda-card-chip color-bg-default">{{ session.agenda.room }}</span>
+                <span class="devfest-agenda-card-chip color-bg-default">{{ 'fr' }}</span>
+                <span class="devfest-agenda-card-chip color-bg-default">Difficulté {{ session.difficulty }}</span>
               </div>
             </div>
+
+            <!-- Description -->
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--12-col mdl-typography--font-light mdl-typography--subhead">
+                  {{{ session.description }}}
+                </div>
+            </div>
+
+            <div class="mdl-grid">
+              <p class="mdl-cell mdl-cell--12-col devfest-session-speaker-bio mdl-color-text--grey-500">
+                {{{ speaker.bio }}}
+              </p>
+            </div>
+
           </div>
-
-
-
          </div>
       </div>
 
