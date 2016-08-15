@@ -13,13 +13,13 @@ var getUrlParameter = function getUrlParameter(sParam) {
   }
 };
 
-var sessionId = getUrlParameter('session');
+var sessionId = getUrlParameter('id');
 
 var sessionVue = new Vue({
   el: '#sessionVue',
   data: {
     session: null,
-    speakers: null,
+    speaker: null,
     hour: null,
   },
   created: function () {
@@ -28,22 +28,64 @@ var sessionVue = new Vue({
   methods: {
     fetchData: function () {
       var self = this;
-      fetch('assets/prog.json').then(function(response) {
+      fetch('assets/devfest.json').then(function(response) {
         return response.json();
       }).then(function(json) {
+        console.log(sessionId)
         // get session
         self.session = json.sessions.filter(function(session) {
-          return session.id === sessionId;
+          return session.id === parseInt(sessionId);
         })[0];
         // get speakers
-        var sessionSpeakers = self.session.speakers;
-        self.speakers = json.speakers.filter(function(speaker) {
-          return sessionSpeakers.indexOf(speaker.id) !== -1;
-        });
+        var sessionSpeakers = self.session.speaker;
+        self.speaker = json.speakers.filter(function(speaker) {
+          return sessionSpeakers === parseInt(speaker.id);
+        })[0];
+        console.log(self.speaker)
         // get hour
-        var sessionHour = self.session.hour;
-        self.hour = json.hours[sessionHour];
+        //var sessionHour = self.session.hour;
+        //self.hour = json.hours[sessionHour];
       });
+    },
+    getTrackColor: function(track) {
+      switch (track) {
+        case 'web':
+          return 'color-bg-web devfest-agenda-card-chip';
+        case 'cloud':
+          return 'color-bg-cloud devfest-agenda-card-chip';
+        case 'mobile':
+          return 'color-bg-mobile devfest-agenda-card-chip';
+        case 'discovery':
+          return 'color-bg-discovery devfest-agenda-card-chip';
+        default:
+          return 'color-bg-default devfest-agenda-card-chip';
+      }
+    },
+    getTypeColor: function(type) {
+      switch (type) {
+        case 'conference':
+          return 'color-bg-conference devfest-agenda-card-chip';
+        case 'codelab':
+          return 'color-bg-codelab devfest-agenda-card-chip';
+        case 'quickie':
+          return 'color-bg-quickie devfest-agenda-card-chip';
+        default:
+          return 'color-bg-default devfest-agenda-card-chip';
+      }
+    },
+    getTimeLabel: function(type) {
+      switch (type) {
+        case 'keynote':
+          return '40 min';
+        case 'repas':
+          return '40 min';
+        case 'conference':
+          return '40 min';
+        case 'codelab':
+          return '2 h';
+        case 'quickie':
+          return '20 min';
+      }
     }
   }
 });

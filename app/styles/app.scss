@@ -770,6 +770,112 @@ video#bgvid {
   color: #fff;
 }
 
+.devfest-agenda2-hour-line {
+  display: flex;
+  padding-top: 10px;
+
+  .devfest-agenda2-hour-col {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30px;
+
+    .devfest-agenda2-hour-line {
+      width: 3px;
+      height: 100%;
+      background-color: #DDD;
+    }
+  }
+
+  .devfest-agenda2-hour-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.devfest-agenda-card {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  font-size: 0.9em;
+  cursor: pointer;
+
+  .devfest-agenda-card-img {
+    width: 50px;
+  	height: 50px;
+    padding: 5px;
+  	border-radius: 50px;
+  }
+
+  .devfest-agenda-card-content {
+    padding: 5px;
+
+    .devfest-agenda-card-content-session {
+      padding: 5px 0px;
+    }
+
+    .devfest-agenda-card-content-speaker {
+      font-style: italic;
+      font-size: 0.8em;
+      color: #999;
+      text-align: left;
+    }
+
+    .devfest-agenda-card-content-info-tags {
+
+    }
+  }
+}
+
+.devfest-agenda-card-chip {
+  padding: 2px 10px;
+  border-radius: 15px;
+  font-size: 0.7em;
+}
+
+.color-bg-default {
+  background-color: #DDD;
+  color: black;
+}
+
+.color-bg-web {
+  background-color: #EA4335;
+  color: white;
+}
+
+.color-bg-cloud {
+  background-color: #4285F4;
+  color: white;
+}
+
+.color-bg-mobile {
+  background-color: #34A853;
+  color: white;
+}
+
+.color-bg-discovery {
+  background-color: #FBBC05;
+  color: black;
+}
+
+.color-bg-conference {
+  background-color: #E1722A;
+  color: white;
+}
+
+.color-bg-codelab {
+  background-color: #387066;
+  color: white;
+}
+
+.color-bg-quickie {
+  background-color: purple;
+  color: white;
+}
 
 // FOOTER SECTION
 
