@@ -607,53 +607,6 @@ video#bgvid {
   margin-top: -50vh !important;
 }
 
-// page Fiche session
-.devfest-ribbon-session  {
-  height: 15vh !important;
-}
-
-.devfest-ribbon-speaker-name  {
-  height: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content:flex-end;
-  padding-left: 20px;
-}
-
-.devfest-ribbon-speaker-name h3  {
-  margin: 0px;
-}
-
-.devfest-session-speaker-left img {
-  width: 13vw;
-}
-
-.devfest-session-speaker-left div {
-  width: 13vw;
-  margin-top: 20px;
-}
-
-.devfest-session-speaker-left-social {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.devfest-session-speaker-left-social a {
-  color: black;
-  transition: all 0.3s ease 0s;
-}
-
-.devfest-session-speaker-left-social a:hover {
-  color: $secondary-color;
-  transition: all 0.3s ease 0s;
-}
-
-.devfest-session-speaker-bio {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 
 // GENERAL - other page
 .devfest-ribbon {
@@ -679,8 +632,7 @@ video#bgvid {
 
 .devfest-ribbon-content {
   border-radius: 2px;
-  padding: 80px 5%;
-  margin-bottom: 80px;
+  padding: 50px 5%;
 }
 
 .devfest-ribbon-content h3 {
@@ -693,6 +645,11 @@ video#bgvid {
 
 .devfest-ribbon-footer .mdl-mini-footer--link-list a {
   font-size: 13px;
+}
+
+// SESSION
+.devfest-session {
+  margin-top: 40px;
 }
 
 // component speaker-card
