@@ -18,30 +18,12 @@
             <div class="devfest-ribbon-crumbs mdl-color-text--grey-500">
               Devfest Nantes 2016 &gt; Speakers
             </div>
-            <h3>Speakers</h3>
-              <p>
-                Plus de {{ speakers.length }} speakers locaux, français et internationaux ont rejoins cette 5ème édition du DevFest Nantes
-              </p>
-            <h5>Filtrer par tracks : {{ displayedSpeakers.length }} speakers</h5>
+              <h6>
+                <b>{{ speakers.length }} speakers</b> locaux, français et internationaux participent cette 5ème édition du DevFest Nantes
+              </h6>
 
               <div class="mdl-grid">
-                <div v-for="filter in filters" class="mdl-cell mdl-cell--3-col">
-                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for={{filter}} >
-                    <input type="checkbox" id={{filter}} value={{filter}} v-model="activeFilters" class="mdl-checkbox__input">
-                    <span class="mdl-checkbox__label">{{filter}}</span>
-                  </label>
-                </div>
-              </div>
-
-              <div class="mdl-grid">
-                <div v-for="speaker in displayedSpeakers"
-                     class="devfest-speaker-card-image mdl-card mdl-shadow--2dp"
-                    style="background: url('/images/speakers/amoussine.jpg') center / cover">
-                  <div class="mdl-card__title mdl-card--expand"></div>
-                  <div class="mdl-card__actions">
-                    <span class="devfest-speaker-card-image__filename">{{ speaker.firstname }} {{ speaker.name }}</span>
-                  </div>
-                </div>
+                <speaker-card v-for="speaker in speakers" :speaker="speaker"></speaker-card>
               </div>
 
           </div>

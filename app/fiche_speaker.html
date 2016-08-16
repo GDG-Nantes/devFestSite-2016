@@ -10,28 +10,18 @@
     <!-- inject:menu:html -->
     <!-- endinject -->
 
-    <main id="sessionVue" class="mdl-layout__content devfest-session">
+    <main id="speakerVue" class="mdl-layout__content devfest-session">
 
       <div class="devfest-ribbon devfest-ribbon-session">
         <div class="mdl-grid">
           <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
           <div class="mdl-cell mdl-cell--8-col mdl-color-text--white">
-            <h4 class="mdl-card__title-text">{{ session.name }}</h4>
-            <span class={{this.getTrackColor(session.track)}}>{{ session.track }}</span>
-            <span class={{this.getTypeColor(session.type)}}>{{ session.type }}</span>
+            <h4>{{ speaker.firstname }} {{ speaker.name }}</h4>
           </div>
         </div>
       </div>
 
-      <!-- Description -->
-      <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-        <div class="mdl-cell mdl-cell--8-col">
-          <session-card display-title={{false}} :session="session" :agenda="agenda"></session-card>
-        </div>
-      </div>
-
-      <!-- Speaker -->
+      <!-- Speaker infos -->
       <div class="mdl-grid">
         <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
         <div class="mdl-cell mdl-cell--8-col">
@@ -39,10 +29,19 @@
         </div>
       </div>
 
+      <!-- Sessions -->
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+        <div class="mdl-cell mdl-cell--8-col">
+          <session-card v-for="session in sessions" :session="session" :agenda="agenda"></session-card>
+        </div>
+      </div>
+
       <!-- inject:footer:html -->
       <!-- endinject -->
 
     </main>
+
 
     <script async src="/scripts/material.min.js"></script>
     <script src="https://npmcdn.com/vue@1.0.26/dist/vue.min.js"></script>

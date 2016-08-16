@@ -2,17 +2,17 @@
 var speakersVue = new Vue({
   el: '#speakersVue',
   data: {
-    filters: ['mobile', 'cloud', 'web', 'discovery'],
-    activeFilters: [],
-    speakers: null,
-    displayedSpeakers: null
+    speakers: null
   },
+
   created: function () {
     this.fetchData()
   },
+
   watch: {
     activeFilters: 'filter'
   },
+
   methods: {
 
     fetchData: function () {
@@ -20,21 +20,19 @@ var speakersVue = new Vue({
       fetch('assets/devfest.json').then(function(response) {
         return response.json();
       }).then(function(json) {
-        self.speakers = json.speakers;
-        self.filter();
+        self.speakers = json.speakers.sort(sortBySpeakerName);
       });
-    },
-
-    filter: function () {
-      var self = this;
-      if (this.activeFilters.length > 0) {
-        this.displayedSpeakers = this.speakers.filter(function(speaker) {
-          return self.activeFilters.indexOf(speaker.track) !== -1;
-        })
-      } else {
-        this.displayedSpeakers = this.speakers;
-      }
     }
 
   }
 });
+
+function sortBySpeakerName(a,b) {
+ var nameA=a.firstname.toLowerCase();
+ var nameB=b.firstname.toLowerCase();
+  if (nameA < nameB)
+     return -1;
+  if (nameA > nameB)
+    return 1;
+  return 0;
+}
