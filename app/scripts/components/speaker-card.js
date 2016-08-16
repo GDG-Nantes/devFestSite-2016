@@ -1,6 +1,6 @@
 /* eslint-disable */
 const speakerCardTemplate =
-'<div class="devfest-speaker-card shadowLight" onClick="location.href=\'fiche_speaker.html?id={{speaker.id}}\';">'
+'<div class="devfest-speaker-card shadowLight" onClick="location.href=\'speaker.html?id={{speaker.id}}\';">'
 + '<div class="mdl-cell--hide-phone">'
 + '  <img src="./images/speakers/amoussine.jpg" class="devfest-speaker-card-img" />'
 + '</div>'

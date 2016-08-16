@@ -1,6 +1,6 @@
 /* eslint-disable */
 const sessionCardTemplate =
-'<div class="devfest-session-card mdl-color--white shadowLight" onClick="location.href=\'fiche_session.html?id={{session.id}}\';">'
+'<div class="devfest-session-card mdl-color--white shadowLight" onClick="location.href=\'session.html?id={{session.id}}\';">'
 +'  <h4 v-if="displayTitle" class="mdl-card__title-text">{{ session.name }}</h4>'
 +'  <span v-if="displayTitle" class={{this.getTrackColor(session.track)}}>{{ session.track }}</span>'
 +'  <span v-if="displayTitle" class={{this.getTypeColor(session.type)}}>{{ session.type }}</span>'

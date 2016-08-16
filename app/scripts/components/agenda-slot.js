@@ -1,6 +1,6 @@
 /* eslint-disable */
 const agendaSlotTemplate =
-'<div class="devfest-agenda-card" onClick="location.href=\'fiche_session.html?id={{session.id}}\';">'
+'<div class="devfest-agenda-card" onClick="location.href=\'session.html?id={{session.id}}\';">'
 + '<div>'
 + '  <img src="./images/speakers/amoussine.jpg" class="devfest-agenda-card-img" />'
 + '</div>'
