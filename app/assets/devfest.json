@@ -144,11 +144,9 @@
     }],
     "speakers": [{
         "id": 1465224485474,
-        "email": "yvonnick.frin@zenika.com",
         "firstname": "Yvonnick",
         "name": "FRIN",
         "company": "Zenika",
-        "phone": "33682722736",
         "bio": "Yvonnick d&#233;veloppeur javascript chez Zenika Nantes. Curieux et passionn&#233;, il aime d&#233;couvrir les derni&#232;res technologies du Web. Adepte d&#8217;AngularJs depuis d&#233;j&#224; deux ans, il se met &#224; explorer le Flux avec React. Social, il &#233;cume les meetups nantais en qu&#234;te de nouveaut&#233;s.",
         "social": {
             "twitter": "@YvonnickFrin",
@@ -161,11 +159,9 @@
         ]
     }, {
         "id": 1452903083119,
-        "email": "houssem.yahiaoui.ai@gmail.com",
         "firstname": "Yahiaoui",
         "name": "Houssem",
         "company": null,
-        "phone": "213799324015",
         "bio": "Telerik Developer Expert, Google Developer Group Lead, and NG/JS Algeria ( North Africa ) meetup founder, a community lover and supporter, i write, record and share everything related to JavaScript from Web to Mobile and finishing up with Cloud.",
         "social": {
             "twitter": "@_hocdex",
@@ -178,11 +174,9 @@
         ]
     }, {
         "id": 1465226146982,
-        "email": "alvin.berthelot@webyousoon.com",
         "firstname": "Alvin",
         "name": "Berthelot",
         "company": "Webyousoon",
-        "phone": "33642135213",
         "bio": "D&#233;veloppeur depuis plus de 10 ans sur des projets et des technologies h&#233;t&#233;rog&#232;nes, qui n'ont qu'un seul point commun, l'utilisation du web. &#10;&#10;Sa curiosit&#233;, son envie de partager les savoirs et son polyglottisme technologique lui permettent de m&#233;langer les disciplines et ainsi de parler de tout&#8230; et surtout de n'importe quoi :) &#10;&#10;Il travaille (tout de m&#234;me de mani&#232;re s&#233;rieuse) en tant qu'ind&#233;pendant pour sa structure Webyousoon.",
         "social": {
             "twitter": "alvinberthelot",
@@ -194,11 +188,9 @@
         ]
     }, {
         "id": 1465224119936,
-        "email": "lemoine.benoit@gmail.com",
         "firstname": "Lemoine",
         "name": "Benoit",
         "company": "Captain Dash",
-        "phone": "330619171748",
         "bio": "D&#233;veloppeur passionn&#233; depuis 8 ans, actuellement d&#233;veloppeur full stack chez Captain Dash, mes centres d'int&#233;r&#234;ts tournent autour  du web au sens large (HTML, CSS, JavaScript, frameworks et outils, etc.) et de la programmation fonctionnelle (Scala, Idris, etc.)",
         "social": {
             "twitter": "@benoit_lemoine",
@@ -210,7 +202,6 @@
         ]
     }, {
         "id": 1434742896211,
-        "email": "nicolas.deloof@gmail.com",
         "firstname": "Nicolas",
         "name": "De Loof",
         "company": "De Loof",
@@ -226,11 +217,9 @@
         ]
     }, {
         "id": 1465223864079,
-        "email": "cbalit@gmail.com",
         "firstname": "cyril",
         "name": "balit",
         "company": "Sfeir",
-        "phone": "33661993011",
         "bio": "Cyril Balit est CTO Front chez SFEIR et Goole Developer Expert. D&#233;veloppeur passionn&#233;, il construit des Single Page Application en javascript depuis 2003 et tombe amoureux d&#8217;Angular en 2013. Il est un membre actif de la communaut&#233; web fran&#231;ais sur plusieurs sujets comme Angular, Polymer  et les Progressives Web App . Organisateur de conf&#233;rences et de meetups , speaker et formateur , Cyril aime partager avec les communaut&#233;s.",
         "social": {
             "twitter": "https://twitter.com/cbalit",

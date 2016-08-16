@@ -194,11 +194,20 @@ gulp.task('scripts', () => gulp.src([
   //       you need to explicitly list your scripts here in the right order
   //       to be correctly concatenated
   './app/scripts/main.js',
+  './app/scripts/utils.js',
+  // Attention l'ordre de declaration des scripts est important (notamment l'ordre des composants)
+  './app/scripts/components/agenda-slot.js',
+  './app/scripts/components/session-card.js',
+  './app/scripts/components/agenda.js',
+  './app/scripts/components/social-chip.js',
+  './app/scripts/components/speaker-card.js',
+  './app/scripts/speaker.js',
   './app/scripts/speakers.js',
   './app/scripts/agenda.js',
   './app/scripts/session.js'
   // Other scripts
 ])
+  .pipe($.babel())
   .pipe($.concat('main.js'))
   .pipe($.uglify({preserveComments: 'some'}))
   // .pipe($.sourcemaps.write('.'))
