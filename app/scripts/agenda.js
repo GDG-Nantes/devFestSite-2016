@@ -28,8 +28,7 @@ var agendaVue = new Vue({
       }).then(function(json) {
         self.favorites = json.favs;
       });
-    },
-    isFavorite: isFavorite
+    }
   },
 
   events: {

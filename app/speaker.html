@@ -24,7 +24,7 @@
           </div>
 
           <div class="devfest-session-speaker">
-            <session-card v-for="session in sessions" :session="session" :agenda="agenda"></session-card>
+            <session-card v-for="session in sessions" :session="session" :agenda="agenda" :fav="isFavorite(session.id, favorites)"></session-card>
           </div>
       </div>
       </div>

@@ -6,13 +6,13 @@ const agendaTemplate =
 + '    <div class="devfest-agenda2-hour-line">&nbsp;</div>'
 + '  </div>'
 + '  <div class="devfest-agenda2-hour-content">'
-+ '   <agenda-slot v-for="session in this.getSessionByDayHour(parseInt(day), hour.id, this.sessions)" :session="session"></agenda-slot>'
++ '   <agenda-slot v-for="session in this.getSessionByDayHour(parseInt(day), hour.id, this.sessions)" :session="session" :favorites="favorites"></agenda-slot>'
 + '  </div>'
 + '</div>'
 
 
 var Agenda = Vue.extend({
-  props: ['day', 'hours', 'sessions'],
+  props: ['day', 'hours', 'sessions', 'favorites'],
   components: { 'agenda-slot': AgendaSlot },
   template: agendaTemplate,
   methods: {
