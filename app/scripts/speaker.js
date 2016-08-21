@@ -9,7 +9,7 @@ var speakerVue = new Vue({
     speaker: null,
     favorites: []
   },
-  created: function () {
+  ready: function () {
     this.fetchData()
   },
   methods: {
@@ -44,6 +44,8 @@ var speakerVue = new Vue({
     isFavorite: isFavorite
   },
   events: {
-    'toggle-favorite': toggleFavorite
+    'toggle-favorite': function(id, favorite) {
+      toggleFavorite(id, favorite, this.favorites)
+    }
   }
 });

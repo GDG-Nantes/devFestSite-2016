@@ -150,9 +150,6 @@ var isFavorite = function(id, favs) {
 }
 
 var toggleFavorite = function (id, favorite, favorites) {
-  console.log('event toggle-favorite')
-  console.log(id)
-  console.log(favorite)
   var newFavs = []
   if (favorites) {
     console.log('exist favs ' + favorites)
