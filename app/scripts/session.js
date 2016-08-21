@@ -33,11 +33,12 @@ var sessionVue = new Vue({
         }
       });
 
-      fetch('api/v1/stars/get?login=ben').then(function(response) {
-        return response.json();
-      }).then(function(json) {
-        self.favorites = json.favs;
-      });
+      self.favorites = JSON.parse(localStorage['fav']) || []
+      //fetch('api/v1/stars/get?login=ben').then(function(response) {
+      //  return response.json();
+      //}).then(function(json) {
+      //  self.favorites = json.favs;
+      //});
     },
     getTrackColor: getTrackColor,
     getTypeColor: getTypeColor,

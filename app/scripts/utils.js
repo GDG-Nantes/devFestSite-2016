@@ -149,26 +149,17 @@ var isFavorite = function(id, favs) {
   }
 }
 
-var toggleFavorite = function (id, favorite, favorites) {
-  var newFavs = []
-  if (favorites) {
-    console.log('exist favs ' + favorites)
-    var index = favorites.indexOf(id.toString());
-    if (index !== -1 && !favorite) {
-      newFavs = favorites.splice(index + 1, 1);
-      console.log('remove ' + id + '>' + newFavs)
-    } else if (favorite) {
-      favorites.push(id.toString());
-      newFavs = favorites;
-      console.log('add ' + id + '>' + favorites)
-    }
+var toggleFavorite = function (id, favorite, favorites, userLogged) {
+  var index = favorites.indexOf(id.toString());
+  if (index !== -1 && !favorite) {
+    favorites.splice(index, 1);
   } else if (favorite) {
-    console.log('add first fav ' + id)
-    newFavs = [id.toString()]
+    favorites.push(id.toString());
   }
-  console.log(newFavs)
-  fetch('api/v1/stars/put?login=ben&favs=' + JSON.stringify(newFavs)).then(function(response) {
-    console.log(response);
-  })
-  return newFavs;
+  if (userLogged) { // waiting user login
+    fetch('api/v1/stars/put?login=' + userLogged + '&favs=' + JSON.stringify(favorites)).then(function(response) {})
+  } else {
+    localStorage['fav'] = JSON.stringify(favorites)
+  }
+  return favorites;
 }

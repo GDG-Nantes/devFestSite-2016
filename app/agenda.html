@@ -19,11 +19,32 @@
             Devfest Nantes 2016 &gt; Agenda
           </div>
 
-          <h4>Mercredi 9 novembre 2016</h4>
-          <agenda day="1" :hours="agenda.day1" :sessions="sessions" :favorites="favorites"></agenda>
+          <h4>Agenda</h4>
 
-          <h4>Jeudi 10 novembre 2016</h4>
-          <agenda day="2" :hours="agenda.day2" :sessions="sessions" :favorites="favorites"></agenda>
+          <div style="display:flex">
+            <label style="width:25%" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="favorites">
+              <input type="checkbox" id="favorites" value="favorites" v-model="curFavoriteFilter" class="mdl-checkbox__input">
+              <span class="devfest-favorite-active"><i class="material-icons">favorite</i></span>
+            </label>
+          </div>
+          <div style="display:flex" class="mdl-cell--hide-phone">
+            <label v-for="filter in typeFilters" style="width:25%" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for={{filter}}>
+              <input type="checkbox" id={{filter}} value={{filter}} v-model="curTypeFilters" class="mdl-checkbox__input">
+              <span class={{this.getTypeColor(filter)}}>{{filter}}</span>
+            </label>
+          </div>
+          <div style="display:flex" class="mdl-cell--hide-phone">
+            <label v-for="filter in trackFilters" style="width:25%" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for={{filter}}>
+              <input type="checkbox" id={{filter}} value={{filter}} v-model="curTrackFilters" class="mdl-checkbox__input">
+              <span class={{this.getTrackColor(filter)}}>{{filter}}</span>
+            </label>
+          </div>
+
+          <h4 v-if="day1">Mercredi 9 novembre 2016</h4>
+          <agenda  v-if="day1" day="1" :hours="agenda.day1" :sessions="displayedSessions" :favorites="favorites"></agenda>
+
+          <h4 v-if="day2">Jeudi 10 novembre 2016</h4>
+          <agenda v-if="day2" day="2" :hours="agenda.day2" :sessions="displayedSessions" :favorites="favorites"></agenda>
 
       </div>
       </div>
