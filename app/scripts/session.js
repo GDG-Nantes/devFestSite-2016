@@ -67,7 +67,9 @@ var sessionVue = new Vue({
         }
         this.favorites = newFavs;
         console.log(newFavs)
-        fetch('api/v1/stars/put?login=ben&favs=' + JSON.stringify(newFavs));
+        fetch('api/v1/stars/put?login=ben&favs=' + JSON.stringify(newFavs)).then(function(response) {
+          console.log(response);
+        })
       }
     }
   }
