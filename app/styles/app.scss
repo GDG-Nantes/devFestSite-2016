@@ -737,38 +737,6 @@ video#bgvid {
 }
 
 // GENERAL - AGENDA
-.devfest-agenda-card-event.mdl-card {
-  width: 100%;
-  height: 200px;
-}
-.devfest-agenda-card-event-big.mdl-card {
-  height: 100px !important;
-  min-height: 100px !important;
-}
-.devfest-agenda-card-event > .mdl-card__actions {
-  background: rgba(0, 0, 0, 0.8);
-}
-.devfest-agenda-card-event > .mdl-card__title {
-  align-items: flex-start;
-  background: rgba(0, 0, 0, 0.5);
-}
-.devfest-agenda-card-event > .mdl-card__title > h4 {
-  margin-top: 0;
-}
-.devfest-agenda-card-event > .mdl-card__actions {
-  display: flex;
-  box-sizing:border-box;
-  align-items: center;
-}
-.devfest-agenda-card-event > .mdl-card__actions > .material-icons {
-  padding-right: 10px;
-}
-.devfest-agenda-card-event > .mdl-card__title,
-.devfest-agenda-card-event > .mdl-card__actions,
-.devfest-agenda-card-event > .mdl-card__actions > .mdl-button {
-  color: #fff;
-}
-
 .devfest-agenda2-hour-line {
   display: flex;
   padding-top: 10px;
@@ -803,6 +771,11 @@ video#bgvid {
   font-size: 0.9em;
   cursor: pointer;
 
+  .devfest-agenda-card-avatars {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
   .devfest-agenda-card-img {
     width: 50px;
   	height: 50px;
@@ -832,9 +805,10 @@ video#bgvid {
 
 .devfest-chip {
   padding: 2px 10px;
-  margin-right: 5px;
+  margin-right: 2px;
   border-radius: 15px;
   font-size: 0.7em;
+  white-space: nowrap;
 }
 
 .color-bg-default {
