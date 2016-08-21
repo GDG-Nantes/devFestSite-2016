@@ -8,7 +8,7 @@ var agendaVue = new Vue({
     favorites: []
   },
 
-  created: function () {
+  ready: function () {
     this.fetchData()
   },
 
@@ -32,6 +32,8 @@ var agendaVue = new Vue({
   },
 
   events: {
-    'toggle-favorite': toggleFavorite
+    'toggle-favorite': function(id, favorite) {
+      toggleFavorite(id, favorite, this.favorites)
+    }
   }
 });

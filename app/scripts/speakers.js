@@ -5,7 +5,7 @@ var speakersVue = new Vue({
     speakers: null
   },
 
-  created: function () {
+  ready: function () {
     this.fetchData()
   },
 
