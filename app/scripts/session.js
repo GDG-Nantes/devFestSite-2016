@@ -62,7 +62,7 @@ var sessionVue = new Vue({
         console.log('exist favs ' + this.favorites)
         var index = this.favorites.indexOf(id.toString());
         if (index !== -1 && !favorite) {
-          newFavs = this.favorites.splice(index, 1);
+          newFavs = this.favorites.splice(index + 1, 1);
           console.log('remove ' + id + '>' + newFavs)
         } else if (favorite) {
           this.favorites.push(id.toString());
