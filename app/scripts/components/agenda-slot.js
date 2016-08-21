@@ -16,11 +16,12 @@ const agendaSlotTemplate =
 + '    <span class="devfest-chip color-bg-default">{{ session.agenda.room }}</span>'
 + '  </div>'
 + '</div>'
-+ '<div style="align-self:flex-start"><favorite :sid="session.id" :active="fav" ></favorite></div>'
++ '<div style="align-self:flex-start"><favorite :sid="session.id" :active="isFavorite(session.id, favorites)" ></favorite></div>'
 + '</div>'
 
 var AgendaSlot = Vue.extend({
   props: {
+    favorites: Array,
     session: Object
   },
   template: agendaSlotTemplate,
@@ -28,7 +29,8 @@ var AgendaSlot = Vue.extend({
     getTrackColor: getTrackColor,
     getTypeColor: getTypeColor,
     getTimeLabel: getTimeLabel,
-    getSpeakers: getSpeakers
+    getSpeakers: getSpeakers,
+    isFavorite: isFavorite
   }
 })
 
