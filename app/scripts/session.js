@@ -59,14 +59,18 @@ var sessionVue = new Vue({
       console.log(favorite)
       var newFavs = []
       if (this.favorites) {
+        console.log('exist favs ' + this.favorites)
         var index = this.favorites.indexOf(id);
         if (index !== -1 && !favorite) {
           newFavs = this.favorites.splice(index, 1);
-        } else {
+          console.log('remove ' + id + '>' + newFavs)
+        } else if (favorite) {
           this.favorites.push(id);
           newFavs = this.favorites;
+          console.log('add ' + id + '>' + this.favorites)
         }
       } else if (favorite) {
+        console.log('add first fav ' + id)
         newFavs = [id]
       }
       console.log(newFavs)
