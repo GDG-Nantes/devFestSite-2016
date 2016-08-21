@@ -10,7 +10,7 @@ const sessionCardTemplate =
 +'  <span class="devfest-chip color-bg-default">{{this.getTimeLabel(session.type)}}</span>'
 +'  <span class="devfest-chip color-bg-default">{{this.getLangLabel("fr")}}</span>'
 +'  <span class="devfest-chip color-bg-default">Niveau {{this.getDifficultyLabel(session.difficulty)}}</span>'
-+'  <span><favorite :sid="session.id" :active="isFavorite" ></favorite></span>'
++' <favorite :sid="session.id" :active="fav" ></favorite>'
 +'  <div class="devfest-session-desc mdl-typography--font-light">'
 +'    {{{session.description}}}'
 +'  </div>'

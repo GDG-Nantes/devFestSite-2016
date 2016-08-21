@@ -139,3 +139,39 @@ var getSessionByDayHour = function getSessionByDayHour(day, hour, sessions) {
     return s.agenda.day === day && s.agenda.hour === hour
   })
 }
+
+// favorites
+var isFavorite = function(id, favs) {
+  if (favs) {
+    return favs.indexOf(id.toString()) !== -1
+  } else {
+    return false
+  }
+}
+
+var toggleFavorite = function (id, favorite, favorites) {
+  console.log('event toggle-favorite')
+  console.log(id)
+  console.log(favorite)
+  var newFavs = []
+  if (favorites) {
+    console.log('exist favs ' + favorites)
+    var index = favorites.indexOf(id.toString());
+    if (index !== -1 && !favorite) {
+      newFavs = favorites.splice(index, 1);
+      console.log('remove ' + id + '>' + newFavs)
+    } else if (favorite) {
+      favorites.push(id.toString());
+      newFavs = favorites;
+      console.log('add ' + id + '>' + favorites)
+    }
+  } else if (favorite) {
+    console.log('add first fav ' + id)
+    newFavs = [id.toString()]
+  }
+  console.log(newFavs)
+  fetch('api/v1/stars/put?login=ben&favs=' + JSON.stringify(newFavs)).then(function(response) {
+    console.log(response);
+  })
+  return newFavs;
+}
