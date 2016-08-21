@@ -4,7 +4,8 @@ var agendaVue = new Vue({
   data: {
     sessions: null,
     speakers: null,
-    agenda: null
+    agenda: null,
+    favorites: []
   },
 
   created: function () {
@@ -21,13 +22,17 @@ var agendaVue = new Vue({
         self.speakers = json.speakers;
         self.agenda = json.agenda;
       });
-    }
+
+      fetch('api/v1/stars/get?login=ben').then(function(response) {
+        return response.json();
+      }).then(function(json) {
+        self.favorites = json.favs;
+      });
+    },
+    isFavorite: isFavorite
   },
-  
+
   events: {
-    'toggle-favorite': function (id, favorite) {
-      console.log(id)
-      console.log(favorite)
-    }
+    'toggle-favorite': toggleFavorite
   }
 });

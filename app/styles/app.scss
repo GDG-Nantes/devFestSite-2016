@@ -706,8 +706,12 @@ video#bgvid {
   padding: 20px;
   margin-bottom: 20px;
 
-  h4 {
+  .devfest-session-card-title {
     padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
   }
 
   .devfest-session-desc {
@@ -770,6 +774,7 @@ video#bgvid {
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   font-size: 0.9em;
   cursor: pointer;
+  position: relative;
 
   .devfest-agenda-card-avatars {
     display: flex;
@@ -809,6 +814,17 @@ video#bgvid {
   border-radius: 15px;
   font-size: 0.7em;
   white-space: nowrap;
+}
+
+.devfest-favorite {
+  cursor: pointer;
+  .devfest-favorite-active {
+    color: #EA4335;
+  }
+  .devfest-favorite-unactive {
+    color: #DDD;
+  }
+
 }
 
 .color-bg-default {

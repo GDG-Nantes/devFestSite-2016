@@ -16,6 +16,7 @@ const agendaSlotTemplate =
 + '    <span class="devfest-chip color-bg-default">{{ session.agenda.room }}</span>'
 + '  </div>'
 + '</div>'
++ '<div style="align-self:flex-start"><favorite :sid="session.id" :active="fav" ></favorite></div>'
 + '</div>'
 
 var AgendaSlot = Vue.extend({

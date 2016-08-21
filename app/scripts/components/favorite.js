@@ -1,8 +1,8 @@
 /* eslint-disable */
 const favoriteTemplate =
 '<span class="devfest-favorite" v-on:click="toggleFavorite">'
-+ '<span v-if="active">J\'aime</span>'
-+ '<span v-else>J\'aime pas</span>'
++ '<span v-if="active" class="devfest-favorite-active"><i class="material-icons">favorite</i></span>'
++ '<span v-else class="devfest-favorite-unactive"><i class="material-icons">favorite_border</i></span>'
 + '</span>'
 
 var Favorite = Vue.extend({
