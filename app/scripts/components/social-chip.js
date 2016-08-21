@@ -24,11 +24,11 @@ var SocialChip = Vue.extend({
     getSocialContent : function getSocialContent(type, value) {
       switch (type) {
         case ('twitter'):
-          return '<a href="' + checkLink(type, value) + '" target="_NEW">Twitter</a>';
+          return '<a id="devfest-chip" href="' + checkLink(type, value) + '" target="_NEW">Twitter</a>';
         case ('googleplus'):
-          return '<a href="' + checkLink(type, value) + '" target="_NEW">G+</a>';
+          return '<a id="devfest-chip" href="' + checkLink(type, value) + '" target="_NEW">G+</a>';
         case ('github'):
-          return '<a href="' + checkLink(type, value) + '" target="_NEW">GitHub</a>';
+          return '<a id="devfest-chip" href="' + checkLink(type, value) + '" target="_NEW">GitHub</a>';
       }
     }
   }
