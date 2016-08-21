@@ -41,43 +41,9 @@ var sessionVue = new Vue({
     },
     getTrackColor: getTrackColor,
     getTypeColor: getTypeColor,
-    isFavorite: function(id, favs) {
-      console.log('isFavorite')
-      console.log(id)
-      console.log(favs)
-      if (favs) {
-        return favs.indexOf(id.toString()) !== -1
-      } else {
-        return false
-      }
-    }
+    isFavorite: isFavorite
   },
   events: {
-    'toggle-favorite': function (id, favorite) {
-      console.log('event toggle-favorite')
-      console.log(id)
-      console.log(favorite)
-      var newFavs = []
-      if (this.favorites) {
-        console.log('exist favs ' + this.favorites)
-        var index = this.favorites.indexOf(id.toString());
-        if (index !== -1 && !favorite) {
-          newFavs = this.favorites.splice(index + 1, 1);
-          console.log('remove ' + id + '>' + newFavs)
-        } else if (favorite) {
-          this.favorites.push(id.toString());
-          newFavs = this.favorites;
-          console.log('add ' + id + '>' + this.favorites)
-        }
-      } else if (favorite) {
-        console.log('add first fav ' + id)
-        newFavs = [id.toString()]
-      }
-      console.log(newFavs)
-      fetch('api/v1/stars/put?login=ben&favs=' + JSON.stringify(newFavs)).then(function(response) {
-        console.log(response);
-      })
-      this.favorites = newFavs;
-    }
+    'toggle-favorite': toggleFavorite
   }
 });

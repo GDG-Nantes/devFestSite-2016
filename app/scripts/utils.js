@@ -158,7 +158,7 @@ var toggleFavorite = function (id, favorite, favorites) {
     console.log('exist favs ' + favorites)
     var index = favorites.indexOf(id.toString());
     if (index !== -1 && !favorite) {
-      newFavs = favorites.splice(index, 1);
+      newFavs = favorites.splice(index + 1, 1);
       console.log('remove ' + id + '>' + newFavs)
     } else if (favorite) {
       favorites.push(id.toString());
