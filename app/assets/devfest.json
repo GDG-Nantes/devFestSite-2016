@@ -49,7 +49,7 @@
         "note": 4.5,
         "speakers": [1465224485474, 1452903083119],
         "state": "opened",
-        "agenda" : { "day": 1, "hour": 2, "room": "Salle 200" }
+        "agenda" : { "day": 1, "hour": 2 }
     }, {
         "id": 1465227143594,
         "name": "Développez des applications web desktop avec Electron de Github",

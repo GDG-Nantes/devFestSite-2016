@@ -19,6 +19,15 @@
             Devfest Nantes 2016 &gt; Agenda &gt; Session
           </div>
 
+          <div class="devfest-back-button">
+            <a href="agenda.html" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+              <i class="material-icons">today</i> Agenda
+            </a>
+            <a href="speakers.html" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+              <i class="material-icons">face</i> Speakers
+            </a>
+          </div>
+
           <div class="devfest-session">
             <session-card :session="session" :agenda="agenda" :fav="isFavorite(session.id, favorites)"></session-card>
           </div>

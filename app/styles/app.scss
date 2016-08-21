@@ -649,7 +649,14 @@ video#bgvid {
 
 // SESSION
 .devfest-session {
-  margin-top: 40px;
+  margin-top: 20px;
+}
+
+.devfest-back-button {
+  text-align:right;
+  > a {
+    margin-right: 10px;
+  }
 }
 
 // component speaker-card
@@ -818,13 +825,12 @@ video#bgvid {
 
 .devfest-favorite {
   cursor: pointer;
-  .devfest-favorite-active {
-    color: #EA4335;
-  }
-  .devfest-favorite-unactive {
-    color: #DDD;
-  }
-
+}
+.devfest-favorite-active {
+  color: #EA4335;
+}
+.devfest-favorite-unactive {
+  color: #DDD;
 }
 
 .color-bg-default {
