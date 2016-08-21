@@ -34,5 +34,11 @@ var speakerVue = new Vue({
     },
     getTrackColor: getTrackColor,
     getTypeColor: getTypeColor
+  },
+  events: {
+    'toggle-favorite': function (id, favorite) {
+      console.log(id)
+      console.log(favorite)
+    }
   }
 });

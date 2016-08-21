@@ -20,7 +20,7 @@
           </div>
 
           <div class="devfest-session">
-            <session-card :session="session" :agenda="agenda"></session-card>
+            <session-card :session="session" :agenda="agenda" :fav="isFavorite(session.id, favorites)"></session-card>
           </div>
 
           <div class="devfest-session-speaker">

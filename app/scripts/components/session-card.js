@@ -10,6 +10,7 @@ const sessionCardTemplate =
 +'  <span class="devfest-chip color-bg-default">{{this.getTimeLabel(session.type)}}</span>'
 +'  <span class="devfest-chip color-bg-default">{{this.getLangLabel("fr")}}</span>'
 +'  <span class="devfest-chip color-bg-default">Niveau {{this.getDifficultyLabel(session.difficulty)}}</span>'
++'  <span><favorite :sid="session.id" :active="isFavorite" ></favorite></span>'
 +'  <div class="devfest-session-desc mdl-typography--font-light">'
 +'    {{{session.description}}}'
 +'  </div>'
@@ -19,12 +20,17 @@ var SessionCard = Vue.extend({
   props: {
     agenda: Object,
     session: Object,
+    fav:  {
+      type: Boolean,
+      default: false
+    },
     displayTitle: {
       type: Boolean,
       default: true
     }
   },
   template: sessionCardTemplate,
+  components: { 'favorite': Favorite },
   methods: {
     getTimeLabel: getTimeLabel,
     getDayLabel: getDayLabel,
