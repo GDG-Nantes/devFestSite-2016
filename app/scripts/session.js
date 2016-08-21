@@ -65,13 +65,13 @@ var sessionVue = new Vue({
           newFavs = this.favorites.splice(index, 1);
           console.log('remove ' + id + '>' + newFavs)
         } else if (favorite) {
-          this.favorites.push(id);
+          this.favorites.push(id.toString());
           newFavs = this.favorites;
           console.log('add ' + id + '>' + this.favorites)
         }
       } else if (favorite) {
         console.log('add first fav ' + id)
-        newFavs = [id]
+        newFavs = [id.toString()]
       }
       console.log(newFavs)
       fetch('api/v1/stars/put?login=ben&favs=' + JSON.stringify(newFavs)).then(function(response) {
