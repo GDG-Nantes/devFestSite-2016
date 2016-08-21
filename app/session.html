@@ -24,7 +24,7 @@
           </div>
 
           <div class="devfest-session-speaker">
-            <speaker-card :speaker="speaker"></speaker-card>
+            <speaker-card v-for="speaker in speakers" :speaker="speaker"></speaker-card>
           </div>
       </div>
       </div>

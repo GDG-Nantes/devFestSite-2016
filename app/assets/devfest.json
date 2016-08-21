@@ -47,7 +47,7 @@
         "track": "web",
         "draft": false,
         "note": 4.5,
-        "speaker": 1465224485474,
+        "speakers": [1465224485474, 1452903083119],
         "state": "opened",
         "agenda" : { "day": 1, "hour": 2, "room": "Salle 200" }
     }, {
@@ -60,7 +60,7 @@
         "track": "web",
         "draft": false,
         "note": 3.25,
-        "speaker": 1465224485474,
+        "speakers": [1465224485474],
         "state": "opened",
         "agenda" : { "day": 1, "hour": 6, "room": "Salle 200" }
     }, {
@@ -73,7 +73,7 @@
         "track": "web",
         "draft": false,
         "note": 4,
-        "speaker": 1452903083119,
+        "speakers": [1452903083119],
         "state": "opened",
         "agenda" : { "day": 1, "hour": 2, "room": "Salle 200" }
     }, {
@@ -86,7 +86,7 @@
         "track": "web",
         "draft": false,
         "note": 2,
-        "speaker": 1452903083119,
+        "speakers": [1452903083119],
         "state": "opened",
         "agenda" : { "day": 1, "hour": 2, "room": "Salle 200" }
     }, {
@@ -99,7 +99,7 @@
         "track": "discovery",
         "draft": false,
         "note": 3.8333333333333335,
-        "speaker": 1465226146982,
+        "speakers": [1465226146982],
         "state": "opened",
         "agenda" : { "day": 1, "hour": 3, "room": "Salle 200" }
     }, {
@@ -112,7 +112,7 @@
         "track": "web",
         "draft": false,
         "note": 4,
-        "speaker": 1465224119936,
+        "speakers": [1465224119936],
         "state": "opened",
         "agenda" : { "day": 1, "hour": 3, "room": "Salle 200" }
     }, {
@@ -125,7 +125,7 @@
         "track": "cloud",
         "draft": false,
         "note": 4.5,
-        "speaker": 1434742896211,
+        "speakers": [1434742896211],
         "state": "opened",
         "agenda" : { "day": 1, "hour": 3, "room": "Salle 200" }
     }, {
@@ -138,7 +138,7 @@
         "track": "web",
         "draft": false,
         "note": 3.25,
-        "speaker": 1465223864079,
+        "speakers": [1465223864079],
         "state": "opened",
         "agenda" : { "day": 1, "hour": 4, "room": "Salle 200" }
     }],

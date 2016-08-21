@@ -111,6 +111,17 @@ var getLangLabel = function getLangLabel(lang) {
   }
 };
 
+var getSpeakers = function getSpeakers(speakersId, speakers) {
+  var label = '';
+  for (var i = 0; i < speakersId.length; i++) {
+    if (speakersId.length > 1 && i > 0 && i <= speakersId.length - 1) {
+      label += ' et '
+    }
+    label += getSpeaker(speakersId[i], speakers);
+  }
+  return label;
+}
+
 var getSpeaker = function getSpeaker(id, speakers) {
   var speaker = speakers.filter(function(s) {
     return s.id === id

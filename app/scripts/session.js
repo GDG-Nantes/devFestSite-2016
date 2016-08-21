@@ -6,7 +6,7 @@ var sessionVue = new Vue({
   data: {
     agenda: null,
     session: null,
-    speaker: null
+    speakers: null
   },
   created: function () {
     this.fetchData()
@@ -25,10 +25,11 @@ var sessionVue = new Vue({
         })[0];
         // get speakers
         if (self.session) {
-          var sessionSpeakers = self.session.speaker;
-          self.speaker = json.speakers.filter(function(speaker) {
-            return sessionSpeakers === parseInt(speaker.id);
-          })[0];
+          var sessionSpeakers = self.session.speakers;
+          self.speakers = json.speakers.filter(function(speaker) {
+            return sessionSpeakers.indexOf(parseInt(speaker.id)) !== -1 ;
+          });
+          console.log(self.speakers)
         }
       });
     },
