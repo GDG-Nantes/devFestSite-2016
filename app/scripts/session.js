@@ -57,20 +57,23 @@ var sessionVue = new Vue({
       console.log('event toggle-favorite')
       console.log(id)
       console.log(favorite)
+      var newFavs = []
       if (this.favorites) {
         var index = this.favorites.indexOf(id);
-        var newFavs = []
         if (index !== -1 && !favorite) {
           newFavs = this.favorites.splice(index, 1);
         } else {
-          newFavs = this.favorites.push(id);
+          this.favorites.push(id);
+          newFavs = this.favorites;
         }
-        this.favorites = newFavs;
-        console.log(newFavs)
-        fetch('api/v1/stars/put?login=ben&favs=' + JSON.stringify(newFavs)).then(function(response) {
-          console.log(response);
-        })
+      } else if (favorite) {
+        newFavs = [id]
       }
+      console.log(newFavs)
+      fetch('api/v1/stars/put?login=ben&favs=' + JSON.stringify(newFavs)).then(function(response) {
+        console.log(response);
+      })
+      this.favorites = newFavs;
     }
   }
 });
