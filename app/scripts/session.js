@@ -6,7 +6,8 @@ var sessionVue = new Vue({
   data: {
     agenda: null,
     session: null,
-    speakers: null
+    speakers: null,
+    favorites: []
   },
   created: function () {
     this.fetchData()
@@ -29,11 +30,45 @@ var sessionVue = new Vue({
           self.speakers = json.speakers.filter(function(speaker) {
             return sessionSpeakers.indexOf(parseInt(speaker.id)) !== -1 ;
           });
-          console.log(self.speakers)
         }
+      });
+
+      fetch('api/v1/stars/get?login=ben').then(function(response) {
+        return response.json();
+      }).then(function(json) {
+        self.favorites = json.favs;
       });
     },
     getTrackColor: getTrackColor,
-    getTypeColor: getTypeColor
+    getTypeColor: getTypeColor,
+    isFavorite: function(id, favs) {
+      console.log('isFavorite')
+      console.log(id)
+      console.log(favs)
+      if (favs) {
+        return favs.indexOf(id) !== -1
+      } else {
+        return false
+      }
+    }
+  },
+  events: {
+    'toggle-favorite': function (id, favorite) {
+      console.log('event toggle-favorite')
+      console.log(id)
+      console.log(favorite)
+      if (this.favorites) {
+        var index = this.favorites.indexOf(id);
+        var newFavs = []
+        if (index !== -1 && !favorite) {
+          newFavs = this.favorites.splice(index, 1);
+        } else {
+          newFavs = this.favorites.push(id);
+        }
+        this.favorites = newFavs;
+        console.log(newFavs)
+        fetch('api/v1/stars/put?login=ben&favs=' + JSON.stringify(newFavs));
+      }
+    }
   }
 });

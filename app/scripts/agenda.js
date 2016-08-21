@@ -22,5 +22,12 @@ var agendaVue = new Vue({
         self.agenda = json.agenda;
       });
     }
+  },
+  
+  events: {
+    'toggle-favorite': function (id, favorite) {
+      console.log(id)
+      console.log(favorite)
+    }
   }
 });

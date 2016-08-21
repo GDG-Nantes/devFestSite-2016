@@ -196,6 +196,7 @@ gulp.task('scripts', () => gulp.src([
   './app/scripts/main.js',
   './app/scripts/utils.js',
   // Attention l'ordre de declaration des scripts est important (notamment l'ordre des composants)
+  './app/scripts/components/favorite.js',
   './app/scripts/components/agenda-slot.js',
   './app/scripts/components/session-card.js',
   './app/scripts/components/agenda.js',
