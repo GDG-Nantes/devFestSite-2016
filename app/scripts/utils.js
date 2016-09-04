@@ -53,11 +53,11 @@ var getTypeColor = function getTypeColor(type) {
 var getTimeLabel = function getTimeLabel(type) {
   switch (type) {
     case 'keynote':
-      return '40 min';
+      return '50 min';
     case 'repas':
       return '2 h';
     case 'conference':
-      return '40 min';
+      return '50 min';
     case 'codelab':
       return '2 h';
     case 'quickie':
@@ -65,7 +65,7 @@ var getTimeLabel = function getTimeLabel(type) {
     case 'after':
       return '4h30';
     default:
-      return '40 min';
+      return '50 min';
   }
 };
 
@@ -169,9 +169,19 @@ var getSpeakerLabel = function getSpeakerLabel(speaker) {
 }
 
 var getSessionByDayHour = function getSessionByDayHour(day, hour, sessions) {
-  return sessions.filter(function(s) {
+  const s = sessions.filter(function(s) {
     return s.agenda && s.agenda.day === day && s.agenda.hour === hour
-  })
+  });
+  s.sort(function(a, b) {
+    if (a.type === 'conference' && b.type !== 'conference') {
+      return -1;
+    } else if (a.type !== 'conference' && b.type === 'conference') {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
+  return s;
 }
 
 // favorites

@@ -20,7 +20,7 @@
         {"id" : 4, "label": "11h20"},
         {"id" : 5, "label": "12h10"},
         {"id" : 6, "label": "14h00"},
-        {"id" : 7, "label": "14h10"},
+        {"id" : 7, "label": "15h10"},
         {"id" : 8, "label": "15h40"},
         {"id" : 9, "label": "16h10"}
       ]
@@ -347,7 +347,6 @@
           "id": 1470394746917,
           "name": "Chérie, j'ai imprimé Lego'sses !",
           "description": "Ergo : Salut les techos ! Ça vous dirait de connecter un robot pour le DevFest ?\n<br/>\nDévs : Ouais ! Graaaave ! Super idée !\n<br /><br />\nErgo : Et qu'on l'imprime !\n<br/>\nDévs : Ouais !...\n<br /><br />\nErgo : Et qu'il réagisse à des Tweets !\n<br/>\nDévs : Mouais... et tu ne veux pas non plus qu'il bouge tant que tu y es ?!\n<br /><br />\nErgo : Carrément ! Et qu'on puisse le télécommander !\n<br/>\nDévs : Euh... ouais... et en BLE bien sûr...\n<br /><br />\nErgo : Evidemment ! Et on n'a qu'à en faire deux !\n<br/>\nDévs : T'es sûr ?...\n<br /><br />\nErgo : Oh ! Et on va les faire interagir !!!\n<br/>\nDévs : Pfff, c'est n'importe quoi ! On n'y arrivera jamais...",
-          "references": null,
           "difficulty": 1,
           "type": "conference",
           "track": "mobile",
@@ -384,7 +383,6 @@
           "id": 1470053819525,
           "name": "Continuous deployment avec Spinnaker, automatise tous tes déploiements !",
           "description": "Spinnaker est un outil open source de déploiement continu multi-cloud développé par Netflix. \nVous savez déjà construire vos applications avec Jenkins, venez découvrir comment automatiser tous vos déploiements.\nNous verrons ensemble comment créer une plate forme complète de déploiement continu jusqu'en production, à base de canary, blue/green et rollback.",
-          "references": null,
           "difficulty": 1,
           "type": "conference",
           "track": "cloud",
@@ -458,7 +456,7 @@
           "name": "Découvrir les bases NoSQL orientées graphes avec Neo4j",
           "description": "Les bases NoSQL sont devenues assez communes dans le paysage informatique actuel.\nLes bases orientées graphes sont peut-être les moins présentes, et pourtant elles ont beaucoup d'avantages.\nPrenons Neo4j en exemple et apprenons ensemble les bases du concept des graphDB, leurs avantages, leurs inconvénients et comment interagir avec elles.",
           "difficulty": 1,
-          "type": "quickie",
+          "type": "conference",
           "track": "cloud",
           "speaker": [
               1470838537157
@@ -495,7 +493,7 @@
           "description": "Jenkins 2 démocratise le plugin Pipeline. Il vous permet de transformer Jenkins en moteur pilote de Déploiement Continu.\nMais vous avez l’impression que les exemples de Pipeline sont trop simples par rapport à vos applications ?\n\nSi vous avez plusieurs composants avec chacun leur cycle de vie propre à agréger pour construire votre produit, vous serez intéressés par le pattern Fan-in. Son but est exactement de construire un pipeline pour gérer ces différents composants.\n\nJe vais vous démontrer comment construire un ensemble de pipelines pour livrer une application se composant de plusieurs sous-applications, avec chacune son cycle de vie.",
           "difficulty": 2,
           "type": "conference",
-          "track": "discovery",
+          "track": "cloud",
           "speaker": [
               1471610942207
           ],
