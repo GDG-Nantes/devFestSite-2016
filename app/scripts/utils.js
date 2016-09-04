@@ -55,15 +55,42 @@ var getTimeLabel = function getTimeLabel(type) {
     case 'keynote':
       return '40 min';
     case 'repas':
-      return '40 min';
+      return '2 h';
     case 'conference':
       return '40 min';
     case 'codelab':
       return '2 h';
     case 'quickie':
       return '20 min';
+    case 'after':
+      return '4h30';
+    default:
+      return '40 min';
   }
 };
+
+getRoomLabel = function getRoomLabel(id) {
+  switch (id) {
+    case 1:
+      return 'Salle Titan'
+    case 2:
+      return 'Salle Belem'
+    case 3:
+      return 'Salle Tour de Bretagne'
+    case 4:
+      return 'Salle Graslin'
+    case 5:
+      return 'Salle Les machines'
+    case 6:
+      return 'Salle Tour LU'
+    case 7:
+      return 'Salle du Château'
+    case 8:
+      return 'Mezzanine & Hall'
+    default:
+      return 'Cité des congrès'
+  }
+}
 
 // Get the day label
 var getDayLabel = function getDayLabel(day) {
@@ -129,6 +156,13 @@ var getSpeaker = function getSpeaker(id, speakers) {
   return getSpeakerLabel(speaker)
 }
 
+var getSpeakerPhoto = function getSpeaker(id, speakers) {
+  var speaker = speakers.filter(function(s) {
+    return s.id === id
+  })[0];
+  return './images/speakers/' + speaker.photo;
+}
+
 var getSpeakerLabel = function getSpeakerLabel(speaker) {
   var company = speaker.company !== null ? ' (' + speaker.company + ')' : ''
   return speaker.firstname + ' ' + speaker.name + company;
@@ -136,7 +170,7 @@ var getSpeakerLabel = function getSpeakerLabel(speaker) {
 
 var getSessionByDayHour = function getSessionByDayHour(day, hour, sessions) {
   return sessions.filter(function(s) {
-    return s.agenda.day === day && s.agenda.hour === hour
+    return s.agenda && s.agenda.day === day && s.agenda.hour === hour
   })
 }
 

@@ -1,0 +1,239 @@
+{
+    "agenda": {
+      "day1" : [
+        {"id" : 1, "label": "8h00"},
+        {"id" : 2, "label": "9h00"},
+        {"id" : 3, "label": "10h00"},
+        {"id" : 4, "label": "11h10"},
+        {"id" : 5, "label": "12h00"},
+        {"id" : 6, "label": "14h00"},
+        {"id" : 7, "label": "15h10"},
+        {"id" : 8, "label": "16h30"},
+        {"id" : 9, "label": "17h00"},
+        {"id" : 10, "label": "18h30"}
+      ],
+      "day2" : [
+        {"id" : 1, "label": "9h00"},
+        {"id" : 2, "label": "10h00"},
+        {"id" : 3, "label": "11h10"},
+        {"id" : 4, "label": "12h00"},
+        {"id" : 5, "label": "14h00"},
+        {"id" : 6, "label": "15h10"},
+        {"id" : 7, "label": "16h30"},
+        {"id" : 8, "label": "17h00"},
+        {"id" : 9, "label": "17h30"},
+        {"id" : 10, "label": "18h30"}
+      ]
+    },
+    "sessions": [{
+        "id": 1,
+        "name": "Keynote d'ouverture",
+        "type": "keynote",
+        "track": "DevFest",
+        "agenda" : { "day": 1, "hour": 1, "room": "Salle 200" }
+    },{
+        "id": 2,
+        "name": "Déjeuner",
+        "type": "repas",
+        "track": "DevFest",
+        "agenda" : { "day": 1, "hour": 5, "room": "Salle 200" }
+    },{
+        "id": 3,
+        "name": "Keynote de fermeture",
+        "type": "repas",
+        "track": "DevFest",
+        "agenda" : { "day": 1, "hour": 5, "room": "Salle 200" }
+    }, {
+        "id": 1465227221095,
+        "name": "Développez des applications web desktop avec Electron de Github",
+        "description": "D&#8217;un c&#244;t&#233;, nous avons la communaut&#233; web qui maintient un &#233;cosyst&#232;me riche permettant de construire des interfaces utilisateurs rapidement. De l&#8217;autre c&#244;t&#233;, l&#8217;&#233;cosyst&#232;me desktop poss&#232;de des outils tr&#232;s performants mais qui demandent beaucoup d&#8217;investissement. Github s&#8217;est retrouss&#233; les manches pour tirer le meilleur des deux mondes et a cr&#233;&#233; Electron ! Electron, c&#8217;est la possibilit&#233; de construire des applications gr&#226;ce aux composants web tout en profitant des interactions riches avec la machine d&#8217;une application desktop. &#10;&#10;Au cours de cette pr&#233;sentation, nous allons revenir sur les raisons du succ&#232;s grandissant d&#8217;Electron et passerons en revue tout ce qu&#8217;il offre en mati&#232;re de packaging, de mises &#224; jour automatiques et de strat&#233;gies de testing.",
+        "references": "#R&#233;f&#233;rences :&#10;Nous avons eu l'occasion de la jouer au Web2Day : http://web2day.co/evenements/developpez-applications-web-desktop-electron-de-github/&#10;&#10;#Description :&#10;Dans cette version quickie, il n'y a pas de livecoding.&#10;&#10;#Plan : &#10;1. Qu&#8217;est ce qu&#8217;Electron&#10;  * Pourquoi faire une application desktop ?&#10;  * Applications natives crossplatform&#10;  * Rythme des mises &#224; jour&#10;2. Qui l&#8217;utilise ?&#10;  * Visual Studio Code, Atom, Slack&#10;  * Activit&#233; sur Github &#10;3. Paradigme&#10;  * Architecture logicielle&#10;  * MainProcess&#10;  * RenderProcess&#10;  * IPC&#10;4. Strat&#233;gie de build&#10;  * Packaging&#10;  * Mise &#224; jour&#10;  * Testing&#10;5. Conclusion&#10;  * Points forts&#10;  * Points faibles",
+        "difficulty": 1,
+        "type": "quickie",
+        "track": "web",
+        "draft": false,
+        "note": 4.5,
+        "speakers": [1465224485474, 1452903083119],
+        "state": "opened",
+        "agenda" : { "day": 1, "hour": 2 }
+    }, {
+        "id": 1465227143594,
+        "name": "Développez des applications web desktop avec Electron de Github",
+        "description": "D&#8217;un c&#244;t&#233;, nous avons la communaut&#233; web qui maintient un &#233;cosyst&#232;me riche permettant de construire des interfaces utilisateurs rapidement. De l&#8217;autre c&#244;t&#233;, l&#8217;&#233;cosyst&#232;me desktop poss&#232;de des outils tr&#232;s performants mais qui demandent beaucoup d&#8217;investissement. Github s&#8217;est retrouss&#233; les manches pour tirer le meilleur des deux mondes et a cr&#233;&#233; Electron ! Electron, c&#8217;est la possibilit&#233; de construire des applications gr&#226;ce aux composants web tout en profitant des interactions riches avec la machine d&#8217;une application desktop. &#10;&#10;Au cours de cette pr&#233;sentation, nous allons revenir sur les raisons du succ&#232;s grandissant d&#8217;Electron et passerons en revue tout ce qu&#8217;il offre en mati&#232;re de packaging, de mises &#224; jour automatiques et de strat&#233;gies de testing au travers du livecoding d&#8217;une application meme generator.",
+        "references": "#R&#233;f&#233;rences :&#10;Nous avons eu l'occasion de la jouer au Web2Day : http://web2day.co/evenements/developpez-applications-web-desktop-electron-de-github/&#10;&#10;#Plan : &#10;1. Qu&#8217;est ce qu&#8217;Electron&#10;  * Pourquoi faire une application desktop ?&#10;  * Applications natives crossplatform&#10;  * Rythme des mises &#224; jour&#10;2. Qui l&#8217;utilise ?&#10;  * Visual Studio Code, Atom, Slack&#10;  * Activit&#233; sur Github &#10;3. Paradigme&#10;  * Architecture logicielle&#10;  * MainProcess&#10;  * RenderProcess&#10;  * IPC&#10;4. Demo&#10;5. Strat&#233;gie de build&#10;  * Packaging&#10;  * Mise &#224; jour&#10;  * Testing&#10;6. Conclusion&#10;  * Points forts&#10;  * Points faibles",
+        "difficulty": 1,
+        "type": "conference",
+        "track": "web",
+        "draft": false,
+        "note": 3.25,
+        "speakers": [1465224485474],
+        "state": "opened",
+        "agenda" : { "day": 1, "hour": 6, "room": "Salle 200" }
+    }, {
+        "id": 1465227043640,
+        "name": "Cross Platform Application with NativeScript 2",
+        "description": "This Codelab is for experimenting with everything we saw in the Talk, where we're going to build and create a cross platform application using NativeScript 2 and Angular 2 and finishing up with some Firebase Magic, it will be the ultimate chance to create and showcase how we can use Web Technologies in a mobile world.",
+        "references": "DroidCon Tunisia 2016 Presentation about Firebase : http://houssem-yahiaoui.github.io/DroidCon-Tunisia---Go-Real-Time-Using-Firebase/#/&#10;&#10;&#10;GDG Algiers G Day:NativeScript JumpStart : http://houssem-yahiaoui.github.io/GDG-Algeries-NativeScript-Presentation/#/&#10;&#10;DevFest 2015:AngularJS 2 : &#10;http://houssem-yahiaoui.github.io/DevFest-2015---Angular-2&#10;&#10;Algiers TechMeetUp 2016:Ionic 101 &#10;http://houssem-yahiaoui.github.io/Algerian-MeetUp---Ionic-101/#/&#10;&#10;find more here : https://github.com/houssem-yahiaoui",
+        "difficulty": 2,
+        "type": "codelab",
+        "track": "web",
+        "draft": false,
+        "note": 4,
+        "speakers": [1452903083119],
+        "state": "opened",
+        "agenda" : { "day": 1, "hour": 2, "room": "Salle 200" }
+    }, {
+        "id": 1465226872888,
+        "name": "NativeScript 2 - The Angular 2 Juice",
+        "description": "In this talk i will introduce NativeScript 2 from Angular 2 prospective, where will show how we can build truly native application using nothing but javascript and angular 2, and go directly to technical details with some code in the background.",
+        "references": "NG/JS Meetup : https://speakerdeck.com/hcodex/progressive-web-applcations&#10;DroidCon Tunisia 2016 Presentation about Firebase : http://houssem-yahiaoui.github.io/DroidCon-Tunisia---Go-Real-Time-Using-Firebase/#/&#10;&#10;&#10;GDG Algiers G Day:NativeScript JumpStart : http://houssem-yahiaoui.github.io/GDG-Algeries-NativeScript-Presentation/#/&#10;&#10;DevFest 2015:AngularJS 2 : &#10;http://houssem-yahiaoui.github.io/DevFest-2015---Angular-2&#10;&#10;Algiers TechMeetUp 2016:Ionic 101 &#10;http://houssem-yahiaoui.github.io/Algerian-MeetUp---Ionic-101/#/&#10;&#10;find more here : https://github.com/houssem-yahiaoui",
+        "difficulty": 1,
+        "type": "conference",
+        "track": "web",
+        "draft": false,
+        "note": 2,
+        "speakers": [1452903083119],
+        "state": "opened",
+        "agenda" : { "day": 1, "hour": 2, "room": "Salle 200" }
+    }, {
+        "id": 1465226808567,
+        "name": "Let’s sketch together",
+        "description": "On entend bien souvent parler de collaboration ou de coop&#233;ration au sein d&#8217;entreprise ou d&#8217;&#233;quipes agiles. Cela semble du bon sens.&#10;Pourtant on s&#8217;aper&#231;oit que ces valeurs sont trop souvent oubli&#233;es d&#232;s qu&#8217;il s&#8217;agit de questions portant sur l&#8217;interface, le design d&#8217;information ou la structuration de l&#8217;&#233;cran.&#10;&#10;Cet atelier propose de palier ce manque en facilitant la collaboration des diff&#233;rentes parties prenantes d&#8217;un projet autour d&#8217;une simple feuille de papier pour construire collectivement une application mobile. Si de cet exercice en d&#233;coule n&#233;cessairement un livrable : un croquis ; il poss&#232;de &#233;galement de nombreuses vertus cach&#233;es qui vont bien au del&#224; de l&#8217;aspect visuel.&#10;&#10;Contrairement &#224; ce que l&#8217;on pourrait croire, cet atelier n&#8217;est pas destin&#233; uniquement &#224; des profils de type ergonome ou designer d&#8217;interface. C&#8217;est justement la diversit&#233; des profils, parties prenantes sur le projet, qui va permettre de retirer un maximum de b&#233;n&#233;fices.",
+        "references": "Slides : https://speakerdeck.com/alvinberthelot/lets-sketch-together&#10;&#10;Conf&#233;rences o&#249; l'atelier a d&#233;j&#224; &#233;t&#233; jou&#233; :&#10;2015 : Devoxx France&#10;2014 : Paris Web, FLUPA UX Day, Web2Day, Agile France, SudWeb, ScrumDay&#10;2013 : Agile Tour Nantes, Agile Tour Vannes&#10;&#10;Plus plein de petits &#233;v&#233;nements locaux.",
+        "difficulty": 1,
+        "type": "codelab",
+        "track": "discovery",
+        "draft": false,
+        "note": 3.8333333333333335,
+        "speakers": [1465226146982],
+        "state": "opened",
+        "agenda" : { "day": 1, "hour": 3, "room": "Salle 200" }
+    }, {
+        "id": 1465226728113,
+        "name": "D'Angular 1 à Angular 2 : Préparez vous dès maintenant à la migration",
+        "description": "La migration d'Angular 1 &#224; Angular 2 s'annonce d'ores et d&#233;j&#224; difficile tant les concepts sous-tendant les 2 versions du framework web sont diff&#233;rents. Pourtant, Angular 1 permet d'utiliser d&#232;s aujourd'hui certaines de ces nouveaut&#233;s, tel qu'une architecture orient&#233;e composant ou TypeScript. Cette session sera l'occasion pour vous de d&#233;couvrir comment se pr&#233;parer d&#232;s maintenant &#224; l'arriv&#233;e d'Angular 2 en &#233;tudiant un ensemble de bonnes pratiques applicables &#224; Angular 1.",
+        "references": "Cette conf&#233;rence a d&#233;j&#224; &#233;t&#233; donn&#233;e &#224; Devoxx France 2016 (https://www.youtube.com/watch?v=5U4OasGuo0o).&#10;&#10;J'ai par ailleurs donn&#233;es plusieurs autres pr&#233;sentations, ces 2 derni&#232;res ann&#233;es :&#10;&#10;* JSPM &#224; Devoxx FR 2016 (https://www.youtube.com/watch?v=VxUkWK7wjwk)&#10;* TypeScript &#224; BDX.io et Devoxx FR 2015&#10;&#10;L'id&#233;e est compl&#233;ter cette pr&#233;sentation avec &#10; &#10; * des informations sur le cycle de vie des composants angular 1.5&#10; * une mise &#224; jour concernant la rc de angular 2 (la pr&#233;sentation a &#233;t&#233; faite &#224; l'&#233;poque de la beta, certaines choses ont chang&#233;s, comme le router)",
+        "difficulty": 2,
+        "type": "conference",
+        "track": "web",
+        "draft": false,
+        "note": 4,
+        "speakers": [1465224119936],
+        "state": "opened",
+        "agenda" : { "day": 1, "hour": 3, "room": "Salle 200" }
+    }, {
+        "id": 1465225950184,
+        "name": "Containers' Jungle. Docker, Rocket, RunC, LXD ... WTF ?",
+        "description": "Nous avons tout juste commenc&#233; &#224; utiliser les containers Docker, et voil&#224; que des solutions concurrentes apparaissent et s&#232;ment la confusion. &#10;Est-ce que Docker est insuffisant ? Faut-il lui pr&#233;f&#233;rer CoreOS Rocket ? Que vient faire RunC l&#224; dedans ? Et LXD dans tout &#231;a ? C'est quoi ce d&#233;lire avec Systemd ?&#10;&#10;Cette session va (essayer de) mettre les id&#233;es au clair sur ce qu'est un conteneur, comment les runtimes se diff&#233;rencient techniquement et pourquoi utiliser untel plut&#244;t qu'un autre, ou peut &#234;tre les combiner ensemble, pourquoi, comment, quelles sont les contraintes pour que cela fonctionne.",
+        "references": "J'esp&#232;re (sic) avoir fait cette (nouvelle) pres' au JugSummerCamp, au pire elle aura &#233;t&#233; jou&#233;e une fois au Docker meetup Rennes.",
+        "difficulty": 2,
+        "type": "conference",
+        "track": "cloud",
+        "draft": false,
+        "note": 4.5,
+        "speakers": [1434742896211],
+        "state": "opened",
+        "agenda" : { "day": 1, "hour": 3, "room": "Salle 200" }
+    }, {
+        "id": 1465224405833,
+        "name": "Progressive Web Apps",
+        "description": "Le mobile est maintenant omnipr&#233;sent et nous nous posons tous la question des choix d'impl&#233;mentations. Natif, hybride ou webapp chaque solutions a bien sur ces avantages et ces inconv&#233;nients. Mais si il existait une solution interm&#233;diaire, plus progressive pour allier le meilleurs des 3 mondes. Nous verrons comment les progressives webapps se proposent de relever le challenge pour s'imposer comme la solution d'impl&#233;mentation pour nos projets mobiles.",
+        "references": "Devoxx-fr 2016 (https://www.youtube.com/watch?v=kqi4Xa1ViOQ)",
+        "difficulty": 1,
+        "type": "conference",
+        "track": "web",
+        "draft": false,
+        "note": 3.25,
+        "speakers": [1465223864079],
+        "state": "opened",
+        "agenda" : { "day": 1, "hour": 4, "room": "Salle 200" }
+    }],
+    "speakers": [{
+        "id": 1465224485474,
+        "firstname": "Yvonnick",
+        "name": "FRIN",
+        "company": "Zenika",
+        "bio": "Yvonnick d&#233;veloppeur javascript chez Zenika Nantes. Curieux et passionn&#233;, il aime d&#233;couvrir les derni&#232;res technologies du Web. Adepte d&#8217;AngularJs depuis d&#233;j&#224; deux ans, il se met &#224; explorer le Flux avec React. Social, il &#233;cume les meetups nantais en qu&#234;te de nouveaut&#233;s.",
+        "social": {
+            "twitter": "@YvonnickFrin",
+            "googleplus": null,
+            "github": "https://github.com/frinyvonnick"
+        },
+        "sessions": [
+            1465227221095,
+            1465227143594
+        ]
+    }, {
+        "id": 1452903083119,
+        "firstname": "Yahiaoui",
+        "name": "Houssem",
+        "company": null,
+        "bio": "Telerik Developer Expert, Google Developer Group Lead, and NG/JS Algeria ( North Africa ) meetup founder, a community lover and supporter, i write, record and share everything related to JavaScript from Web to Mobile and finishing up with Cloud.",
+        "social": {
+            "twitter": "@_hocdex",
+            "googleplus": "#NAME?",
+            "github": "https://github.com/houssem-yahiaoui"
+        },
+        "sessions": [
+            1465227043640,
+            1465226872888
+        ]
+    }, {
+        "id": 1465226146982,
+        "firstname": "Alvin",
+        "name": "Berthelot",
+        "company": "Webyousoon",
+        "bio": "D&#233;veloppeur depuis plus de 10 ans sur des projets et des technologies h&#233;t&#233;rog&#232;nes, qui n'ont qu'un seul point commun, l'utilisation du web. &#10;&#10;Sa curiosit&#233;, son envie de partager les savoirs et son polyglottisme technologique lui permettent de m&#233;langer les disciplines et ainsi de parler de tout&#8230; et surtout de n'importe quoi :) &#10;&#10;Il travaille (tout de m&#234;me de mani&#232;re s&#233;rieuse) en tant qu'ind&#233;pendant pour sa structure Webyousoon.",
+        "social": {
+            "twitter": "alvinberthelot",
+            "googleplus": null,
+            "github": "alvinberthelot"
+        },
+        "sessions": [
+            1465226808567
+        ]
+    }, {
+        "id": 1465224119936,
+        "firstname": "Lemoine",
+        "name": "Benoit",
+        "company": "Captain Dash",
+        "bio": "D&#233;veloppeur passionn&#233; depuis 8 ans, actuellement d&#233;veloppeur full stack chez Captain Dash, mes centres d'int&#233;r&#234;ts tournent autour  du web au sens large (HTML, CSS, JavaScript, frameworks et outils, etc.) et de la programmation fonctionnelle (Scala, Idris, etc.)",
+        "social": {
+            "twitter": "@benoit_lemoine",
+            "googleplus": null,
+            "github": "blemoine"
+        },
+        "sessions": [
+            1465226728113
+        ]
+    }, {
+        "id": 1434742896211,
+        "firstname": "Nicolas",
+        "name": "De Loof",
+        "company": "De Loof",
+        "phone": null,
+        "bio": "Hacker @ CloudBees",
+        "social": {
+            "twitter": "ndeloof",
+            "googleplus": null,
+            "github": "ndeloof"
+        },
+        "sessions": [
+            1465225950184
+        ]
+    }, {
+        "id": 1465223864079,
+        "firstname": "cyril",
+        "name": "balit",
+        "company": "Sfeir",
+        "bio": "Cyril Balit est CTO Front chez SFEIR et Goole Developer Expert. D&#233;veloppeur passionn&#233;, il construit des Single Page Application en javascript depuis 2003 et tombe amoureux d&#8217;Angular en 2013. Il est un membre actif de la communaut&#233; web fran&#231;ais sur plusieurs sujets comme Angular, Polymer  et les Progressives Web App . Organisateur de conf&#233;rences et de meetups , speaker et formateur , Cyril aime partager avec les communaut&#233;s.",
+        "social": {
+            "twitter": "https://twitter.com/cbalit",
+            "googleplus": null,
+            "github": "https://github.com/cbalit"
+        },
+        "sessions": [
+            1465224405833
+        ]
+    }]
+}

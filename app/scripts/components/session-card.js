@@ -9,7 +9,7 @@ const sessionCardTemplate =
 +'  <span v-if="displayTitle" class={{this.getTypeColor(session.type)}}>{{ session.type }}</span>'
 +'  <span class="devfest-chip color-bg-default">{{this.getDayLabel(session.agenda.day)}}</span>'
 +'  <span class="devfest-chip color-bg-default">{{this.getHourLabel(session.agenda.day, session.agenda.hour, agenda)}}</span>'
-+'  <span v-if="session.agenda.room" class="devfest-chip color-bg-default">{{session.agenda.room}}</span>'
++'  <span v-if="session.agenda.room" class="devfest-chip color-bg-default">{{this.getRoomLabel(session.agenda.room)}}</span>'
 +'  <span v-if="session.type" class="devfest-chip color-bg-default">{{this.getTimeLabel(session.type)}}</span>'
 +'  <span class="devfest-chip color-bg-default">{{this.getLangLabel("fr")}}</span>'
 +'  <span v-if="session.difficulty" class="devfest-chip color-bg-default">Niveau {{this.getDifficultyLabel(session.difficulty)}}</span>'
@@ -40,7 +40,8 @@ var SessionCard = Vue.extend({
     getTrackColor: getTrackColor,
     getTypeColor: getTypeColor,
     getDifficultyLabel: getDifficultyLabel,
-    getLangLabel: getLangLabel
+    getLangLabel: getLangLabel,
+    getRoomLabel: getRoomLabel
   }
 })
 

@@ -2,11 +2,11 @@
 const speakerCardTemplate =
 '<div class="devfest-speaker-card shadowLight" v-on:click="goToSpeakerPage($event, speaker.id)">'
 + '<div class="mdl-cell--hide-phone">'
-+ '  <img src="./images/speakers/amoussine.jpg" class="devfest-speaker-card-img" />'
++ '  <img src="./images/speakers/{{speaker.photo}}" class="devfest-speaker-card-img" />'
 + '</div>'
 + '<div class="devfest-speaker-card-content">'
 + '  <div class="devfest-speaker-card-title">'
-+ '    <img src="./images/speakers/amoussine.jpg" class="devfest-speaker-card-img-sm mdl-cell--hide-tablet mdl-cell--hide-desktop" />'
++ '    <img src="./images/speakers/{{speaker.photo}}" class="devfest-speaker-card-img-sm mdl-cell--hide-tablet mdl-cell--hide-desktop" />'
 + '    <div>'
 + '      <h5>{{ speaker.firstname }} {{ speaker.name }}</h5>'
 + '      <h6 v-if="speaker.company">{{ speaker.company }}</h6>'
