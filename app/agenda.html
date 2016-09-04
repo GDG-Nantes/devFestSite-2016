@@ -19,32 +19,47 @@
             Devfest Nantes 2016 &gt; Agenda
           </div>
 
-          <h4>Agenda</h4>
+          <div style="display:flex;">
+            <div style="display:flex;flex-direction:column;margin-right: 50px;" class="mdl-cell--hide-phone">
+              <h6>Jours</h6>
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="day1">
+                <input type="checkbox" id="day1" value="day1" v-model="day1" class="mdl-checkbox__input">
+                <span class={{this.getTypeColor('day1')}}>Mercredi 9 novembre</span>
+              </label>
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="day2">
+                <input type="checkbox" id="day2" value="day2" v-model="day2" class="mdl-checkbox__input">
+                <span class={{this.getTypeColor('day2')}}>Jeudi 10 novembre</span>
+              </label>
+            </div>
+            <div style="display:flex;flex-direction:column;margin-right: 50px;" class="mdl-cell--hide-phone">
+              <h6>Type de session</h6>
+              <label v-for="filter in typeFilters" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for={{filter}}>
+                <input type="checkbox" id={{filter}} value={{filter}} v-model="curTypeFilters" class="mdl-checkbox__input">
+                <span class={{this.getTypeColor(filter)}}>{{filter}}</span>
+              </label>
+            </div>
+            <div style="display:flex;flex-direction:column;margin-right: 50px;" class="mdl-cell--hide-phone">
+              <h6>Track</h6>
+              <label v-for="filter in trackFilters" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for={{filter}}>
+                <input type="checkbox" id={{filter}} value={{filter}} v-model="curTrackFilters" class="mdl-checkbox__input">
+                <span class={{this.getTrackColor(filter)}}>{{filter}}</span>
+              </label>
+            </div>
+            <div style="display:flex;flex-direction:column">
+              <h6>Favoris</h6>
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="favorites">
+                <input type="checkbox" id="favorites" value="favorites" v-model="curFavoriteFilter" class="mdl-checkbox__input">
+                <span class="devfest-favorite-active"><i class="material-icons">favorite</i></span>
+              </label>
+            </div>
 
-          <div style="display:flex">
-            <label style="width:25%" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="favorites">
-              <input type="checkbox" id="favorites" value="favorites" v-model="curFavoriteFilter" class="mdl-checkbox__input">
-              <span class="devfest-favorite-active"><i class="material-icons">favorite</i></span>
-            </label>
-          </div>
-          <div style="display:flex" class="mdl-cell--hide-phone">
-            <label v-for="filter in typeFilters" style="width:25%" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for={{filter}}>
-              <input type="checkbox" id={{filter}} value={{filter}} v-model="curTypeFilters" class="mdl-checkbox__input">
-              <span class={{this.getTypeColor(filter)}}>{{filter}}</span>
-            </label>
-          </div>
-          <div style="display:flex" class="mdl-cell--hide-phone">
-            <label v-for="filter in trackFilters" style="width:25%" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for={{filter}}>
-              <input type="checkbox" id={{filter}} value={{filter}} v-model="curTrackFilters" class="mdl-checkbox__input">
-              <span class={{this.getTrackColor(filter)}}>{{filter}}</span>
-            </label>
           </div>
 
-          <h4 v-if="day1">Mercredi 9 novembre 2016</h4>
-          <agenda  v-if="day1" day="1" :hours="agenda.day1" :sessions="displayedSessions" :favorites="favorites"></agenda>
+          <h4 v-if="day1 || (!day1 && !day2)">Mercredi 9 novembre 2016</h4>
+          <agenda  v-if="day1 || (!day1 && !day2)" day="1" :hours="agenda.day1" :sessions="displayedSessions" :favorites="favorites"></agenda>
 
-          <h4 v-if="day2">Jeudi 10 novembre 2016</h4>
-          <agenda v-if="day2" day="2" :hours="agenda.day2" :sessions="displayedSessions" :favorites="favorites"></agenda>
+          <h4 v-if="day2 || (!day1 && !day2)">Jeudi 10 novembre 2016</h4>
+          <agenda v-if="day2 || (!day1 && !day2)" day="2" :hours="agenda.day2" :sessions="displayedSessions" :favorites="favorites"></agenda>
 
       </div>
       </div>
