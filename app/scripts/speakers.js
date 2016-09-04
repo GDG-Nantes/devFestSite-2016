@@ -9,10 +9,6 @@ var speakersVue = new Vue({
     this.fetchData()
   },
 
-  watch: {
-    activeFilters: 'filter'
-  },
-
   methods: {
 
     fetchData: function () {

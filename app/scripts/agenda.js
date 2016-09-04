@@ -7,7 +7,7 @@ var agendaVue = new Vue({
     speakers: null,
     agenda: null,
     favorites: [],
-    typeFilters: ['conference', 'codelab', 'quickie'],
+    typeFilters: ['keynote', 'conference', 'codelab', 'quickie', 'table ronde'],
     curTypeFilters: [],
     trackFilters: ['web', 'cloud', 'mobile', 'discovery'],
     curTrackFilters: [],

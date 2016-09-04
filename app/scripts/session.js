@@ -26,7 +26,7 @@ var sessionVue = new Vue({
         })[0];
         // get speakers
         if (self.session) {
-          var sessionSpeakers = self.session.speakers;
+          var sessionSpeakers = self.session.speaker;
           self.speakers = json.speakers.filter(function(speaker) {
             return sessionSpeakers.indexOf(parseInt(speaker.id)) !== -1 ;
           });

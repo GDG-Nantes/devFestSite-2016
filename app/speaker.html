@@ -12,7 +12,7 @@
 
     <div class="devfest-ribbon"></div>
     <main id="speakerVue" class="devfest-ribbon-main mdl-layout__content">
-      <div class="devfest-ribbon-container mdl-grid">
+      <div class="devfest-ribbon-container mdl-grid" v-if="speaker">
         <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
         <div class="devfest-ribbon-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
           <div class="devfest-ribbon-crumbs mdl-color-text--grey-500">
@@ -35,7 +35,7 @@
           <div class="devfest-session-speaker">
             <session-card v-for="session in sessions" :session="session" :agenda="agenda" :fav="isFavorite(session.id, favorites)"></session-card>
           </div>
-      </div>
+        </div>
       </div>
 
       <!-- inject:footer:html -->
@@ -44,7 +44,7 @@
 
 
     <script async src="/scripts/material.min.js"></script>
-    <script src="https://npmcdn.com/vue@1.0.26/dist/vue.min.js"></script>
+    <script src="https://npmcdn.com/vue@1.0.26/dist/vue.js"></script>
     <!-- build:js(app/) ../../scripts/main.min.js -->
     <script async src="/scripts/main.js"></script>
     <!-- endbuild -->
