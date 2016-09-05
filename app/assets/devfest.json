@@ -22,13 +22,15 @@
         {"id" : 6, "label": "14h00"},
         {"id" : 7, "label": "15h10"},
         {"id" : 8, "label": "15h40"},
-        {"id" : 9, "label": "16h10"}
+        {"id" : 9, "label": "16h10"},
+        {"id" : 10, "label": "17h30"}
       ]
     },
     "sessions": [
       {
         "id": 0,
         "name": "Ouverture des portes",
+        "image": "./images/agenda/open.png",
         "track": "DevFest",
         "agenda" : { "day": 1, "hour": 1 }
       },{
@@ -41,24 +43,28 @@
         "id": 2,
         "name": "Déjeuner",
         "type": "repas",
+        "image": "./images/agenda/eat.png",
         "track": "DevFest",
         "agenda" : { "day": 1, "hour": 5, "room": 8 }
       },{
         "id": 3,
         "name": "After party",
         "type": "after",
+        "image": "./images/agenda/after.png",
         "track": "by Hardis",
         "agenda" : { "day": 1, "hour": 11 }
       },{
         "id": 4,
         "name": "Déjeuner",
         "type": "repas",
+        "image": "./images/agenda/eat.png",
         "track": "DevFest",
         "agenda" : { "day": 2, "hour": 5, "room": 8 }
       },{
         "id": 5,
         "name": "Ouverture des portes",
         "track": "DevFest",
+        "image": "./images/agenda/open.png",
         "agenda" : { "day": 2, "hour": 1 }
       },{
         "id": 7,
@@ -72,6 +78,12 @@
         "type": "table ronde",
         "track": "discovery",
         "agenda" : { "day": 2, "hour": 3, "room": 2  }
+      },{
+        "id": 9,
+        "name": "Fermeture des portes, à l'année prochaine ;)",
+        "track": "DevFest",
+        "image": "./images/agenda/closed.png",
+        "agenda" : { "day": 2, "hour": 10 }
       },
       {
           "id": 999,

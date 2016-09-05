@@ -2,6 +2,7 @@
 const agendaSlotTemplate =
 '<div class="devfest-agenda-card" onClick="location.href=\'session.html?id={{session.id}}\';">'
 + '<div class="devfest-agenda-card-avatars mdl-cell--hide-phone">'
++ '  <img v-if="session.image" :src="session.image" class="devfest-agenda-card-img" />'
 + '  <img v-for="speaker in session.speaker" src="{{this.getSpeakerPhoto(speaker, this.$root.speakers)}}" class="devfest-agenda-card-img" />'
 + '</div>'
 + '<div class="devfest-agenda-card-content">'
