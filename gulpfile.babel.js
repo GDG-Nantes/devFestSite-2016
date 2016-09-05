@@ -208,10 +208,11 @@ gulp.task('scripts', () => gulp.src([
   './app/scripts/session.js'
   // Other scripts
 ])
-  .pipe($.babel())
-  .pipe($.concat('main.js'))
-  .pipe($.uglify({preserveComments: 'some'}))
-  // .pipe($.sourcemaps.write('.'))
+  .pipe($.sourcemaps.init())
+ .pipe($.babel())
+ .pipe($.concat('main.js'))
+ .pipe($.uglify({preserveComments: 'some'}))  
+ .pipe($.sourcemaps.write())
   .pipe(gulp.dest('.tmp/scripts/'))
   .pipe(gulp.dest('dist/scripts/'))
   .pipe($.size({title: 'scripts'}))
