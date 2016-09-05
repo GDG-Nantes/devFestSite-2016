@@ -42,6 +42,10 @@ gulp
 * [Deployment guides](https://github.com/google/web-starter-kit/blob/master/docs/deploy.md) - available for Firebase, Google App Engine and other services.
 * [Gulp recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes) - the official Gulp recipes directory includes a comprehensive list of guides for different workflows you can add to your project.
 
+## Social Login : 
+
+Use https://auth-server.herokuapp.com/#-auth-server as proxy
+
 ## License
 
 Apache 2.0  

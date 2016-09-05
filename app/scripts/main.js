@@ -81,5 +81,36 @@
     */
   }
 
+      function showSocialsAndInit(){
+            
+            
+            document.querySelector('.btn-connect-social').addEventListener('click', function(event){
+                var network = event.target.getAttribute('data-social');
+                hello(network).login(network, {}, function(auth){
+                    hello(auth.network).api('/me').then(function(r) {
+                        console.info(network, r, r.id);
+                        // Une fois persité on peut chercher à récupérer les données du serveur       
+                        //location.reload();          
+                    });
+                });
+            });
+       
+            var creds = {
+                google : "312903486392-eu80fphua3j2t4jfahejoq6l9u6p2399.apps.googleusercontent.com",
+                twitter : "w3A1eTHDRNs52iQwvbCPyE8H7",
+                github : "f050e9a66b1a179c2d77"
+            };
+            var config = {
+                redirect_uri : 'redirect.html',
+                scope:'email'
+            } 
+
+            hello.init(creds,config);
+                
+        }
+                showSocialsAndInit();
+       
+        
+
   // Your custom JavaScript goes here
 })();
