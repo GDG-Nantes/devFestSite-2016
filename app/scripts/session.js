@@ -33,12 +33,16 @@ var sessionVue = new Vue({
         }
       });
 
-      self.favorites = JSON.parse(localStorage['fav']) || []
-      //fetch('api/v1/stars/get?login=ben').then(function(response) {
-      //  return response.json();
-      //}).then(function(json) {
-      //  self.favorites = json.favs;
-      //});
+      var userid = localStorage['userid'];
+      if (userid) {
+        fetch('api/v1/stars/get?login=' + userid).then(function(response) {
+          return response.json();
+        }).then(function(json) {
+          self.favorites = json.favs || [];
+        });
+      } else {
+        self.favorites = JSON.parse(localStorage['fav']) || []
+      }
     },
     getTrackColor: getTrackColor,
     getTypeColor: getTypeColor,
@@ -46,7 +50,8 @@ var sessionVue = new Vue({
   },
   events: {
     'toggle-favorite': function(id, favorite) {
-      toggleFavorite(id, favorite, this.favorites)
+      var userid = localStorage['userid'];
+      toggleFavorite(id, favorite, this.favorites, userid)
     }
   }
 });

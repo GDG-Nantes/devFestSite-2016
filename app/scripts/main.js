@@ -82,35 +82,56 @@
   }
 
       function showSocialsAndInit(){
-            
-            
-            document.querySelector('.btn-connect-social').addEventListener('click', function(event){
-                var network = event.target.parentElement.getAttribute('data-social');
-                hello(network).login(network, {}, function(auth){
-                    hello(auth.network).api('/me').then(function(r) {
-                        console.info(network, r, r.id);
-                        // Une fois persité on peut chercher à récupérer les données du serveur       
-                        //location.reload();          
-                    });
+
+        var dialog = document.querySelector('dialog');
+        var showDialogButton = document.querySelector('#show-connect');
+        var showDialogButton2 = document.querySelector('#show-connect2');
+        if (!dialog.showModal) {
+          dialogPolyfill.registerDialog(dialog);
+        }
+        showDialogButton.addEventListener('click', function() {
+          dialog.showModal();
+        });
+        showDialogButton2.addEventListener('click', function() {
+          dialog.showModal();
+        });
+        dialog.querySelector('.close').addEventListener('click', function() {
+          dialog.close();
+        });
+
+        document.querySelector('.btn-connect-social').addEventListener('click', function(event){
+            var network = event.target.parentElement.getAttribute('data-social');
+            hello(network).login(network, {}, function(auth){
+                hello(auth.network).api('/me').then(function(r) {
+                    //console.info(network, r, r.id);
+                    location.reload();
                 });
             });
-       
-            var creds = {
-                google : "312903486392-eu80fphua3j2t4jfahejoq6l9u6p2399.apps.googleusercontent.com",
-                twitter : "w3A1eTHDRNs52iQwvbCPyE8H7",
-                github : "c558cf728b4e60a65b15"
-            };
-            var config = {
-                redirect_uri : 'redirect.html',
-                scope:'email'
-            } 
+        });
 
-            hello.init(creds,config);
-                
+        var userid = localStorage['userid'];
+        if (userid) {
+          showDialogButton.style.display = "none";
+          showDialogButton2.style.display = "none";
         }
-                showSocialsAndInit();
-       
-        
+
+        var creds = {
+            google : "312903486392-eu80fphua3j2t4jfahejoq6l9u6p2399.apps.googleusercontent.com",
+            twitter : "w3A1eTHDRNs52iQwvbCPyE8H7",
+            github : "c558cf728b4e60a65b15"
+        };
+        var config = {
+            redirect_uri : 'redirect.html',
+            scope:'email'
+        }
+
+        hello.init(creds,config);
+
+    }
+
+    showSocialsAndInit();
+
+
 
   // Your custom JavaScript goes here
 })();
