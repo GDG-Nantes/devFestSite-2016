@@ -84,21 +84,26 @@
       function showSocialsAndInit(){
             
             
-            document.querySelector('.btn-connect-social').addEventListener('click', function(event){
-                var network = event.target.parentElement.getAttribute('data-social');
-                hello(network).login(network, {}, function(auth){
-                    hello(auth.network).api('/me').then(function(r) {
-                        console.info(network, r, r.id);
-                        // Une fois persité on peut chercher à récupérer les données du serveur       
-                        //location.reload();          
-                    });
-                });
-            });
+            var btnSocialList = document.querySelectorAll('.btn-connect-social');
+            for (var i = 0; i < btnSocialList.length; i++){
+
+              btnSocialList[i].addEventListener('click', function(event){
+                  var network = event.target.parentElement.getAttribute('data-social');
+                  hello(network).login(network, {}, function(auth){
+                      hello(auth.network).api('/me').then(function(r) {
+                          console.info(network, r, r.id);
+                          // Une fois persité on peut chercher à récupérer les données du serveur       
+                          //location.reload();          
+                      });
+                  });
+              });
+            }
        
             var creds = {
                 google : "312903486392-eu80fphua3j2t4jfahejoq6l9u6p2399.apps.googleusercontent.com",
                 twitter : "w3A1eTHDRNs52iQwvbCPyE8H7",
-                github : "c558cf728b4e60a65b15"
+                github : "c558cf728b4e60a65b15",
+                facebook : "315143975507418"
             };
             var config = {
                 redirect_uri : 'redirect.html',
