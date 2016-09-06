@@ -152,8 +152,8 @@
       },
       {
           "id": 1465579632798,
-          "name": "Quick Introduction to Android Instant Apps",
-          "description": "Introduced at Google I/O, Android Instant Apps have a clear and simple goal : tear down the walls between the web and native mobile apps. This talk will be about an introduction to what is Android Instant Apps and discover how your application can access to it",
+          "name": "Talk Android",
+          "description": "Bientôt la description mais pour sûr, c'est un talk sur des nouveautés Android",
           "difficulty": 2,
           "type": "conference",
           "track": "mobile",
@@ -285,7 +285,7 @@
       },
       {
           "id": 1467190977231,
-          "name": "Le Web de Demaintenant",
+          "name": "Le Web d'aujourd'hui",
           "description": "TBD",
           "difficulty": 2,
           "type": "conference",
@@ -561,8 +561,8 @@
       },
       {
           "id": 1471998460521,
-          "name": "Firebase",
-          "description": "Firebase",
+          "name": "Talk Firebase",
+          "description": "Bientôt la description mais pour sûr, c'est un talk sur des nouveautés Firebase",
           "difficulty": 2,
           "type": "conference",
           "track": "cloud",
@@ -822,8 +822,8 @@
           "id": 1434742896211,
           "firstname": "Nicolas",
           "name": "De Loof",
-          "company": "De Loof",
-          "bio": "Hacker @ CloudBees",
+          "company": "Cloudbees",
+          "bio": "Hacker @ CloudBees, Docker captain",
           "photo": "ndeloof.jpeg",
           "social": {
               "twitter": "ndeloof",
@@ -918,7 +918,7 @@
           "id": 1440170007547,
           "firstname": "Raphael",
           "name": "Goetter",
-          "company": "AlsacréationS",
+          "company": "Alsacréations",
           "bio": "Intégrateur du Dimanche, dompteur de CSS et tripoteur de HTML, créateur de Alsacreations.com, auteur de quelques livres CSS, Alsacien",
           "photo": "rgoetter.jpeg",
           "social": {
@@ -1016,7 +1016,7 @@
           "firstname": "Jean-François",
           "name": "Garreau",
           "company": "Lucca",
-          "bio": "Blablabla\n\n# Un super Titre\n\n## Un autre titre",
+          "bio": "TBD",
           "photo": "jgarreau.png",
           "social": {
               "twitter": "@jefbinomed",
@@ -1111,7 +1111,7 @@
       {
           "id": 1469097650471,
           "firstname": "Vincent",
-          "name": "PIARD",
+          "name": "Piard",
           "company": "SQLi",
           "bio": "Biberonné aux joies du Cobol, engraissé aux compotes Php, gavé de Java, sustenté aux sucreries C#, repu au Flex et finalement dernièrement nourri en intraveineuse de JS, je me délecte en ce moment d'IOT. A mes heures perdues, je cuisine également quelques mets open source.",
           "photo": "vpiard.jpeg",
@@ -1159,7 +1159,7 @@
       {
           "id": 1470053410611,
           "firstname": "Jérémie",
-          "name": "MONSINJON",
+          "name": "Monsinjon",
           "company": null,
           "bio": "Développeur Java passionné chez Ippon Technologies depuis plus d'1 an.\nJe me suis focalisé ces derniers temps sur le monitoring avec ELK, le développement de microservices avec SpringBoot, et un peu de DevOps avec la gestion dynamique d'une plateforme de production avec Docker et Mesos.",
           "photo": "jmonsinjon.jpeg",
@@ -1223,7 +1223,7 @@
       {
           "id": 1470778035883,
           "firstname": "Sébastien",
-          "name": "FRIESS",
+          "name": "Friess",
           "company": "SFEIR",
           "bio": "Développeur backend chez **SFEIR**. Après 10 années de Java dans des environnements distribués, il a récemment sauté le pas pour le *Go* chez ses clients dans le domaine de l'IoT. Il vous propose aujourd'hui de partager son expérience pour la première fois.",
           "photo": "default.png",
@@ -1398,9 +1398,9 @@
       },
       {
           "id": 1472051425635,
-          "firstname": "JEROME",
-          "name": "DELBUT",
-          "company": "SOPRA STERIA",
+          "firstname": "Jerome",
+          "name": "Delbut",
+          "company": "Sopra Steria",
           "bio": "Je suis architecte des solutions IOT au sein d l’IOT Line de SOPRA STERIA. Dans le cadre de la mise en œuvre de solutions innovantes pour répondre aux nouveaux besoins métiers de nos clients, je développe des solutions innovantes sur la base de plateformes Intel Edison ou open source. Je réalise aussi des prestations de conseil à la réalisation d’applications basées sur des lunettes et casques connectés applicables dans l’industrie 4.0. J'ai également la responsabilité du projet SOPRA STERIA « Inspect’Drone » pour inspecter via drone des infrastructures (barrages, bateaux, avion, bâtiments, …) afin de détecter des défauts automatiquement. Ce projet est un démonstrateur technologique du savoir-faire de SOPRA STERIA dans le domaine du traitement d’image, du pilotage automatique et collaboratif et de la cybersécurité.",
           "photo": "jdelbut.png",
           "social": {
@@ -1430,9 +1430,9 @@
       },
       {
           "id": 1469452017228,
-          "firstname": "benjamin",
-          "name": "FONTAINE",
-          "company": "zenika",
+          "firstname": "Benjamin",
+          "name": "Fontaine",
+          "company": "Zenika",
           "bio": "Je suis un dév fullstack Java et Js, curieux de tout : devops, nouvelles technologies, agilité, craftmanship, développement personnel.",
           "photo": "default.png",
           "social": {
@@ -1576,7 +1576,7 @@
       {
           "id": 1465224485474,
           "firstname": "Yvonnick",
-          "name": "FRIN",
+          "name": "Frin",
           "company": "Zenika",
           "bio": "Yvonnick développeur javascript chez Zenika Nantes. Curieux et passionné, il aime découvrir les dernières technologies du Web. Adepte d’AngularJs depuis déjà deux ans, il se met à explorer le Flux avec React. Social, il écume les meetups nantais en quête de nouveautés.",
           "photo": "default.png",
@@ -1625,7 +1625,7 @@
           "id": 1472546072401,
           "firstname": "Clément",
           "name": "Delafargue",
-          "company": null,
+          "company": "Clever Cloud",
           "bio": "CTO @ Clever Cloud. Functional Programming, IT automation & Dist Sys.",
           "photo": "cdelafargue.jpg",
           "social": {
@@ -1657,7 +1657,7 @@
           "id": 1438785880433,
           "firstname": "Ludovic",
           "name": "Champenois",
-          "company": null,
+          "company": "Google",
           "bio": "Tech Lead, Manager Google Cloud Platform, Java.",
           "photo": "lchampenois.jpg",
           "social": {
