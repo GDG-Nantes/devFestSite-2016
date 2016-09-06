@@ -92,6 +92,7 @@
           "difficulty": 1,
           "type": "conference",
           "track": "mobile",
+          "lang": "en",
           "speaker": [
               999
           ],
@@ -104,6 +105,7 @@
           "difficulty": 1,
           "type": "conference",
           "track": "mobile",
+          "lang": "en",
           "speaker": [
               999
           ],
@@ -206,6 +208,7 @@
           "difficulty": 2,
           "type": "conference",
           "track": "mobile",
+          "lang": "en",
           "speaker": [
               1466532191364
           ],
@@ -542,6 +545,7 @@
           "difficulty": 3,
           "type": "conference",
           "track": "mobile",
+          "lang": "en",
           "speaker": [
               1471954065677
           ],
@@ -687,6 +691,7 @@
           "difficulty": 1,
           "type": "conference",
           "track": "mobile",
+          "lang": "en",
           "speaker": [
               1470747868721
           ],
