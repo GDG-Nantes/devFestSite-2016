@@ -15,7 +15,7 @@ var speakerVue = new Vue({
   methods: {
     fetchData: function () {
       var self = this;
-      fetch('assets/devfest.json').then(function(response) {
+      fetch('/assets/devfest.json').then(function(response) {
         return response.json();
       }).then(function(json) {
         // get agenda
@@ -35,7 +35,7 @@ var speakerVue = new Vue({
 
       var userid = localStorage['userid'];
       if (userid) {
-        fetch('api/v1/stars/get?login=' + userid).then(function(response) {
+        fetch('/api/v1/stars/get?login=' + userid).then(function(response) {
           return response.json();
         }).then(function(json) {
           self.favorites = json.favs || [];

@@ -13,7 +13,7 @@ var speakersVue = new Vue({
 
     fetchData: function () {
       var self = this;
-      fetch('assets/devfest.json').then(function(response) {
+      fetch('/assets/devfest.json').then(function(response) {
         return response.json();
       }).then(function(json) {
         self.speakers = json.speakers.sort(sortBySpeakerName);

@@ -1,12 +1,12 @@
 /* eslint-disable */
 const sessionCardTemplate =
-'<div class="devfest-session-card mdl-color--white shadowLight" onClick="location.href=\'session.html?id={{session.id}}\';">'
+'<div class="devfest-session-card mdl-color--white shadowLight">'
 +'  <div class="devfest-session-card-title">'
 +'    <h4 v-if="displayTitle" class="mdl-card__title-text">{{ session.name }}</h4>'
 +'    <favorite :sid="session.id" :active="fav" ></favorite>'
 +'  </div>'
 +'  <span v-if="displayTitle" class={{this.getTrackColor(session.track)}}>{{ session.track }}</span>'
-+'  <span v-if="displayTitle" class={{this.getTypeColor(session.type)}}>{{ session.type }}</span>'
++'  <span v-if="session.type" class={{this.getTypeColor(session.type)}}>{{ session.type }}</span>'
 +'  <span class="devfest-chip color-bg-default">{{this.getDayLabel(session.agenda.day)}}</span>'
 +'  <span class="devfest-chip color-bg-default">{{this.getHourLabel(session.agenda.day, session.agenda.hour, agenda)}}</span>'
 +'  <span v-if="session.agenda.room" class="devfest-chip color-bg-default">{{this.getRoomLabel(session.agenda.room)}}</span>'

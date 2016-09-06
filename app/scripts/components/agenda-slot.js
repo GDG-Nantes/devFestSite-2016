@@ -1,6 +1,6 @@
 /* eslint-disable */
 const agendaSlotTemplate =
-'<div class="devfest-agenda-card" onClick="location.href=\'session.html?id={{session.id}}\';">'
+'<div class="devfest-agenda-card" onClick="location.href=\'./session.html?id={{session.id}}\';">'
 + '<div class="devfest-agenda-card-avatars mdl-cell--hide-phone">'
 + '  <img v-if="session.image" :src="session.image" class="devfest-agenda-card-img" />'
 + '  <img v-if="session.speaker" v-for="speaker in session.speaker" :src="this.getSpeakerPhoto(speaker, this.$root.speakers)" class="devfest-agenda-card-img" />'
@@ -8,7 +8,7 @@ const agendaSlotTemplate =
 + '<div class="devfest-agenda-card-content">'
 + '  <span class="devfest-agenda-card-content-session mdl-typography--font-light">{{ session.name }}</span>'
 + '  <div class="devfest-agenda-card-content-speaker  mdl-typography--font-light" v-if="session.speaker">'
-+ '    Par {{ this.getSpeakers(session.speaker, this.$root.speakers) }}'
++ '    {{ this.getSpeakers(session.speaker, this.$root.speakers) }}'
 + '  </div>'
 + '  <div class="devfest-agenda-card-content-info-tags">'
 + '    <span v-if="session.track" class={{this.getTrackColor(session.track)}}>{{ session.track }}</span>'
