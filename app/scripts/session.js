@@ -27,9 +27,11 @@ var sessionVue = new Vue({
         // get speakers
         if (self.session) {
           var sessionSpeakers = self.session.speaker;
-          self.speakers = json.speakers.filter(function(speaker) {
-            return sessionSpeakers.indexOf(parseInt(speaker.id)) !== -1 ;
-          });
+          if (self.session.speaker) {
+            self.speakers = json.speakers.filter(function(speaker) {
+              return sessionSpeakers.indexOf(parseInt(speaker.id)) !== -1 ;
+            });
+          }
         }
       });
 
