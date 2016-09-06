@@ -211,7 +211,7 @@ gulp.task('scripts', () => gulp.src([
   .pipe($.sourcemaps.init())
  .pipe($.babel())
  .pipe($.concat('main.js'))
- .pipe($.uglify({preserveComments: 'some'}))  
+ .pipe($.uglify({preserveComments: 'some'}))
  .pipe($.sourcemaps.write())
   .pipe(gulp.dest('.tmp/scripts/'))
   .pipe(gulp.dest('dist/scripts/'))

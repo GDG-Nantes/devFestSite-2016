@@ -29,42 +29,42 @@
     "sessions": [
       {
         "id": 0,
-        "name": "Ouverture des portes",
-        "image": "./images/agenda/open.png",
+        "name": "Ouverture des portes / Gates open",
+        "image": "/images/agenda/open.png",
         "track": "DevFest",
         "agenda" : { "day": 1, "hour": 1 }
       },{
         "id": 1,
-        "name": "Keynote d'ouverture",
+        "name": "Keynote d'ouverture / Opening keynote",
         "type": "keynote",
         "track": "DevFest",
         "agenda" : { "day": 1, "hour": 2, "room": 1 }
       },{
         "id": 2,
-        "name": "Déjeuner",
+        "name": "Déjeuner / Lunch",
         "type": "repas",
-        "image": "./images/agenda/eat.png",
+        "image": "/images/agenda/eat.png",
         "track": "DevFest",
         "agenda" : { "day": 1, "hour": 5, "room": 8 }
       },{
         "id": 3,
         "name": "After party",
         "type": "after",
-        "image": "./images/agenda/after.png",
+        "image": "/images/agenda/after.png",
         "track": "by Hardis",
         "agenda" : { "day": 1, "hour": 11 }
       },{
         "id": 4,
-        "name": "Déjeuner",
+        "name": "Déjeuner / Lunch",
         "type": "repas",
-        "image": "./images/agenda/eat.png",
+        "image": "/images/agenda/eat.png",
         "track": "DevFest",
         "agenda" : { "day": 2, "hour": 5, "room": 8 }
       },{
         "id": 5,
-        "name": "Ouverture des portes",
+        "name": "Ouverture des portes / Gates open",
         "track": "DevFest",
-        "image": "./images/agenda/open.png",
+        "image": "/images/agenda/open.png",
         "agenda" : { "day": 2, "hour": 1 }
       },{
         "id": 7,
@@ -74,15 +74,15 @@
         "agenda" : { "day": 1, "hour": 6 }
       },{
         "id": 8,
-        "name": "Table ronde",
+        "name": "Table ronde / Round table",
         "type": "table ronde",
         "track": "discovery",
         "agenda" : { "day": 2, "hour": 3, "room": 2  }
       },{
         "id": 9,
-        "name": "Fermeture des portes, à l'année prochaine ;)",
+        "name": "Fermeture des portes / Gates closed",
         "track": "DevFest",
-        "image": "./images/agenda/closed.png",
+        "image": "/images/agenda/closed.png",
         "agenda" : { "day": 2, "hour": 10 }
       },
       {

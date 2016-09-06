@@ -72,19 +72,19 @@ var getTimeLabel = function getTimeLabel(type) {
 getRoomLabel = function getRoomLabel(id) {
   switch (id) {
     case 1:
-      return 'Salle Titan'
+      return language === 'en' ? 'Room Titan' : 'Salle Titan';
     case 2:
-      return 'Salle Belem'
+      return language === 'en' ? 'Room Belem' : 'Salle Belem';
     case 3:
-      return 'Salle Tour de Bretagne'
+      return language === 'en' ? 'Room Tour de Bretagne' : 'Salle Tour de Bretagne';
     case 4:
-      return 'Salle Graslin'
+      return language === 'en' ? 'Room Graslin' : 'Salle Graslin';
     case 5:
-      return 'Salle Les machines'
+      return language === 'en' ? 'Room Les Machines' : 'Salle Les machines';
     case 6:
-      return 'Salle Tour LU'
+      return language === 'en' ? 'Room Tour LU' : 'Salle Tour LU';
     case 7:
-      return 'Salle du Château'
+      return language === 'en' ? 'Room le Château' : 'Salle le Château';
     case 8:
       return 'Mezzanine & Hall'
     default:
@@ -96,9 +96,9 @@ getRoomLabel = function getRoomLabel(id) {
 var getDayLabel = function getDayLabel(day) {
   switch (day) {
     case 1:
-      return 'Jeudi 10 novembre';
+      return language === 'en' ? 'Thursday, November 10th' : 'Jeudi 10 novembre';
     case 2:
-      return 'Mercredi 9 novembre';
+      return language === 'en' ? 'Wednesday, November 9th' : 'Mercredi 9 novembre';
   }
 };
 
@@ -120,11 +120,11 @@ var getHourLabel = function getHourLabel(day, hour, agenda) {
 var getDifficultyLabel = function getDifficultyLabel(difficulty) {
   switch (difficulty) {
     case 1:
-      return 'débutant'
+      return language === 'en' ? 'Beginner' : 'débutant'
     case 2:
-      return 'intermédiaire'
+      return language === 'en' ? 'Intermediate' : 'intermédiaire'
     default:
-      return 'avancée'
+      return language === 'en' ? 'Advanced' : 'avancée'
   }
 };
 
@@ -132,9 +132,9 @@ var getDifficultyLabel = function getDifficultyLabel(difficulty) {
 var getLangLabel = function getLangLabel(lang) {
   switch (lang) {
     case 'en':
-      return 'Anglais'
+      return language === 'en' ? 'English' : 'Anglais'
     default:
-      return 'Français'
+      return language === 'en' ? 'French' : 'Français'
   }
 };
 
@@ -142,7 +142,7 @@ var getSpeakers = function getSpeakers(speakersId, speakers) {
   var label = '';
   for (var i = 0; i < speakersId.length; i++) {
     if (speakersId.length > 1 && i > 0 && i <= speakersId.length - 1) {
-      label += ' et '
+      label += ' & '
     }
     label += getSpeaker(speakersId[i], speakers);
   }
@@ -160,7 +160,7 @@ var getSpeakerPhoto = function getSpeaker(id, speakers) {
   var speaker = speakers.filter(function(s) {
     return s.id === id
   })[0];
-  return './images/speakers/' + speaker.photo;
+  return '/images/speakers/' + speaker.photo;
 }
 
 var getSpeakerLabel = function getSpeakerLabel(speaker) {
@@ -201,7 +201,7 @@ var toggleFavorite = function (id, favorite, favorites, userLogged) {
     favorites.push(id.toString());
   }
   if (userLogged) { // waiting user login
-    fetch('api/v1/stars/put?login=' + userLogged + '&favs=' + JSON.stringify(favorites)).then(function(response) {})
+    fetch('/api/v1/stars/put?login=' + userLogged + '&favs=' + JSON.stringify(favorites)).then(function(response) {})
   } else {
     localStorage['fav'] = JSON.stringify(favorites)
   }
