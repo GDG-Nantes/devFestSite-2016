@@ -87,27 +87,27 @@
       },
       {
           "id": 999,
-          "name": "PIWAI",
-          "description": "PIWAI",
-          "difficulty": 1,
+          "name": "Bouchez vos fuites mémoires avec LeakCanary",
+          "description": "LeakCanary est une lib Open Source de Square qui détecte les fuites mémoires automatiquement et permet de les corriger facilement. En quelques semaines, nous avons réduit de 94% les crashs dus aux OutOfMemoryError dans notre app Android.\nCe talk présente les principes généraux puis creuse dans le détail du \"comment ça marche à l'intérieur\". Nous verrons ensembles plusieurs exemples intéressants et les leçons à en tirer. Mario et Luigi n'auront bientôt plus de boulot!",
+          "difficulty": 2,
           "type": "conference",
           "track": "mobile",
-          "lang": "en",
+          "lang": "fr",
           "speaker": [
-              999
+              101
           ],
           "agenda" : { "day": 1, "hour": 7, "room": 2 }
       },
       {
           "id": 998,
-          "name": "PIWAI",
-          "description": "TechTalks for Humans by Piwai",
+          "name": "TechTalks for Humans",
+          "description": "TBD",
           "difficulty": 1,
           "type": "conference",
           "track": "mobile",
           "lang": "en",
           "speaker": [
-              999
+              101
           ],
           "agenda" : { "day": 2, "hour": 6, "room": 3 }
       },
@@ -282,19 +282,19 @@
           "type": "keynote",
           "track": "DevFest",
           "speaker": [
-              1434094629196
+              1434094629196,103
           ],
           "agenda" : { "day": 2, "hour": 9, "room": 1 }
       },
       {
           "id": 1467190977231,
-          "name": "Le Web d'aujourd'hui",
-          "description": "TBD",
+          "name": "Le Web de demaintenant",
+          "description": "Jules Vernes grand visionnaire qu'il était savait que le capitaine Némo utiliserait  en 2016  son navigateur web pour contrôler le Nautilus plutôt que d'avoir à passer par le store. Facile, accessible par tous, rapide, il savait que le web serait l'avenir ! Si vous aussi vous voulez voir ce que Jules Vernes n'a pas prévu, venez dans ce talk pour découvrir ce que le web d'aujourd'hui et demain nous réserve !",
           "difficulty": 2,
           "type": "conference",
           "track": "web",
           "speaker": [
-              1434094629196
+              1434094629196, 102
           ],
           "agenda" : { "day": 1, "hour": 6, "room": 2 }
       },
@@ -806,23 +806,7 @@
           "agenda" : { "day": 1, "hour": 9, "room": 3 }
       }
   ],
-  "speakers": [
-      {
-          "id": 999,
-          "firstname": "PIWAI",
-          "name": "PIWAI",
-          "company": "PIWAI",
-          "bio": "PIWAI",
-          "photo": "default.png",
-          "social": {
-              "twitter": null,
-              "googleplus": null,
-              "github": null
-          },
-          "sessions": [
-              999,998
-          ]
-      },
+  "speakers": [     
       {
           "id": 1434742896211,
           "firstname": "Nicolas",
@@ -1021,7 +1005,7 @@
           "firstname": "Jean-François",
           "name": "Garreau",
           "company": "Lucca",
-          "bio": "TBD",
+          "bio": "Je suis développeur depuis 10 ans. J'ai évolué pendant longtemps sur des stack java et android. Depuis maintenant 3 ans je m’intéresse plus en profondeur au Web et à ses nouvelles possibilités. J'ai ainsi optenu le status de GDE (Google Developer Expert) cette année sur la partie WebTechnology. En dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes, co-créateur des Nantes Wit et organisateur de Devoxx4Kids ",
           "photo": "jgarreau.png",
           "social": {
               "twitter": "@jefbinomed",
@@ -1673,6 +1657,54 @@
           },
           "sessions": [
               1472679569387
+          ]
+      },
+      {
+          "id": 101,
+          "firstname": "Pierre-Yves",
+          "name": "Ricau",
+          "company": "Square",
+          "bio": "Android baker at Square.\n I started having fun with Java & Android as a consultant in Paris, then joined a startup in Barcelona and finally joined Square in San Francisco to work with some of the best engineers in the world.\nI like good wine & low entropy code.",
+          "photo": "pricau.jpg",
+          "social": {
+              "twitter": "piwai",
+              "googleplus": null,
+              "github": "piwai"
+          },
+          "sessions": [
+              999, 998
+          ]
+      },
+      {
+          "id": 102,
+          "firstname": "François",
+          "name": "Beaufort",
+          "company": "Google",
+          "bio": "François Beaufort travaille chez Google pour l'équipe Chrome Apps",
+          "photo": "fbeaufort.jpg",
+          "social": {
+              "twitter": null,
+              "googleplus": "https://plus.google.com/u/0/+FrancoisBeaufort",
+              "github": "beaufortfrancois"
+          },
+          "sessions": [
+              1467190977231
+          ]
+      },
+      {
+          "id": 103,
+          "firstname": "Thomas",
+          "name": "Gx",
+          "company": "CommitStrip",
+          "bio": "Thomas Gx est le fondateur de CommitStrip, le blog BD bien connu des codeurs : c'est lui qui écrit chaque jour depuis 2012 une strip sur la vie quotidienne des codeurs. Pionner du développement des réseaux sociaux en France dès 2006 en lançant Cancoon, Thomas co-fonde en 2007 l'agence KRDS, première agence spécialisée en social media marketing et aujourd'hui leader en Europe et en Asie. Il y occupe aujourd'hui la Direction de la Production, dirigeant un studio primé et une équipe de développeurs web ayant produit près de 2000 projets.",
+          "photo": "commitstrip.jpg",
+          "social": {
+              "twitter": "https://twitter.com/CommitStrip_fr",
+              "googleplus": "https://plus.google.com/+Commitstrip",
+              "blog": "https://www.commitstrip.com/fr/"
+          },
+          "sessions": [
+              1467189637282
           ]
       }
   ]
