@@ -15,6 +15,8 @@ const speakerCardTemplate =
 + '      <social-chip v-if="speaker.social.twitter" type="twitter" :value="speaker.social.twitter"></social-chip>'
 + '      <social-chip v-if="speaker.social.googleplus" type="googleplus" :value="speaker.social.googleplus"></social-chip>'
 + '      <social-chip v-if="speaker.social.github" type="github" :value="speaker.social.github"></social-chip>'
++ '      <social-chip v-if="speaker.social.linkedin" type="linkedin" :value="speaker.social.linkedin"></social-chip>'
++ '      <social-chip v-if="speaker.social.blog" type="blog" :value="speaker.social.blog"></social-chip>'
 + '    </div>'
 + '  </div>'
 + '  <div class="mdl-typography--font-light">{{{ speaker.bio }}}</div>'

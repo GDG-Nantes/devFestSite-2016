@@ -19,6 +19,10 @@ var SocialChip = Vue.extend({
           return "devfest-chip color-bg-googleplus";
         case ('github'):
           return "devfest-chip color-bg-github";
+        case ('linkedin'):
+          return "devfest-chip color-bg-linkedin";
+        case ('blog'):
+          return "devfest-chip color-bg-blog";
       }
     },
     getSocialContent : function getSocialContent(type, value) {
@@ -29,6 +33,10 @@ var SocialChip = Vue.extend({
           return '<a id="devfest-chip" href="' + checkLink(type, value) + '" target="_NEW">G+</a>';
         case ('github'):
           return '<a id="devfest-chip" href="' + checkLink(type, value) + '" target="_NEW">GitHub</a>';
+        case ('linkedin'):
+          return '<a id="devfest-chip" href="' + checkLink(type, value) + '" target="_NEW">Linkedin</a>';
+        case ('blog'):
+          return '<a id="devfest-chip" href="' + checkLink(type, value) + '" target="_NEW">Blog</a>';
       }
     }
   }
