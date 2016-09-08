@@ -833,7 +833,8 @@
           "social": {
               "twitter": "https://twitter.com/manekinekko",
               "googleplus": "https://plus.google.com/u/0/+WassimCheghamJavaScript",
-              "github": "https://github.com/manekinekko"
+              "github": "https://github.com/manekinekko",
+              "linkedin": "https://fr.linkedin.com/in/wassimchegham"
           },
           "sessions": [
               1465336720044
@@ -849,7 +850,8 @@
           "social": {
               "twitter": "@cyrilmottier",
               "googleplus": "https://plus.google.com/+CyrilMottier",
-              "github": "https://github.com/cyrilmottier"
+              "github": "https://github.com/cyrilmottier",
+              "blog": "http://cyrilmottier.com"
           },
           "sessions": [
               1465579632798
@@ -881,7 +883,8 @@
           "social": {
               "twitter": "atomrc",
               "googleplus": "https://plus.google.com/+ThomasBelin",
-              "github": "atomrc"
+              "github": "atomrc",
+              "blog": "http://blog.thomasbelin.fr"
           },
           "sessions": [
               1465841475354
@@ -913,7 +916,8 @@
           "social": {
               "twitter": "goetter",
               "googleplus": null,
-              "github": "raphaelgoetter"
+              "github": "raphaelgoetter",
+              "blog": "http://goetter.fr"
           },
           "sessions": [
               1466585739187
@@ -929,7 +933,8 @@
           "social": {
               "twitter": "https://twitter.com/W_I",
               "googleplus": "https://plus.google.com/u/0/106831677780130798856",
-              "github": "github.com/jerryjj"
+              "github": "github.com/jerryjj",
+               "blog": "http://totallyon.me/"
           },
           "sessions": [
               1466589262236
@@ -945,7 +950,8 @@
           "social": {
               "twitter": "https://twitter.com/rousseau_michel",
               "googleplus": null,
-              "github": null
+              "github": null,
+              "linkedin": "https://fr.linkedin.com/in/michel-rousseau-4b62892"
           },
           "sessions": [
               1466670619967,
@@ -962,7 +968,8 @@
           "social": {
               "twitter": null,
               "googleplus": null,
-              "github": "https://github.com/olaurendeau"
+              "github": "https://github.com/olaurendeau",
+              "linkedin": "https://fr.linkedin.com/in/olivier-laurendeau-b7835414"
           },
           "sessions": [
               1466789828567
@@ -978,7 +985,8 @@
           "social": {
               "twitter": "@sunsengdavidtan",
               "googleplus": null,
-              "github": "sunix"
+              "github": "sunix",
+              "blog": "http://blog.sunix.org"
           },
           "sessions": [
               1466874066735
@@ -1010,7 +1018,8 @@
           "social": {
               "twitter": "@jefbinomed",
               "googleplus": "https://plus.google.com/+jefbinomed",
-              "github": "https://github.com/jefbinomed"
+              "github": "https://github.com/jefbinomed",
+              "blog": "http://jefbinomed.fr"
           },
           "sessions": [
               1467189637282,
@@ -1059,7 +1068,8 @@
           "social": {
               "twitter": "@ceciliaBossard",
               "googleplus": null,
-              "github": null
+              "github": null,
+              "blog": "https://javagile.wordpress.com/"
           },
           "sessions": [
               1470050577168
@@ -1075,7 +1085,8 @@
           "social": {
               "twitter": "@GuillaumeMembre",
               "googleplus": null,
-              "github": null
+              "github": null,
+              "blog": "http://www.monbook.tech"
           },
           "sessions": [
               1468499637504
@@ -1091,7 +1102,8 @@
           "social": {
               "twitter": "https://twitter.com/#!/Jeff_Abrahamson",
               "googleplus": "https://google.com/+JeffAbrahamson",
-              "github": "https://github.com/JeffAbrahamson"
+              "github": "https://github.com/JeffAbrahamson",
+              "linkedin": "https://www.linkedin.com/profile/view?id=JeffAbrahamson"
           },
           "sessions": [
               1469470996994
@@ -1139,7 +1151,8 @@
           "social": {
               "twitter": null,
               "googleplus": null,
-              "github": "ddway2"
+              "github": "ddway2",
+              "linkedin": "https://fr.linkedin.com/in/salmon-pierre-5b57274"
           },
           "sessions": [
               1470391525167
@@ -1187,7 +1200,8 @@
           "social": {
               "twitter": "@k33g_org",
               "googleplus": "https://plus.google.com/+PhilippeCharri%C3%A8re",
-              "github": "https://github.com/k33g"
+              "github": "https://github.com/k33g",
+              "blog": "https://github.com/k33g/files"
           },
           "sessions": [
               1470391194125
@@ -1203,7 +1217,8 @@
           "social": {
               "twitter": "https://twitter.com/OlivierGuillet",
               "googleplus": null,
-              "github": null
+              "github": null,
+              "linkedin": "https://www.linkedin.com/in/olivierguillet"
           },
           "sessions": [
               1470660979759
@@ -1219,7 +1234,8 @@
           "social": {
               "twitter": "https://twitter.com/sebastienfriess",
               "googleplus": "https://plus.google.com/+SebastienFRIESS",
-              "github": "https://github.com/sebastienfr"
+              "github": "https://github.com/sebastienfr",
+              "blog": "https://sebastienfr.fr/"
           },
           "sessions": [
               1470779030956
@@ -1251,7 +1267,8 @@
           "social": {
               "twitter": null,
               "googleplus": "gbrieux",
-              "github": null
+              "github": null,
+              "linkedin": "https://fr.linkedin.com/in/gilles-brieux-4b896254"
           },
           "sessions": [
               1472473075263
@@ -1267,7 +1284,8 @@
           "social": {
               "twitter": "vdemeest",
               "googleplus": null,
-              "github": "vdemeester"
+              "github": "vdemeester",
+              "blog": "http://vincent.demeester.fr"
           },
           "sessions": [
               1471606432407
@@ -1347,7 +1365,8 @@
           "social": {
               "twitter": "@romemore",
               "googleplus": "RomainMenetrier",
-              "github": "https://github.com/romemore"
+              "github": "https://github.com/romemore",
+              "linkedin": "https://www.linkedin.com/in/rmenetrier"
           },
           "sessions": [
               1472317441011
@@ -1411,7 +1430,8 @@
           "social": {
               "twitter": "@_bruno_b_",
               "googleplus": null,
-              "github": "https://github.com/bbonnin"
+              "github": "https://github.com/bbonnin",
+              "linkedin": "https://www.linkedin.com/in/bruno-bonnin-24531854"
           },
           "sessions": [
               1472453181702
@@ -1443,7 +1463,8 @@
           "social": {
               "twitter": "@mikbarbero",
               "googleplus": "MikaëlBarbero",
-              "github": "mbarbero"
+              "github": "mbarbero",
+              "blog": "http://mikael-barbero.tumblr.com"
           },
           "sessions": [
               1472454479881
@@ -1475,7 +1496,8 @@
           "social": {
               "twitter": "@obierlaire",
               "googleplus": null,
-              "github": null
+              "github": null,
+              "linkedin": "https://fr.linkedin.com/in/olivierbierlaire/en"
           },
           "sessions": [
               1472553153816
@@ -1508,7 +1530,8 @@
           "social": {
               "twitter": "http://twitter.com/janjongboom",
               "googleplus": null,
-              "github": "http://github.com/janjongboom/"
+              "github": "http://github.com/janjongboom/",
+              "blog": "http://janjongboom.com"
           },
           "sessions": [
               1472463470824
@@ -1524,7 +1547,8 @@
           "social": {
               "twitter": "@groupecreative",
               "googleplus": null,
-              "github": null
+              "github": null,
+              "blog": "http://www.groupe-creative.fr/"
           },
           "sessions": [
               1472646290272
@@ -1588,7 +1612,8 @@
           "social": {
               "twitter": "https://twitter.com/olivierleplus",
               "googleplus": null,
-              "github": "https://github.com/tagazok"
+              "github": "https://github.com/tagazok",
+              "linkedin": "https://www.linkedin.com/in/olivierleplus"
           },
           "sessions": [
               1472544348682
