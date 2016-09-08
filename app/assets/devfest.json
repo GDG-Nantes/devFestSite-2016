@@ -71,6 +71,10 @@
         "name": "Devfest4Kids",
         "type": "codelab",
         "track": "Kids",
+        "speaker": [
+          202,
+          1434372231365
+        ],
         "agenda" : { "day": 1, "hour": 6 }
       },{
         "id": 8,
@@ -136,7 +140,8 @@
           "type": "conference",
           "track": "cloud",
           "speaker": [
-              1434742896211
+              1434742896211,
+              200
           ],
           "agenda" : { "day": 1, "hour": 8, "room": 1  }
       },
@@ -306,7 +311,8 @@
           "type": "conference",
           "track": "discovery",
           "speaker": [
-              1467354410413
+              1467354410413,
+              201
           ],
           "agenda" : { "day": 2, "hour": 2, "room": 2 }
       },
@@ -330,7 +336,8 @@
           "type": "codelab",
           "track": "discovery",
           "speaker": [
-              1434372231365
+              1434372231365,
+              202
           ],
           "agenda" : { "day": 2, "hour": 2, "room": 5 }
       },
@@ -366,7 +373,8 @@
           "type": "conference",
           "track": "mobile",
           "speaker": [
-              1469097650471
+              1469097650471,
+              203
           ],
           "agenda" : { "day": 1, "hour": 4, "room": 4 }
       },
@@ -390,7 +398,8 @@
           "type": "conference",
           "track": "cloud",
           "speaker": [
-              1467794901682
+              1467794901682,
+              204
           ],
           "agenda" : { "day": 1, "hour": 6, "room": 4 }
       },
@@ -438,7 +447,8 @@
           "type": "conference",
           "track": "web",
           "speaker": [
-              1470388445640
+              1470388445640,
+              205
           ],
           "agenda" : { "day": 1, "hour": 7, "room": 3 }
       },
@@ -462,7 +472,8 @@
           "type": "codelab",
           "track": "web",
           "speaker": [
-              1470778035883
+              1470778035883,
+              206
           ],
           "agenda" : { "day": 2, "hour": 4, "room": 6 }
       },
@@ -486,7 +497,8 @@
           "type": "codelab",
           "track": "discovery",
           "speaker": [
-              1471338493721
+              1471338493721,
+              207
           ],
           "agenda" : { "day": 1, "hour": 3, "room": 6 }
       },
@@ -522,7 +534,8 @@
           "type": "codelab",
           "track": "cloud",
           "speaker": [
-              1471859250404
+              1471859250404,
+              208
           ],
           "agenda" : { "day": 1, "hour": 3, "room": 5 }
       },
@@ -583,7 +596,8 @@
           "type": "conference",
           "track": "web",
           "speaker": [
-              1438377254497
+              1438377254497,
+              209
           ],
           "agenda" : { "day": 2, "hour": 2, "room": 1 }
       },
@@ -632,7 +646,8 @@
           "type": "conference",
           "track": "discovery",
           "speaker": [
-              1472133508219
+              1472133508219,
+              210
           ],
           "agenda" : { "day": 1, "hour": 8, "room": 3 }
       },
@@ -741,7 +756,9 @@
           "type": "codelab",
           "track": "web",
           "speaker": [
-              1465224485474
+              1465224485474,
+              1470388445640,
+              211
           ],
           "agenda" : { "day": 2, "hour": 2, "room": 6 }
       },
@@ -789,7 +806,9 @@
           "type": "conference",
           "track": "web",
           "speaker": [
-              1436275955994
+              1436275955994,
+              1465335589385,
+              212
           ],
           "agenda" : { "day": 2, "hour": 6, "room": 1 }
       },
@@ -837,7 +856,8 @@
               "linkedin": "https://fr.linkedin.com/in/wassimchegham"
           },
           "sessions": [
-              1465336720044
+              1465336720044,
+              1472594325076
           ]
       },
       {
@@ -1072,7 +1092,8 @@
               "blog": "https://javagile.wordpress.com/"
           },
           "sessions": [
-              1470050577168
+              1470050577168,
+              7
           ]
       },
       {
@@ -1204,7 +1225,8 @@
               "blog": "https://github.com/k33g/files"
           },
           "sessions": [
-              1470391194125
+              1470391194125,
+              1472541226273
           ]
       },
       {
@@ -1606,7 +1628,7 @@
           "id": 1471601816772,
           "firstname": "Olivier",
           "name": "Leplus",
-          "company": null,
+          "company": "Google",
           "bio": "My day to day my mission is to help developers create successful and quality apps.\nAs a passionate web developer, I am always discovering and playing with new web technologies !",
           "photo": "oleplus.jpg",
           "social": {
@@ -1731,6 +1753,237 @@
           "sessions": [
               1467189637282
           ]
-      }
+      },
+
+    {
+      "id": 200,
+      "firstname": "Yoann",
+      "name": "Dubreuil",
+      "company": null,
+      "bio": "",
+      "photo": "default.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1465225950184
+      ]
+    },
+    {
+      "id": 201,
+      "firstname": "Julie",
+      "name": "Moynat",
+      "company": "Capgemini",
+      "bio": "Intégratice chez Capgemini",
+      "photo": "default.png",
+      "social": {
+        "twitter": "@juliemoynat",
+        "googleplus": null,
+        "blog": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1472107474978
+      ]
+    },
+    {
+      "id": 202,
+      "firstname": "Jean",
+      "name": "Palies",
+      "company": null,
+      "bio": "",
+      "photo": "default.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1470050577168,
+        7
+      ]
+    },
+    {
+      "id": 203,
+      "firstname": "Stéphane",
+      "name": "Cohan",
+      "company": null,
+      "bio": "Conquis par les makers et l'univers DIY, Stéphane Cohan est curieux et n'hésite pas à bidouiller des trucs et des machins, notamment autour des interfaces tangibles pour les enfants.\nDans la vraie vie, Stéphane est consultant UI/UX depuis près de 20 ans mais ça n'a rien à voir avec le schmilblick, à moins que...",
+      "photo": "default.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1470394746917
+      ]
+    },
+    {
+      "id": 204,
+      "firstname": "Nicolas",
+      "name": "Greffard",
+      "company": "Expandium",
+      "bio": "Natif de Nantes où il obtient un DUT informatique, il part en Ecosse pur suivre un Master “Learning From Data” à l’université d’Edimbourg. Il reviendra finalement à Nantes pour y effectuer un doctorat dans le domaine de la visualisation d’information au sein de l’équipe Data User Knowledge du Laboratoire Informatique de Nantes Atlantique. Après deux ans passés en tant qu’ingénieur de recherche dans cette même équipe il rejoint la société Expandium en 2015 en tant que data scientist.",
+      "photo": "default.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1470391525167
+      ]
+    },
+    {
+      "id": 205,
+      "firstname": "Alain",
+      "name": "Hélaïli",
+      "company": "GitHub",
+      "bio": "",
+      "photo": "default.png",
+      "social": {
+        "twitter": "@AlainHelaili",
+        "googleplus": null,
+        "blog": null,
+        "github": "helaili",
+        "linkedin": null
+      },
+      "sessions": [
+        1470391194125
+      ]
+    },
+    {
+      "id": 206,
+      "firstname": "Romain",
+      "name": "Lespinasse",
+      "company": "SFEIR",
+      "bio": "Romain est développeur backend chez SFEIR. Depuis un peu plus de 10 ans, il aide les clients dans leurs projets Java, tantôt développeur, tantôt intégrateur. Arrivant chez Sfeir, il est parti regarder du côté de Go et Docker pour ses clients IoT. Il se joint à Sébastien pour partager ses expériences avec vous.",
+      "photo": "default.png",
+      "social": {
+        "twitter": "@rlespinasse",
+        "googleplus": null,
+        "blog": null,
+        "github": "rlespinasse",
+        "linkedin": null
+      },
+      "sessions": [
+        1470779030956
+      ]
+    },
+    {
+      "id": 207,
+      "firstname": "Aurélie",
+      "name": "Robert",
+      "company": "Conserto",
+      "bio": "Product Owner chez Conserto",
+      "photo": "default.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1472473075263
+      ]
+    },
+    {
+      "id": 208,
+      "firstname": "Nicolas",
+      "name": "Terral",
+      "company": "Sopra Steria",
+      "bio": "DataHero au sein du DataLab Sopra Steria. En charge de missions de développement et d’architecture autour de sujets Big Data.",
+      "photo": "default.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1471878583557
+      ]
+    },
+    {
+      "id": 209,
+      "firstname": "Antoine",
+      "name": "Cellier",
+      "company": "Zenika",
+      "bio": "Consultant chez Zenika Nantes. J'interviens sur des missions de réalisation autour des technos front et back tel que AngularJS, ReactJS et Spring. Passionné par l’écosystème technique dans lequel je travaille je participe régulièrement aux meetups Nantais et donne des talks lors de différents événement (NantesJS, Voxxed Luxembourg, Nantes JUG, bdx.io)",
+      "photo": "default.png",
+      "social": {
+        "twitter": "@AntoineCellier3",
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": "https://www.linkedin.com/in/antoine-cellier-34b69954"
+      },
+      "sessions": [
+        1472110242598
+      ]
+    },
+    {
+      "id": 210,
+      "firstname": "Gautier",
+      "name": "de SAINT MARTIN LACAZE",
+      "company": "Freelance",
+      "bio": "Développeur freelance passionné, Gautier travaille principalement sur les technologies Java et JavaScript. Afin de rester au fait des nouveautés, il participe régulièrement à des conférences nantaises ou nationales. Il coorganise également le Nantes JUG depuis juin 2014.\nAyant appris à dompter l'IDE Eclipse lors de ses premières années de travail, il contribue aujourd'hui à l'amélioration de son outil de travail via des patchs et la formation de ses clients.",
+      "photo": "default.png",
+      "social": {
+        "twitter": "@darkjabberwock",
+        "googleplus": null,
+        "blog": "http://jabby-techs.fr/",
+        "github": "jabby",
+        "linkedin": null
+      },
+      "sessions": [
+        1472454479881
+      ]
+    },
+    {
+      "id": 211,
+      "firstname": "Eric",
+      "name": "Briand",
+      "company": "Zenika",
+      "bio": "Eric développeur Java/J2EE full-stack chez Zenika Nantes. Il aime travailler sur toutes les couches d'une application web, de la base de données jusqu'au front en utilisant aussi bien des technologies qui ont fait leur preuve que des technologies de pointe. Très intéressé par les technologies Cloud (PAAS & IAAS). Il est formateur officiel Docker et co-organisateur du Docker Meetup Nantes.",
+      "photo": "default.png",
+      "social": {
+        "twitter": "@eric_briand",
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1472541226273
+      ]
+    },
+    {
+      "id": 212,
+      "firstname": "Cyril",
+      "name": "Balit",
+      "company": "SFEIR",
+      "bio": "",
+      "photo": "default.png",
+      "social": {
+        "twitter": "@cbalit",
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1472594325076
+      ]
+    }
   ]
 }
