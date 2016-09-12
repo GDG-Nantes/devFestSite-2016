@@ -95,9 +95,9 @@ getRoomLabel = function getRoomLabel(id) {
 // Get the day label
 var getDayLabel = function getDayLabel(day) {
   switch (day) {
-    case 1:
-      return language === 'en' ? 'Thursday, November 10th' : 'Jeudi 10 novembre';
     case 2:
+      return language === 'en' ? 'Thursday, November 10th' : 'Jeudi 10 novembre';
+    case 1:
       return language === 'en' ? 'Wednesday, November 9th' : 'Mercredi 9 novembre';
   }
 };
