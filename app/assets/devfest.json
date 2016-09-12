@@ -38,6 +38,10 @@
       "name": "Keynote d'ouverture / Opening keynote",
       "type": "keynote",
       "track": "DevFest",
+      "speaker": [
+        213
+        
+      ],
       "agenda" : { "day": 1, "hour": 2, "room": 1 }
     },{
       "id": 2,
@@ -2018,6 +2022,25 @@
       "sessions": [
         1472594325076
       ]
+    },
+    {
+      "id": 213,
+      "firstname": "Ezra",
+      "name": "",
+      "company": "Organic Orchestra",
+      "bio": "EZRA (Vincent CHTAÏBI), directeur artistique, est un membre actif et reconnu du beatbox international. Il a foulé les scènes des quatre coins du monde et joué en solo dans les lieux les plus mythiques de France (Olympia, Cigale, Transmusicales…). Ezra développe sa discipline avec des facultés d’adaptation et une aisance scénique qui l’ont amené à collaborer avec des artistes de réputation mondiale (Kid Koala, Bauchklang, Wax Tailor, One self, Socalled…) et de partir en tournée mondiale avec la chanteuse Camille.",
+      "photo": "ezra.png",
+      "social": {
+        "twitter": "@Ezrabox",
+        "googleplus": null,
+        "blog": "http://organic-orchestra.com",
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1
+      ]
     }
+
   ]
 }
