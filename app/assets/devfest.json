@@ -217,7 +217,7 @@
       "speaker": [
         1467623542435
       ],
-      "agenda" : { "day": 2, "hour": 2, "room": 3 }
+      "agenda" : { "day": 2, "hour": 4, "room": 3 }
     },
     {
       "id": 1466670619967,
@@ -277,7 +277,7 @@
       "speaker": [
         1434987027061
       ],
-      "agenda" : { "day": 1, "hour": 3, "room": 1 }
+      "agenda" : { "day": 2, "hour": 2, "room": 1 }
     },
     {
       "id": 1467189637282,
@@ -512,7 +512,7 @@
       "speaker": [
         1434378343474
       ],
-      "agenda" : { "day": 2, "hour": 7, "room": 3 }
+      "agenda" : { "day": 2, "hour": 7, "room": 4 }
     },
     {
       "id": 1471611313272,
@@ -599,7 +599,7 @@
         1438377254497,
         209
       ],
-      "agenda" : { "day": 2, "hour": 2, "room": 1 }
+      "agenda" : { "day": 1, "hour": 3, "room": 1 }
     },
     {
       "id": 1472052858025,
@@ -661,7 +661,7 @@
       "speaker": [
         1472223851013
       ],
-      "agenda" : { "day": 2, "hour": 4, "room": 1 }
+      "agenda" : { "day": 1, "hour": 7, "room": 1 }
     },
     {
       "id": 1472553153816,
@@ -673,7 +673,7 @@
       "speaker": [
         1472226217608
       ],
-      "agenda" : { "day": 2, "hour": 7, "room": 4 }
+      "agenda" : { "day": 2, "hour": 7, "room": 3 }
     },
     {
       "id": 1472390635773,
