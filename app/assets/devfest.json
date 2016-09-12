@@ -91,8 +91,8 @@
     },
     {
       "id": 999,
-      "name": "Bouchez vos fuites mémoires avec LeakCanary",
-      "description": "LeakCanary est une lib Open Source de Square qui détecte les fuites mémoires automatiquement et permet de les corriger facilement. En quelques semaines, nous avons réduit de 94% les crashs dus aux OutOfMemoryError dans notre app Android.\nCe talk présente les principes généraux puis creuse dans le détail du \"comment ça marche à l'intérieur\". Nous verrons ensembles plusieurs exemples intéressants et les leçons à en tirer. Mario et Luigi n'auront bientôt plus de boulot!",
+      "name": "LeakCanary, et ensuite? Détricotage de fuites mémoire Android",
+      "description": "LeakCanary est une lib Open Source de Square qui détecte les fuites mémoires automatiquement dans vos apps Android.\n\nC'est bien gentil, mais ensuite on fait quoi? Ce talk explique comment passer de la détection à la correction. OutOfMemoryError: bientôt un mauvais souvenir!",
       "difficulty": 2,
       "type": "conference",
       "track": "mobile",
@@ -104,8 +104,8 @@
     },
     {
       "id": 998,
-      "name": "TechTalks for Humans",
-      "description": "TBD",
+      "name": "Tech talks: Uploadez vos idées vers d'autres êtres humains",
+      "description": "Vous présentez le point le plus excitant de la JSR 330, quand soudain vous remarquez qu'une personne du premier rang s'est endormie, qu'une moitié de la salle baille et l'autre est concentrée sur son téléphone.\n\nVenez découvrir comment construire un talk pour bien transmettre vos idées!",
       "difficulty": 1,
       "type": "conference",
       "track": "mobile",
@@ -207,15 +207,15 @@
       "agenda" : { "day": 2, "hour": 4, "room": 2 }
     },
     {
-      "id": 1466589262236,
-      "name": "Reactive Microservices in Mobile Backends",
-      "description": "There are many ways to build highly scalable backend solutions for Mobile Applications.\nWe want our backends to be Responsive, Resilient, Elastic and Message Driven.\nThese kind of systems are called Reactive Systems.\nIn this presentation we will go through a reference backend system built with\nGoogle Cloud Platform and fulfilling the aforementioned requirements.\nWe will go through all the different parts and selected open source technologies\nand solutions between the Mobile App, Backend and its Services.",
-      "difficulty": 2,
+      "id": 1467624369880,
+      "name": "Ingest node : (ré)indexer et enrichir des documents dans Elasticsearch",
+      "description": "Lorsque vous injectez des données dans elasticsearch, vous pouvez avoir besoin de réaliser des opérations de transformation assez simples. Jusqu'à présent, ces opérations devaient s'effectuer en dehors d'elasticsearch, avant l'indexation proprement dite.\nSouhaitez la bienvenue à `Ingest node` ! Un nouveau type de noeud qui vous permet justement de faire cela.\nCe talk explique le concept de `Ingest Node`, comment l'intégrer avec le reste de la suite logicielle Elastic et comment développer son propre plugin Ingest par la pratique en montrant comment j'ai développé le plugin `ingest-bano` pour enrichir des adresses postales et/ou des coordonnées géographiques françaises (pour l'instant).\nCe talk parlera également de l'API de réindexation qui peut également bénéficier du pipeline d'ingestion pour modifier vos données à la volée lors de la réindexation.",
+      "difficulty": 1,
       "type": "conference",
-      "track": "mobile",
+      "track": "cloud",
       "lang": "en",
       "speaker": [
-        1466532191364
+        1467623542435
       ],
       "agenda" : { "day": 2, "hour": 2, "room": 3 }
     },
@@ -503,16 +503,16 @@
       "agenda" : { "day": 1, "hour": 3, "room": 6 }
     },
     {
-      "id": 1471606432407,
-      "name": "Vis ma vie de mainteneur Docker",
-      "description": "- Il est 7h du matin, une bonne odeur de café vient de la cuisine, il\nest temps de déjeuner !\n- Nope, la première chose à faire : Notifications Github !!\n- …\n- Ouai, 80 notifications en l'espace de cette nuit courte de 6h !\n  Merci USA !\n- Ahah, y a une issue sur le gouvernement français, wat ? nicolas… <_<'\n\nPlus tard dans la journée :\n\n- Vincent, on va manger !\n- Ouai ouai j'arrive, plus que 10 PRs à relire et j'arrive ;-P\n\nVous avez toujours rêvez de participer à un projet open-source ? Moi aussi ! \nDe la première pull-request à la consécration (^_^), je vous propose\nde plonger dans la vie d'un mainteneur sur un projet open-source\nd'envergure, Docker ! Un joyeux « Bazaar » terriblement bien organisé.",
+      "id": 1472674682270,
+      "name": "La datavisualisation : depuis quand ? comment ? pour qui ? quels outils ?",
+      "description": "20 minutes pour faire un tour rapide de la datavisualisation. De quand datent les premiers graphes ? quels type de graphes mettre en œuvre en fonction du type de données ? quels outils utiliser ?\nCe quickie vous permettra de découvrir rapidement les concepts de la datavisualisation et vous donnera un aperçu des différentes questions à se poser et de ce qui existe dans ce domaine.",
       "difficulty": 1,
       "type": "quickie",
       "track": "discovery",
       "speaker": [
-        1471523171504
+        1434378343474
       ],
-      "agenda" : { "day": 2, "hour": 7, "room": 1 }
+      "agenda" : { "day": 2, "hour": 7, "room": 3 }
     },
     {
       "id": 1471611313272,
@@ -579,7 +579,7 @@
     {
       "id": 1471998460521,
       "name": "Talk Firebase",
-      "description": "Bientôt la description mais pour sûr, c'est un talk sur des nouveautés Firebase",
+      "description": "Bientôt la description mais pour sûr, c'est un talk sur des nouveautés Firebase. Plus d'infos la semaine du DevFest ;)",
       "difficulty": 2,
       "type": "conference",
       "track": "cloud",
@@ -685,7 +685,7 @@
       "speaker": [
         1472282811544
       ],
-      "agenda" : { "day": 2, "hour": 7, "room": 3 }
+      "agenda" : { "day": 2, "hour": 7, "room": 1 }
     },
     {
       "id": 1472390695765,
@@ -1034,12 +1034,12 @@
       "name": "Garreau",
       "company": "Lucca",
       "bio": "Je suis développeur depuis 10 ans. J'ai évolué pendant longtemps sur des stack java et android. Depuis maintenant 3 ans je m’intéresse plus en profondeur au Web et à ses nouvelles possibilités. J'ai ainsi optenu le status de GDE (Google Developer Expert) cette année sur la partie WebTechnology. En dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes, co-créateur des Nantes Wit et organisateur de Devoxx4Kids ",
-      "photo": "jgarreau.png",
+      "photo": "jgarreau.jpeg",
       "social": {
         "twitter": "@jefbinomed",
         "googleplus": "https://plus.google.com/+jefbinomed",
         "github": "https://github.com/jefbinomed",
-        "blog": "http://jefbinomed.fr"
+        "blog": "https://jefbinomed.fr"
       },
       "sessions": [
         1467189637282,
@@ -1084,7 +1084,7 @@
       "name": "Bossard",
       "company": null,
       "bio": "ai un but : aider les équipes à produire des logiciels utiles aux utilisateurs finaux. Pour cela, je les accompagne en intégrant les équipes de développement ou en les assistant dans leur transition agile. Impliquée dans la communauté agile nantaise, je participe également à l'organisation de l'Agile Tour de Nantes. Femme développeuse, je suis également co-fondatrice du groupe Women In Technology à Nantes, dont le but est de promouvoir les femmes dans la technique. Dans ce cadre, je participe également aux initiations à la programmation à destination des enfants avec des initiatives telles que les Devoxx4Kids ou les coding goûters.",
-      "photo": "default.png",
+      "photo": "cbossard.png",
       "social": {
         "twitter": "@ceciliaBossard",
         "googleplus": null,
@@ -1136,7 +1136,7 @@
       "name": "Piard",
       "company": "SQLi",
       "bio": "Biberonné aux joies du Cobol, engraissé aux compotes Php, gavé de Java, sustenté aux sucreries C#, repu au Flex et finalement dernièrement nourri en intraveineuse de JS, je me délecte en ce moment d'IOT. A mes heures perdues, je cuisine également quelques mets open source.",
-      "photo": "vpiard.jpeg",
+      "photo": "vpiard.jpg",
       "social": {
         "twitter": "@lynchmaniacPL",
         "googleplus": null,
@@ -1201,7 +1201,7 @@
       "name": "Augier",
       "company": null,
       "bio": "Après 5 ans à développer des hyperviseurs pour les systèmes embarquées et un cours passage en SSII je m'occupe à depuis 5 ans du développement du debugger intégré à Simics une solution de simulation de cartes électroniques multi-architectures et plus récemment du développement d'outils Cloud pour ce dernier.\n\nInscrit dans le mouvement Software Craftmanship j'essaie au jour le jour d'améliorer mes pratiques et celles de mon équipe.\n\nQuand il me reste un peu de temps, j'anime des ateliers pour Makerspace56 une association que j'ai co-fondé en 2012, un pilier du FabLab de Vannes.",
-      "photo": "default.png",
+      "photo": "caugier.jpg",
       "social": {
         "twitter": "@tytouf",
         "googleplus": null,
@@ -1252,7 +1252,7 @@
       "name": "Friess",
       "company": "SFEIR",
       "bio": "Développeur backend chez **SFEIR**. Après 10 années de Java dans des environnements distribués, il a récemment sauté le pas pour le *Go* chez ses clients dans le domaine de l'IoT. Il vous propose aujourd'hui de partager son expérience pour la première fois.",
-      "photo": "default.png",
+      "photo": "sfriess.jpg",
       "social": {
         "twitter": "https://twitter.com/sebastienfriess",
         "googleplus": "https://plus.google.com/+SebastienFRIESS",
@@ -1335,11 +1335,12 @@
       "name": "GUIBERTEAU",
       "company": "Sopra Steria",
       "bio": "Issu d’un parcours de consultant en architecture SI avec une expérience plus poussée sur les domaines décisionnel, Big Data et architecture d’entreprise, je contribue à la réalisation de missions de transformation digitale. J'ai une appétence particulière pour tous les sujets liés à l'analytique et à la donnée.\n \nJe suis acteur de cette transformation numérique notamment par la conduite d’avant-ventes, la réalisation de mission de conseil, d’expertise et de POC ainsi que par le développement local de  notre offre Big Data sur les aspects commerce, orientations stratégiques et technologiques, RH et compétences.",
-      "photo": "default.png",
+      "photo": "nguiberteau.jpg",
       "social": {
         "twitter": null,
         "googleplus": null,
-        "github": null
+        "github": null,
+        "linkedin": "https://www.linkedin.com/in/nathana%C3%ABl-guiberteau-242a2341"
       },
       "sessions": [
         1471878583557
@@ -1383,7 +1384,7 @@
       "name": "Romain",
       "company": null,
       "bio": "Romain est développeur depuis plus de 15 ans et a été CTO dans une startup (Connecthings) et pour une solution d'un grand groupe (Orange). Passé  par le web et les backend, il est maintenant concentré sur l'innovation et l'environnement mobile. Il est également organisateur au Paris Android User Group et un des fondateurs de Droidcon Paris.",
-      "photo": "default.png",
+      "photo": "rmenetrier.jpg",
       "social": {
         "twitter": "@romemore",
         "googleplus": "RomainMenetrier",
@@ -1465,7 +1466,7 @@
       "name": "Fontaine",
       "company": "Zenika",
       "bio": "Je suis un dév fullstack Java et Js, curieux de tout : devops, nouvelles technologies, agilité, craftmanship, développement personnel.",
-      "photo": "default.png",
+      "photo": "bfontaine.jpg",
       "social": {
         "twitter": "@benjifontaine5",
         "googleplus": "https://plus.google.com/100218727706940554885",
@@ -1615,7 +1616,7 @@
       "name": "Frin",
       "company": "Zenika",
       "bio": "Yvonnick développeur javascript chez Zenika Nantes. Curieux et passionné, il aime découvrir les dernières technologies du Web. Adepte d’AngularJs depuis déjà deux ans, il se met à explorer le Flux avec React. Social, il écume les meetups nantais en quête de nouveautés.",
-      "photo": "default.png",
+      "photo": "yfrin.jpg",
       "social": {
         "twitter": "@YvonnickFrin",
         "googleplus": null,
@@ -1708,11 +1709,43 @@
       ]
     },
     {
+      "id": 1434378343474,
+      "firstname": "Thomas",
+      "name": "Fournaise",
+      "company": "La Poste",
+      "bio": "Chef de projet et développeur. \nEn charge de l'opendata et de la réalisation de dataviz au sein du groupe La Poste. Je pratique assez régulièrement D3 pour créer de l'interactivité autour des données.",
+      "photo": "tfournaise.jpg",
+      "social": {
+        "twitter": "FournaiseThomas",
+        "googleplus": null,
+        "github": null
+      },
+      "sessions": [
+        1472674682270
+      ]
+    },
+    {
+      "id": 1467623542435,
+      "firstname": "David",
+      "name": "Pilato",
+      "company": "Elastic",
+      "bio": "Depuis 2013, David Pilato est développeur et évangéliste chez elastic.co, après avoir passé les deux années précédentes à promouvoir le projet open-source Elasticsearch. Il en anime la communauté française.",
+      "photo": "dpilato.jpg",
+      "social": {
+        "twitter": "@dadoonet",
+        "googleplus": null,
+        "github": "dadoonet"
+      },
+      "sessions": [
+        1467624369880
+      ]
+    },
+    {
       "id": 101,
       "firstname": "Pierre-Yves",
       "name": "Ricau",
       "company": "Square",
-      "bio": "Android baker at Square.\n I started having fun with Java & Android as a consultant in Paris, then joined a startup in Barcelona and finally joined Square in San Francisco to work with some of the best engineers in the world.\nI like good wine & low entropy code.",
+      "bio": "Tech Lead Android à Square. J'aime le vin bien structuré et le code tartiné au beurre salé.",
       "photo": "pricau.jpg",
       "social": {
         "twitter": "piwai",
@@ -1760,11 +1793,11 @@
       "id": 200,
       "firstname": "Yoann",
       "name": "Dubreuil",
-      "company": null,
-      "bio": "",
-      "photo": "default.png",
+      "company": "Cloudbees",
+      "bio": "Yoann Dubreuil travaille chez CloudBees. A mi-chemin entre développeur et administrateur système, il s'occupe aujourd'hui du maintien de la solution hébergée DEV@cloud après avoir accompagné les clients CloudBees à tirer le meilleur de Jenkins dans l'équipe support. Il participe à l’organisation du BreizhCamp, la conférence à l’ouest.",
+      "photo": "ndubreuil.jpg",
       "social": {
-        "twitter": null,
+        "twitter": "@yoanndubreuil",
         "googleplus": null,
         "blog": null,
         "linkedin": null
@@ -1778,12 +1811,12 @@
       "firstname": "Julie",
       "name": "Moynat",
       "company": "Capgemini",
-      "bio": "Intégratice chez Capgemini",
-      "photo": "default.png",
+      "bio": "Ayant la double casquette de webdesigner et d'intégratrice web, la qualité a toujours été un objectif pour moi car il fallait, entre autres, réaliser des maquettes intégrables. Au fil de l'eau, j'ai découvert que la façon dont on écrit le HTML et le CSS a un réel impact que ce soit pour les différents navigateurs mais aussi et surtout pour les personnes en situation de handicap. Je me suis donc tout naturellement orientée vers l'accessibilité web pour essayer, même si ça reste encore assez utopique, de rendre le web meilleur et donc plus accessible.\nJe co-organise, par ailleurs, les Web Apéros Nantais ; un évènement qui vise à se faire rencontrer les acteurs du web nantais.",
+      "photo": "jmoynat.jpg",
       "social": {
         "twitter": "@juliemoynat",
         "googleplus": null,
-        "blog": null,
+        "blog": "http://www.juliemoynat.fr/",
         "linkedin": null
       },
       "sessions": [
@@ -1795,13 +1828,13 @@
       "firstname": "Jean",
       "name": "Palies",
       "company": null,
-      "bio": "",
-      "photo": "default.png",
+      "bio": "Développeur Java, Angular JS le jour, bidouilleur la nuit. Après quelques années de bricolage et découvertes, j'ai repris les bases de la programmation il y a 15 ans avec Scratch, que je réutilise avec bonheur maintenant dans les Devoxx4Kids ou les Coding Goûters à Nantes, dont je suis cofondateur. Je suis aussi membre et confondateur des Women In Technology à Nantes.",
+      "photo": "jpalies.jpg",
       "social": {
-        "twitter": null,
-        "googleplus": null,
-        "blog": null,
-        "linkedin": null
+        "twitter": "https://twitter.com/jpalies",
+        "googleplus": "https://plus.google.com/u/0/106552014287288043542/",
+        "blog": "https://javagile.wordpress.com/",
+        "github": "https://github.com/JeanPalies"
       },
       "sessions": [
         1470050577168,
@@ -1814,9 +1847,9 @@
       "name": "Cohan",
       "company": null,
       "bio": "Conquis par les makers et l'univers DIY, Stéphane Cohan est curieux et n'hésite pas à bidouiller des trucs et des machins, notamment autour des interfaces tangibles pour les enfants.\nDans la vraie vie, Stéphane est consultant UI/UX depuis près de 20 ans mais ça n'a rien à voir avec le schmilblick, à moins que...",
-      "photo": "default.png",
+      "photo": "scohan.jpg",
       "social": {
-        "twitter": null,
+        "twitter": "@SCxPro",
         "googleplus": null,
         "blog": null,
         "linkedin": null
@@ -1847,12 +1880,12 @@
       "firstname": "Alain",
       "name": "Hélaïli",
       "company": "GitHub",
-      "bio": "",
-      "photo": "default.png",
+      "bio": "L'un des deux Octocats Français. Par conséquent, je fais tout, mais à moitié! Arrivé chez GitHub après être passé chez MongoDB, dynaTrace et BEA, j'ai démarré Linux avec le kernel 0.9 et Java avec le JDK 1.0. Je reste à l'affut des nouveautés technologiques et toujours curieux de la manière dont elles sont utilisées par les membres de mon espèce.",
+      "photo": "ahelaili.png",
       "social": {
         "twitter": "@AlainHelaili",
         "googleplus": null,
-        "blog": null,
+        "blog": "http://helaili.github.io",
         "github": "helaili",
         "linkedin": null
       },
@@ -1884,7 +1917,7 @@
       "name": "Robert",
       "company": "Conserto",
       "bio": "Product Owner chez Conserto",
-      "photo": "default.png",
+      "photo": "arobert.jpg",
       "social": {
         "twitter": null,
         "googleplus": null,
@@ -1902,13 +1935,13 @@
       "name": "Terral",
       "company": "Sopra Steria",
       "bio": "DataHero au sein du DataLab Sopra Steria. En charge de missions de développement et d’architecture autour de sujets Big Data.",
-      "photo": "default.png",
+      "photo": "nterral.jpg",
       "social": {
         "twitter": null,
         "googleplus": null,
         "blog": null,
         "github": null,
-        "linkedin": null
+        "linkedin": "https://fr.linkedin.com/in/nicolas-terral-3b606387/fr"
       },
       "sessions": [
         1471878583557
@@ -1920,7 +1953,7 @@
       "name": "Cellier",
       "company": "Zenika",
       "bio": "Consultant chez Zenika Nantes. J'interviens sur des missions de réalisation autour des technos front et back tel que AngularJS, ReactJS et Spring. Passionné par l’écosystème technique dans lequel je travaille je participe régulièrement aux meetups Nantais et donne des talks lors de différents événement (NantesJS, Voxxed Luxembourg, Nantes JUG, bdx.io)",
-      "photo": "default.png",
+      "photo": "acellier.jpeg",
       "social": {
         "twitter": "@AntoineCellier3",
         "googleplus": null,
@@ -1938,7 +1971,7 @@
       "name": "de SAINT MARTIN LACAZE",
       "company": "Freelance",
       "bio": "Développeur freelance passionné, Gautier travaille principalement sur les technologies Java et JavaScript. Afin de rester au fait des nouveautés, il participe régulièrement à des conférences nantaises ou nationales. Il coorganise également le Nantes JUG depuis juin 2014.\nAyant appris à dompter l'IDE Eclipse lors de ses premières années de travail, il contribue aujourd'hui à l'amélioration de son outil de travail via des patchs et la formation de ses clients.",
-      "photo": "default.png",
+      "photo": "glacaze.png",
       "social": {
         "twitter": "@darkjabberwock",
         "googleplus": null,
@@ -1956,7 +1989,7 @@
       "name": "Briand",
       "company": "Zenika",
       "bio": "Eric développeur Java/J2EE full-stack chez Zenika Nantes. Il aime travailler sur toutes les couches d'une application web, de la base de données jusqu'au front en utilisant aussi bien des technologies qui ont fait leur preuve que des technologies de pointe. Très intéressé par les technologies Cloud (PAAS & IAAS). Il est formateur officiel Docker et co-organisateur du Docker Meetup Nantes.",
-      "photo": "default.png",
+      "photo": "ebriand.jpg",
       "social": {
         "twitter": "@eric_briand",
         "googleplus": null,
@@ -1973,13 +2006,13 @@
       "firstname": "Cyril",
       "name": "Balit",
       "company": "SFEIR",
-      "bio": "",
-      "photo": "default.png",
+      "bio": "Cyril Balit est CTO Front chez SFEIR et Goole Developer Expert. Développeur passionné, il construit des Single Page Application en javascript depuis 2003 et tombe amoureux d’Angular en 2013. Il est un membre actif de la communauté web français sur plusieurs sujets comme Angular, Polymer  et les Progressives Web App . Organisateur de conférences et de meetups , speaker et formateur , Cyril aime partager avec les communautés.",
+      "photo": "cbalit.jpeg",
       "social": {
         "twitter": "@cbalit",
         "googleplus": null,
         "blog": null,
-        "github": null,
+        "github": "https://github.com/cbalit",
         "linkedin": null
       },
       "sessions": [
