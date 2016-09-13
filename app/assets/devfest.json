@@ -21,9 +21,10 @@
       {"id" : 5, "label": "12h10"},
       {"id" : 6, "label": "14h00"},
       {"id" : 7, "label": "15h10"},
-      {"id" : 8, "label": "15h40"},
-      {"id" : 9, "label": "16h10"},
-      {"id" : 10, "label": "17h30"}
+      {"id" : 8, "label": "16h20"},
+      {"id" : 9, "label": "16h50"},
+      {"id" : 10, "label": "17h20"},
+      {"id" : 11, "label": "18h10"}
     ]
   },
   "sessions": [
@@ -85,13 +86,16 @@
       "name": "Table ronde / Round table",
       "type": "table ronde",
       "track": "discovery",
-      "agenda" : { "day": 2, "hour": 3, "room": 2  }
+      "agenda" : { "day": 2, "hour": 3, "room": 2  },
+      "speaker": [
+        221
+      ]
     },{
       "id": 9,
       "name": "Fermeture des portes / Gates closed",
       "track": "DevFest",
       "image": "/images/agenda/closed.png",
-      "agenda" : { "day": 2, "hour": 10 }
+      "agenda" : { "day": 2, "hour": 11 }
     },
     {
       "id": 999,
@@ -112,8 +116,8 @@
       "description": "Vous présentez le point le plus excitant de la JSR 330, quand soudain vous remarquez qu'une personne du premier rang s'est endormie, qu'une moitié de la salle baille et l'autre est concentrée sur son téléphone.\n\nVenez découvrir comment construire un talk pour bien transmettre vos idées!",
       "difficulty": 1,
       "type": "conference",
-      "track": "mobile",
-      "lang": "en",
+      "track": "discovery",
+      "lang": "fr",
       "speaker": [
         101
       ],
@@ -121,12 +125,15 @@
     },
     {
       "id": 997,
-      "name": "TALK SPONSOR ZENIKA",
-      "description": "TALK SPONSOR ZENIKA",
-      "difficulty": 1,
+      "name": "Traefik, a modern reverse-proxy",
+      "description": "Si je vous dis microservices, vous allez surement me répondre: Docker, Mesos, Consul, Etcd... Et l'intégration d'un reverse-proxy / load-balancer dans tout ça? Pas simple... Et si on créait un reverse-proxy \"automatique\"? Traefik est un reverse-proxy, load-balancer dynamique, permettant de construire sa configuration à chaud à partir de différents bakends : Docker, Mesos/Marathon, Etcd, Consul, Zookeeper, BoltDb…",
+      "difficulty": 2,
       "type": "conference",
-      "track": "discovery",
-      "agenda" : { "day": 2, "hour": 4, "room": 4 }
+      "track": "cloud",
+      "agenda" : { "day": 2, "hour": 7, "room": 2 },
+      "speaker":[
+        215
+      ]
     },
     {
       "id": 996,
@@ -135,7 +142,72 @@
       "difficulty": 1,
       "type": "quickie",
       "track": "discovery",
-      "agenda" : { "day": 2, "hour": 8, "room": 4 }
+      "agenda" : { "day": 2, "hour": 9, "room": 4 },
+      "speaker":[
+        222
+      ]
+    },
+    {
+      "id": 995,
+      "name": "12 Factor",
+      "description": "TBD",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "cloud",
+      "agenda" : { "day": 1, "hour": 4, "room": 1 },
+      "speaker":[
+        214,
+        1472223851013
+      ]
+    },
+    {
+      "id": 994,
+      "name": "Et si on faisait un jeu ?",
+      "description": "Développer des jeux en HTML5/JS c’est devenu un vraie réalité.\nMême si la 3D reste encore un peu expérimentale et réservée à de rares plateformes, la généralisation d’HTML5 sur la plupart des supports a permit l’essor des « petits jeux » 2D. \nQuand on n’a jamais essayé, le développement d’un jeu peut paraitre affreusement compliqué. Pourtant, il existe aujourd’hui des frameworks vraiment bien faits pour vous faciliter la vie. \nDans ce live coding, je vous propose de découvrir le développement d’un jeu mobile par l’exemple avec le framework phaser.io. Je suis sûr qu’après cette première sensibilisation, vous voudrez donner vie à vos idées !",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "discovery",
+      "agenda" : { "day": 2, "hour": 4, "room": 4 },
+      "speaker":[
+        216
+      ]
+    },
+    {
+      "id": 993,
+      "name": "Apache Beam, un modèle unifié pour le traitement des données Big Data",
+      "description": "Apache Beam est un modèle de programmation unifié pour le traitement des données Big Data par lots (batch) ou en flux continu (streaming). Cet exposé présentera le modèle Beam, son histoire, de la publication du modèle Dataflow à aujourd’hui. Nous allons également présenter certaines spécificités de Apache Beam. Notamment la gestion de l'arrivée tardive des données et la capacité d'exécuter des processus (pipelines) à la fois sur site via Apache Spark ou Apache Flink, ou dans le Cloud en utilisant Google Cloud Dataflow, sans besoin de modifier le code.",
+      "difficulty": 3,
+      "type": "conference",
+      "track": "cloud",
+      "agenda" : { "day": 2, "hour": 4, "room": 3 },
+      "speaker":[
+        217,
+        218
+      ]
+    },
+    {
+      "id": 992,
+      "name": "La boîte à outils du développeur Android de 2016",
+      "description": "Le développement pour Android a bien changé ces dernières années. Nous disposons à présent d'une boîte à outils gigantesque nous permettant d'améliorer notre productivité et de construire de meilleures applications. Lors de cette présentation, venez découvrir quelques-uns des outils que nous manipulons quotidiennement lors du développement de l'application Android happn nous permettant de : - Simuler une connexion HTTP(s) lente ou instable - Interagir en temps réel avec notre application pour analyser les logs, vues, ou modifier les données sans breakpoint - Changer instantanément de backend serveur, sans recompilation - Mieux comprendre et réduire la dette technique de notre application - Anticiper le développement d'une application client alors que le backend n'a pas encore été déployé - Mesurer efficacement l'empreinte mémoire / cpu - Décompiler notre application pour mieux analyser sa sécurité - Altérer une réponse serveur et vérifier le comportement de l'application... - ... et bien plus encore Niveau prérequis : savoir développer une application (simple) native pour Android",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "mobile",
+      "agenda" : { "day": 2, "hour": 6, "room": 4 },
+      "speaker":[
+        219
+      ]
+    },
+    {
+      "id": 991,
+      "name": "Rendez vos applications plus humaines avec Cognitive Services",
+      "description": "Reconnaissance d’images, détection des visages, interprétation du langage… : Cognitive Services vous propose un ensemble de services REST pour rendre vos applications web et vos applications clientes plus humaines. Quels que soient la plateforme ou le langage que vous utilisez, Cognitive Services vous propose d’enrichir vos applications avec des algorithmes de machine learning prêts à l’emploi. Cross-plateforme et simples d’utilisation, venez découvrir comment ces services peuvent vous aider dans vos futurs développements. https://www.microsoft.com/cognitive-services",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "mobile",
+      "agenda" : { "day": 2, "hour": 2, "room": 3 },
+      "speaker":[
+        220
+      ]
     },  {
       "id": 1465225950184,
       "name": "Containers' Jungle. Docker, Rocket, RunC, LXD ... WTF ?",
@@ -159,7 +231,7 @@
       "speaker": [
         1465335589385
       ],
-      "agenda" : { "day": 2, "hour": 8, "room": 1  }
+      "agenda" : { "day": 2, "hour": 9, "room": 1  }
     },
     {
       "id": 1465579632798,
@@ -221,7 +293,7 @@
       "speaker": [
         1467623542435
       ],
-      "agenda" : { "day": 2, "hour": 4, "room": 3 }
+      "agenda" : { "day": 2, "hour": 7, "room": 1 }
     },
     {
       "id": 1466670619967,
@@ -245,7 +317,7 @@
       "speaker": [
         1466669874351
       ],
-      "agenda" : { "day": 2, "hour": 6, "room": 4 }
+      "agenda" : { "day": 1, "hour": 8, "room": 3 }
     },
     {
       "id": 1466789828567,
@@ -293,7 +365,7 @@
       "speaker": [
         1434094629196,103
       ],
-      "agenda" : { "day": 2, "hour": 9, "room": 1 }
+      "agenda" : { "day": 2, "hour": 10, "room": 1 }
     },
     {
       "id": 1467190977231,
@@ -330,7 +402,7 @@
       "speaker": [
         1441039953835
       ],
-      "agenda" : { "day": 2, "hour": 7, "room": 2 }
+      "agenda" : { "day": 1, "hour": 9, "room": 2 }
     },
     {
       "id": 1470050577168,
@@ -355,7 +427,7 @@
       "speaker": [
         1466499956776
       ],
-      "agenda" : { "day": 1, "hour": 9, "room": 3 }
+      "agenda" : { "day": 2, "hour": 8, "room": 3 }
     },
     {
       "id": 1469470996994,
@@ -392,7 +464,7 @@
       "speaker": [
         1469880094236
       ],
-      "agenda" : { "day": 1, "hour": 6, "room": 3 }
+      "agenda" : { "day": 1, "hour": 8, "room": 2 }
     },
     {
       "id": 1470391525167,
@@ -451,8 +523,7 @@
       "type": "conference",
       "track": "web",
       "speaker": [
-        1470388445640,
-        205
+        1470388445640
       ],
       "agenda" : { "day": 1, "hour": 7, "room": 3 }
     },
@@ -466,7 +537,7 @@
       "speaker": [
         1470172292219
       ],
-      "agenda" : { "day": 1, "hour": 8, "room": 2 }
+      "agenda" : { "day": 2, "hour": 7, "room": 3 }
     },
     {
       "id": 1470779030956,
@@ -516,7 +587,7 @@
       "speaker": [
         1434378343474
       ],
-      "agenda" : { "day": 2, "hour": 7, "room": 4 }
+      "agenda" : { "day": 2, "hour": 8, "room": 4 }
     },
     {
       "id": 1471611313272,
@@ -528,7 +599,7 @@
       "speaker": [
         1471610942207
       ],
-      "agenda" : { "day": 1, "hour": 4, "room": 1 }
+      "agenda" : { "day": 2, "hour": 4, "room": 1 }
     },
     {
       "id": 1471878583557,
@@ -578,7 +649,7 @@
       "speaker": [
         1437051561717
       ],
-      "agenda" : { "day": 2, "hour": 3, "room": 3 }
+      "agenda" : { "day": 2, "hour": 7, "room": 4 }
     },
     {
       "id": 1471998460521,
@@ -628,7 +699,7 @@
       "speaker": [
         1434699116549
       ],
-      "agenda" : { "day": 2, "hour": 8, "room": 2 }
+      "agenda" : { "day": 2, "hour": 9, "room": 2 }
     },
     {
       "id": 1472653456003,
@@ -653,7 +724,7 @@
         1472133508219,
         210
       ],
-      "agenda" : { "day": 1, "hour": 8, "room": 3 }
+      "agenda" : { "day": 1, "hour": 6, "room": 3 }
     },
     {
       "id": 1472224082408,
@@ -677,7 +748,7 @@
       "speaker": [
         1472226217608
       ],
-      "agenda" : { "day": 2, "hour": 7, "room": 3 }
+      "agenda" : { "day": 2, "hour": 8, "room": 3 }
     },
     {
       "id": 1472390635773,
@@ -689,7 +760,7 @@
       "speaker": [
         1472282811544
       ],
-      "agenda" : { "day": 2, "hour": 7, "room": 1 }
+      "agenda" : { "day": 2, "hour": 8, "room": 1 }
     },
     {
       "id": 1472390695765,
@@ -714,7 +785,7 @@
       "speaker": [
         1470747868721
       ],
-      "agenda" : { "day": 2, "hour": 4, "room": 3 }
+      "agenda" : { "day": 2, "hour": 3, "room": 3 }
     },
     {
       "id": 1472646290272,
@@ -726,7 +797,7 @@
       "speaker": [
         1472465838515
       ],
-      "agenda" : { "day": 2, "hour": 8, "room": 3 }
+      "agenda" : { "day": 2, "hour": 9, "room": 3 }
     },
     {
       "id": 1472641651474,
@@ -738,7 +809,7 @@
       "speaker": [
         1434374399444
       ],
-      "agenda" : { "day": 1, "hour": 9, "room": 2 }
+      "agenda" : { "day": 1, "hour": 9, "room": 1 }
     },
     {
       "id": 1472512275589,
@@ -789,18 +860,6 @@
         1472501816997
       ],
       "agenda" : { "day": 1, "hour": 10, "room": 3 }
-    },
-    {
-      "id": 1472547182505,
-      "name": "Designing for the cloud",
-      "description": "Migrating a legacy application to the cloud can be challenging. The path to\nthe 12 factor app is not an easy one to take, but can be incredibly rewarding,\neven if you end up not deploying in the cloud.\n\nIn this talk I'll show you why cloud-readiness and scalability are just\nby-products of good design, and how modern architectures like microservices\ncan be a very good fit with cloud-friendly architectures.\n\nBy the end of the presentation you will be able to:\n\n - rethink state in your web applications to ease scalability\n - handle files at scale with file storage APIs\n - split your services with message queues\n - handle persistent connections like websocket at scale",
-      "difficulty": 1,
-      "type": "conference",
-      "track": "cloud",
-      "speaker": [
-        1472546072401
-      ],
-      "agenda" : { "day": 1, "hour": 7, "room": 1 }
     },
     {
       "id": 1472594325076,
@@ -945,23 +1004,6 @@
       },
       "sessions": [
         1466585739187
-      ]
-    },
-    {
-      "id": 1466532191364,
-      "firstname": "Jerry",
-      "name": "Jalava",
-      "company": "Qvik Oy",
-      "bio": "Jerry is a long-time systems engineer who has worked with a variety of technologies, both as an employee and an entrepreneur in many business areas. His passions include (but are not limited to) security, cloud computing, containers, micro-services, (mobile) backends, and big data analytics. He is currently working with multiple programming languages and frameworks, and is always on the lookout for the \"next big thing\".\n\nJerry is an active member in the local tech scene, and he is passionate in sharing his knowledge with individuals and companies, through both public talks and mentoring. Currently working as a Senior System Architect at Qvik (Helsinki, Finland), his main responsibilities include designing and developing backend infrastructures, build tools for other developers, as well as building native mobile experiences. Most recently, he has begun to train nordic developers for Google Cloud Platform certification.",
-      "photo": "jjalava.jpg",
-      "social": {
-        "twitter": "https://twitter.com/W_I",
-        "googleplus": "https://plus.google.com/u/0/106831677780130798856",
-        "github": "github.com/jerryjj",
-        "blog": "http://totallyon.me/"
-      },
-      "sessions": [
-        1466589262236
       ]
     },
     {
@@ -1665,22 +1707,6 @@
       ]
     },
     {
-      "id": 1472546072401,
-      "firstname": "Clément",
-      "name": "Delafargue",
-      "company": "Clever Cloud",
-      "bio": "CTO @ Clever Cloud. Functional Programming, IT automation & Dist Sys.",
-      "photo": "cdelafargue.jpg",
-      "social": {
-        "twitter": "clementd",
-        "googleplus": null,
-        "github": "divarvel"
-      },
-      "sessions": [
-        1472547182505
-      ]
-    },
-    {
       "id": 1436275955994,
       "firstname": "Horacio",
       "name": "Gonzalez",
@@ -1880,30 +1906,12 @@
       ]
     },
     {
-      "id": 205,
-      "firstname": "Alain",
-      "name": "Hélaïli",
-      "company": "GitHub",
-      "bio": "L'un des deux Octocats Français. Par conséquent, je fais tout, mais à moitié! Arrivé chez GitHub après être passé chez MongoDB, dynaTrace et BEA, j'ai démarré Linux avec le kernel 0.9 et Java avec le JDK 1.0. Je reste à l'affut des nouveautés technologiques et toujours curieux de la manière dont elles sont utilisées par les membres de mon espèce.",
-      "photo": "ahelaili.png",
-      "social": {
-        "twitter": "@AlainHelaili",
-        "googleplus": null,
-        "blog": "http://helaili.github.io",
-        "github": "helaili",
-        "linkedin": null
-      },
-      "sessions": [
-        1470391194125
-      ]
-    },
-    {
       "id": 206,
       "firstname": "Romain",
       "name": "Lespinasse",
       "company": "SFEIR",
       "bio": "Romain est développeur backend chez SFEIR. Depuis un peu plus de 10 ans, il aide les clients dans leurs projets Java, tantôt développeur, tantôt intégrateur. Arrivant chez Sfeir, il est parti regarder du côté de Go et Docker pour ses clients IoT. Il se joint à Sébastien pour partager ses expériences avec vous.",
-      "photo": "default.png",
+      "photo": "rlespinasse.jpg",
       "social": {
         "twitter": "@rlespinasse",
         "googleplus": null,
@@ -2039,6 +2047,168 @@
       },
       "sessions": [
         1
+      ]
+    },
+    {
+      "id": 214,
+      "firstname": "Julien",
+      "name": "Landuré",
+      "company": "Zenika",
+      "bio": "CTO de Zenika Nantes, Julien navigue entre des missions de formation (Docker, AngularJS, PaaS) et d’architecture. Issu de la génération Google, il a co-fondé en Janvier 2011 le GDG Nantes, participe depuis 5 ans au Google I/O et organise le DevFest Nantes.",
+      "photo": "jlandure.jpg",
+      "social": {
+        "twitter": "@jlandure",
+        "googleplus": "https://plus.google.com/+JulienLandur%C3%A9",
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        995
+      ]
+    },
+    {
+      "id": 215,
+      "firstname": "Emile",
+      "name": "Vauge",
+      "company": "Zenika",
+      "bio": "Emile is founder of Containous, the container delivery company. More than 10 years experience developing applications for the web and the industry, certified Docker trainer, he got interested lately in the DevOps method. He is particularly interested container orchestrators like Kubernetes, Mesos, Docker Swarm. Creator of traefik.io",
+      "photo": "evauge.jpeg",
+      "social": {
+        "twitter": "@emilevauge",
+        "googleplus": null,
+        "blog": null,
+        "github": "https://github.com/emilevauge",
+        "linkedin": null
+      },
+      "sessions": [
+        997
+      ]
+    },
+    {
+      "id": 216,
+      "firstname": "Raphaël",
+      "name": "Thebaud",
+      "company": "Conserto",
+      "bio": "Raphaël est directeur technique chez Conserto, en charge de l’offre digitale.\nPassionné de culture geek et de jeux en tout genre, Raphäel a découvert la programmation par le jeu vidéo à 10 ans en développant son premier casse-brique en BASIC sur l’Amstrad familial.\nMême si aujourd’hui le développement se fait pour lui dans un contexte beaucoup plus sérieux, coder reste une bonne façon de s’amuser !",
+      "photo": "rthebaud.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        994
+      ]
+    },
+    {
+      "id": 217,
+      "firstname": "Ismaël",
+      "name": "Mejía",
+      "company": "Talend",
+      "bio": "Ingénieur logiciel avec plus de dix ans d’expérience dans la conception et développement des systèmes d’information pour groupes financiers, entreprises de télécommunications et start-ups en Amérique Latine. Spécialiste dans le domaine du Cloud et du Big Data, Ismael travaille pour Talend comme Ingénieur Open Source et il est contributeur sur plusieurs projets de la fondation Apache.",
+      "photo": "imeja.png",
+      "social": {
+        "twitter": "@iemejia",
+        "googleplus": null,
+        "blog": null,
+        "github": "@iemejia",
+        "linkedin": null
+      },
+      "sessions": [
+        993
+      ]
+    },
+    {
+      "id": 218,
+      "firstname": "Jean-Baptiste",
+      "name": "Onofré",
+      "company": "Apache",
+      "bio": "Membre de l’Apache Software Foundation, Jean-Baptiste est commiter et PMC sur de nombreux projets Apache : Apache Karaf, Apache Camel, Apache ActiveMQ, Apache Falcon, Apache Syncope, Apache Lens,… Il est notamment champion et mentor du projet Apache Beam. Jean-Baptiste est Talend Fellow.",
+      "photo": "jonofre.jpg",
+      "social": {
+        "twitter": "@jbonofre",
+        "googleplus": null,
+        "blog": "http://t.co/iXjWyxthOO",
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        993
+      ]
+    },
+    {
+      "id": 219,
+      "firstname": "Gautier",
+      "name": "Mechling",
+      "company": "",
+      "bio": "Gautier est développeur Android et aspirant Craftsman. Intéressé par les méthodes agiles, le hacking et la qualité logicielle, il façonne et maintient des outils libres et gratuits permettant d’améliorer sa productivité. Parlez lui de Kotlin, de Clean Code ou de Logiciel Libre et vous pourrez voir ses yeux briller.",
+      "photo": "gmechling.png",
+      "social": {
+        "twitter": "https://twitter.com/Nilhcem",
+        "googleplus": "https://plus.google.com/+GautierMechling",
+        "blog": null,
+        "github": "https://github.com/Nilhcem",
+        "linkedin": null
+      },
+      "sessions": [
+        992
+      ]
+    },
+    {
+      "id": 220,
+      "firstname": "Jean-Sébastien",
+      "name": "DUPUY",
+      "company": "Microsoft",
+      "bio": "Jean-Sébastien Dupuy est évangéliste technique chez Microsoft France. Passionné par le développement d’applications mobiles, les objets connectés et plus récemment les bots, il anime régulièrement des sessions sur ces différents sujets. Vous pouvez suivre son actualité sur twitter @dupuyjs ou sur son blog https://blogs.msdn.microsoft.com/jdupuy/.",
+      "photo": "jdupuy.jpg",
+      "social": {
+        "twitter": "@dupuyjs",
+        "googleplus": null,
+        "blog": "https://blogs.msdn.microsoft.com/jdupuy/",
+        "github": "https://github.com/dupuyjs",
+        "linkedin": null
+      },
+      "sessions": [
+        991
+      ]
+    },
+    {
+      "id": 221,
+      "firstname": "Table Ronde 1",
+      "name": "",
+      "company": "",
+      "bio": "TBD",
+      "photo": "default.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        8
+      ]
+    },
+    {
+      "id": 222,
+      "firstname": "Neosoft",
+      "name": "",
+      "company": "Neosoft",
+      "bio": "TBD",
+      "photo": "default.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        996
       ]
     }
 
