@@ -49,7 +49,6 @@ a img{
   bottom: 0;
   left: 0;
   overflow: hidden;
-  z-index: -100;
 }
 
 video#bgvid {
@@ -217,6 +216,7 @@ video#bgvid {
   padding-top: 30px;
   margin-left: 20px;
   margin-right: 20px;
+  position: relative;
 }
 
 .devfest-main-logo img {
@@ -226,17 +226,23 @@ video#bgvid {
 }
 
 .devfest-slogan {
+  position: relative;
   padding-top: 24px;
 }
 
+.devfest-video-overlay {
+  z-index: 9000;
+  position: relative;
+}
+
 .devfest-fab {
-  position: absolute;
-  right: 20%;
-  bottom: -26px;
-  z-index: 3;
+  position: relative;
+  margin-left: 50%;
+  bottom: -100px;
 }
 
 .devfest-js-video {
+  z-index:1000;
   height: 0;
   padding-top: 25px;
   padding-bottom: 67.5%;
