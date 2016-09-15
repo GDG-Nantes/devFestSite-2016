@@ -99,7 +99,7 @@
     },
     {
       "id": 999,
-      "name": "LeakCanary, et ensuite? Détricotage de fuites mémoire Android",
+      "name": "LeakCanary, et ensuite ? Détricotage de fuites mémoire Android",
       "description": "LeakCanary est une lib Open Source de Square qui détecte les fuites mémoires automatiquement dans vos apps Android.\n\nC'est bien gentil, mais ensuite on fait quoi? Ce talk explique comment passer de la détection à la correction. OutOfMemoryError: bientôt un mauvais souvenir!",
       "difficulty": 2,
       "type": "conference",
@@ -147,15 +147,14 @@
     },
     {
       "id": 995,
-      "name": "12 Factor",
+      "name": "Cloud and some patterns",
       "description": "TBD",
       "difficulty": 2,
       "type": "conference",
       "track": "cloud",
       "agenda" : { "day": 1, "hour": 4, "room": 1 },
       "speaker":[
-        214,
-        1472223851013
+        214
       ]
     },
     {
@@ -294,7 +293,7 @@
     },
     {
       "id": 1466670619967,
-      "name": "Une UX comparée et quelques leçons à en tirer.",
+      "name": "Une UX comparée et quelques leçons à en tirer",
       "description": "Par la comparaison de 3 applications et sites web (Netflix, Uber et OUtlook) sur trois plateformes, nous verrons comment l'utilisation d'un service varie, comment la marque communique et quelle est la tolérance applicative aux besoins des utilisateurs.",
       "difficulty": 2,
       "type": "conference",
@@ -318,7 +317,7 @@
     },
     {
       "id": 1466789828567,
-      "name": "RabbitMQ",
+      "name": "Codelab RabbitMQ",
       "description": "Après une brève présentation de ce qu'est RabbitMQ, des services qu'il peut rendre, de l'usage qu'on en fait à LaFourchette et de comment il s'installe. Construisons ensemble une application permettant à l'internaute de générer un lourd PDF qu'il reçoive par email tout en étant notifié sur l'application une fois que l'envoi est achevé.\n\nUne base de code assez simple en `php` sera fournie, il s'agira de modifier l'application gérant toutes les opérations en une requête bloquante pour y inclure de l'asynchronisme avec RabbitMQ. Des tests fonctionnels permettront de valider les étapes au fur et à mesure de l'atelier.",
       "difficulty": 1,
       "type": "codelab",
@@ -366,8 +365,8 @@
     },
     {
       "id": 1467190977231,
-      "name": "Le Web de demaintenant",
-      "description": "Jules Vernes grand visionnaire qu'il était savait que le capitaine Némo utiliserait  en 2016  son navigateur web pour contrôler le Nautilus plutôt que d'avoir à passer par le store. Facile, accessible par tous, rapide, il savait que le web serait l'avenir ! Si vous aussi vous voulez voir ce que Jules Vernes n'a pas prévu, venez dans ce talk pour découvrir ce que le web d'aujourd'hui et demain nous réserve !",
+      "name": "Le Web de maintenant",
+      "description": "Jules Vernes grand visionnaire qu'il était savait que le capitaine Némo utiliserait en 2016 son navigateur web pour contrôler le Nautilus plutôt que d'avoir à passer par le store. Facile, accessible par tous, rapide, il savait que le web serait l'avenir ! Si vous aussi vous voulez voir ce que Jules Vernes n'a pas prévu, venez dans ce talk pour découvrir ce que le web d'aujourd'hui et de demain nous réserve !",
       "difficulty": 2,
       "type": "conference",
       "track": "web",
@@ -563,7 +562,7 @@
     },
     {
       "id": 1472473075263,
-      "name": "Le Reverse engineering de Backlog",
+      "name": "Le reverse engineering de Backlog",
       "description": "Les objectifs principaux de cet atelier sont de :\n1/ De donner ou redonner du sens à son backlog.\n2/ Différencier la solution de l’objectif.\n3/ Prendre du recul par rapport au formalisme classique de la user story.\n\nL'atelier se déroule en deux temps avec la constitution de trois ou quatre groupes en fonction du nombre de participants.\nDans un premier temps, chaque groupe se voit attribuer un exemplaire de backlog que le PO vient d'écrire. Il s'agira alors pour les participants de reconstituer le(s) objectif(s) du produit à partir de ces items.\nChaque groupe ayant eu le même backlog fera une restitution sur \"Ce que fait le produit et pourquoi\".\n\nAprès un debrief et présentation générale de l'impact mapping, les équipes réfléchissent ensemble sur la finalité du produit en utilisant l'outil d'impact mapping. A la fin de la session quelques users stories pourront alors être décrites.",
       "difficulty": 2,
       "type": "codelab",
@@ -588,7 +587,7 @@
     },
     {
       "id": 1471611313272,
-      "name": "[Jenkins] Continuous Delivery Pipeline : ce n'est pas toujours un long fleuve tranquille",
+      "name": "Jenkins & continuous delivery pipeline : ce n'est pas toujours un long fleuve tranquille",
       "description": "Jenkins 2 démocratise le plugin Pipeline. Il vous permet de transformer Jenkins en moteur pilote de Déploiement Continu.\nMais vous avez l’impression que les exemples de Pipeline sont trop simples par rapport à vos applications ?\n\nSi vous avez plusieurs composants avec chacun leur cycle de vie propre à agréger pour construire votre produit, vous serez intéressés par le pattern Fan-in. Son but est exactement de construire un pipeline pour gérer ces différents composants.\n\nJe vais vous démontrer comment construire un ensemble de pipelines pour livrer une application se composant de plusieurs sous-applications, avec chacune son cycle de vie.",
       "difficulty": 2,
       "type": "conference",
@@ -725,7 +724,7 @@
     },
     {
       "id": 1472224082408,
-      "name": "Cloud Analytics : de 0 à 100000 Evénements par seconde en 50'",
+      "name": "Cloud Analytics : de 0 à 100 000 événements par seconde en 50'",
       "description": "En partant de zéro nous aurons au bout de 50' une chaine complète d'analyse de la donnée qui verra transiter 100000 événements par seconde : de l'injection (qui est semble simple mais n'est pas trivial) jusqu'à l'outil de reporting qui montrera un report temps réel sur les données injectées.\n\nEn apportant puissance, flexibilité et coût faible, le cloud s'impose de plus en plus comme l'outil indispensable pour construire une chaine d'analyse de la donnée. Nous l'utiliserons durant cette session qui contiendra trucs et astuces, retours d'expérience et live coding.\n\nTags : #BigQuery #Dataflow #PubSub #DataStudio #Datalab #ComputeEngine",
       "difficulty": 2,
       "type": "conference",
@@ -761,8 +760,8 @@
     },
     {
       "id": 1472390695765,
-      "name": "Mon application React/Redux en production en 2H avec firebase.",
-      "description": "Je commence React/Redux, et je ne sais pas trop comment démarrer.\nQuelles sont les bibliothèques à utiliser ?\nQuelles sont les conventions que je vais mettre en place ?\nEt surtout pourquoi ?\n\nDans ce **codelab** de deux heures nous allons, ensemble, transformer une application primitive en une application prête à être déployée (avec firebase).\n\nUne première application servira de base et sera utilisée comme piqure de rappel sur React/Redux.\nPuis nous parcourrons les différentes bibliothèques classiques d'une telle stack en **refactorisant l’application à chaque brique ajoutée**.\n\nNous parlerons, entre autres, de **redux-thunk**, **reselect**, **normalizr** et **react-router**.\nNous reviendrons sur la configuration **webpack** pour faire du Sass __scopé__ et __autoprefixé__.\n\nFinalement avec tout ça, j'espère que nous aurons le temps de parler des High Order Components !",
+      "name": "Mon application React/Redux en production en 2h avec firebase.",
+      "description": "Je commence React/Redux et je ne sais pas trop comment démarrer.\nQuelles sont les bibliothèques à utiliser ?\nQuelles sont les conventions que je vais mettre en place ?\nEt surtout pourquoi ?\n\nDans ce **codelab** de deux heures nous allons, ensemble, transformer une application primitive en une application prête à être déployée (avec firebase).\n\nUne première application servira de base et sera utilisée comme piqure de rappel sur React/Redux.\nPuis nous parcourrons les différentes bibliothèques classiques d'une telle stack en **refactorisant l’application à chaque brique ajoutée**.\n\nNous parlerons, entre autres, de **redux-thunk**, **reselect**, **normalizr** et **react-router**.\nNous reviendrons sur la configuration **webpack** pour faire du Sass __scopé__ et __autoprefixé__.\n\nFinalement avec tout ça, j'espère que nous aurons le temps de parler des High Order Components !",
       "difficulty": 2,
       "type": "codelab",
       "track": "web",
@@ -786,7 +785,7 @@
     },
     {
       "id": 1472646290272,
-      "name": "QML, un Framework graphique en plein boom",
+      "name": "QML, un framework graphique en plein boom",
       "description": "Dans cette présentation, nous allons découvrir le framework QML au travers du développement d’une application complexe. IHM adaptative, shaders, vidéo, fluidité graphique sont au rendez-vous.",
       "difficulty": 2,
       "type": "quickie",
