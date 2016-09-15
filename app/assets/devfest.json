@@ -104,7 +104,6 @@
       "difficulty": 2,
       "type": "conference",
       "track": "mobile",
-      "lang": "fr",
       "speaker": [
         101
       ],
@@ -117,7 +116,6 @@
       "difficulty": 1,
       "type": "conference",
       "track": "discovery",
-      "lang": "fr",
       "speaker": [
         101
       ],
@@ -289,7 +287,6 @@
       "difficulty": 1,
       "type": "conference",
       "track": "cloud",
-      "lang": "en",
       "speaker": [
         1467623542435
       ],
