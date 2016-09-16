@@ -36,6 +36,8 @@ import {output as pagespeed} from 'psi';
 import pkg from './package.json';
 import revReplace from 'gulp-rev-replace';
 import rev from 'gulp-rev';
+import responsive from 'gulp-responsive';
+
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -53,13 +55,36 @@ gulp.task('lint', () =>
 
 // Optimize images
 gulp.task('images', () =>
-  gulp.src('app/images/**/*')
+  gulp.src(['app/images/**/*', '!app/images/speakers/**', '!app/images/agenda/**'])
     .pipe($.cache($.imagemin({
       progressive: true,
       interlaced: true
     })))
     .pipe(gulp.dest('dist/images'))
     .pipe($.size({title: 'images'}))
+);
+
+gulp.task('images2', ['images', 'images3'], () =>
+  gulp.src('app/images/speakers/**')
+    .pipe(responsive({
+      '*.{png,jpg,jpeg}': {
+        width: 100,
+        quality: 50,
+        withoutEnlargement: false,
+      }
+    }))
+    .pipe(gulp.dest('dist/images/speakers'))
+);
+
+gulp.task('images3', ['images'], () =>
+  gulp.src('app/images/agenda/**')
+    .pipe(responsive({
+      '*.png': {
+        width: 50,
+        withoutEnlargement: false,
+      }
+    }))
+    .pipe(gulp.dest('dist/images/agenda'))
 );
 
 // Copy all files at the root level (app)
@@ -298,7 +323,7 @@ gulp.task('serve:dist', ['default'], () =>
 gulp.task('default', ['clean'], cb =>
   runSequence(
     'styles', 'inject', 'inject_en',
-    ['html', 'scripts', 'assets', 'images', 'copy'],
+    ['html', 'scripts', 'assets', 'images2', 'copy'],
     'generate-service-worker',
     'revreplace',
     cb
