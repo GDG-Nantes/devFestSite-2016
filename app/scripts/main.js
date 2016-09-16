@@ -155,6 +155,12 @@
     showSocialsAndInit();
 
 
+    // Fix for firefox, body isn't present in the page !
+    window.addEventListener('load', function pageLoad(){
+       if(null==document.body){
+        document.body = document.getElementsByTagName('body')[0];
+      }
+    });
 
   // Your custom JavaScript goes here
 })();
