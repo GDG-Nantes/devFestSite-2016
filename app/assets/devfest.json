@@ -135,8 +135,8 @@
     },
     {
       "id": 996,
-      "name": "TBD",
-      "description": "TBD",
+      "name": "Open Data",
+      "description": "Dans la logique des logiciels libres, les données libres ! Publiées par les collectivités voire parfois des entreprises, ces données numériques sont libres d'utilisation. Elles sont nombreuses sur Nantes, sur le département et la région.\nQuelles sont ces données, comment les utiliser, peut-on y contribuer ? A quoi servent les licences ? Comment s'organise le recensement et l'harmonisation des jeux de données au niveau national ? Qu'est-ce qu'un Hackaton, Etalab, Wikidata ?\nNous verrons notamment le cas pratique autour d’une application qui utilise et publie des données.",
       "difficulty": 1,
       "type": "quickie",
       "track": "discovery",
@@ -2191,11 +2191,11 @@
     },
     {
       "id": 222,
-      "firstname": "TBD",
-      "name": "",
-      "company": "TBD",
-      "bio": "TBD",
-      "photo": "default.png",
+      "firstname": "Christian",
+      "name": "RENOULIN",
+      "company": "Néo-Soft",
+      "bio": "Christian RENOULIN, peintre amateur mais surtout développeur confirmé chez Néo-Soft depuis plus de 5 ans ! Spécialisé dans la programmation Java/JEE et dans les processus d’intégration continues.\nChristian est impliqué au sein de sa société mais également dans de nombreux projets personnels open source où il met à disposition son expertise et son savoir-faire.\nVoici l’un de ses nombreux projets : https://mieuxtrieranantes.wordpress.com/",
+      "photo": "crenoulin.png",
       "social": {
         "twitter": null,
         "googleplus": null,
