@@ -46,7 +46,7 @@ var agendaVue = new Vue({
           self.favorites = json.favs || [];
         });
       } else {
-        self.favorites = JSON.parse(localStorage['fav']) || []
+        self.favorites = (localStorage['fav'] && JSON.parse(localStorage['fav'])) || []
       }
     },
     getTypeColor: getTypeColor,
