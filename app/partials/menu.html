@@ -8,11 +8,13 @@
     <!-- Bar Navigation -->
     <div class="devfest-navigation-container">
       <nav class="devfest-navigation mdl-navigation">
-        <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./agenda.html">Agenda</a> -->
-        <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./speakers.html">Speakers</a> -->
+        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./agenda.html">Agenda</a>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./speakers.html">Speakers</a>
         <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./pratique.html">Pratique</a>
-        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./team.html">L'équipe</a></li>
-        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./faq.html">FAQ</a></li>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./team.html">L'équipe</a>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./faq.html">FAQ</a>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase" id="show-connect">Se connecter</a>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase btn-disconnect-social" id="show-disconnect">Se déconnecter</a>
         <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/en/index.html"><img class="devfest-header-lang"src="/images/flags/en.png"></a>
       </nav>
     </div>
@@ -42,14 +44,47 @@
     </a>
   </span>
   <nav class="mdl-navigation">
-    <!-- <a class="mdl-navigation__link" href="./agenda.html">Agenda</a>  -->
-    <!-- <a class="mdl-navigation__link" href="./speakers.html">Speakers</a>  -->
+    <a class="mdl-navigation__link" href="./agenda.html">Agenda</a>
+    <a class="mdl-navigation__link" href="./speakers.html">Speakers</a>
     <a class="mdl-navigation__link" href="./pratique.html">Pratique</a>
     <a class="mdl-navigation__link" href="./team.html">L'équipe</a>
     <a class="mdl-navigation__link" href="./faq.html">FAQ</a>
     <a class="mdl-navigation__link" href="./cod.html">Code de conduite</a>
     <a class="mdl-navigation__link" href="./credits.html">Crédits</a>
     <a class="mdl-navigation__link" href="./presse.html">Presse</a>
+    <a class="mdl-navigation__link" id="show-connect2">Se connecter</a>
+    <a class="mdl-navigation__link btn-disconnect-social" id="show-disconnect2">Se déconnecter</a>
     <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/en/index.html"><img class="devfest-header-lang" src="/images/flags/en.png"></a>
   </nav>
 </div>
+
+<dialog class="mdl-dialog">
+  <div class="mdl-dialog__content">
+    <p>
+      En vous connectant avec votre compte, vous pourrez sauvegarder vos sessions favorites, elles seront alors synchronisées sur tous vos devices.
+    </p>
+    <p>
+      <button class="btn-google btn-connect-social mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" data-social="google">
+        Connect with Google
+      </button>
+    </p>
+    <p>
+      <button class="btn-twitter btn-connect-social mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" data-social="twitter">
+        Connect with Twitter
+      </button>
+    </p>
+    <p>
+      <button class="btn-github btn-connect-social mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" data-social="github">
+        Connect with Github
+      </button>
+    </p>
+    <p>
+      <button class="btn-facebook btn-connect-social mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" data-social="facebook">
+        Connect with Facebook
+      </button>
+    </p>
+  </div>
+  <div class="mdl-dialog__actions">
+    <button type="button" class="mdl-button close">Annuler</button>
+  </div>
+</dialog>

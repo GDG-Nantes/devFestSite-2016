@@ -41,5 +41,8 @@
   },
   "eslintConfig": {
     "extends": "google"
+  },
+  "dependencies": {
+    "vue": "^1.0.26"
   }
 }

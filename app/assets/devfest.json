@@ -1,0 +1,2212 @@
+{
+  "agenda": {
+    "day1" : [
+      {"id" : 1, "label": "8h00"},
+      {"id" : 2, "label": "9h00"},
+      {"id" : 3, "label": "10h00"},
+      {"id" : 4, "label": "11h10"},
+      {"id" : 5, "label": "12h00"},
+      {"id" : 6, "label": "14h00"},
+      {"id" : 7, "label": "15h10"},
+      {"id" : 8, "label": "16h20"},
+      {"id" : 9, "label": "17h20"},
+      {"id" : 10, "label": "17h50"},
+      {"id" : 11, "label": "18h30"}
+    ],
+    "day2" : [
+      {"id" : 1, "label": "8h30"},
+      {"id" : 2, "label": "09h00"},
+      {"id" : 3, "label": "10h10"},
+      {"id" : 4, "label": "11h20"},
+      {"id" : 5, "label": "12h10"},
+      {"id" : 6, "label": "14h00"},
+      {"id" : 7, "label": "15h10"},
+      {"id" : 8, "label": "16h20"},
+      {"id" : 9, "label": "16h50"},
+      {"id" : 10, "label": "17h20"},
+      {"id" : 11, "label": "18h10"}
+    ]
+  },
+  "sessions": [
+    {
+      "id": 0,
+      "name": "Ouverture des portes / Gates open",
+      "image": "/images/agenda/open.png",
+      "track": "DevFest",
+      "agenda" : { "day": 1, "hour": 1 }
+    },{
+      "id": 1,
+      "name": "Keynote d'ouverture / Opening keynote",
+      "type": "keynote",
+      "track": "DevFest",
+      "speaker": [
+        213
+        
+      ],
+      "agenda" : { "day": 1, "hour": 2, "room": 1 }
+    },{
+      "id": 2,
+      "name": "Déjeuner / Lunch",
+      "type": "repas",
+      "image": "/images/agenda/eat.png",
+      "track": "DevFest",
+      "agenda" : { "day": 1, "hour": 5, "room": 8 }
+    },{
+      "id": 3,
+      "name": "After party",
+      "type": "after",
+      "image": "/images/agenda/after.png",
+      "track": "by Hardis",
+      "agenda" : { "day": 1, "hour": 11 }
+    },{
+      "id": 4,
+      "name": "Déjeuner / Lunch",
+      "type": "repas",
+      "image": "/images/agenda/eat.png",
+      "track": "DevFest",
+      "agenda" : { "day": 2, "hour": 5, "room": 8 }
+    },{
+      "id": 5,
+      "name": "Ouverture des portes / Gates open",
+      "track": "DevFest",
+      "image": "/images/agenda/open.png",
+      "agenda" : { "day": 2, "hour": 1 }
+    },{
+      "id": 7,
+      "name": "Devfest4Kids",
+      "type": "codelab",
+      "track": "Kids",
+      "speaker": [
+        202,
+        1434372231365
+      ],
+      "agenda" : { "day": 1, "hour": 6 }
+    },{
+      "id": 8,
+      "name": "Table ronde / Round table",
+      "type": "table ronde",
+      "track": "discovery",
+      "agenda" : { "day": 2, "hour": 3, "room": 2  },
+      "speaker": [
+        221
+      ]
+    },{
+      "id": 9,
+      "name": "Fermeture des portes / Gates closed",
+      "track": "DevFest",
+      "image": "/images/agenda/closed.png",
+      "agenda" : { "day": 2, "hour": 11 }
+    },
+    {
+      "id": 999,
+      "name": "LeakCanary, et ensuite ? Détricotage de fuites mémoire Android",
+      "description": "LeakCanary est une lib Open Source de Square qui détecte les fuites mémoires automatiquement dans vos apps Android.\n\nC'est bien gentil, mais ensuite on fait quoi? Ce talk explique comment passer de la détection à la correction. OutOfMemoryError: bientôt un mauvais souvenir!",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "mobile",
+      "speaker": [
+        101
+      ],
+      "agenda" : { "day": 1, "hour": 7, "room": 2 }
+    },
+    {
+      "id": 998,
+      "name": "Tech talks: Uploadez vos idées vers d'autres êtres humains",
+      "description": "Vous présentez le point le plus excitant de la JSR 330, quand soudain vous remarquez qu'une personne du premier rang s'est endormie, qu'une moitié de la salle baille et l'autre est concentrée sur son téléphone.\n\nVenez découvrir comment construire un talk pour bien transmettre vos idées!",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "discovery",
+      "speaker": [
+        101
+      ],
+      "agenda" : { "day": 2, "hour": 6, "room": 3 }
+    },
+    {
+      "id": 997,
+      "name": "Traefik, a modern reverse-proxy",
+      "description": "Si je vous dis microservices, vous allez surement me répondre: Docker, Mesos, Consul, Etcd... Et l'intégration d'un reverse-proxy / load-balancer dans tout ça? Pas simple... Et si on créait un reverse-proxy \"automatique\"? Traefik est un reverse-proxy, load-balancer dynamique, permettant de construire sa configuration à chaud à partir de différents bakends : Docker, Mesos/Marathon, Etcd, Consul, Zookeeper, BoltDb…",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "cloud",
+      "agenda" : { "day": 2, "hour": 7, "room": 2 },
+      "speaker":[
+        215
+      ]
+    },
+    {
+      "id": 996,
+      "name": "TBD",
+      "description": "TBD",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "discovery",
+      "agenda" : { "day": 2, "hour": 9, "room": 4 },
+      "speaker":[
+        222
+      ]
+    },
+    {
+      "id": 995,
+      "name": "Cloud and some patterns",
+      "description": "TBD",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "cloud",
+      "agenda" : { "day": 1, "hour": 4, "room": 1 },
+      "speaker":[
+        214
+      ]
+    },
+    {
+      "id": 994,
+      "name": "Et si on faisait un jeu ?",
+      "description": "Développer des jeux en HTML5/JS c’est devenu un vraie réalité.\nMême si la 3D reste encore un peu expérimentale et réservée à de rares plateformes, la généralisation d’HTML5 sur la plupart des supports a permit l’essor des « petits jeux » 2D. \nQuand on n’a jamais essayé, le développement d’un jeu peut paraitre affreusement compliqué. Pourtant, il existe aujourd’hui des frameworks vraiment bien faits pour vous faciliter la vie. \nDans ce live coding, je vous propose de découvrir le développement d’un jeu mobile par l’exemple avec le framework phaser.io. Je suis sûr qu’après cette première sensibilisation, vous voudrez donner vie à vos idées !",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "discovery",
+      "agenda" : { "day": 2, "hour": 4, "room": 4 },
+      "speaker":[
+        216
+      ]
+    },
+    {
+      "id": 993,
+      "name": "Apache Beam, un modèle unifié pour le traitement des données Big Data",
+      "description": "Apache Beam est un modèle de programmation unifié pour le traitement des données Big Data par lots (batch) ou en flux continu (streaming). Cet exposé présentera le modèle Beam, son histoire, de la publication du modèle Dataflow à aujourd’hui. Nous allons également présenter certaines spécificités de Apache Beam. Notamment la gestion de l'arrivée tardive des données et la capacité d'exécuter des processus (pipelines) à la fois sur site via Apache Spark ou Apache Flink, ou dans le Cloud en utilisant Google Cloud Dataflow, sans besoin de modifier le code.",
+      "difficulty": 3,
+      "type": "conference",
+      "track": "cloud",
+      "agenda" : { "day": 2, "hour": 4, "room": 3 },
+      "speaker":[
+        217,
+        218
+      ]
+    },
+    {
+      "id": 992,
+      "name": "La boîte à outils du développeur Android de 2016",
+      "description": "Le développement pour Android a bien changé ces dernières années. Nous disposons à présent d'une boîte à outils gigantesque nous permettant d'améliorer notre productivité et de construire de meilleures applications. Lors de cette présentation, venez découvrir quelques-uns des outils que nous manipulons quotidiennement lors du développement de l'application Android happn nous permettant de : - Simuler une connexion HTTP(s) lente ou instable - Interagir en temps réel avec notre application pour analyser les logs, vues, ou modifier les données sans breakpoint - Changer instantanément de backend serveur, sans recompilation - Mieux comprendre et réduire la dette technique de notre application - Anticiper le développement d'une application client alors que le backend n'a pas encore été déployé - Mesurer efficacement l'empreinte mémoire / cpu - Décompiler notre application pour mieux analyser sa sécurité - Altérer une réponse serveur et vérifier le comportement de l'application... - ... et bien plus encore Niveau prérequis : savoir développer une application (simple) native pour Android",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "mobile",
+      "agenda" : { "day": 2, "hour": 6, "room": 4 },
+      "speaker":[
+        219
+      ]
+    },
+    {
+      "id": 991,
+      "name": "Rendez vos applications plus humaines avec Cognitive Services",
+      "description": "Reconnaissance d’images, détection des visages, interprétation du langage… : Cognitive Services vous propose un ensemble de services REST pour rendre vos applications web et vos applications clientes plus humaines. Quels que soient la plateforme ou le langage que vous utilisez, Cognitive Services vous propose d’enrichir vos applications avec des algorithmes de machine learning prêts à l’emploi. Cross-plateforme et simples d’utilisation, venez découvrir comment ces services peuvent vous aider dans vos futurs développements. https://www.microsoft.com/cognitive-services",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "mobile",
+      "agenda" : { "day": 2, "hour": 2, "room": 3 },
+      "speaker":[
+        220
+      ]
+    },  {
+      "id": 1465225950184,
+      "name": "Containers' Jungle. Docker, Rocket, RunC, LXD ... WTF ?",
+      "description": "Nous avons tout juste commencé à utiliser les containers Docker, et voilà que des solutions concurrentes apparaissent et sèment la confusion. \nEst-ce que Docker est insuffisant ? Faut-il lui préférer CoreOS Rocket ? Que vient faire RunC là dedans ? Et LXD dans tout ça ? C'est quoi ce délire avec Systemd ?\n\nCette session va (essayer de) mettre les idées au clair sur ce qu'est un conteneur, comment les runtimes se différencient techniquement et pourquoi utiliser untel plutôt qu'un autre, ou peut être les combiner ensemble, pourquoi, comment, quelles sont les contraintes pour que cela fonctionne.",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "cloud",
+      "speaker": [
+        1434742896211,
+        200
+      ],
+      "agenda" : { "day": 1, "hour": 8, "room": 1  }
+    },
+    {
+      "id": 1465336720044,
+      "name": "Exécutez vos apps Angular 2 côté serveur",
+      "description": "Ce talk est une présentation du projet Angular 2 Universal. Universal est un module officiel d'Angular 2 permettant d'ajouter le support du server-rendering à vos web apps. En d'autres termes, avec Angular Universal il sera possible d'éxecuter une même application Angular 2 côté client et côté serveur. Avant, nous avions l'isomorphisme, avec Angular 2 nous avons l'universalisme. Si tu veux savoir comment Angular 2 gère l'universalité ne rate pas cette de session.",
+      "difficulty": 3,
+      "type": "quickie",
+      "track": "web",
+      "speaker": [
+        1465335589385
+      ],
+      "agenda" : { "day": 2, "hour": 9, "room": 1  }
+    },
+    {
+      "id": 1465579632798,
+      "name": "Talk Android",
+      "description": "Bientôt la description mais pour sûr, c'est un talk sur des nouveautés Android",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "mobile",
+      "speaker": [
+        1440444860271
+      ],
+      "agenda" : { "day": 1, "hour": 6, "room": 1  }
+    },
+    {
+      "id": 1465841475354,
+      "name": "Introduction à la programmation réactive",
+      "description": "React.js, ELM, Rx.js, Bacon.js, Cyle.js, Motorcycle.js ... La tendance du moment est à la programmation réactive.  \nMême Angular semble vouloir emprunter cette voie pour sa version 2. \n\nMais savez vous seulement **ce qu'est la programmation réactive ?**\n\nJe vous propose de creuser ensemble les **concepts fondamentaux de la programmation réactive** (qui sont d'ailleurs loin d'être nouveaux), de comprendre quels sont **les avantages de ce paradigme** et de savoir différencier du code \"réactif\" du code qui ne l'est pas.\n\nSuite à ce talk, les mots `FRP`, `Reactive Programming` et `DataFlow` n'auront plus de secrets pour vous, vous comprendrez pourquoi React.js  `<spoiler>` n'est pas entièrement \"réactif\" `</spoiler>` et vous n'aurez qu'une envie : inclure une lib réactive dans tous vos prochains développements ;)",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "web",
+      "speaker": [
+        1465823767741
+      ],
+      "state": "opened",
+      "agenda" : { "day": 1, "hour": 4, "room": 2 }
+    },
+    {
+      "id": 1466851531333,
+      "name": "Un PaaS pour votre équipe en 20 min",
+      "description": "Déployer une application sur un serveur prend souvent beaucoup plus de temps que prévu et ce temps est mieux employé à tirer au Nerf sur votre collègue pour qu'il essaye votre application.\n\nDans la ligné d'un Heroku et en utilisant la puissance de Docker, Dokku vous permet de mettre en place un PaaS dans un temps record.\nCe PaaS d'une incroyable simplicité vous permettra de déployer des app utilisant aussi bien des buildpack que des images Docker à partir de repository git.\n\nLe temps d'un quickie nous allons installer un PaaS et tenter de déployer des applications dessus dans un temps record.",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "cloud",
+      "speaker": [
+        1465562660644
+      ],
+      "agenda" : { "day": 1, "hour": 10, "room": 2 }
+    },
+    {
+      "id": 1466585739187,
+      "name": "Flexbox : après l'ivresse, place à la gueule de bois !",
+      "description": "Vous commencez votre premier projet en Flexbox ? Bravo, c'est la fête !\n\nOn vous avait convaincu que Flexbox était \"cool\", qu'il allait révolutionner le webdesign. On vous avait carrément vendu du rêve.\n\nDu coup, vous twittez partout que float est mort, que vous aimez à nouveau CSS, vous vous lâchez, écrivez EN CAPSLOCK, envoyez des gifs de licornes à vos collègues et avez vidé votre deuxième bouteille de Dark Dog.\n\nPuis bizarrement, vous commencez à avoir un peu mal aux cheveux. Ça tourne un peu parfois. Vous vous surprenez à vous complaindre de bugs navigateurs, de comportements incohérents.\nNan mais sérieusement, pourquoi des fois ça marche et des fois pas ?! Et pourquoi mes trucs responsive sont tout cassés maintenant ?! Ah oui, et pourquoi flex-grow: 1 c'est pas pareil que flex: 1 ??\n\nEt là, paf ! C'est la gueule de bois. Imparable. Avec les nausées et tout ce qui va avec. Mauvais trip. Envie de retourner intégrer des newsletters ou de se remettre à Bootstrap.\n\nDécouvrons ensemble comment nous en remettre en selle, franchissons un nouveau cap avec Flexbox et débarrassons de cette migraine.",
+      "difficulty": 3,
+      "type": "conference",
+      "track": "web",
+      "speaker": [
+        1440170007547
+      ],
+      "agenda" : { "day": 2, "hour": 4, "room": 2 }
+    },
+    {
+      "id": 1467624369880,
+      "name": "Ingest node : (ré)indexer et enrichir des documents dans Elasticsearch",
+      "description": "Lorsque vous injectez des données dans elasticsearch, vous pouvez avoir besoin de réaliser des opérations de transformation assez simples. Jusqu'à présent, ces opérations devaient s'effectuer en dehors d'elasticsearch, avant l'indexation proprement dite.\nSouhaitez la bienvenue à `Ingest node` ! Un nouveau type de noeud qui vous permet justement de faire cela.\nCe talk explique le concept de `Ingest Node`, comment l'intégrer avec le reste de la suite logicielle Elastic et comment développer son propre plugin Ingest par la pratique en montrant comment j'ai développé le plugin `ingest-bano` pour enrichir des adresses postales et/ou des coordonnées géographiques françaises (pour l'instant).\nCe talk parlera également de l'API de réindexation qui peut également bénéficier du pipeline d'ingestion pour modifier vos données à la volée lors de la réindexation.",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "cloud",
+      "speaker": [
+        1467623542435
+      ],
+      "agenda" : { "day": 2, "hour": 7, "room": 1 }
+    },
+    {
+      "id": 1466670619967,
+      "name": "Une UX comparée et quelques leçons à en tirer",
+      "description": "Par la comparaison de 3 applications et sites web (Netflix, Uber et OUtlook) sur trois plateformes, nous verrons comment l'utilisation d'un service varie, comment la marque communique et quelle est la tolérance applicative aux besoins des utilisateurs.",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "discovery",
+      "speaker": [
+        1466669874351
+      ],
+      "agenda" : { "day": 1, "hour": 4, "room": 3 }
+    },
+    {
+      "id": 1466671476078,
+      "name": "Babylon.js : Le gaming, le web, l'open source et autres considérations.",
+      "description": "Par la présentation du framework Babylon.js, nous aura l'occasion de parler de l'usage de la 3D, du cross plateforme et de l'open source. Nous verrons par l'exemple comment un pipeline 3D optimisé peut être utilisé aussi bien pour du retail que pour du gaming.",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "web",
+      "speaker": [
+        1466669874351
+      ],
+      "agenda" : { "day": 1, "hour": 8, "room": 3 }
+    },
+    {
+      "id": 1466789828567,
+      "name": "Codelab RabbitMQ",
+      "description": "Après une brève présentation de ce qu'est RabbitMQ, des services qu'il peut rendre, de l'usage qu'on en fait à LaFourchette et de comment il s'installe. Construisons ensemble une application permettant à l'internaute de générer un lourd PDF qu'il reçoive par email tout en étant notifié sur l'application une fois que l'envoi est achevé.\n\nUne base de code assez simple en `php` sera fournie, il s'agira de modifier l'application gérant toutes les opérations en une requête bloquante pour y inclure de l'asynchronisme avec RabbitMQ. Des tests fonctionnels permettront de valider les étapes au fur et à mesure de l'atelier.",
+      "difficulty": 1,
+      "type": "codelab",
+      "track": "cloud",
+      "speaker": [
+        1466786786895
+      ],
+      "agenda" : { "day": 1, "hour": 6, "room": 5 }
+    },
+    {
+      "id": 1466874066735,
+      "name": "Pair programming with Eclipse Cloud Development top projects",
+      "description": "At Eclipse, new actors are challenging the classic Eclipse IDE:\n\n- Che: the next gen Eclipse Cloud, brings the developer workspace and the IDE on your browser\n- Orion: an extensible browser IDE\n- Flux: a new message based architecture for cloud based developer tooling\n\nThese technologies open a lot of new kind of features such as real time live collaboration.\nDuring this session, I will live demo of a prototype showing real time collaboration from 3 different IDEs. The prototype will use a Flux server running inside a Che docker workspace that will allow Orion, Eclipse IDE and Che editors to edit the same file in real time like in Google Docs. Come with your laptop, your phone or tablet and join our pair programming session!",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "cloud",
+      "speaker": [
+        1439973988610
+      ],
+      "agenda" : { "day": 1, "hour": 9, "room": 4 }
+    },
+    {
+      "id": 1467051776736,
+      "name": "Angular2 et les standards du web",
+      "description": "Nous avions l'habitude des projets open-source qui réinventait la roue à chaque fois : une \ngestion de l'internationalisation maison, un système de détection de la fin d'une tâche\nasynchrone via des $apply et des $digest, ...\n\nL'équipe en charge du développement d'angular2 a réfléchi longuement, avant de refaire la même erreur. En effet, lorsque vous allez développer votre prochaine (ou première) application Angular2, vous allez utiliser, sans le savoir, les standards actuels et futurs du monde Web. \n\nDans ce talk, je vais vous présenter une partie de ces standards (actuels ou futurs) utilisés lors d'un développement Angular2 : les Web Components,  l'objet Intl pour l'internationalisation, les Décorators, les Zones, ...",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "web",
+      "speaker": [
+        1434987027061
+      ],
+      "agenda" : { "day": 2, "hour": 2, "room": 1 }
+    },
+    {
+      "id": 1467189637282,
+      "name": "Keynote de fermeture : Qui veut gagner ma carrière ?",
+      "description": "Venez assister à la grande première de cette émission basé sur un format complètement inédit ! \nLe but : trouver le meilleur job ! \nComment ? Le candidat devra répondre à des questions toutes plus techniques les unes que les autres. La technicité et la logique du candidat sera mise à rude épreuve !",
+      "difficulty": 1,
+      "type": "keynote",
+      "track": "DevFest",
+      "speaker": [
+        1434094629196,103
+      ],
+      "agenda" : { "day": 2, "hour": 10, "room": 1 }
+    },
+    {
+      "id": 1467190977231,
+      "name": "Le Web de maintenant",
+      "description": "Jules Vernes grand visionnaire qu'il était savait que le capitaine Némo utiliserait en 2016 son navigateur web pour contrôler le Nautilus plutôt que d'avoir à passer par le store. Facile, accessible par tous, rapide, il savait que le web serait l'avenir ! Si vous aussi vous voulez voir ce que Jules Vernes n'a pas prévu, venez dans ce talk pour découvrir ce que le web d'aujourd'hui et de demain nous réserve !",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "web",
+      "speaker": [
+        1434094629196, 102
+      ],
+      "agenda" : { "day": 1, "hour": 6, "room": 2 }
+    },
+    {
+      "id": 1472107474978,
+      "name": "Accessibilité, par où commencer ?",
+      "description": "L'accessibilité c'est compliqué, ça prend du temps, ça ne sert à rien... cassons les préjugés et voyons comment entamer un travail d'intégration accessible.",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "discovery",
+      "speaker": [
+        1467354410413,
+        201
+      ],
+      "agenda" : { "day": 2, "hour": 2, "room": 2 }
+    },
+    {
+      "id": 1469380401604,
+      "name": "Coder ses applications iOS et Android en Go",
+      "description": "Une des forces du langage Go est d’offrir un large choix de cibles de compilation: cross-OS (Linux, Windows, OS X...) et cross-architecture (x86, ARM...). Je vous invite à découvrir le projet experimental Go Mobile qui étend ces possibilités à iOS et Android.\n\nPendant ce Quickie, vous découvrirez concrètement les options offertes par Go Mobile: \n* Compiler et interfacer une librairie codée en Go dans du code Java (Android), Swift ou Objective-C (iOS)\n* Construire des applications mobiles entièrement en Go",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "mobile",
+      "speaker": [
+        1441039953835
+      ],
+      "agenda" : { "day": 1, "hour": 9, "room": 2 }
+    },
+    {
+      "id": 1470050577168,
+      "name": "Code like a child",
+      "description": "La programmation visuelle, vous connaissez ?\nScratch, Blockly, MBlock font partie des langages que nous utilisons avec les enfants pour leur apprendre à programmer.\nIOT, appels REST, ... jusqu'où peut-on aller avec ces langages ?\nVenez tester et essayer de les pousser dans leurs retranchements, vous serez surpris !",
+      "difficulty": 1,
+      "type": "codelab",
+      "track": "discovery",
+      "speaker": [
+        1434372231365,
+        202
+      ],
+      "agenda" : { "day": 2, "hour": 2, "room": 5 }
+    },
+    {
+      "id": 1468499637504,
+      "name": "Construire une station météo en NodeJS avec un Raspberry PI et un Arduino",
+      "description": "Le Raspberry Pi et l’Arduino forment un couple idéal pour explorer le monde de l’IOT. L’Arduino est le compagnon idéal du geek bricoleur mais pas celui du développeur des temps modernes : il faut re-goûter aux joies du C. C’est là que le RaspberryPi vient à la rescousse : il est possible d’interfacer NodeJS avec un Arduino pour libérer le potentiel Geek qui sommeille en nous. Lors de cette présentation, Guillaume fera une démo de la mise en oeuvre d’une station météo à base de Raspberry Pi et Arduino couplés à du NodeJS. Les métriques collectées seront stockées dans la base temporelle InfluxDB et restituées via Grafana.",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "mobile",
+      "speaker": [
+        1466499956776
+      ],
+      "agenda" : { "day": 2, "hour": 8, "room": 3 }
+    },
+    {
+      "id": 1469470996994,
+      "name": "Mais qu'est-ce que je fous ?",
+      "description": "Il y a deux ans, j'ai écrit puis lancer un programme.  Depuis lors, il me regarde, il note tout ce que je fais au moins une fois par minute.  Mon objectif ? Mieux comprendre ma vie, l'améliorer grâce aux données que ce programme récupère.\n\nJe me retrouve ainsi avec un bien beau projet de DataScience !\n\nA travers cette session, je vais vous montrer les différentes techniques d'apprentissage automatique que j'ai utilisées pour créer plusieurs modèles de mon activité.  Nous aborderons ainsi les bases du Machine Learning à travers une étude de cas appliquée à un contexte réel.  Je montrerai même comment je m'offre des retours en temps réel afin de réduire mon temps gaspille en distraction.\n\nNous tirerons ensemble les conclusions immédiatement applicables à mon activité et nous verrons ensemble comment vous pourriez réaliser cette expérience chez vows.",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "discovery",
+      "speaker": [
+        1466732332968
+      ],
+      "agenda" : { "day": 1, "hour": 7, "room": 4 }
+    },
+    {
+      "id": 1470394746917,
+      "name": "Chérie, j'ai imprimé Lego'sses !",
+      "description": "Ergo : Salut les techos ! Ça vous dirait de connecter un robot pour le DevFest ?\n<br/>\nDévs : Ouais ! Graaaave ! Super idée !\n<br /><br />\nErgo : Et qu'on l'imprime !\n<br/>\nDévs : Ouais !...\n<br /><br />\nErgo : Et qu'il réagisse à des Tweets !\n<br/>\nDévs : Mouais... et tu ne veux pas non plus qu'il bouge tant que tu y es ?!\n<br /><br />\nErgo : Carrément ! Et qu'on puisse le télécommander !\n<br/>\nDévs : Euh... ouais... et en BLE bien sûr...\n<br /><br />\nErgo : Evidemment ! Et on n'a qu'à en faire deux !\n<br/>\nDévs : T'es sûr ?...\n<br /><br />\nErgo : Oh ! Et on va les faire interagir !!!\n<br/>\nDévs : Pfff, c'est n'importe quoi ! On n'y arrivera jamais...",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "mobile",
+      "speaker": [
+        1469097650471,
+        203
+      ],
+      "agenda" : { "day": 1, "hour": 4, "room": 4 }
+    },
+    {
+      "id": 1469880580843,
+      "name": "Ivre, il décida de commercialiser des apps tout seul",
+      "description": "Si vous êtes un(e) développeur(se) normalement constitué(e) vous y avez déjà songé : faire une app tout seul et devenir riche et/ou célèbre.\n\nEt bien depuis presque 3 ans, j'ai essayé et même plusieurs fois. \n\nDans cette conférence je vous ferai un retour sur cette expérience de \"One man Startup\" sur des applications Android. \n\nOn discutera développement (évidemment) mais aussi de stratégie produit, de marketing et d'UX. On n'oubliera pas de parler d'argent.\n\nOn évoquera aussi et surtout le plaisir de développer son application à soi de A à Z  et tout ce qu'on y apprend.",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "discovery",
+      "speaker": [
+        1469880094236
+      ],
+      "agenda" : { "day": 1, "hour": 8, "room": 2 }
+    },
+    {
+      "id": 1470391525167,
+      "name": "C++ : The Beast is back",
+      "description": "Pendant que les nouvelles technologies qui buzz attirent la lumière, il restait tapi dans l'ombre attendant le meilleur moment pour frapper. En effet, la dernière version du C++ (C++14) est arrivé avec son lot d'améliorations et de nouveaux modules tierces lui permettent d’interagir directement avec avec toutes les nouvelles technologies (Cloud, Big Data, Data Mining, container...etc) tout en profitant des performances inhérentes au C++.<br/><br/>Nous présenterons dans un en premier temps les nouveaux concepts important de la technologie C++14 suivi de la présentation de <b>phoenix</b>, un proof of concept détaillant une toolchain de build pour la création d'application serveur web HTTP/2  en C++ dans des images docker.<br/><br/>Nous terminerons avec la mise en oeuvre de C++ et phoenix dans le cadre d'un projet de DataMining sur de la reconnaissance d'image en le comparant avec une implémentation python dans le Cloud.<br/><br/><br/>",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "cloud",
+      "speaker": [
+        1467794901682,
+        204
+      ],
+      "agenda" : { "day": 1, "hour": 6, "room": 4 }
+    },
+    {
+      "id": 1470053819525,
+      "name": "Continuous deployment avec Spinnaker, automatise tous tes déploiements !",
+      "description": "Spinnaker est un outil open source de déploiement continu multi-cloud développé par Netflix. \nVous savez déjà construire vos applications avec Jenkins, venez découvrir comment automatiser tous vos déploiements.\nNous verrons ensemble comment créer une plate forme complète de déploiement continu jusqu'en production, à base de canary, blue/green et rollback.",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "cloud",
+      "speaker": [
+        1470053410611
+      ],
+      "agenda" : { "day": 2, "hour": 6, "room": 2 }
+    },
+    {
+      "id": 1470522007386,
+      "name": "Rust pour l'IOT? Retour d'expérience de Rust sur micro-controlleurs",
+      "description": "Rust se veut un langage de programmation orienté système permettant de concevoir des systèmes rapides et fiables. À l'origine principalement utilisé pour écrire Servo un nouveau moteur de navigateur web par Mozilla, l'éco-système de programmes et bibliothèques écrits en Rust a grandi rapidement séduisant les développeurs de tout bords, qu'ils viennent du monde des serveurs ou des clients, qu'ils programment en C, Javascript ou encore Scala et Haskell.\nLes acteurs de l'IOT, aussi bien dans les serveurs que dans les périphériques, sont en quête de sécurité et robustesse mais aussi de rapidité de développement. Rust semble une alternative intéressante pour remplacer le C dans la programmation de périphériques, montrant des performances similaires tout en amenant des garanties sur la gestion de la mémoire et des abstractions de plus haut niveau facilitant le design logiciel.\nAu cours de cette présentation nous verrons qu'elles sont les contraintes et les particularités de la programmation de micro-contrôlleurs, comment Rust peut y répondre et qu'elles sont ses limitations.",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "mobile",
+      "speaker": [
+        1470133687234
+      ],
+      "agenda" : { "day": 1, "hour": 8, "room": 4 }
+    },
+    {
+      "id": 1472131616929,
+      "name": "Tree shaking - Déployer encore moins de code en production",
+      "description": "La notion d'import/export de modules d'Ecmascript 6 est une fonctionnalité très appréciable et attendue depuis longtemps de manière native dans le langage.\n\nLe packageur très populaire \"webpack\" comporte dans sa prochaine version majeure numéro \"2\" une fonctionnalité elle aussi très intéressante appelée \"tree-shaking\". Celle-ci permet d'obtenir un \"bundle\" final plus léger en ne sélectionant que le code utile en \"production\".\n\nNous allons découvrir dans ce quickie :\n- les avantages de cette approche par rapport à l'approche traditionnelle de l'élimination de code des optimisateurs de code Javascript statique comme UglifyJs par exemple.\n- un exemple simple d'utilisation avec Webpack\n- l'utilité potentielle avec des librairies externes utilisées dans votre projet",
+      "difficulty": 2,
+      "type": "quickie",
+      "track": "web",
+      "speaker": [
+        1465334462068
+      ],
+      "agenda" : { "day": 1, "hour": 10, "room": 1 }
+    },
+    {
+      "id": 1470391194125,
+      "name": "Coder son \"mini\" serveur d'intégration continue en JavaScript",
+      "description": "Le meilleur moyen de comprendre l'intégration continue ... C'est de coder son propre serveur de CI ... En JavaScript parce que c'est mieux (que quoi?).\nNous allons vous expliquer:\n\n- les \"grands principes\" de l'intégration continue\n- Comment dans un 1er temps s'abonner aux évènements générés par votre gestion de sources (au hasard nous utiliserons GitHub)\n- Comment  \"dire\"  à votre gestion de sources \"Hey! C'est bon, tu peux merger!\" ou \"Arff! C'est pas top, il faudrait revoir 2,3 trucs\" (Utilisation des API)\n  - installer le projet\n  - lancer les tests\n  - modifier les status en fonction des résultats\n- Comment utiliser un script de votre repository pour expliquer à votre serveur les actions qu'il doit lancer (Comme les \"Jenkins Pipeline as Code\" en Groovy )\n- Comment faire interagir votre serveur de CI avec  Hubot et Slack\n- Et si il reste un peu de temps, nous parlerons déploiement\n\nA la fin du talk, vous devriez savoir refaire la même chose avec votre propre langage.",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "web",
+      "speaker": [
+        1470388445640
+      ],
+      "agenda" : { "day": 1, "hour": 7, "room": 3 }
+    },
+    {
+      "id": 1470660979759,
+      "name": "WebVR : de la réalité virtuelle dans nos navigateurs, en route vers le Metaverse !",
+      "description": "WebVR est une future norme du W3C, en phase de draft actuellement.\nIl s'agit d'une API Javascript expérimentale qui permet d’utiliser le navigateur web de votre ordinateur ou de votre mobile directement dans votre casque de réalité virtuelle, que ce soit depuis un Google Cardboard, un Oculus Rift ou un HTC Vive.",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "web",
+      "speaker": [
+        1470172292219
+      ],
+      "agenda" : { "day": 2, "hour": 7, "room": 3 }
+    },
+    {
+      "id": 1470779030956,
+      "name": "A la découverte de Go(lang)",
+      "description": "De plus en plus de développeurs Java se tournent vers le Go, langage backend qui monte, qui monte.\nProfitez de cet atelier pour mettre les mains dans le code et vous familiariser avec le langage et son écosystème (test, makefile, vendors,etc.). Il est préférable d'avoir un environnement [Go installé](https://golang.org/doc/install) ainsi que d'avoir fait [le tour of Go](https://tour.golang.org/welcome/1) pour rentrer plus facilement dans le sujet.\nLors de cet atelier, nous vous proposons de développer du sol au plafond un petit service web REST qui expose des données récupérées dans un MongoDB au format JSON. Nous commencerons par le parsing d'argument de la ligne de commande et le logging. Nous verrons ensuite comment modéliser et manipuler la data avec MongoDB. Pour finir nous attaquerons la partie web avec le routage, les middleware et les handler.\n\nEn bonus, nous pourrons déployer le tout dans un docker-compose avec un instance de Mongo.",
+      "difficulty": 1,
+      "type": "codelab",
+      "track": "web",
+      "speaker": [
+        1470778035883,
+        206
+      ],
+      "agenda" : { "day": 2, "hour": 4, "room": 6 }
+    },
+    {
+      "id": 1471777299468,
+      "name": "Découvrir les bases NoSQL orientées graphes avec Neo4j",
+      "description": "Les bases NoSQL sont devenues assez communes dans le paysage informatique actuel.\nLes bases orientées graphes sont peut-être les moins présentes, et pourtant elles ont beaucoup d'avantages.\nPrenons Neo4j en exemple et apprenons ensemble les bases du concept des graphDB, leurs avantages, leurs inconvénients et comment interagir avec elles.",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "cloud",
+      "speaker": [
+        1470838537157
+      ],
+      "agenda" : { "day": 2, "hour": 2, "room": 4 }
+    },
+    {
+      "id": 1472473075263,
+      "name": "Le reverse engineering de Backlog",
+      "description": "Les objectifs principaux de cet atelier sont de :\n1/ De donner ou redonner du sens à son backlog.\n2/ Différencier la solution de l’objectif.\n3/ Prendre du recul par rapport au formalisme classique de la user story.\n\nL'atelier se déroule en deux temps avec la constitution de trois ou quatre groupes en fonction du nombre de participants.\nDans un premier temps, chaque groupe se voit attribuer un exemplaire de backlog que le PO vient d'écrire. Il s'agira alors pour les participants de reconstituer le(s) objectif(s) du produit à partir de ces items.\nChaque groupe ayant eu le même backlog fera une restitution sur \"Ce que fait le produit et pourquoi\".\n\nAprès un debrief et présentation générale de l'impact mapping, les équipes réfléchissent ensemble sur la finalité du produit en utilisant l'outil d'impact mapping. A la fin de la session quelques users stories pourront alors être décrites.",
+      "difficulty": 2,
+      "type": "codelab",
+      "track": "discovery",
+      "speaker": [
+        1471338493721,
+        207
+      ],
+      "agenda" : { "day": 1, "hour": 3, "room": 6 }
+    },
+    {
+      "id": 1472674682270,
+      "name": "La datavisualisation : depuis quand ? comment ? pour qui ? quels outils ?",
+      "description": "20 minutes pour faire un tour rapide de la datavisualisation. De quand datent les premiers graphes ? quels type de graphes mettre en œuvre en fonction du type de données ? quels outils utiliser ?\nCe quickie vous permettra de découvrir rapidement les concepts de la datavisualisation et vous donnera un aperçu des différentes questions à se poser et de ce qui existe dans ce domaine.",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "discovery",
+      "speaker": [
+        1434378343474
+      ],
+      "agenda" : { "day": 2, "hour": 8, "room": 4 }
+    },
+    {
+      "id": 1471611313272,
+      "name": "Jenkins & continuous delivery pipeline : ce n'est pas toujours un long fleuve tranquille",
+      "description": "Jenkins 2 démocratise le plugin Pipeline. Il vous permet de transformer Jenkins en moteur pilote de Déploiement Continu.\nMais vous avez l’impression que les exemples de Pipeline sont trop simples par rapport à vos applications ?\n\nSi vous avez plusieurs composants avec chacun leur cycle de vie propre à agréger pour construire votre produit, vous serez intéressés par le pattern Fan-in. Son but est exactement de construire un pipeline pour gérer ces différents composants.\n\nJe vais vous démontrer comment construire un ensemble de pipelines pour livrer une application se composant de plusieurs sous-applications, avec chacune son cycle de vie.",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "cloud",
+      "speaker": [
+        1471610942207
+      ],
+      "agenda" : { "day": 2, "hour": 4, "room": 1 }
+    },
+    {
+      "id": 1471878583557,
+      "name": "2h pour analyser les tendances du web avec Spark",
+      "description": "Exploiter les technologies Big Data pour faire parler le web, ça vous dit ?\nNous vous proposons de prendre 2h pour découvrir les bases de la collecte et l’analyse des données autour d’un thème d’actualité. \nNous utiliserons Apache Spark pour récolter les informations provenant de Twitter, afin de déterminer la popularité, les tendances et le sentiment des réseaux sociaux.",
+      "difficulty": 2,
+      "type": "codelab",
+      "track": "cloud",
+      "speaker": [
+        1471859250404,
+        208
+      ],
+      "agenda" : { "day": 1, "hour": 3, "room": 5 }
+    },
+    {
+      "id": 1471945120162,
+      "name": "Haskell for the noobs",
+      "description": "1 heure pour apprendre un nouveau langage, c'est court. Et quand il s'agit d'un langage aussi particulier que **Haskell**, ça devient sportif ! Mais qu'à cela ne tienne, tentons le coup !\n\nCommençons par étudier un cas topique : **le parsing de fichiers texte**.",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "discovery",
+      "speaker": [
+        1465399242926
+      ],
+      "agenda" : { "day": 1, "hour": 3, "room": 3 }
+    },
+    {
+      "id": 1471954293355,
+      "name": "Conversational power for Android apps",
+      "description": "Conversational interfaces are the new cool. During the session we'll see how to add conversational power to any Android app: from listening to the user, understand what she said and provide voice replies. Using internal APIs, external service and a little bit of code",
+      "difficulty": 3,
+      "type": "conference",
+      "track": "mobile",
+      "lang": "en",
+      "speaker": [
+        1471954065677
+      ],
+      "agenda" : { "day": 1, "hour": 3, "room": 2 }
+    },
+    {
+      "id": 1472317441011,
+      "name": "De 0 à 5 millions : retour d'experience sur la création d'un SDK mobile",
+      "description": "Entre les utilisateurs développeurs de niveaux très hétérogènes, les demandes d'une division marketing et des déploiements sur plusieurs millions de terminaux en quelques jours, la création et maintenance d'un SDK mobile est à la fois passionnante et riche en événements. A travers un retour d'expérience et quelques anecdotes, nous verrons dans ce talk comment faciliter la vie des développeurs utilisant notre SDK, et aussi la notre en évitant les écueils avec ses utilisateurs et ses collègues.",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "mobile",
+      "speaker": [
+        1437051561717
+      ],
+      "agenda" : { "day": 2, "hour": 7, "room": 4 }
+    },
+    {
+      "id": 1471998460521,
+      "name": "Talk Firebase",
+      "description": "Bientôt la description mais pour sûr, c'est un talk sur des nouveautés Firebase. Plus d'infos la semaine du DevFest ;)",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "cloud",
+      "speaker": [
+        1466514040973
+      ],
+      "agenda" : { "day": 2, "hour": 3, "room": 1 }
+    },
+    {
+      "id": 1472110242598,
+      "name": "GraphQL vs Falcor",
+      "description": "L’hégémonie de l’architecture REST est ébranlée par de nouveaux venus : GraphQL de Facebook et Falcor de Netflix. Comment ces deux technologies peuvent-elles nous aider à développer des applications web plus rapidement ?\n\nNous commencerons par une rapide introduction de GraphQL et Falcor : le concept qui se cache derrière, leurs objectifs, ainsi que leur place dans nos architectures client-serveur.\n\nNous vous proposerons ensuite de développer une application mobile de transport en commun avec REST, GraphQL et Falcor afin de comparer l’impact de ces technologies sur les propriétés du code et les coûts de développement. Cette comparaison sera assistée par un outil de traduction de requêtes, conçu par nos soins.",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "web",
+      "speaker": [
+        1438377254497,
+        209
+      ],
+      "agenda" : { "day": 1, "hour": 3, "room": 1 }
+    },
+    {
+      "id": 1472052858025,
+      "name": "Connecter un objet LoRa à la plateforme Watson IoT",
+      "description": "L’autonomie et la disponibilité des données dans un cloud sont les éléments-clés d’un réseau d’objets connectés industriel. L’IOT Line de SOPRA STERIA connecte aujourd’hui des objets au cloud IBM Bluemix via le réseau bas débit LoRa. Nous vous présenterons notre méthode et nos outils pour connecter facilement et rapidement vos objets au cloud.",
+      "references": null,
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "mobile",
+      "speaker": [
+        1472051425635
+      ],
+      "agenda" : { "day": 1, "hour": 10, "room": 4 }
+    },
+    {
+      "id": 1472453181702,
+      "name": "Apache Spark avec NodeJS ? Oui, c'est possible avec EclairJS !",
+      "description": "__NodeJS__ devient incontournable (ou presque !) et JavaScript est votre langage de prédilection, mais vous êtes déçu de devoir (re)faire du Java pour traiter vos données avec __Spark__ ? \nAlors, venez découvrir __EclairJS__, un projet permettant de développer en JavaScript vos traitements de données à destination de Spark. Encore une bonne raison de laisser tomber Java !",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "cloud",
+      "speaker": [
+        1434699116549
+      ],
+      "agenda" : { "day": 2, "hour": 9, "room": 2 }
+    },
+    {
+      "id": 1472653456003,
+      "name": "Développer une application de pari en ligne avec la blockchain Ethereum et Angular2",
+      "description": "Dans ce CodeLab, nous commencerons par une présentation de la blockchain Ethereum et du principe des smart-contracts.\nPuis nous développerons une Dapp basique de pari en ligne en utilisant les technologies Geth, EthereumJS et Angular2.\n\nCela permettra d'apprendre :\n- à mettre en place une blockchain de test privée multi-noeuds,\n- à installer et utiliser l'écosystème de développement Ethereum,\n- à coder un smart-contract avec Solidity (avec quelques bonnes pratiques),\n- à interfacer ce smart contract avec une IHM Web en Angular2.\n\nDes connaissances du fonctionnement des concepts généraux des blockchains sont fortement conseillées pour CodeLab, même si je ferais quelques rappels au début.\nPar contre, pas besoin de connaître Ethereum, et la partie Angular2 sera fournie dans les grandes lignes aux participants.",
+      "difficulty": 2,
+      "type": "codelab",
+      "track": "web",
+      "speaker": [
+        1469452017228
+      ],
+      "agenda" : { "day": 2, "hour": 4, "room": 5 }
+    },
+    {
+      "id": 1472454479881,
+      "name": "The Eclipse IDE: The Force Awakens",
+      "description": "Un vent de renouveau souffle sur l'IDE Eclipse. Ce nouvel élan apporte bien sûr de nombreuses résolutions de bogues. Mais plus important encore, des parties souvent considérées comme la faiblesse d'Eclipse sont en cours de refonte. Cette présentation vous démontrera tout cela en faisant un tour d'horizon des nouveautés de la dernière version sortie en Juin (Eclipse Neon) et de celles à venir pour 2017. Nous parlerons ainsi entre autres des améliorations de performances de l'outillage Java, de l'integration Docker et Vagrant et le renouveau de l'outillage Web / Javascript. L'outillage Javascript en particulier sera présenté en démo pour convaincre ceux qui ont délaissé Eclipse qu'ils devraient probablement le ré-essayer!!",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "discovery",
+      "speaker": [
+        1472133508219,
+        210
+      ],
+      "agenda" : { "day": 1, "hour": 6, "room": 3 }
+    },
+    {
+      "id": 1472224082408,
+      "name": "Cloud Analytics : de 0 à 100 000 événements par seconde en 50'",
+      "description": "En partant de zéro nous aurons au bout de 50' une chaine complète d'analyse de la donnée qui verra transiter 100000 événements par seconde : de l'injection (qui est semble simple mais n'est pas trivial) jusqu'à l'outil de reporting qui montrera un report temps réel sur les données injectées.\n\nEn apportant puissance, flexibilité et coût faible, le cloud s'impose de plus en plus comme l'outil indispensable pour construire une chaine d'analyse de la donnée. Nous l'utiliserons durant cette session qui contiendra trucs et astuces, retours d'expérience et live coding.\n\nTags : #BigQuery #Dataflow #PubSub #DataStudio #Datalab #ComputeEngine",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "cloud",
+      "speaker": [
+        1472223851013
+      ],
+      "agenda" : { "day": 1, "hour": 7, "room": 1 }
+    },
+    {
+      "id": 1472553153816,
+      "name": "Docker et Rancher au service d’une infrastructure as code, la fin du métier de Ops ?",
+      "description": "Après l’ère du physique, du virtuel, le Cloud offre aujourd’hui une infrastructure de taille, de performance potentiellement infinie. Scriptable, automatisable, les infrastructures se conçoivent désormais en quelques lignes de codes.\nLa présentation propose à partir des technologies Docker et Rancher, de créer et d’automatiser des architectures Cloud (Exemple pris sur l’offre Amazon Web Service), hautement disponibles et reproductibles. L’objectif étant de démontrer la convergence du métier de Dev et du métier d’Ops et la mutualisation des compétences de plus en plus essentielles.\nAprès une description des stacks techniques Docker et Rancher et AWS, nous procèderons à une démonstration de la création d’une infrastructure as code : incluant un scaling et un déploiement continu sur la base des technologies présentées.",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "cloud",
+      "speaker": [
+        1472226217608
+      ],
+      "agenda" : { "day": 2, "hour": 8, "room": 3 }
+    },
+    {
+      "id": 1472390635773,
+      "name": "MinuteJS - Les nouveautés Javascript à ne pas rater !",
+      "description": "Si toi aussi tu ne comprends plus rien aux dernières mises à jour de Javascript, alors **ce talk est fait pour toi** !\n\nComment ça fonctionne ? Quelles sont les nouveautés ? Pourquoi certaines personnes les utilisent alors que ce n'est pas officiellement sorti ?\nPourquoi j'en entends moins parler ?\n\nDans ce **Quickie** vous aurez réponses à ces questions. Nous allons revoir la façon dont ECMAScript (et donc Javascript) évolue.\nJe vous présenterai quelques nouveautés depuis l'ES6 (ES2015) qui me semblent intéressantes et applicables dès à présent via une comparaison avant/après et du **livecoding**.\n\nJe vous persuaderai que ces nouveautés vous feront gagner du temps et de la lisibilité !",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "web",
+      "speaker": [
+        1472282811544
+      ],
+      "agenda" : { "day": 2, "hour": 8, "room": 1 }
+    },
+    {
+      "id": 1472390695765,
+      "name": "Mon application React/Redux en production en 2h avec firebase.",
+      "description": "Je commence React/Redux et je ne sais pas trop comment démarrer.\nQuelles sont les bibliothèques à utiliser ?\nQuelles sont les conventions que je vais mettre en place ?\nEt surtout pourquoi ?\n\nDans ce **codelab** de deux heures nous allons, ensemble, transformer une application primitive en une application prête à être déployée (avec firebase).\n\nUne première application servira de base et sera utilisée comme piqure de rappel sur React/Redux.\nPuis nous parcourrons les différentes bibliothèques classiques d'une telle stack en **refactorisant l’application à chaque brique ajoutée**.\n\nNous parlerons, entre autres, de **redux-thunk**, **reselect**, **normalizr** et **react-router**.\nNous reviendrons sur la configuration **webpack** pour faire du Sass __scopé__ et __autoprefixé__.\n\nFinalement avec tout ça, j'espère que nous aurons le temps de parler des High Order Components !",
+      "difficulty": 2,
+      "type": "codelab",
+      "track": "web",
+      "speaker": [
+        1472282811544
+      ],
+      "agenda" : { "day": 1, "hour": 6, "room": 6 }
+    },
+    {
+      "id": 1472463470824,
+      "name": "IoT: from zero to hero for web developers",
+      "description": "The internet of things era is finally starting to happen! We have billions of smart devices coming, from smart factory plants to smart parking spaces, and from smart vending machines to smart toys. But… How can we, as ordinary web developers, ride this wave? We’ll need to know how to build embedded devices, build smartphone apps to go with them, and connect devices to the internet. And when we’re all done: how can people even discover our devices?!\n\nLots of challenges, but one great opportunity. With new tech coming out every day, it gets easier and easier to solve these problems. On the embedded spectrum we see JS engines appear that can run on microcontrollers with just 32KB of RAM, making it possible to run devices for years off a battery. And on the software spectrum Google and Mozilla have been working like crazy on Web Bluetooth, eliminating the need for an app per device. And on top of that: Physical Web, an open protocol that gives ordinary devices a URL, automatically popping up in your homescreen when you’re close to the device. How is that for discovery?\n\nIn this demo heavy talk, Jan Jongboom will balance the fine line between hardware and the web, showing how to get started on building connected devices on both embedded and web side using JavaScript. And while he’s at it, he’ll probably throw some stuff in the air.",
+      "difficulty": 1,
+      "type": "conference",
+      "track": "mobile",
+      "lang": "en",
+      "speaker": [
+        1470747868721
+      ],
+      "agenda" : { "day": 2, "hour": 3, "room": 3 }
+    },
+    {
+      "id": 1472646290272,
+      "name": "QML, un framework graphique en plein boom",
+      "description": "Dans cette présentation, nous allons découvrir le framework QML au travers du développement d’une application complexe. IHM adaptative, shaders, vidéo, fluidité graphique sont au rendez-vous.",
+      "difficulty": 2,
+      "type": "quickie",
+      "track": "mobile",
+      "speaker": [
+        1472465838515
+      ],
+      "agenda" : { "day": 2, "hour": 9, "room": 3 }
+    },
+    {
+      "id": 1472641651474,
+      "name": "Elm, un langage réellement innovant pour web.",
+      "description": "Nous découvrirons ensemble le langage Elm et son architecture très novatrice n'ayant pas peur de bousculer de nombreuses idées reçues.\nLes points abordés seront :\n* Comment le langage Elm réussi à promettre l'absence d'erreur à l’exécution.\n* Son compilateur et ses messages qui vous guideront.\n* Son système de module perfectionné.\n* comment créer une petite application avec la librairie standard et l'architecture naturelle d'Elm.\n\nJ'adore React, Redux la programmation fonctionnelle et je veut vous faire aimer Elm.",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "web",
+      "speaker": [
+        1434374399444
+      ],
+      "agenda" : { "day": 1, "hour": 9, "room": 1 }
+    },
+    {
+      "id": 1472512275589,
+      "name": "Jigsaw est prêt à tuer le classpath Java",
+      "description": "En 2009, la mort du classpath a été annoncée. Les classloaders à plat ou hiérarchiques devaient être remplacés par des systèmes modulaires et tous nos problèmes de dépendance devaient se résoudre d'eux-mêmes. C'est le projet Jigsaw qui devait accomplir cette tâche. Il sera finalement intégré au JDK 9 dont la sortie est prévue pour 2017.\n\nDans la première partie de cette présentation, je vous revenir sur le fonctionnement des classloaders du JDK et voir au travers quelques exemples les problèmes étranges qu'ils posent.\n\nDans la deuxième partie, je présenterai ce que Jigsaw va apporter et j'expliquerai quels problèmes il va résourdre. Je le comparerai aux solutions qui existent déjà, comme OSGi et JBoss Modules.",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "cloud",
+      "speaker": [
+        1472510496898
+      ],
+      "agenda" : { "day": 1, "hour": 3, "room": 4 }
+    },
+    {
+      "id": 1472541226273,
+      "name": "Développez des applications web desktop avec Electron de Github",
+      "description": "D’un côté, nous avons la communauté web qui maintient un écosystème riche permettant de construire des interfaces utilisateurs rapidement malgré des problématiques cross-browser très contraignantes. De l’autre côté, l’écosystème desktop possède des outils très performants mais qui demandent beaucoup d’investissement. Github s’est retroussé les manches pour tirer le meilleur des deux mondes et a créé Electron ! Electron, c’est la possibilité de construire des applications grâce à ES2015 et NodeJs avec pour seul navigateur à supporter Chromium dans sa dernière version.  Et ce n’est pas tout, un ensemble d’API est aussi mis à votre disposition pour faciliter les interactions avec la machine.\n\nAu cours de ce codelab, nous allons développer une application meme generator et découvrir ensemble les raisons du succès grandissant d’Electron. Nous verrons à travers cet atelier tout ce que le framework offre en matière de packaging, de mises à jour automatiques et de stratégies de testing.",
+      "difficulty": 1,
+      "type": "codelab",
+      "track": "web",
+      "speaker": [
+        1465224485474,
+        1470388445640,
+        211
+      ],
+      "agenda" : { "day": 2, "hour": 2, "room": 6 }
+    },
+    {
+      "id": 1472544348682,
+      "name": "Votre application web qui marche même sans réseau, c'est possible!",
+      "description": "Vous vous demandez comment améliorer l'expérience de vos utilisateurs web ? Et pourquoi ne pas leur permettre de lancer et d'interagir avec votre application web même lorsqu'il n'y a pas de réseau?\n\nNous verrons comment mettre en place une stratégie offline-first totale en utilisant des nouvelles APIs comme le **service worker**, **background-sync**, la **cache API** et **indexDB**.",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "web",
+      "speaker": [
+        1471601816772
+      ],
+      "agenda" : { "day": 2, "hour": 3, "room": 4 }
+    },
+    {
+      "id": 1472546431941,
+      "name": "Google Design Sprint : à quoi ça sert et pourquoi il faut essayer",
+      "description": "Le Google Design Sprint est une approche de prototypage d'un service ou d'un business en 5 jours qui permet d'avancer rapidement et de lever des hypothèses sur une idée. Venez découvrir ce qui fait le succès des Google Design Sprints !",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "discovery",
+      "speaker": [
+        1472501816997
+      ],
+      "agenda" : { "day": 1, "hour": 10, "room": 3 }
+    },
+    {
+      "id": 1472594325076,
+      "name": "Mixité dans le monde des webcomponents",
+      "description": "Ah, les web components, quelle belle idée ! Un nouveau standard, du développement web basé enfin sur une vraie architecture en composants, \nde la réutilisation, de la modularisation, de l'encapsulation... Des choses que les développeurs backend ont depuis plus de trente ans enfin\ndisponibles pour les développeurs web...\n\nMais en attendant que le W3C décide de sortir le standard, ce qu'on a dans le mains c'est une promese d'un beau avenir et une panoplie de \nbibliothèques censées combler le manque en attendant : Polymer, X-Tag,  Bosoonic... Et récement, avec des React, Aurelia et d'autres Angular 2, \nil semble que tous les frameworks JS modernes s'orients vers les composants web.\n\nDans ce talk on va essayer de répondre à une des questions qu'on nous pose le plus souvent quand nous parlons de web components : \n\"OK, le futur sera beau, mais aujourd'hui, si je fais des componsants avec une bibliothèque X et mon pote en fait avec une bibliothèque Y,\nje peux les utiliser dans la même application ? Et ils marcheront dans mon framework favori ?\"\n\nEt pour répondre a cette question, nous allons emprunter quelques techniques au monde de la musique avec un battle entre Cyril Balit, \nWassim Chegham et Horacio Gonzalez afin d'intégrer et fdaire parler des composants web dans un maximum de technologies. \nCar face à la tendance à se polariser avec des querelles de chapelles type Angula vs React vs Aurelia vs Polymer vs Meteor \nnous préférons le slogan *Let's work hand in hand and move the web forward*",
+      "difficulty": 2,
+      "type": "conference",
+      "track": "web",
+      "speaker": [
+        1436275955994,
+        1465335589385,
+        212
+      ],
+      "agenda" : { "day": 2, "hour": 6, "room": 1 }
+    },
+    {
+      "id": 1472679569387,
+      "name": "Un Nantais dans la Silicon Valley: Sun Microsystems, Oracle, Google,...",
+      "description": "20 ans dans les grosses boites de la valley. Comment ca marche? Etre codeur? Etre manager? Etre chef de project? La culture, Les challenges, les risques, et les 'rewards'...",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "discovery",
+      "speaker": [
+        1438785880433
+      ],
+      "agenda" : { "day": 1, "hour": 9, "room": 3 }
+    }
+  ],
+  "speakers": [
+    {
+      "id": 1434742896211,
+      "firstname": "Nicolas",
+      "name": "De Loof",
+      "company": "Cloudbees",
+      "bio": "Hacker @ CloudBees, Docker captain",
+      "photo": "ndeloof.jpeg",
+      "social": {
+        "twitter": "ndeloof",
+        "googleplus": null,
+        "github": "ndeloof"
+      },
+      "sessions": [
+        1465225950184
+      ]
+    },
+    {
+      "id": 1465335589385,
+      "firstname": "Wassim",
+      "name": "Chegham",
+      "company": "SFEIR",
+      "bio": "Wassim (@manekinekko) is an ECMAScript hacker and Google Developer Expert in Web Technologies located in Paris. When he is not working on production ready webapps, he loves writing technical articles, hacking on different technologies, talk at conferences and contributing to open source projects (here is a gift for you http://www.codetriage.com).",
+      "photo": "wchegham.jpg",
+      "social": {
+        "twitter": "https://twitter.com/manekinekko",
+        "googleplus": "https://plus.google.com/u/0/+WassimCheghamJavaScript",
+        "github": "https://github.com/manekinekko",
+        "linkedin": "https://fr.linkedin.com/in/wassimchegham"
+      },
+      "sessions": [
+        1465336720044,
+        1472594325076
+      ]
+    },
+    {
+      "id": 1440444860271,
+      "firstname": "Cyril",
+      "name": "Mottier",
+      "company": "Captain Train",
+      "bio": "Cyril is Head of Mobile & Web at Captain Train and an expert in Android & Google technologies. Passionate about technology and design, Cyril is an avid lover of Android and a multi-skilled engineer. His motto: “Do less, but do it insanely great”",
+      "photo": "cmottier.jpeg",
+      "social": {
+        "twitter": "@cyrilmottier",
+        "googleplus": "https://plus.google.com/+CyrilMottier",
+        "github": "https://github.com/cyrilmottier",
+        "blog": "http://cyrilmottier.com"
+      },
+      "sessions": [
+        1465579632798
+      ]
+    },
+    {
+      "id": 1465334462068,
+      "firstname": "Vincent",
+      "name": "Ogloblinsky",
+      "company": "SII",
+      "bio": "Architecte logiciel au sein d'une ESN rennaise, j'évolue entre architecture de projets web, formations, animations techniques, support client, expertise technique.",
+      "photo": "vogloblinsky.jpeg",
+      "social": {
+        "twitter": "vogloblinsky",
+        "googleplus": "https://plus.google.com/110496959767269301776",
+        "github": null
+      },
+      "sessions": [
+        1472131616929
+      ]
+    },
+    {
+      "id": 1465823767741,
+      "firstname": "Thomas",
+      "name": "Belin",
+      "company": "doyoubuzz",
+      "bio": "Full-Stack développeur chez doyoubuzz.  \nJe fais la [part belle au code](http://blog.thomasbelin.fr/p/faire-la-part-belle-au-code).  \nJe m'éclate avec Javascript.",
+      "photo": "tbelin.jpeg",
+      "social": {
+        "twitter": "atomrc",
+        "googleplus": "https://plus.google.com/+ThomasBelin",
+        "github": "atomrc",
+        "blog": "http://blog.thomasbelin.fr"
+      },
+      "sessions": [
+        1465841475354
+      ]
+    },
+    {
+      "id": 1465562660644,
+      "firstname": "Francois",
+      "name": "Teychene",
+      "company": "Tabmo",
+      "bio": "Devops la journée, JUG Leader le soir sur Montpellier, j'aime parler et discuter de Docker.\nAncien développeur Java et devops passé par de grosses structures très (trop) lentes à évoluer je met en place des infras basés sur Docker depuis 1 ans et aime essayer de nouvelles choses sur cet écosystème.",
+      "photo": "fteychene.jpg",
+      "social": {
+        "twitter": "https://twitter.com/fteychene",
+        "googleplus": "https://plus.google.com/u/0/+Fran%C3%A7oisTeychene",
+        "github": "https://github.com/fteychene"
+      },
+      "sessions": [
+        1466851531333
+      ]
+    },
+    {
+      "id": 1440170007547,
+      "firstname": "Raphael",
+      "name": "Goetter",
+      "company": "Alsacréations",
+      "bio": "Intégrateur du Dimanche, dompteur de CSS et tripoteur de HTML, créateur de Alsacreations.com, auteur de quelques livres CSS, Alsacien",
+      "photo": "rgoetter.jpeg",
+      "social": {
+        "twitter": "goetter",
+        "googleplus": null,
+        "github": "raphaelgoetter",
+        "blog": "http://goetter.fr"
+      },
+      "sessions": [
+        1466585739187
+      ]
+    },
+    {
+      "id": 1466669874351,
+      "firstname": "Michel",
+      "name": "Rousseau",
+      "company": "Microsoft",
+      "bio": "Je suis un passionné d'UX et d'interfaces, mais aussi de jeux vidéo, de robots, et de toute la culture geek, en général. Je travaille chez Microsoft France en tant qu'évangéliste design/UX et UI.",
+      "photo": "mrousseau.jpeg",
+      "social": {
+        "twitter": "https://twitter.com/rousseau_michel",
+        "googleplus": null,
+        "github": null,
+        "linkedin": "https://fr.linkedin.com/in/michel-rousseau-4b62892"
+      },
+      "sessions": [
+        1466670619967,
+        1466671476078
+      ]
+    },
+    {
+      "id": 1466786786895,
+      "firstname": "Olivier",
+      "name": "Laurendeau",
+      "company": "LaFourchette",
+      "bio": "Ayant travaillé en SSII, Agence web et Free-Lance, j'ai trouvé ma place depuis quelques années chez un pure player, LaFourchette qui m'a offert l'opportunité de quitter Paris pour venir travailler à Nantes en septembre 2015.\n\nD'un point de vue language j'utilise essentiellement `PHP`,  `bash` et `javascript`. Je travaille au quotidien avec `Symfony 2`, `RabbitMQ`,  `jenkins`, `new relic`, `kibana` et de plus en plus `docker`.\n\nPersonnellement trois long voyages en Asie et en Amérique du sud m'ont énormément enrichis et j'aime pratiquer régulièrement un ensemble de disciplines sportives.",
+      "photo": "olaurendeau.jpg",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "github": "https://github.com/olaurendeau",
+        "linkedin": "https://fr.linkedin.com/in/olivier-laurendeau-b7835414"
+      },
+      "sessions": [
+        1466789828567
+      ]
+    },
+    {
+      "id": 1439973988610,
+      "firstname": "Sun Seng David",
+      "name": "TAN",
+      "company": "Serli",
+      "bio": "Java Software Engineer @SerliFr. Eclipse Che commiter. OpenSource Minded. @parisjug crew member.",
+      "photo": "stan.jpeg",
+      "social": {
+        "twitter": "@sunsengdavidtan",
+        "googleplus": null,
+        "github": "sunix",
+        "blog": "http://blog.sunix.org"
+      },
+      "sessions": [
+        1466874066735
+      ]
+    },
+    {
+      "id": 1434987027061,
+      "firstname": "Emmanuel",
+      "name": "DEMEY",
+      "company": "Zenika",
+      "bio": "Consultant et Formateur Web chez Zenika Lille depuis avril 2015. Je suis spécialisé dans AngularJS / Angular 2 / TypeScript et l'Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c'est normal...), le Jazz et la Domotique. \n\nPlusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. \n- ESLint au Jug Summer Camp et ChtiJS\n- Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, ...",
+      "photo": "edemey.jpeg",
+      "social": {
+        "twitter": "EmmanuelDemey",
+        "googleplus": null,
+        "github": "Gillespie59"
+      },
+      "sessions": [
+        1467051776736
+      ]
+    },
+    {
+      "id": 1434094629196,
+      "firstname": "Jean-François",
+      "name": "Garreau",
+      "company": "Lucca",
+      "bio": "Je suis développeur depuis 10 ans. J'ai évolué pendant longtemps sur des stack java et android. Depuis maintenant 3 ans je m’intéresse plus en profondeur au Web et à ses nouvelles possibilités. J'ai ainsi optenu le status de GDE (Google Developer Expert) cette année sur la partie WebTechnology. En dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes, co-créateur des Nantes Wit et organisateur de Devoxx4Kids ",
+      "photo": "jgarreau.jpeg",
+      "social": {
+        "twitter": "@jefbinomed",
+        "googleplus": "https://plus.google.com/+jefbinomed",
+        "github": "https://github.com/jefbinomed",
+        "blog": "https://jefbinomed.fr"
+      },
+      "sessions": [
+        1467189637282,
+        1467190977231
+      ]
+    },
+    {
+      "id": 1467354410413,
+      "firstname": "Nathalie",
+      "name": "Rolland",
+      "company": "Indépendante",
+      "bio": "Expert AccessiWeb en évaluation",
+      "photo": "nrolland.jpg",
+      "social": {
+        "twitter": "@nroll82",
+        "googleplus": null,
+        "github": null
+      },
+      "sessions": [
+        1472107474978
+      ]
+    },
+    {
+      "id": 1441039953835,
+      "firstname": "Antoine",
+      "name": "Richard",
+      "company": "Restlet",
+      "bio": "Antoine est \"Code Rider\" chez Restlet où il s'attache à créer de bons produits. C'est un développeur passionné qui s'intéresse également à l'UX et au bon vin.",
+      "photo": "arichard.jpg",
+      "social": {
+        "twitter": "https://twitter.com/richard_antoine",
+        "googleplus": null,
+        "github": "https://github.com/antoine-richard"
+      },
+      "sessions": [
+        1469380401604
+      ]
+    },
+    {
+      "id": 1434372231365,
+      "firstname": "Cécilia",
+      "name": "Bossard",
+      "company": null,
+      "bio": "ai un but : aider les équipes à produire des logiciels utiles aux utilisateurs finaux. Pour cela, je les accompagne en intégrant les équipes de développement ou en les assistant dans leur transition agile. Impliquée dans la communauté agile nantaise, je participe également à l'organisation de l'Agile Tour de Nantes. Femme développeuse, je suis également co-fondatrice du groupe Women In Technology à Nantes, dont le but est de promouvoir les femmes dans la technique. Dans ce cadre, je participe également aux initiations à la programmation à destination des enfants avec des initiatives telles que les Devoxx4Kids ou les coding goûters.",
+      "photo": "cbossard.png",
+      "social": {
+        "twitter": "@ceciliaBossard",
+        "googleplus": null,
+        "github": null,
+        "blog": "https://javagile.wordpress.com/"
+      },
+      "sessions": [
+        1470050577168,
+        7
+      ]
+    },
+    {
+      "id": 1466499956776,
+      "firstname": "Guillaume",
+      "name": "Membré",
+      "company": "Zenika",
+      "bio": "Geek à toute heure, Guillaume Membré travaille principalement autour des technologies Java/JavaEE mais aussi sur des problématiques d'intégration continue, de qualimétrie. Mission après mission sur Nantes, il a eu l'occasion d'avoir une expérience diversifiée qui l'a amenée à occuper différentes responsabilités, à faire dèv et de l'infra, et maintenant de la mise en place d'outils devops.",
+      "photo": "gmembre.jpeg",
+      "social": {
+        "twitter": "@GuillaumeMembre",
+        "googleplus": null,
+        "github": null,
+        "blog": "http://www.monbook.tech"
+      },
+      "sessions": [
+        1468499637504
+      ]
+    },
+    {
+      "id": 1466732332968,
+      "firstname": "Jeff",
+      "name": "Abrahamson",
+      "company": "Jellybooks",
+      "bio": "Jeff Abrahamson (ré)invente l'analyse de livres électroniques chez Jellybooks.\nDerrière chaque livre se cache une histoire dans les données de lecture : à trouver, à éclairer, à visualiser.\nJeff anime le Nantes Machine Learning Meetup et co-organise des formations professionnelles en DataScience à travers l'initiative ML Week.",
+      "photo": "jabrahamson.jpeg",
+      "social": {
+        "twitter": "https://twitter.com/#!/Jeff_Abrahamson",
+        "googleplus": "https://google.com/+JeffAbrahamson",
+        "github": "https://github.com/JeffAbrahamson",
+        "linkedin": "https://www.linkedin.com/profile/view?id=JeffAbrahamson"
+      },
+      "sessions": [
+        1469470996994
+      ]
+    },
+    {
+      "id": 1469097650471,
+      "firstname": "Vincent",
+      "name": "Piard",
+      "company": "SQLi",
+      "bio": "Biberonné aux joies du Cobol, engraissé aux compotes Php, gavé de Java, sustenté aux sucreries C#, repu au Flex et finalement dernièrement nourri en intraveineuse de JS, je me délecte en ce moment d'IOT. A mes heures perdues, je cuisine également quelques mets open source.",
+      "photo": "vpiard.jpg",
+      "social": {
+        "twitter": "@lynchmaniacPL",
+        "googleplus": null,
+        "github": "https://github.com/lynchmaniac"
+      },
+      "sessions": [
+        1470394746917
+      ]
+    },
+    {
+      "id": 1469880094236,
+      "firstname": "Pierre",
+      "name": "Benayoun",
+      "company": "Le cabinet numérique",
+      "bio": "Je suis développeur depuis 2001. \n\nJe me suis lancé dans l'aventure Android en 2011 et suis en mode \"one man startup\" sur des applications indépendantes depuis 2014.",
+      "photo": "pbenayoun.png",
+      "social": {
+        "twitter": "@Pierre_Benayoun",
+        "googleplus": "https://plus.google.com/+PierreBenayoun",
+        "github": null
+      },
+      "sessions": [
+        1469880580843
+      ]
+    },
+    {
+      "id": 1467794901682,
+      "firstname": "Pierre",
+      "name": "Salmon",
+      "company": "Expandium",
+      "bio": "Originaire de Nantes, il effectue ses études à la faculté des sciences de Nantes dans le domaine de l'informatique. Après un Master 2 Pro en 2006, il travaille dans le domaine du jeux vidéo chez Succubus Interactive avant de rejoindre Expandium en 2008 en tant que Software Engineer spécialisé dans le traitement realtime.",
+      "photo": "psalmon.jpeg",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "github": "ddway2",
+        "linkedin": "https://fr.linkedin.com/in/salmon-pierre-5b57274"
+      },
+      "sessions": [
+        1470391525167
+      ]
+    },
+    {
+      "id": 1470053410611,
+      "firstname": "Jérémie",
+      "name": "Monsinjon",
+      "company": null,
+      "bio": "Développeur Java passionné chez Ippon Technologies depuis plus d'1 an.\nJe me suis focalisé ces derniers temps sur le monitoring avec ELK, le développement de microservices avec SpringBoot, et un peu de DevOps avec la gestion dynamique d'une plateforme de production avec Docker et Mesos.",
+      "photo": "jmonsinjon.jpeg",
+      "social": {
+        "twitter": "@jmonsinjon",
+        "googleplus": "https://plus.google.com/108876182616078672534",
+        "github": null
+      },
+      "sessions": [
+        1470053819525
+      ]
+    },
+    {
+      "id": 1470133687234,
+      "firstname": "Christophe",
+      "name": "Augier",
+      "company": null,
+      "bio": "Après 5 ans à développer des hyperviseurs pour les systèmes embarquées et un cours passage en SSII je m'occupe à depuis 5 ans du développement du debugger intégré à Simics une solution de simulation de cartes électroniques multi-architectures et plus récemment du développement d'outils Cloud pour ce dernier.\n\nInscrit dans le mouvement Software Craftmanship j'essaie au jour le jour d'améliorer mes pratiques et celles de mon équipe.\n\nQuand il me reste un peu de temps, j'anime des ateliers pour Makerspace56 une association que j'ai co-fondé en 2012, un pilier du FabLab de Vannes.",
+      "photo": "caugier.jpg",
+      "social": {
+        "twitter": "@tytouf",
+        "googleplus": null,
+        "github": "tytouf"
+      },
+      "sessions": [
+        1470522007386
+      ]
+    },
+    {
+      "id": 1470388445640,
+      "firstname": "Philippe",
+      "name": "Charrière",
+      "company": "GitHub",
+      "bio": "Le jour: je suis Solution Architect chez GitHub.\nLa nuit: je \"geek\" en JavaScript, Golo, Java, Groovy, ... avec une addiction sévère à L'IOT et au JS\nJ’ai aussi le plaisir d’être co-organisateur de la conférence Lyonnaise Mix-IT.",
+      "photo": "pcharriere.jpeg",
+      "social": {
+        "twitter": "@k33g_org",
+        "googleplus": "https://plus.google.com/+PhilippeCharri%C3%A8re",
+        "github": "https://github.com/k33g",
+        "blog": "https://github.com/k33g/files"
+      },
+      "sessions": [
+        1470391194125,
+        1472541226273
+      ]
+    },
+    {
+      "id": 1470172292219,
+      "firstname": "Olivier",
+      "name": "Guillet",
+      "company": "Emotic",
+      "bio": "Olivier Guillet développe depuis plus de 15 ans : jeux vidéos, sites internet ou applications mobiles, le plus souvent sur des technologies web. Egalement passionné de réalité virtuelle, réalité augmentée et innovations en tout genre, aux frontières de l'informatiques et du cyberpunk.",
+      "photo": "oguillet.png",
+      "social": {
+        "twitter": "https://twitter.com/OlivierGuillet",
+        "googleplus": null,
+        "github": null,
+        "linkedin": "https://www.linkedin.com/in/olivierguillet"
+      },
+      "sessions": [
+        1470660979759
+      ]
+    },
+    {
+      "id": 1470778035883,
+      "firstname": "Sébastien",
+      "name": "Friess",
+      "company": "SFEIR",
+      "bio": "Développeur backend chez **SFEIR**. Après 10 années de Java dans des environnements distribués, il a récemment sauté le pas pour le *Go* chez ses clients dans le domaine de l'IoT. Il vous propose aujourd'hui de partager son expérience pour la première fois.",
+      "photo": "sfriess.jpg",
+      "social": {
+        "twitter": "https://twitter.com/sebastienfriess",
+        "googleplus": "https://plus.google.com/+SebastienFRIESS",
+        "github": "https://github.com/sebastienfr",
+        "blog": "https://sebastienfr.fr/"
+      },
+      "sessions": [
+        1470779030956
+      ]
+    },
+    {
+      "id": 1470838537157,
+      "firstname": "Kevin",
+      "name": "Biger",
+      "company": "SQLI",
+      "bio": "Développeur chez SQLI et co-responsable du pôle NoSQL/Big Data, je suis passionné par la sécurité, Java, les WebAPIs et le NoSQL. \nJe suis impliqué dans la communauté Neo4j et ai créé un meetup nantais sur le sujet.",
+      "photo": "kbiger.jpg",
+      "social": {
+        "twitter": "https://twitter.com/kevin_biger",
+        "googleplus": "https://plus.google.com/+KevinBiger",
+        "github": "https://github.com/kbiger"
+      },
+      "sessions": [
+        1471777299468
+      ]
+    },
+    {
+      "id": 1471338493721,
+      "firstname": "GILLES",
+      "name": "BRIEUX",
+      "company": "Conserto",
+      "bio": "Passionné d’informatique et tombé dedans tout petit je suis actuellement formateur, coach agile chez Conserto.",
+      "photo": "gbrieux.jpeg",
+      "social": {
+        "twitter": null,
+        "googleplus": "gbrieux",
+        "github": null,
+        "linkedin": "https://fr.linkedin.com/in/gilles-brieux-4b896254"
+      },
+      "sessions": [
+        1472473075263
+      ]
+    },
+    {
+      "id": 1471523171504,
+      "firstname": "Vincent",
+      "name": "Demeester",
+      "company": null,
+      "bio": "Architecte et développeur polyglotte ascendant Java, depuis bientôt 8\nans. Après 6 années en startup dans le monde des « Energy Management\nSystem », Vincent a intégré l’agence parisienne de Zenika en tant que\nConsultant et Formateur. \n\nDevops, Craftsman, Factotum, free-software fan, Sysadmin à ses heures\nperdues et surtout passionné, il est core mainteneur sur le projet Docker (ainsi que libcompose ou encore containous/traefik).",
+      "photo": "vdemeester.jpeg",
+      "social": {
+        "twitter": "vdemeest",
+        "googleplus": null,
+        "github": "vdemeester",
+        "blog": "http://vincent.demeester.fr"
+      },
+      "sessions": [
+        1471606432407
+      ]
+    },
+    {
+      "id": 1471610942207,
+      "firstname": "Jean-Philippe",
+      "name": "Briend",
+      "company": "CloudBees",
+      "bio": "Jean-Philippe traîne autour de Hudson/Jenkins depuis plus de 8 ans. Il a mis en place des environnements d'Intégration Continue complexe puis poussé les Best Practices de Déploiement Continu dans des entreprises de toutes tailles.\nIl est maintenant Solutions Architect chez CloudBees et côtoie tous les jours des usages très diversifiés (voir exotiques) de Jenkins en entreprise.",
+      "photo": "jbriend.png",
+      "social": {
+        "twitter": "jpbriend",
+        "googleplus": null,
+        "github": "jpbriend"
+      },
+      "sessions": [
+        1471611313272
+      ]
+    },
+    {
+      "id": 1471859250404,
+      "firstname": "Nathanael",
+      "name": "GUIBERTEAU",
+      "company": "Sopra Steria",
+      "bio": "Issu d’un parcours de consultant en architecture SI avec une expérience plus poussée sur les domaines décisionnel, Big Data et architecture d’entreprise, je contribue à la réalisation de missions de transformation digitale. J'ai une appétence particulière pour tous les sujets liés à l'analytique et à la donnée.\n \nJe suis acteur de cette transformation numérique notamment par la conduite d’avant-ventes, la réalisation de mission de conseil, d’expertise et de POC ainsi que par le développement local de  notre offre Big Data sur les aspects commerce, orientations stratégiques et technologiques, RH et compétences.",
+      "photo": "nguiberteau.jpg",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "github": null,
+        "linkedin": "https://www.linkedin.com/in/nathana%C3%ABl-guiberteau-242a2341"
+      },
+      "sessions": [
+        1471878583557
+      ]
+    },
+    {
+      "id": 1465399242926,
+      "firstname": "Frédéric",
+      "name": "Menou",
+      "company": null,
+      "bio": "CTO at Captain Train, developer at heart",
+      "photo": "fmenou.jpg",
+      "social": {
+        "twitter": "ptit_fred",
+        "googleplus": null,
+        "github": "ptitfred"
+      },
+      "sessions": [
+        1471945120162
+      ]
+    },
+    {
+      "id": 1471954065677,
+      "firstname": "Morresi",
+      "name": "Alfredo",
+      "company": "Google",
+      "bio": "I have always been addicted by innovation since 12 years old. My last passion (and work, of course) is Android, but in the past I managed Windows and Linux infrastructures for middle-size companies (250-300 empl.) and developed applications using .NET and Java.\n\nNow, in Google, I’m taking care of the developers ecosystem, providing technical contents, organizing events, teaching in universities, working with communities and much more.\n\nIn parallel, I’ve been actively participating to the Italian technical social scene, giving talk on a wide range of topics: courses on Android development, Linux training, security matters etc, and my degree in “Communication Science” strengthened my communication and human-relation skills.",
+      "photo": "amorresi.jpg",
+      "social": {
+        "twitter": "https://twitter.com/rainbowbreeze",
+        "googleplus": null,
+        "github": "rainbowbreeze"
+      },
+      "sessions": [
+        1471954293355
+      ]
+    },
+    {
+      "id": 1437051561717,
+      "firstname": "Menetrier",
+      "name": "Romain",
+      "company": null,
+      "bio": "Romain est développeur depuis plus de 15 ans et a été CTO dans une startup (Connecthings) et pour une solution d'un grand groupe (Orange). Passé  par le web et les backend, il est maintenant concentré sur l'innovation et l'environnement mobile. Il est également organisateur au Paris Android User Group et un des fondateurs de Droidcon Paris.",
+      "photo": "rmenetrier.jpg",
+      "social": {
+        "twitter": "@romemore",
+        "googleplus": "RomainMenetrier",
+        "github": "https://github.com/romemore",
+        "linkedin": "https://www.linkedin.com/in/rmenetrier"
+      },
+      "sessions": [
+        1472317441011
+      ]
+    },
+    {
+      "id": 1466514040973,
+      "firstname": "Nicolas",
+      "name": "Garnier",
+      "company": "Google",
+      "bio": "Nicolas a rejoint Google en 2008 et a travaillé sur de multiple produits pour développeurs comme les APIs Google Drive, Checkout, Tasks, Gmail, Contacts, Calendar, Base mais aussi Dart, Material Design Lite, Espresso et OAuth 2. Plus récemment il a rejoint l'équipe Firebase et se concentre sur l'aspect Web.",
+      "photo": "ngarnier.jpg",
+      "social": {
+        "twitter": "https://twitter.com/nivco",
+        "googleplus": "https://google.com/+NicolasGarnier",
+        "github": "https://github.com/nicolasgarnier"
+      },
+      "sessions": [
+        1471998460521
+      ]
+    },
+    {
+      "id": 1438377254497,
+      "firstname": "Hugo",
+      "name": "Wood",
+      "company": "Zenika",
+      "bio": "Développeur autodidacte depuis 12 ans, professionnel depuis 3, je n'ai de cesse d'apprendre de nouvelles techniques pour améliorer mon savoir-faire. J'aime étudier les langages, de C# à Haskell. Au quotidien, ce sont Java et JavaScript qui m'accaparent. Je suis consultant et formateur chez Zenika. Enfin, j'apprécie les jeux de code : vous me retrouverez par exemple sur CodinGame, et là, c'est Python.",
+      "photo": "hwood.jpeg",
+      "social": {
+        "twitter": "@mercury_wood",
+        "googleplus": null,
+        "github": "hgwood"
+      },
+      "sessions": [
+        1472110242598
+      ]
+    },
+    {
+      "id": 1472051425635,
+      "firstname": "Jerome",
+      "name": "Delbut",
+      "company": "Sopra Steria",
+      "bio": "Je suis architecte des solutions IOT au sein d l’IOT Line de SOPRA STERIA. Dans le cadre de la mise en œuvre de solutions innovantes pour répondre aux nouveaux besoins métiers de nos clients, je développe des solutions innovantes sur la base de plateformes Intel Edison ou open source. Je réalise aussi des prestations de conseil à la réalisation d’applications basées sur des lunettes et casques connectés applicables dans l’industrie 4.0. J'ai également la responsabilité du projet SOPRA STERIA « Inspect’Drone » pour inspecter via drone des infrastructures (barrages, bateaux, avion, bâtiments, …) afin de détecter des défauts automatiquement. Ce projet est un démonstrateur technologique du savoir-faire de SOPRA STERIA dans le domaine du traitement d’image, du pilotage automatique et collaboratif et de la cybersécurité.",
+      "photo": "jdelbut.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "github": null
+      },
+      "sessions": [
+        1472052858025
+      ]
+    },
+    {
+      "id": 1434699116549,
+      "firstname": "Bruno",
+      "name": "Bonnin",
+      "company": null,
+      "bio": "Architecte logiciel, développeur full stack avec une prédilection pour les technologies Java, JavaScript, NoSQL (MongoDB, Elasticsearch) et Big Data (Hadoop). Développe depuis l’époque du ZX Spectrum et pense toujours que c’est la meilleure machine de tous les temps (même si Spark a du mal a tourné dessus) !",
+      "photo": "bbonnin.png",
+      "social": {
+        "twitter": "@_bruno_b_",
+        "googleplus": null,
+        "github": "https://github.com/bbonnin",
+        "linkedin": "https://www.linkedin.com/in/bruno-bonnin-24531854"
+      },
+      "sessions": [
+        1472453181702
+      ]
+    },
+    {
+      "id": 1469452017228,
+      "firstname": "Benjamin",
+      "name": "Fontaine",
+      "company": "Zenika",
+      "bio": "Je suis un dév fullstack Java et Js, curieux de tout : devops, nouvelles technologies, agilité, craftmanship, développement personnel.",
+      "photo": "bfontaine.jpg",
+      "social": {
+        "twitter": "@benjifontaine5",
+        "googleplus": "https://plus.google.com/100218727706940554885",
+        "github": "https://github.com/benjaminfontaine"
+      },
+      "sessions": [
+        1472653456003
+      ]
+    },
+    {
+      "id": 1472133508219,
+      "firstname": "Mikaël",
+      "name": "Barbero",
+      "company": "Eclipse Foundation Europe GmbH",
+      "bio": "Mikaël Barbero is a passionate software engineer. He started programming at the age of 10 with BASIC and hasn't stopped since. After having led and contributed to many Eclipse project (especially in the modeling area), he is now a senior Eclipse platform developer and is also taking care of the release engineering for the Eclipse Foundation. A hacker at heart, Mikael likes to untangle everyday things to reveal their design layers. It lets him understand how things are built and what makes them beautiful. To him, good design is not only attractive, but also targeted for a purpose.",
+      "photo": "mbarbero.jpeg",
+      "social": {
+        "twitter": "@mikbarbero",
+        "googleplus": "MikaëlBarbero",
+        "github": "mbarbero",
+        "blog": "http://mikael-barbero.tumblr.com"
+      },
+      "sessions": [
+        1472454479881
+      ]
+    },
+    {
+      "id": 1472223851013,
+      "firstname": "Girard",
+      "name": "Didier",
+      "company": "SFEIR",
+      "bio": "Cloud Rider / GDE @Google / VP Engineering @Sfeir / PhD Machine Learning @EnsDeLyon",
+      "photo": "dgirard.jpeg",
+      "social": {
+        "twitter": "DidierGirard",
+        "googleplus": null,
+        "github": null
+      },
+      "sessions": [
+        1472224082408
+      ]
+    },
+    {
+      "id": 1472226217608,
+      "firstname": "Olivier",
+      "name": "Bierlaire",
+      "company": "Sparklane",
+      "bio": "Je suis actuellement DevOps chez Sparklane, premier éditeur français de solutions d’intelligence commerciale et marketing dédiées au marché B2B, en France et en Europe.\nPour garantir la performance et la haute disponibilité des solutions BigData de la société, j’ai en charge la définition de l’architecture Cloud, la mise en œuvre et le maintien en conditions opérationnelles de l’ensemble des plateformes.\nDans le cloud Amazon (AWS), nous déployons et organisons nos composants dans des technologies fiables et managées : Docker, Rancher, pour assurer performance et haute disponibilité.",
+      "photo": "obierlaire.jpeg",
+      "social": {
+        "twitter": "@obierlaire",
+        "googleplus": null,
+        "github": null,
+        "linkedin": "https://fr.linkedin.com/in/olivierbierlaire/en"
+      },
+      "sessions": [
+        1472553153816
+      ]
+    },
+    {
+      "id": 1472282811544,
+      "firstname": "Fabien",
+      "name": "JUIF",
+      "company": "Zenika",
+      "bio": "Fabien JUIF a baigné dans l’informatique depuis son adolescence. Il installait sa première Gentoo stage 1 en 1ère pour migrer vers Archlinux quelques années après.\nPour lui pacman n’est pas un jeu, on ne rigole pas avec ça.\n\nPassioné par la création de jeux vidéos, il s’intéressa très rapidement au développement logiciel. Avec 6 années dans le métier et une veille technologique personnelle depuis son plus jeune âge, il est devenu un peu touche à tout _GNU+Linux, Docker, développement backend, développement frontend, etc_\n\nChez Zenika, son attrait du moment c'est le Web, et plus précisément le développement ReactJS.\n\nIl espère pouvoir partager un peu de sa passion avec vous !",
+      "photo": "fjuif.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "github": "fabienjuif"
+      },
+      "sessions": [
+        1472390635773,
+        1472390695765
+      ]
+    },
+    {
+      "id": 1470747868721,
+      "firstname": "Jan",
+      "name": "Jongboom",
+      "company": "ARM",
+      "bio": "Jan Jongboom is working as Developer Evangelist IoT for ARM, and always on the lookout on how to connect the web with the real world. He loves doing unexpected stuff with sensors, flying drones from the browser, and breaking phones. Before ARM he was a core contributor to Firefox OS, and he wrote hundreds of patches to various open source projects. He's also a Google Developer Expert for Web technologies.",
+      "photo": "jjongboom.png",
+      "social": {
+        "twitter": "http://twitter.com/janjongboom",
+        "googleplus": null,
+        "github": "http://github.com/janjongboom/",
+        "blog": "http://janjongboom.com"
+      },
+      "sessions": [
+        1472463470824
+      ]
+    },
+    {
+      "id": 1472465838515,
+      "firstname": "Frédéric",
+      "name": "Serreau",
+      "company": "Groupe Créative",
+      "bio": "Chef de projet technique coloré mobilité indus, chez @groupecreative. J’interviens sur des applications à dominante graphique en C++\\Qt\\QML ou en JAVA FX optimisées par des shaders et OpenCL. Mon dada : Les SIG et les projections cartographiques.",
+      "photo": "default.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "github": null,
+        "blog": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1472646290272
+      ]
+    },
+    {
+      "id": 1434374399444,
+      "firstname": "Axel",
+      "name": "Cateland",
+      "company": "Talend",
+      "bio": "Électrotechnicien de formation Axel s'engage à 17 ans dans la Marine Nationale, s'échappe de son sous-marin nucléaire 3 ans plus tard, redécouvre le développement à 24 ans, développeur back (JAVA, PHP) pendant quelques années il s'enfuit cette fois définitivement de l'armée en 2012 pour se lancer dans une carrière de développeur front. Sa seule constance finalement c'est de savoir apprécier une bonne bière.",
+      "photo": "acateland.png",
+      "social": {
+        "twitter": "https://twitter.com/catelandaxel",
+        "googleplus": "google.com/+axelcateland",
+        "github": "https://github.com/acateland/"
+      },
+      "sessions": [
+        1472641651474
+      ]
+    },
+    {
+      "id": 1472510496898,
+      "firstname": "Alexis",
+      "name": "Hassler",
+      "company": null,
+      "bio": "Alexis Hassler est développeur Java depuis la fin du siècle dernier. Il exerce son métier comme indépendant, en codant, mais aussi en accompagnant ou formant les entreprises pour les aider à améliorer leur façon de développer et de déployer leurs applications Java. \nIl a été un des fondateurs du LyonJUG (lyonjug.org) et aide à l’organisation de Mix-IT (mix-it.fr), l'excellente conférence annuelle à Lyon.",
+      "photo": "ahassler.png",
+      "social": {
+        "twitter": "AlexisHassler",
+        "googleplus": null,
+        "github": "hasalex"
+      },
+      "sessions": [
+        1472512275589
+      ]
+    },
+    {
+      "id": 1465224485474,
+      "firstname": "Yvonnick",
+      "name": "Frin",
+      "company": "Zenika",
+      "bio": "Yvonnick développeur javascript chez Zenika Nantes. Curieux et passionné, il aime découvrir les dernières technologies du Web. Adepte d’AngularJs depuis déjà deux ans, il se met à explorer le Flux avec React. Social, il écume les meetups nantais en quête de nouveautés.",
+      "photo": "yfrin.jpg",
+      "social": {
+        "twitter": "@YvonnickFrin",
+        "googleplus": null,
+        "github": "https://github.com/frinyvonnick"
+      },
+      "sessions": [
+        1472541226273
+      ]
+    },
+    {
+      "id": 1471601816772,
+      "firstname": "Olivier",
+      "name": "Leplus",
+      "company": "Google",
+      "bio": "My day to day my mission is to help developers create successful and quality apps.\nAs a passionate web developer, I am always discovering and playing with new web technologies !",
+      "photo": "oleplus.jpg",
+      "social": {
+        "twitter": "https://twitter.com/olivierleplus",
+        "googleplus": null,
+        "github": "https://github.com/tagazok",
+        "linkedin": "https://www.linkedin.com/in/olivierleplus"
+      },
+      "sessions": [
+        1472544348682
+      ]
+    },
+    {
+      "id": 1472501816997,
+      "firstname": "Matthieu",
+      "name": "Gioani",
+      "company": null,
+      "bio": "Matthieu Gioani, consultant, designer & facilitateur, accompagne les équipes projet et les managers sur les problématiques de design, d’émergence des besoins et d’innovation depuis plus de 6 ans.",
+      "photo": "mgioani.jpg",
+      "social": {
+        "twitter": "@Matt_Gio",
+        "googleplus": null,
+        "github": null,
+        "blog": "http://www.design-en-entreprise.fr/"
+      },
+      "sessions": [
+        1472546431941
+      ]
+    },
+    {
+      "id": 1436275955994,
+      "firstname": "Horacio",
+      "name": "Gonzalez",
+      "company": "Cityzen Data",
+      "bio": "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d'années déjà. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n'a pas arrêté de bosser autour. \n\nAprès quelques années comme architecte technique au Crédit Mutuel Arkea, Horacio travaille actuellement à Cityzen Data, entreprise spécialisée dans le domaine du Big Data. Il est aussi leader et cofondateur du FinistJUG, le JUG francophone le plus proche de la Silicon Valley. \n\nPassionné par le développement web et tout ce qui gravite autour des composants web, Horacio a été nommé Google Developer Expert (GDE) en Web Technologies et Polymer.",
+      "photo": "hgonzalez.jpeg",
+      "social": {
+        "twitter": "https://plus.google.com/u/0/+LostInBrittany",
+        "googleplus": "https://plus.google.com/u/0/+LostInBrittany",
+        "github": "https://github.com/LostInBrittany"
+      },
+      "sessions": [
+        1472594325076
+      ]
+    },
+    {
+      "id": 1438785880433,
+      "firstname": "Ludovic",
+      "name": "Champenois",
+      "company": "Google",
+      "bio": "Tech Lead, Manager Google Cloud Platform, Java.",
+      "photo": "lchampenois.jpg",
+      "social": {
+        "twitter": "ludoch",
+        "googleplus": null,
+        "github": "ludoch"
+      },
+      "sessions": [
+        1472679569387
+      ]
+    },
+    {
+      "id": 1434378343474,
+      "firstname": "Thomas",
+      "name": "Fournaise",
+      "company": "La Poste",
+      "bio": "Chef de projet et développeur. \nEn charge de l'opendata et de la réalisation de dataviz au sein du groupe La Poste. Je pratique assez régulièrement D3 pour créer de l'interactivité autour des données.",
+      "photo": "tfournaise.jpg",
+      "social": {
+        "twitter": "FournaiseThomas",
+        "googleplus": null,
+        "github": null
+      },
+      "sessions": [
+        1472674682270
+      ]
+    },
+    {
+      "id": 1467623542435,
+      "firstname": "David",
+      "name": "Pilato",
+      "company": "Elastic",
+      "bio": "Depuis 2013, David Pilato est développeur et évangéliste chez elastic.co, après avoir passé les deux années précédentes à promouvoir le projet open-source Elasticsearch. Il en anime la communauté française.",
+      "photo": "dpilato.jpg",
+      "social": {
+        "twitter": "@dadoonet",
+        "googleplus": null,
+        "github": "dadoonet"
+      },
+      "sessions": [
+        1467624369880
+      ]
+    },
+    {
+      "id": 101,
+      "firstname": "Pierre-Yves",
+      "name": "Ricau",
+      "company": "Square",
+      "bio": "Tech Lead Android à Square. J'aime le vin bien structuré et le code tartiné au beurre salé.",
+      "photo": "pricau.jpg",
+      "social": {
+        "twitter": "piwai",
+        "googleplus": null,
+        "github": "piwai"
+      },
+      "sessions": [
+        999, 998
+      ]
+    },
+    {
+      "id": 102,
+      "firstname": "François",
+      "name": "Beaufort",
+      "company": "Google",
+      "bio": "François Beaufort travaille chez Google pour l'équipe Chrome Apps",
+      "photo": "fbeaufort.jpg",
+      "social": {
+        "twitter": null,
+        "googleplus": "https://plus.google.com/u/0/+FrancoisBeaufort",
+        "github": "beaufortfrancois"
+      },
+      "sessions": [
+        1467190977231
+      ]
+    },
+    {
+      "id": 103,
+      "firstname": "Thomas",
+      "name": "Gx",
+      "company": "CommitStrip",
+      "bio": "Thomas Gx est le fondateur de CommitStrip, le blog BD bien connu des codeurs : c'est lui qui écrit chaque jour depuis 2012 une strip sur la vie quotidienne des codeurs. Pionner du développement des réseaux sociaux en France dès 2006 en lançant Cancoon, Thomas co-fonde en 2007 l'agence KRDS, première agence spécialisée en social media marketing et aujourd'hui leader en Europe et en Asie. Il y occupe aujourd'hui la Direction de la Production, dirigeant un studio primé et une équipe de développeurs web ayant produit près de 2000 projets.",
+      "photo": "commitstrip.jpg",
+      "social": {
+        "twitter": "https://twitter.com/CommitStrip_fr",
+        "googleplus": "https://plus.google.com/+Commitstrip",
+        "blog": "https://www.commitstrip.com/fr/"
+      },
+      "sessions": [
+        1467189637282
+      ]
+    },
+
+    {
+      "id": 200,
+      "firstname": "Yoann",
+      "name": "Dubreuil",
+      "company": "Cloudbees",
+      "bio": "Yoann Dubreuil travaille chez CloudBees. A mi-chemin entre développeur et administrateur système, il s'occupe aujourd'hui du maintien de la solution hébergée DEV@cloud après avoir accompagné les clients CloudBees à tirer le meilleur de Jenkins dans l'équipe support. Il participe à l’organisation du BreizhCamp, la conférence à l’ouest.",
+      "photo": "ndubreuil.jpg",
+      "social": {
+        "twitter": "@yoanndubreuil",
+        "googleplus": null,
+        "blog": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1465225950184
+      ]
+    },
+    {
+      "id": 201,
+      "firstname": "Julie",
+      "name": "Moynat",
+      "company": "Capgemini",
+      "bio": "Ayant la double casquette de webdesigner et d'intégratrice web, la qualité a toujours été un objectif pour moi car il fallait, entre autres, réaliser des maquettes intégrables. Au fil de l'eau, j'ai découvert que la façon dont on écrit le HTML et le CSS a un réel impact que ce soit pour les différents navigateurs mais aussi et surtout pour les personnes en situation de handicap. Je me suis donc tout naturellement orientée vers l'accessibilité web pour essayer, même si ça reste encore assez utopique, de rendre le web meilleur et donc plus accessible.\nJe co-organise, par ailleurs, les Web Apéros Nantais ; un évènement qui vise à se faire rencontrer les acteurs du web nantais.",
+      "photo": "jmoynat.jpg",
+      "social": {
+        "twitter": "@juliemoynat",
+        "googleplus": null,
+        "blog": "http://www.juliemoynat.fr/",
+        "linkedin": null
+      },
+      "sessions": [
+        1472107474978
+      ]
+    },
+    {
+      "id": 202,
+      "firstname": "Jean",
+      "name": "Palies",
+      "company": null,
+      "bio": "Développeur Java, Angular JS le jour, bidouilleur la nuit. Après quelques années de bricolage et découvertes, j'ai repris les bases de la programmation il y a 15 ans avec Scratch, que je réutilise avec bonheur maintenant dans les Devoxx4Kids ou les Coding Goûters à Nantes, dont je suis cofondateur. Je suis aussi membre et confondateur des Women In Technology à Nantes.",
+      "photo": "jpalies.jpg",
+      "social": {
+        "twitter": "https://twitter.com/jpalies",
+        "googleplus": "https://plus.google.com/u/0/106552014287288043542/",
+        "blog": "https://javagile.wordpress.com/",
+        "github": "https://github.com/JeanPalies"
+      },
+      "sessions": [
+        1470050577168,
+        7
+      ]
+    },
+    {
+      "id": 203,
+      "firstname": "Stéphane",
+      "name": "Cohan",
+      "company": null,
+      "bio": "Conquis par les makers et l'univers DIY, Stéphane Cohan est curieux et n'hésite pas à bidouiller des trucs et des machins, notamment autour des interfaces tangibles pour les enfants.\nDans la vraie vie, Stéphane est consultant UI/UX depuis près de 20 ans mais ça n'a rien à voir avec le schmilblick, à moins que...",
+      "photo": "scohan.jpg",
+      "social": {
+        "twitter": "@SCxPro",
+        "googleplus": null,
+        "blog": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1470394746917
+      ]
+    },
+    {
+      "id": 204,
+      "firstname": "Nicolas",
+      "name": "Greffard",
+      "company": "Expandium",
+      "bio": "Natif de Nantes où il obtient un DUT informatique, il part en Ecosse pur suivre un Master “Learning From Data” à l’université d’Edimbourg. Il reviendra finalement à Nantes pour y effectuer un doctorat dans le domaine de la visualisation d’information au sein de l’équipe Data User Knowledge du Laboratoire Informatique de Nantes Atlantique. Après deux ans passés en tant qu’ingénieur de recherche dans cette même équipe il rejoint la société Expandium en 2015 comme data scientist.",
+      "photo": "default.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1470391525167
+      ]
+    },
+    {
+      "id": 206,
+      "firstname": "Romain",
+      "name": "Lespinasse",
+      "company": "SFEIR",
+      "bio": "Romain est développeur backend chez SFEIR. Depuis un peu plus de 10 ans, il aide les clients dans leurs projets Java, tantôt développeur, tantôt intégrateur. Arrivant chez Sfeir, il est parti regarder du côté de Go et Docker pour ses clients IoT. Il se joint à Sébastien pour partager ses expériences avec vous.",
+      "photo": "rlespinasse.jpg",
+      "social": {
+        "twitter": "@rlespinasse",
+        "googleplus": null,
+        "blog": null,
+        "github": "rlespinasse",
+        "linkedin": null
+      },
+      "sessions": [
+        1470779030956
+      ]
+    },
+    {
+      "id": 207,
+      "firstname": "Aurélie",
+      "name": "Robert",
+      "company": "Conserto",
+      "bio": "Product Owner chez Conserto",
+      "photo": "arobert.jpg",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1472473075263
+      ]
+    },
+    {
+      "id": 208,
+      "firstname": "Nicolas",
+      "name": "Terral",
+      "company": "Sopra Steria",
+      "bio": "DataHero au sein du DataLab Sopra Steria. En charge de missions de développement et d’architecture autour de sujets Big Data.",
+      "photo": "nterral.jpg",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": "https://fr.linkedin.com/in/nicolas-terral-3b606387/fr"
+      },
+      "sessions": [
+        1471878583557
+      ]
+    },
+    {
+      "id": 209,
+      "firstname": "Antoine",
+      "name": "Cellier",
+      "company": "Zenika",
+      "bio": "Consultant chez Zenika Nantes. J'interviens sur des missions de réalisation autour des technos front et back tel que AngularJS, ReactJS et Spring. Passionné par l’écosystème technique dans lequel je travaille je participe régulièrement aux meetups Nantais et donne des talks lors de différents événement (NantesJS, Voxxed Luxembourg, Nantes JUG, bdx.io)",
+      "photo": "acellier.jpeg",
+      "social": {
+        "twitter": "@AntoineCellier3",
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": "https://www.linkedin.com/in/antoine-cellier-34b69954"
+      },
+      "sessions": [
+        1472110242598
+      ]
+    },
+    {
+      "id": 210,
+      "firstname": "Gautier",
+      "name": "de SAINT MARTIN LACAZE",
+      "company": "Freelance",
+      "bio": "Développeur freelance passionné, Gautier travaille principalement sur les technologies Java et JavaScript. Afin de rester au fait des nouveautés, il participe régulièrement à des conférences nantaises ou nationales. Il coorganise également le Nantes JUG depuis juin 2014.\nAyant appris à dompter l'IDE Eclipse lors de ses premières années de travail, il contribue aujourd'hui à l'amélioration de son outil de travail via des patchs et la formation de ses clients.",
+      "photo": "glacaze.png",
+      "social": {
+        "twitter": "@darkjabberwock",
+        "googleplus": null,
+        "blog": "http://jabby-techs.fr/",
+        "github": "jabby",
+        "linkedin": null
+      },
+      "sessions": [
+        1472454479881
+      ]
+    },
+    {
+      "id": 211,
+      "firstname": "Eric",
+      "name": "Briand",
+      "company": "Zenika",
+      "bio": "Eric développeur Java/J2EE full-stack chez Zenika Nantes. Il aime travailler sur toutes les couches d'une application web, de la base de données jusqu'au front en utilisant aussi bien des technologies qui ont fait leur preuve que des technologies de pointe. Très intéressé par les technologies Cloud (PAAS & IAAS). Il est formateur officiel Docker et co-organisateur du Docker Meetup Nantes.",
+      "photo": "ebriand.jpg",
+      "social": {
+        "twitter": "@eric_briand",
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1472541226273
+      ]
+    },
+    {
+      "id": 212,
+      "firstname": "Cyril",
+      "name": "Balit",
+      "company": "SFEIR",
+      "bio": "Cyril Balit est CTO Front chez SFEIR et Goole Developer Expert. Développeur passionné, il construit des Single Page Application en javascript depuis 2003 et tombe amoureux d’Angular en 2013. Il est un membre actif de la communauté web français sur plusieurs sujets comme Angular, Polymer  et les Progressives Web App . Organisateur de conférences et de meetups , speaker et formateur , Cyril aime partager avec les communautés.",
+      "photo": "cbalit.jpeg",
+      "social": {
+        "twitter": "@cbalit",
+        "googleplus": null,
+        "blog": null,
+        "github": "https://github.com/cbalit",
+        "linkedin": null
+      },
+      "sessions": [
+        1472594325076
+      ]
+    },
+    {
+      "id": 213,
+      "firstname": "Ezra",
+      "name": "",
+      "company": "Organic Orchestra",
+      "bio": "EZRA (Vincent CHTAÏBI), directeur artistique, est un membre actif et reconnu du beatbox international. Il a foulé les scènes des quatre coins du monde et joué en solo dans les lieux les plus mythiques de France (Olympia, Cigale, Transmusicales…). Ezra développe sa discipline avec des facultés d’adaptation et une aisance scénique qui l’ont amené à collaborer avec des artistes de réputation mondiale (Kid Koala, Bauchklang, Wax Tailor, One self, Socalled…) et de partir en tournée mondiale avec la chanteuse Camille.",
+      "photo": "ezra.png",
+      "social": {
+        "twitter": "@Ezrabox",
+        "googleplus": null,
+        "blog": "http://organic-orchestra.com",
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        1
+      ]
+    },
+    {
+      "id": 214,
+      "firstname": "Julien",
+      "name": "Landuré",
+      "company": "Zenika",
+      "bio": "CTO de Zenika Nantes, Julien navigue entre des missions de formation (Docker, AngularJS, PaaS) et d’architecture. Issu de la génération Google, il a co-fondé en Janvier 2011 le GDG Nantes, participe depuis 5 ans au Google I/O et organise le DevFest Nantes.",
+      "photo": "jlandure.jpg",
+      "social": {
+        "twitter": "@jlandure",
+        "googleplus": "https://plus.google.com/+JulienLandur%C3%A9",
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        995
+      ]
+    },
+    {
+      "id": 215,
+      "firstname": "Emile",
+      "name": "Vauge",
+      "company": "Zenika",
+      "bio": "Emile is founder of Containous, the container delivery company. More than 10 years experience developing applications for the web and the industry, certified Docker trainer, he got interested lately in the DevOps method. He is particularly interested container orchestrators like Kubernetes, Mesos, Docker Swarm. Creator of traefik.io",
+      "photo": "evauge.jpeg",
+      "social": {
+        "twitter": "@emilevauge",
+        "googleplus": null,
+        "blog": null,
+        "github": "https://github.com/emilevauge",
+        "linkedin": null
+      },
+      "sessions": [
+        997
+      ]
+    },
+    {
+      "id": 216,
+      "firstname": "Raphaël",
+      "name": "Thebaud",
+      "company": "Conserto",
+      "bio": "Raphaël est directeur technique chez Conserto, en charge de l’offre digitale.\nPassionné de culture geek et de jeux en tout genre, Raphäel a découvert la programmation par le jeu vidéo à 10 ans en développant son premier casse-brique en BASIC sur l’Amstrad familial.\nMême si aujourd’hui le développement se fait pour lui dans un contexte beaucoup plus sérieux, coder reste une bonne façon de s’amuser !",
+      "photo": "rthebaud.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        994
+      ]
+    },
+    {
+      "id": 217,
+      "firstname": "Ismaël",
+      "name": "Mejía",
+      "company": "Talend",
+      "bio": "Ingénieur logiciel avec plus de dix ans d’expérience dans la conception et développement des systèmes d’information pour groupes financiers, entreprises de télécommunications et start-ups en Amérique Latine. Spécialiste dans le domaine du Cloud et du Big Data, Ismael travaille pour Talend comme Ingénieur Open Source et il est contributeur sur plusieurs projets de la fondation Apache.",
+      "photo": "imeja.png",
+      "social": {
+        "twitter": "@iemejia",
+        "googleplus": null,
+        "blog": null,
+        "github": "@iemejia",
+        "linkedin": null
+      },
+      "sessions": [
+        993
+      ]
+    },
+    {
+      "id": 218,
+      "firstname": "Jean-Baptiste",
+      "name": "Onofré",
+      "company": "Apache",
+      "bio": "Membre de l’Apache Software Foundation, Jean-Baptiste est commiter et PMC sur de nombreux projets Apache : Apache Karaf, Apache Camel, Apache ActiveMQ, Apache Falcon, Apache Syncope, Apache Lens,… Il est notamment champion et mentor du projet Apache Beam. Jean-Baptiste est Talend Fellow.",
+      "photo": "jonofre.jpg",
+      "social": {
+        "twitter": "@jbonofre",
+        "googleplus": null,
+        "blog": "http://t.co/iXjWyxthOO",
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        993
+      ]
+    },
+    {
+      "id": 219,
+      "firstname": "Gautier",
+      "name": "Mechling",
+      "company": "",
+      "bio": "Gautier est développeur Android et aspirant Craftsman. Intéressé par les méthodes agiles, le hacking et la qualité logicielle, il façonne et maintient des outils libres et gratuits permettant d’améliorer sa productivité. Parlez lui de Kotlin, de Clean Code ou de Logiciel Libre et vous pourrez voir ses yeux briller.",
+      "photo": "gmechling.png",
+      "social": {
+        "twitter": "https://twitter.com/Nilhcem",
+        "googleplus": "https://plus.google.com/+GautierMechling",
+        "blog": null,
+        "github": "https://github.com/Nilhcem",
+        "linkedin": null
+      },
+      "sessions": [
+        992
+      ]
+    },
+    {
+      "id": 220,
+      "firstname": "Jean-Sébastien",
+      "name": "DUPUY",
+      "company": "Microsoft",
+      "bio": "Jean-Sébastien Dupuy est évangéliste technique chez Microsoft France. Passionné par le développement d’applications mobiles, les objets connectés et plus récemment les bots, il anime régulièrement des sessions sur ces différents sujets. Vous pouvez suivre son actualité sur twitter @dupuyjs ou sur son blog https://blogs.msdn.microsoft.com/jdupuy/.",
+      "photo": "jdupuy.jpg",
+      "social": {
+        "twitter": "@dupuyjs",
+        "googleplus": null,
+        "blog": "https://blogs.msdn.microsoft.com/jdupuy/",
+        "github": "https://github.com/dupuyjs",
+        "linkedin": null
+      },
+      "sessions": [
+        991
+      ]
+    },
+    {
+      "id": 221,
+      "firstname": "Table Ronde 1",
+      "name": "",
+      "company": "",
+      "bio": "TBD",
+      "photo": "default.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        8
+      ]
+    },
+    {
+      "id": 222,
+      "firstname": "TBD",
+      "name": "",
+      "company": "TBD",
+      "bio": "TBD",
+      "photo": "default.png",
+      "social": {
+        "twitter": null,
+        "googleplus": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        996
+      ]
+    }
+
+  ]
+}

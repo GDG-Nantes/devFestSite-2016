@@ -33,11 +33,32 @@ a img{
   border: 0px;
 }
 
+// connexion buttons
+.btn-google {
+  width: 100%;
+}
+.btn-twitter {
+  width: 100%;
+  background-color: #2AB4ED !important;
+}
+.btn-github {
+  width: 100%;
+  background-color: #000 !important;
+}
+.btn-facebook {
+  width: 100%;
+  background-color: #45619D !important;
+}
 
 // UTILS
 
 .simple-padding-bottom {
   padding-bottom: 15px;
+}
+
+.shadowLight {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 // VIDEO
@@ -608,62 +629,6 @@ video#bgvid {
   margin-top: -50vh !important;
 }
 
-// page Fiche session
-.devfest-ribbon-session  {
-  height: 15vh !important;
-}
-
-.devfest-ribbon-speaker-name  {
-  height: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content:flex-end;
-  padding-left: 20px;
-}
-
-.devfest-ribbon-speaker-name h3  {
-  margin: 0px;
-}
-
-.devfest-session-speaker-left img {
-  width: 13vw;
-}
-
-.devfest-session-speaker-left div {
-  width: 13vw;
-  margin-top: 20px;
-}
-
-.devfest-session-speaker-left-social {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.devfest-session-speaker-left-social a {
-  color: black;
-  transition: all 0.3s ease 0s;
-}
-
-.devfest-session-speaker-left-social a:hover {
-  color: $secondary-color;
-  transition: all 0.3s ease 0s;
-}
-
-.devfest-session-speaker-bio {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.devfest-session-content {
-  border-radius: 2px;
-  padding: 10px 10px;
-}
-
-.devfest-session-content h4 {
-  padding-top: 10px;
-}
-
 
 // GENERAL - other page
 .devfest-ribbon {
@@ -689,8 +654,7 @@ video#bgvid {
 
 .devfest-ribbon-content {
   border-radius: 2px;
-  padding: 80px 5%;
-  margin-bottom: 80px;
+  padding: 50px 5%;
 }
 
 .devfest-ribbon-content h3 {
@@ -705,21 +669,90 @@ video#bgvid {
   font-size: 13px;
 }
 
+// SESSION
+.devfest-session {
+  margin-top: 20px;
+}
+
+.devfest-back-button {
+  text-align:right;
+  > a {
+    margin-left: 10px;
+  }
+}
+
 // SPEAKERS
-.devfest-speaker-card-image.mdl-card {
-  width: 256px;
-  height: 256px;
-  margin: 5px;
+.devfest-speakers-list {
+  > div {
+    width: 100%;
+  }
 }
-.devfest-speaker-card-image > .mdl-card__actions {
-  height: 52px;
-  padding: 16px;
-  background: rgba(0, 0, 0, 0.5);
+
+// component speaker-card
+.devfest-speaker-card {
+
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-size: 0.9em;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+  h5 {
+    padding: 0 0 5px 0;
+    margin: 0;
+  }
+  h6 {
+    padding: 0 0 10px 0;
+    margin: 0;
+    font-style: italic;
+  }
+  .devfest-speaker-card-img {
+    width: 100px;
+    height: 100px;
+    margin: 5px 20px 5px 5px;
+    border-radius: 100px;
+  }
+
+  .devfest-speaker-card-img-sm {
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 50px;
+  }
+
+  .devfest-speaker-card-content {
+    width: 100%;
+
+    .devfest-speaker-card-title {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .devfest-speaker-card-desc {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
 }
-.devfest-speaker-card-image__filename {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
+
+// component session-card
+.devfest-session-card {
+  padding: 20px;
+  margin-bottom: 20px;
+
+  .devfest-session-card-title {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .devfest-session-desc {
+    padding-top: 10px;
+  }
 }
 
 // TEAM
@@ -744,38 +777,170 @@ video#bgvid {
 }
 
 // GENERAL - AGENDA
-.devfest-agenda-card-event.mdl-card {
-  width: 100%;
-  height: 200px;
-}
-.devfest-agenda-card-event-big.mdl-card {
-  height: 100px !important;
-  min-height: 100px !important;
-}
-.devfest-agenda-card-event > .mdl-card__actions {
-  background: rgba(0, 0, 0, 0.8);
-}
-.devfest-agenda-card-event > .mdl-card__title {
-  align-items: flex-start;
-  background: rgba(0, 0, 0, 0.5);
-}
-.devfest-agenda-card-event > .mdl-card__title > h4 {
-  margin-top: 0;
-}
-.devfest-agenda-card-event > .mdl-card__actions {
+.devfest-agenda2-hour-line {
   display: flex;
-  box-sizing:border-box;
-  align-items: center;
-}
-.devfest-agenda-card-event > .mdl-card__actions > .material-icons {
-  padding-right: 10px;
-}
-.devfest-agenda-card-event > .mdl-card__title,
-.devfest-agenda-card-event > .mdl-card__actions,
-.devfest-agenda-card-event > .mdl-card__actions > .mdl-button {
-  color: #fff;
+  padding-top: 10px;
+
+  .devfest-agenda2-hour-col {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30px;
+
+    .devfest-agenda2-hour-line {
+      width: 3px;
+      height: 100%;
+      background-color: #DDD;
+    }
+  }
+
+  .devfest-agenda2-hour-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
+.devfest-agenda-card {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  font-size: 0.9em;
+  cursor: pointer;
+  position: relative;
+
+  .devfest-agenda-card-avatars {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .devfest-agenda-card-img {
+    width: 50px;
+  	height: 50px;
+    padding: 5px;
+  	border-radius: 50px;
+  }
+
+  .devfest-agenda-card-content {
+    padding: 5px;
+
+    .devfest-agenda-card-content-session {
+      padding: 5px 0px;
+    }
+
+    .devfest-agenda-card-content-speaker {
+      font-style: italic;
+      font-size: 0.8em;
+      color: #999;
+      text-align: left;
+    }
+
+    .devfest-agenda-card-content-info-tags {
+
+    }
+  }
+}
+
+.devfest-chip {
+  padding: 2px 10px;
+  margin-right: 2px;
+  border-radius: 15px;
+  font-size: 0.7em;
+  white-space: nowrap;
+}
+
+.devfest-favorite {
+  cursor: pointer;
+}
+.devfest-favorite-active {
+  color: #EA4335;
+}
+.devfest-favorite-unactive {
+  color: #DDD;
+}
+
+.color-bg-default {
+  background-color: #DDD;
+  color: black;
+}
+
+.color-bg-discovery {
+  background-color: #EA4335;
+  color: white;
+}
+
+.color-bg-cloud {
+  background-color: #4285F4;
+  color: white;
+}
+
+.color-bg-mobile {
+  background-color: #34A853;
+  color: white;
+}
+
+.color-bg-web {
+  background-color: #FBBC05;
+  color: black;
+}
+
+.color-bg-conference {
+  background-color: #E1722A;
+  color: white;
+}
+
+.color-bg-codelab {
+  background-color: #387066;
+  color: white;
+}
+
+.color-bg-quickie {
+  background-color: purple;
+  color: white;
+}
+
+.color-bg-twitter {
+  background-color: #3CF;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.color-bg-googleplus {
+  background-color: #EA4335;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.color-bg-github {
+  background-color: black;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.color-bg-linkedin {
+  background-color: #287bbc;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.color-bg-blog {
+  background-color: brown;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
 
 // FOOTER SECTION
 
