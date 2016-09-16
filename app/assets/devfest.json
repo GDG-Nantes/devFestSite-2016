@@ -891,7 +891,7 @@
       "name": "De Loof",
       "company": "Cloudbees",
       "bio": "Hacker @ CloudBees, Docker captain",
-      "photo": "ndeloof.jpeg",
+      "photo": "ndeloof.jpg",
       "social": {
         "twitter": "ndeloof",
         "googleplus": null,
@@ -925,7 +925,7 @@
       "name": "Mottier",
       "company": "Captain Train",
       "bio": "Cyril is Head of Mobile & Web at Captain Train and an expert in Android & Google technologies. Passionate about technology and design, Cyril is an avid lover of Android and a multi-skilled engineer. His motto: “Do less, but do it insanely great”",
-      "photo": "cmottier.jpeg",
+      "photo": "cmottier.jpg",
       "social": {
         "twitter": "@cyrilmottier",
         "googleplus": "https://plus.google.com/+CyrilMottier",
@@ -942,7 +942,7 @@
       "name": "Ogloblinsky",
       "company": "SII",
       "bio": "Architecte logiciel au sein d'une ESN rennaise, j'évolue entre architecture de projets web, formations, animations techniques, support client, expertise technique.",
-      "photo": "vogloblinsky.jpeg",
+      "photo": "vogloblinsky.jpg",
       "social": {
         "twitter": "vogloblinsky",
         "googleplus": "https://plus.google.com/110496959767269301776",
@@ -958,7 +958,7 @@
       "name": "Belin",
       "company": "doyoubuzz",
       "bio": "Full-Stack développeur chez doyoubuzz.  \nJe fais la [part belle au code](http://blog.thomasbelin.fr/p/faire-la-part-belle-au-code).  \nJe m'éclate avec Javascript.",
-      "photo": "tbelin.jpeg",
+      "photo": "tbelin.jpg",
       "social": {
         "twitter": "atomrc",
         "googleplus": "https://plus.google.com/+ThomasBelin",
@@ -991,7 +991,7 @@
       "name": "Goetter",
       "company": "Alsacréations",
       "bio": "Intégrateur du Dimanche, dompteur de CSS et tripoteur de HTML, créateur de Alsacreations.com, auteur de quelques livres CSS, Alsacien",
-      "photo": "rgoetter.jpeg",
+      "photo": "rgoetter.jpg",
       "social": {
         "twitter": "goetter",
         "googleplus": null,
@@ -1008,7 +1008,7 @@
       "name": "Rousseau",
       "company": "Microsoft",
       "bio": "Je suis un passionné d'UX et d'interfaces, mais aussi de jeux vidéo, de robots, et de toute la culture geek, en général. Je travaille chez Microsoft France en tant qu'évangéliste design/UX et UI.",
-      "photo": "mrousseau.jpeg",
+      "photo": "mrousseau.jpg",
       "social": {
         "twitter": "https://twitter.com/rousseau_michel",
         "googleplus": null,
@@ -1043,7 +1043,7 @@
       "name": "TAN",
       "company": "Serli",
       "bio": "Java Software Engineer @SerliFr. Eclipse Che commiter. OpenSource Minded. @parisjug crew member.",
-      "photo": "stan.jpeg",
+      "photo": "stan.jpg",
       "social": {
         "twitter": "@sunsengdavidtan",
         "googleplus": null,
@@ -1060,7 +1060,7 @@
       "name": "DEMEY",
       "company": "Zenika",
       "bio": "Consultant et Formateur Web chez Zenika Lille depuis avril 2015. Je suis spécialisé dans AngularJS / Angular 2 / TypeScript et l'Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c'est normal...), le Jazz et la Domotique. \n\nPlusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. \n- ESLint au Jug Summer Camp et ChtiJS\n- Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, ...",
-      "photo": "edemey.jpeg",
+      "photo": "edemey.jpg",
       "social": {
         "twitter": "EmmanuelDemey",
         "googleplus": null,
@@ -1076,7 +1076,7 @@
       "name": "Garreau",
       "company": "Lucca",
       "bio": "Je suis développeur depuis 10 ans. J'ai évolué pendant longtemps sur des stack java et android. Depuis maintenant 3 ans je m’intéresse plus en profondeur au Web et à ses nouvelles possibilités. J'ai ainsi optenu le status de GDE (Google Developer Expert) cette année sur la partie WebTechnology. En dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes, co-créateur des Nantes Wit et organisateur de Devoxx4Kids ",
-      "photo": "jgarreau.jpeg",
+      "photo": "jgarreau.jpg",
       "social": {
         "twitter": "@jefbinomed",
         "googleplus": "https://plus.google.com/+jefbinomed",
@@ -1144,7 +1144,7 @@
       "name": "Membré",
       "company": "Zenika",
       "bio": "Geek à toute heure, Guillaume Membré travaille principalement autour des technologies Java/JavaEE mais aussi sur des problématiques d'intégration continue, de qualimétrie. Mission après mission sur Nantes, il a eu l'occasion d'avoir une expérience diversifiée qui l'a amenée à occuper différentes responsabilités, à faire dèv et de l'infra, et maintenant de la mise en place d'outils devops.",
-      "photo": "gmembre.jpeg",
+      "photo": "gmembre.jpg",
       "social": {
         "twitter": "@GuillaumeMembre",
         "googleplus": null,
@@ -1161,7 +1161,7 @@
       "name": "Abrahamson",
       "company": "Jellybooks",
       "bio": "Jeff Abrahamson (ré)invente l'analyse de livres électroniques chez Jellybooks.\nDerrière chaque livre se cache une histoire dans les données de lecture : à trouver, à éclairer, à visualiser.\nJeff anime le Nantes Machine Learning Meetup et co-organise des formations professionnelles en DataScience à travers l'initiative ML Week.",
-      "photo": "jabrahamson.jpeg",
+      "photo": "jabrahamson.jpg",
       "social": {
         "twitter": "https://twitter.com/#!/Jeff_Abrahamson",
         "googleplus": "https://google.com/+JeffAbrahamson",
@@ -1210,7 +1210,7 @@
       "name": "Salmon",
       "company": "Expandium",
       "bio": "Originaire de Nantes, il effectue ses études à la faculté des sciences de Nantes dans le domaine de l'informatique. Après un Master 2 Pro en 2006, il travaille dans le domaine du jeux vidéo chez Succubus Interactive avant de rejoindre Expandium en 2008 en tant que Software Engineer spécialisé dans le traitement realtime.",
-      "photo": "psalmon.jpeg",
+      "photo": "psalmon.jpg",
       "social": {
         "twitter": null,
         "googleplus": null,
@@ -1227,7 +1227,7 @@
       "name": "Monsinjon",
       "company": null,
       "bio": "Développeur Java passionné chez Ippon Technologies depuis plus d'1 an.\nJe me suis focalisé ces derniers temps sur le monitoring avec ELK, le développement de microservices avec SpringBoot, et un peu de DevOps avec la gestion dynamique d'une plateforme de production avec Docker et Mesos.",
-      "photo": "jmonsinjon.jpeg",
+      "photo": "jmonsinjon.jpg",
       "social": {
         "twitter": "@jmonsinjon",
         "googleplus": "https://plus.google.com/108876182616078672534",
@@ -1259,7 +1259,7 @@
       "name": "Charrière",
       "company": "GitHub",
       "bio": "Le jour: je suis Solution Architect chez GitHub.\nLa nuit: je \"geek\" en JavaScript, Golo, Java, Groovy, ... avec une addiction sévère à L'IOT et au JS\nJ’ai aussi le plaisir d’être co-organisateur de la conférence Lyonnaise Mix-IT.",
-      "photo": "pcharriere.jpeg",
+      "photo": "pcharriere.jpg",
       "social": {
         "twitter": "@k33g_org",
         "googleplus": "https://plus.google.com/+PhilippeCharri%C3%A8re",
@@ -1327,7 +1327,7 @@
       "name": "BRIEUX",
       "company": "Conserto",
       "bio": "Passionné d’informatique et tombé dedans tout petit je suis actuellement formateur, coach agile chez Conserto.",
-      "photo": "gbrieux.jpeg",
+      "photo": "gbrieux.jpg",
       "social": {
         "twitter": null,
         "googleplus": "gbrieux",
@@ -1344,7 +1344,7 @@
       "name": "Demeester",
       "company": null,
       "bio": "Architecte et développeur polyglotte ascendant Java, depuis bientôt 8\nans. Après 6 années en startup dans le monde des « Energy Management\nSystem », Vincent a intégré l’agence parisienne de Zenika en tant que\nConsultant et Formateur. \n\nDevops, Craftsman, Factotum, free-software fan, Sysadmin à ses heures\nperdues et surtout passionné, il est core mainteneur sur le projet Docker (ainsi que libcompose ou encore containous/traefik).",
-      "photo": "vdemeester.jpeg",
+      "photo": "vdemeester.jpg",
       "social": {
         "twitter": "vdemeest",
         "googleplus": null,
@@ -1459,7 +1459,7 @@
       "name": "Wood",
       "company": "Zenika",
       "bio": "Développeur autodidacte depuis 12 ans, professionnel depuis 3, je n'ai de cesse d'apprendre de nouvelles techniques pour améliorer mon savoir-faire. J'aime étudier les langages, de C# à Haskell. Au quotidien, ce sont Java et JavaScript qui m'accaparent. Je suis consultant et formateur chez Zenika. Enfin, j'apprécie les jeux de code : vous me retrouverez par exemple sur CodinGame, et là, c'est Python.",
-      "photo": "hwood.jpeg",
+      "photo": "hwood.jpg",
       "social": {
         "twitter": "@mercury_wood",
         "googleplus": null,
@@ -1524,7 +1524,7 @@
       "name": "Barbero",
       "company": "Eclipse Foundation Europe GmbH",
       "bio": "Mikaël Barbero is a passionate software engineer. He started programming at the age of 10 with BASIC and hasn't stopped since. After having led and contributed to many Eclipse project (especially in the modeling area), he is now a senior Eclipse platform developer and is also taking care of the release engineering for the Eclipse Foundation. A hacker at heart, Mikael likes to untangle everyday things to reveal their design layers. It lets him understand how things are built and what makes them beautiful. To him, good design is not only attractive, but also targeted for a purpose.",
-      "photo": "mbarbero.jpeg",
+      "photo": "mbarbero.jpg",
       "social": {
         "twitter": "@mikbarbero",
         "googleplus": "MikaëlBarbero",
@@ -1541,7 +1541,7 @@
       "name": "Didier",
       "company": "SFEIR",
       "bio": "Cloud Rider / GDE @Google / VP Engineering @Sfeir / PhD Machine Learning @EnsDeLyon",
-      "photo": "dgirard.jpeg",
+      "photo": "dgirard.jpg",
       "social": {
         "twitter": "DidierGirard",
         "googleplus": null,
@@ -1557,7 +1557,7 @@
       "name": "Bierlaire",
       "company": "Sparklane",
       "bio": "Je suis actuellement DevOps chez Sparklane, premier éditeur français de solutions d’intelligence commerciale et marketing dédiées au marché B2B, en France et en Europe.\nPour garantir la performance et la haute disponibilité des solutions BigData de la société, j’ai en charge la définition de l’architecture Cloud, la mise en œuvre et le maintien en conditions opérationnelles de l’ensemble des plateformes.\nDans le cloud Amazon (AWS), nous déployons et organisons nos composants dans des technologies fiables et managées : Docker, Rancher, pour assurer performance et haute disponibilité.",
-      "photo": "obierlaire.jpeg",
+      "photo": "obierlaire.jpg",
       "social": {
         "twitter": "@obierlaire",
         "googleplus": null,
@@ -1708,7 +1708,7 @@
       "name": "Gonzalez",
       "company": "Cityzen Data",
       "bio": "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d'années déjà. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n'a pas arrêté de bosser autour. \n\nAprès quelques années comme architecte technique au Crédit Mutuel Arkea, Horacio travaille actuellement à Cityzen Data, entreprise spécialisée dans le domaine du Big Data. Il est aussi leader et cofondateur du FinistJUG, le JUG francophone le plus proche de la Silicon Valley. \n\nPassionné par le développement web et tout ce qui gravite autour des composants web, Horacio a été nommé Google Developer Expert (GDE) en Web Technologies et Polymer.",
-      "photo": "hgonzalez.jpeg",
+      "photo": "hgonzalez.jpg",
       "social": {
         "twitter": "https://plus.google.com/u/0/+LostInBrittany",
         "googleplus": "https://plus.google.com/u/0/+LostInBrittany",
@@ -1961,7 +1961,7 @@
       "name": "Cellier",
       "company": "Zenika",
       "bio": "Consultant chez Zenika Nantes. J'interviens sur des missions de réalisation autour des technos front et back tel que AngularJS, ReactJS et Spring. Passionné par l’écosystème technique dans lequel je travaille je participe régulièrement aux meetups Nantais et donne des talks lors de différents événement (NantesJS, Voxxed Luxembourg, Nantes JUG, bdx.io)",
-      "photo": "acellier.jpeg",
+      "photo": "acellier.jpg",
       "social": {
         "twitter": "@AntoineCellier3",
         "googleplus": null,
@@ -2015,7 +2015,7 @@
       "name": "Balit",
       "company": "SFEIR",
       "bio": "Cyril Balit est CTO Front chez SFEIR et Goole Developer Expert. Développeur passionné, il construit des Single Page Application en javascript depuis 2003 et tombe amoureux d’Angular en 2013. Il est un membre actif de la communauté web français sur plusieurs sujets comme Angular, Polymer  et les Progressives Web App . Organisateur de conférences et de meetups , speaker et formateur , Cyril aime partager avec les communautés.",
-      "photo": "cbalit.jpeg",
+      "photo": "cbalit.jpg",
       "social": {
         "twitter": "@cbalit",
         "googleplus": null,
@@ -2069,7 +2069,7 @@
       "name": "Vauge",
       "company": "Zenika",
       "bio": "Emile is founder of Containous, the container delivery company. More than 10 years experience developing applications for the web and the industry, certified Docker trainer, he got interested lately in the DevOps method. He is particularly interested container orchestrators like Kubernetes, Mesos, Docker Swarm. Creator of traefik.io",
-      "photo": "evauge.jpeg",
+      "photo": "evauge.jpg",
       "social": {
         "twitter": "@emilevauge",
         "googleplus": null,
