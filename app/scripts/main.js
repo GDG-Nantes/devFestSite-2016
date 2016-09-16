@@ -101,17 +101,21 @@
           dialog.close();
         });
 
-        document.querySelector('.btn-connect-social').addEventListener('click', function(event){
-            var network = event.target.parentElement.getAttribute('data-social');
-            hello(network).login(network, {}, function(auth){
-                hello(auth.network).api('/me').then(function(r) {
-                    //console.info(network, r, r.id);
-                    localStorage['userid'] = r.id;
-                    localStorage['provider'] = network;
-                    location.reload();
-                });
-            });
-        });
+        
+        var socialConnectBtns = document.querySelectorAll('.btn-connect-social');
+        for (var index = 0 ; index < socialConnectBtns.length; index++){          
+          socialConnectBtns[index].addEventListener('click', function(event){
+              var network = event.target.parentElement.getAttribute('data-social');
+              hello(network).login(network, {}, function(auth){
+                  hello(auth.network).api('/me').then(function(r) {
+                      //console.info(network, r, r.id);
+                      localStorage['userid'] = r.id;
+                      localStorage['provider'] = network;
+                      location.reload();
+                  });
+              });
+          });
+        }
 
         document.querySelector('.btn-disconnect-social').addEventListener('click', function(event){
           hello('google').logout().then(function() {
