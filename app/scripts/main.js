@@ -105,7 +105,7 @@
         var socialConnectBtns = document.querySelectorAll('.btn-connect-social');
         for (var index = 0 ; index < socialConnectBtns.length; index++){          
           socialConnectBtns[index].addEventListener('click', function(event){
-              var network = event.target.parentElement.getAttribute('data-social');
+              var network = event.target.parentElement.getAttribute('data-social');              
               hello(network).login(network, {}, function(auth){
                   hello(auth.network).api('/me').then(function(r) {
                       //console.info(network, r, r.id);
@@ -118,12 +118,14 @@
         }
 
         document.querySelector('.btn-disconnect-social').addEventListener('click', function(event){
-          hello('google').logout().then(function() {
-          	console.log('Signed out');
-            localStorage['userid'] = '';
-            localStorage['provider'] = '';
-            location.reload();
-          });
+          if (localStorage['provider']){            
+            hello(localStorage['provider']).logout().then(function() {
+            	console.log('Signed out');
+              localStorage['userid'] = '';
+              localStorage.removeItem('provider');
+              location.reload();
+            });
+          }
         });
 
         var userid = localStorage['userid'];
