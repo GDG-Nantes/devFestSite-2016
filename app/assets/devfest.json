@@ -147,14 +147,15 @@
     },
     {
       "id": 995,
-      "name": "Cloud and some patterns",
-      "description": "TBD",
+      "name": "Cloud patterns",
+      "description": "Connaissez-vous les 12-factor apps ? Au travers de ce talk, nous expliquerons les différents patterns pour réaliser une application moderne 'Cloud Ready' en 2016.",
       "difficulty": 2,
       "type": "conference",
       "track": "cloud",
       "agenda" : { "day": 1, "hour": 4, "room": 1 },
       "speaker":[
-        214
+        214,
+        1472223851013
       ]
     },
     {
