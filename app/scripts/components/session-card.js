@@ -12,7 +12,7 @@ const sessionCardTemplate =
 +'  <span v-if="session.agenda.room" class="devfest-chip color-bg-default">{{this.getRoomLabel(session.agenda.room)}}</span>'
 +'  <span v-if="session.type" class="devfest-chip color-bg-default">{{this.getTimeLabel(session.type)}}</span>'
 +'  <span class="devfest-chip color-bg-default">{{this.getLangLabel(session.lang)}}</span>'
-+'  <span v-if="session.difficulty" class="devfest-chip color-bg-default">Niveau {{this.getDifficultyLabel(session.difficulty)}}</span>'
++'  <span v-if="session.difficulty" class="devfest-chip color-bg-default">{{this.getDifficultyLabel(session.difficulty)}}</span>'
 +'  <div class="devfest-session-desc mdl-typography--font-light">'
 +'    {{{session.description}}}'
 +'  </div>'

@@ -120,11 +120,13 @@ var getHourLabel = function getHourLabel(day, hour, agenda) {
 var getDifficultyLabel = function getDifficultyLabel(difficulty) {
   switch (difficulty) {
     case 1:
-      return language === 'en' ? 'Beginner' : 'débutant'
+      return language === 'en' ? 'Level beginner' : 'Niveau débutant'
     case 2:
-      return language === 'en' ? 'Intermediate' : 'intermédiaire'
+      return language === 'en' ? 'Level intermediate' : 'Niveau intermédiaire'
+    case 3:
+      return language === 'en' ? 'Level advanced' : 'Niveau avancé'
     default:
-      return language === 'en' ? 'Advanced' : 'avancée'
+      return language === 'en' ? 'Level beginner' : 'Niveau débutant'  
   }
 };
 

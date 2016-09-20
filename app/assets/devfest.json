@@ -41,7 +41,7 @@
       "track": "DevFest",
       "speaker": [
         213
-        
+
       ],
       "agenda" : { "day": 1, "hour": 2, "room": 1 }
     },{
@@ -547,7 +547,7 @@
         1470778035883,
         206
       ],
-      "agenda" : { "day": 2, "hour": 4, "room": 6 }
+      "agenda" : { "day": 2, "hour": 6, "room": 6 }
     },
     {
       "id": 1471777299468,
@@ -708,7 +708,7 @@
       "speaker": [
         1469452017228
       ],
-      "agenda" : { "day": 2, "hour": 4, "room": 5 }
+      "agenda" : { "day": 2, "hour": 6, "room": 5 }
     },
     {
       "id": 1472454479881,
@@ -1609,7 +1609,7 @@
       "name": "Serreau",
       "company": "Groupe Créative",
       "bio": "Chef de projet technique coloré mobilité indus, chez @groupecreative. J’interviens sur des applications à dominante graphique en C++\\Qt\\QML ou en JAVA FX optimisées par des shaders et OpenCL. Mon dada : Les SIG et les projections cartographiques.",
-      "photo": "default.png",
+      "photo": "fserreau.png",
       "social": {
         "twitter": null,
         "googleplus": null,
