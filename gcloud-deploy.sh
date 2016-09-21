@@ -5,4 +5,4 @@ echo "Authenticate with $GAE_SERVICE_ACCOUNT"
 google-cloud-sdk/bin/gcloud auth activate-service-account $GAE_SERVICE_ACCOUNT --key-file file.key
 echo "Deploying to devfest"
 ls -l
-google-cloud-sdk/bin/gcloud --project devfestnantes2016 preview app deploy --version v14 --quiet dist/app.yaml
+google-cloud-sdk/bin/gcloud --project devfestnantes2016 preview app deploy --version v15 --quiet dist/app.yaml
