@@ -100,7 +100,7 @@
     {
       "id": 999,
       "name": "LeakCanary, et ensuite ? Détricotage de fuites mémoire Android",
-      "description": "LeakCanary est une lib Open Source de Square qui détecte les fuites mémoires automatiquement dans vos apps Android.\n\nC'est bien gentil, mais ensuite on fait quoi? Ce talk explique comment passer de la détection à la correction. OutOfMemoryError: bientôt un mauvais souvenir!",
+      "description": "LeakCanary est une lib Open Source de Square qui détecte les fuites mémoires automatiquement dans vos apps Android.<br /><br />C'est bien gentil, mais ensuite on fait quoi? Ce talk explique comment passer de la détection à la correction. OutOfMemoryError: bientôt un mauvais souvenir!",
       "difficulty": 2,
       "type": "conference",
       "track": "mobile",
@@ -112,7 +112,7 @@
     {
       "id": 998,
       "name": "Tech talks: Uploadez vos idées vers d'autres êtres humains",
-      "description": "Vous présentez le point le plus excitant de la JSR 330, quand soudain vous remarquez qu'une personne du premier rang s'est endormie, qu'une moitié de la salle baille et l'autre est concentrée sur son téléphone.\n\nVenez découvrir comment construire un talk pour bien transmettre vos idées!",
+      "description": "Vous présentez le point le plus excitant de la JSR 330, quand soudain vous remarquez qu'une personne du premier rang s'est endormie, qu'une moitié de la salle baille et l'autre est concentrée sur son téléphone.<br /><br />Venez découvrir comment construire un talk pour bien transmettre vos idées!",
       "difficulty": 1,
       "type": "conference",
       "track": "discovery",
@@ -136,7 +136,7 @@
     {
       "id": 996,
       "name": "Open Data",
-      "description": "Dans la logique des logiciels libres, les données libres ! Publiées par les collectivités voire parfois des entreprises, ces données numériques sont libres d'utilisation. Elles sont nombreuses sur Nantes, sur le département et la région.\nQuelles sont ces données, comment les utiliser, peut-on y contribuer ? A quoi servent les licences ? Comment s'organise le recensement et l'harmonisation des jeux de données au niveau national ? Qu'est-ce qu'un Hackaton, Etalab, Wikidata ?\nNous verrons notamment le cas pratique autour d’une application qui utilise et publie des données.",
+      "description": "Dans la logique des logiciels libres, les données libres ! Publiées par les collectivités voire parfois des entreprises, ces données numériques sont libres d'utilisation. Elles sont nombreuses sur Nantes, sur le département et la région.<br />Quelles sont ces données, comment les utiliser, peut-on y contribuer ? A quoi servent les licences ? Comment s'organise le recensement et l'harmonisation des jeux de données au niveau national ? Qu'est-ce qu'un Hackaton, Etalab, Wikidata ?<br />Nous verrons notamment le cas pratique autour d’une application qui utilise et publie des données.",
       "difficulty": 1,
       "type": "quickie",
       "track": "discovery",
@@ -161,7 +161,7 @@
     {
       "id": 994,
       "name": "Et si on faisait un jeu ?",
-      "description": "Développer des jeux en HTML5/JS c’est devenu un vraie réalité.\nMême si la 3D reste encore un peu expérimentale et réservée à de rares plateformes, la généralisation d’HTML5 sur la plupart des supports a permit l’essor des « petits jeux » 2D. \nQuand on n’a jamais essayé, le développement d’un jeu peut paraitre affreusement compliqué. Pourtant, il existe aujourd’hui des frameworks vraiment bien faits pour vous faciliter la vie. \nDans ce live coding, je vous propose de découvrir le développement d’un jeu mobile par l’exemple avec le framework phaser.io. Je suis sûr qu’après cette première sensibilisation, vous voudrez donner vie à vos idées !",
+      "description": "Développer des jeux en HTML5/JS c’est devenu un vraie réalité.<br />Même si la 3D reste encore un peu expérimentale et réservée à de rares plateformes, la généralisation d’HTML5 sur la plupart des supports a permit l’essor des « petits jeux » 2D. <br />Quand on n’a jamais essayé, le développement d’un jeu peut paraitre affreusement compliqué. Pourtant, il existe aujourd’hui des frameworks vraiment bien faits pour vous faciliter la vie. <br />Dans ce live coding, je vous propose de découvrir le développement d’un jeu mobile par l’exemple avec le framework phaser.io. Je suis sûr qu’après cette première sensibilisation, vous voudrez donner vie à vos idées !",
       "difficulty": 1,
       "type": "conference",
       "track": "discovery",
@@ -209,7 +209,7 @@
     },  {
       "id": 1465225950184,
       "name": "Containers' Jungle. Docker, Rocket, RunC, LXD ... WTF ?",
-      "description": "Nous avons tout juste commencé à utiliser les containers Docker, et voilà que des solutions concurrentes apparaissent et sèment la confusion. \nEst-ce que Docker est insuffisant ? Faut-il lui préférer CoreOS Rocket ? Que vient faire RunC là dedans ? Et LXD dans tout ça ? C'est quoi ce délire avec Systemd ?\n\nCette session va (essayer de) mettre les idées au clair sur ce qu'est un conteneur, comment les runtimes se différencient techniquement et pourquoi utiliser untel plutôt qu'un autre, ou peut être les combiner ensemble, pourquoi, comment, quelles sont les contraintes pour que cela fonctionne.",
+      "description": "Nous avons tout juste commencé à utiliser les containers Docker, et voilà que des solutions concurrentes apparaissent et sèment la confusion. <br />Est-ce que Docker est insuffisant ? Faut-il lui préférer CoreOS Rocket ? Que vient faire RunC là dedans ? Et LXD dans tout ça ? C'est quoi ce délire avec Systemd ?<br /><br />Cette session va (essayer de) mettre les idées au clair sur ce qu'est un conteneur, comment les runtimes se différencient techniquement et pourquoi utiliser untel plutôt qu'un autre, ou peut être les combiner ensemble, pourquoi, comment, quelles sont les contraintes pour que cela fonctionne.",
       "difficulty": 2,
       "type": "conference",
       "track": "cloud",
@@ -246,7 +246,7 @@
     {
       "id": 1465841475354,
       "name": "Introduction à la programmation réactive",
-      "description": "React.js, ELM, Rx.js, Bacon.js, Cyle.js, Motorcycle.js ... La tendance du moment est à la programmation réactive.  \nMême Angular semble vouloir emprunter cette voie pour sa version 2. \n\nMais savez vous seulement **ce qu'est la programmation réactive ?**\n\nJe vous propose de creuser ensemble les **concepts fondamentaux de la programmation réactive** (qui sont d'ailleurs loin d'être nouveaux), de comprendre quels sont **les avantages de ce paradigme** et de savoir différencier du code \"réactif\" du code qui ne l'est pas.\n\nSuite à ce talk, les mots `FRP`, `Reactive Programming` et `DataFlow` n'auront plus de secrets pour vous, vous comprendrez pourquoi React.js  `<spoiler>` n'est pas entièrement \"réactif\" `</spoiler>` et vous n'aurez qu'une envie : inclure une lib réactive dans tous vos prochains développements ;)",
+      "description": "React.js, ELM, Rx.js, Bacon.js, Cyle.js, Motorcycle.js ... La tendance du moment est à la programmation réactive.  <br />Même Angular semble vouloir emprunter cette voie pour sa version 2. <br /><br />Mais savez vous seulement <b>ce qu'est la programmation réactive ?</b><br /><br />Je vous propose de creuser ensemble les <b>concepts fondamentaux de la programmation réactive</b> (qui sont d'ailleurs loin d'être nouveaux), de comprendre quels sont <b>les avantages de ce paradigme</b> et de savoir différencier du code \"réactif\" du code qui ne l'est pas.<br /><br />Suite à ce talk, les mots <pre>FRP</pre>, <pre>Reactive Programming</pre> et <pre>DataFlow</pre> n'auront plus de secrets pour vous, vous comprendrez pourquoi React.js  <pre><spoiler></pre> n'est pas entièrement \"réactif\" <pre></spoiler></pre> et vous n'aurez qu'une envie : inclure une lib réactive dans tous vos prochains développements ;)",
       "difficulty": 2,
       "type": "conference",
       "track": "web",
@@ -259,7 +259,7 @@
     {
       "id": 1466851531333,
       "name": "Un PaaS pour votre équipe en 20 min",
-      "description": "Déployer une application sur un serveur prend souvent beaucoup plus de temps que prévu et ce temps est mieux employé à tirer au Nerf sur votre collègue pour qu'il essaye votre application.\n\nDans la ligné d'un Heroku et en utilisant la puissance de Docker, Dokku vous permet de mettre en place un PaaS dans un temps record.\nCe PaaS d'une incroyable simplicité vous permettra de déployer des app utilisant aussi bien des buildpack que des images Docker à partir de repository git.\n\nLe temps d'un quickie nous allons installer un PaaS et tenter de déployer des applications dessus dans un temps record.",
+      "description": "Déployer une application sur un serveur prend souvent beaucoup plus de temps que prévu et ce temps est mieux employé à tirer au Nerf sur votre collègue pour qu'il essaye votre application.<br /><br />Dans la ligné d'un Heroku et en utilisant la puissance de Docker, Dokku vous permet de mettre en place un PaaS dans un temps record.<br />Ce PaaS d'une incroyable simplicité vous permettra de déployer des app utilisant aussi bien des buildpack que des images Docker à partir de repository git.<br /><br />Le temps d'un quickie nous allons installer un PaaS et tenter de déployer des applications dessus dans un temps record.",
       "difficulty": 1,
       "type": "quickie",
       "track": "cloud",
@@ -271,7 +271,7 @@
     {
       "id": 1466585739187,
       "name": "Flexbox : après l'ivresse, place à la gueule de bois !",
-      "description": "Vous commencez votre premier projet en Flexbox ? Bravo, c'est la fête !\n\nOn vous avait convaincu que Flexbox était \"cool\", qu'il allait révolutionner le webdesign. On vous avait carrément vendu du rêve.\n\nDu coup, vous twittez partout que float est mort, que vous aimez à nouveau CSS, vous vous lâchez, écrivez EN CAPSLOCK, envoyez des gifs de licornes à vos collègues et avez vidé votre deuxième bouteille de Dark Dog.\n\nPuis bizarrement, vous commencez à avoir un peu mal aux cheveux. Ça tourne un peu parfois. Vous vous surprenez à vous complaindre de bugs navigateurs, de comportements incohérents.\nNan mais sérieusement, pourquoi des fois ça marche et des fois pas ?! Et pourquoi mes trucs responsive sont tout cassés maintenant ?! Ah oui, et pourquoi flex-grow: 1 c'est pas pareil que flex: 1 ??\n\nEt là, paf ! C'est la gueule de bois. Imparable. Avec les nausées et tout ce qui va avec. Mauvais trip. Envie de retourner intégrer des newsletters ou de se remettre à Bootstrap.\n\nDécouvrons ensemble comment nous en remettre en selle, franchissons un nouveau cap avec Flexbox et débarrassons de cette migraine.",
+      "description": "Vous commencez votre premier projet en Flexbox ? Bravo, c'est la fête !<br /><br />On vous avait convaincu que Flexbox était \"cool\", qu'il allait révolutionner le webdesign. On vous avait carrément vendu du rêve.<br /><br />Du coup, vous twittez partout que float est mort, que vous aimez à nouveau CSS, vous vous lâchez, écrivez EN CAPSLOCK, envoyez des gifs de licornes à vos collègues et avez vidé votre deuxième bouteille de Dark Dog.<br /><br />Puis bizarrement, vous commencez à avoir un peu mal aux cheveux. Ça tourne un peu parfois. Vous vous surprenez à vous complaindre de bugs navigateurs, de comportements incohérents.<br />Nan mais sérieusement, pourquoi des fois ça marche et des fois pas ?! Et pourquoi mes trucs responsive sont tout cassés maintenant ?! Ah oui, et pourquoi flex-grow: 1 c'est pas pareil que flex: 1 ??<br /><br />Et là, paf ! C'est la gueule de bois. Imparable. Avec les nausées et tout ce qui va avec. Mauvais trip. Envie de retourner intégrer des newsletters ou de se remettre à Bootstrap.<br /><br />Découvrons ensemble comment nous en remettre en selle, franchissons un nouveau cap avec Flexbox et débarrassons de cette migraine.",
       "difficulty": 3,
       "type": "conference",
       "track": "web",
@@ -283,7 +283,7 @@
     {
       "id": 1467624369880,
       "name": "Ingest node : (ré)indexer et enrichir des documents dans Elasticsearch",
-      "description": "Lorsque vous injectez des données dans elasticsearch, vous pouvez avoir besoin de réaliser des opérations de transformation assez simples. Jusqu'à présent, ces opérations devaient s'effectuer en dehors d'elasticsearch, avant l'indexation proprement dite.\nSouhaitez la bienvenue à `Ingest node` ! Un nouveau type de noeud qui vous permet justement de faire cela.\nCe talk explique le concept de `Ingest Node`, comment l'intégrer avec le reste de la suite logicielle Elastic et comment développer son propre plugin Ingest par la pratique en montrant comment j'ai développé le plugin `ingest-bano` pour enrichir des adresses postales et/ou des coordonnées géographiques françaises (pour l'instant).\nCe talk parlera également de l'API de réindexation qui peut également bénéficier du pipeline d'ingestion pour modifier vos données à la volée lors de la réindexation.",
+      "description": "Lorsque vous injectez des données dans elasticsearch, vous pouvez avoir besoin de réaliser des opérations de transformation assez simples. Jusqu'à présent, ces opérations devaient s'effectuer en dehors d'elasticsearch, avant l'indexation proprement dite.<br />Souhaitez la bienvenue à <pre>Ingest node</pre> ! Un nouveau type de noeud qui vous permet justement de faire cela.<br />Ce talk explique le concept de <pre>Ingest Node</pre>, comment l'intégrer avec le reste de la suite logicielle Elastic et comment développer son propre plugin Ingest par la pratique en montrant comment j'ai développé le plugin <pre>ingest-bano</pre> pour enrichir des adresses postales et/ou des coordonnées géographiques françaises (pour l'instant).<br />Ce talk parlera également de l'API de réindexation qui peut également bénéficier du pipeline d'ingestion pour modifier vos données à la volée lors de la réindexation.",
       "difficulty": 1,
       "type": "conference",
       "track": "cloud",
@@ -319,7 +319,7 @@
     {
       "id": 1466789828567,
       "name": "Codelab RabbitMQ",
-      "description": "Après une brève présentation de ce qu'est RabbitMQ, des services qu'il peut rendre, de l'usage qu'on en fait à LaFourchette et de comment il s'installe. Construisons ensemble une application permettant à l'internaute de générer un lourd PDF qu'il reçoive par email tout en étant notifié sur l'application une fois que l'envoi est achevé.\n\nUne base de code assez simple en `php` sera fournie, il s'agira de modifier l'application gérant toutes les opérations en une requête bloquante pour y inclure de l'asynchronisme avec RabbitMQ. Des tests fonctionnels permettront de valider les étapes au fur et à mesure de l'atelier.",
+      "description": "Après une brève présentation de ce qu'est RabbitMQ, des services qu'il peut rendre, de l'usage qu'on en fait à LaFourchette et de comment il s'installe. Construisons ensemble une application permettant à l'internaute de générer un lourd PDF qu'il reçoive par email tout en étant notifié sur l'application une fois que l'envoi est achevé.<br /><br />Une base de code assez simple en <pre>php</pre> sera fournie, il s'agira de modifier l'application gérant toutes les opérations en une requête bloquante pour y inclure de l'asynchronisme avec RabbitMQ. Des tests fonctionnels permettront de valider les étapes au fur et à mesure de l'atelier.",
       "difficulty": 1,
       "type": "codelab",
       "track": "cloud",
@@ -331,7 +331,7 @@
     {
       "id": 1466874066735,
       "name": "Pair programming with Eclipse Cloud Development top projects",
-      "description": "At Eclipse, new actors are challenging the classic Eclipse IDE:\n\n- Che: the next gen Eclipse Cloud, brings the developer workspace and the IDE on your browser\n- Orion: an extensible browser IDE\n- Flux: a new message based architecture for cloud based developer tooling\n\nThese technologies open a lot of new kind of features such as real time live collaboration.\nDuring this session, I will live demo of a prototype showing real time collaboration from 3 different IDEs. The prototype will use a Flux server running inside a Che docker workspace that will allow Orion, Eclipse IDE and Che editors to edit the same file in real time like in Google Docs. Come with your laptop, your phone or tablet and join our pair programming session!",
+      "description": "At Eclipse, new actors are challenging the classic Eclipse IDE:<br /><br />- Che: the next gen Eclipse Cloud, brings the developer workspace and the IDE on your browser<br />- Orion: an extensible browser IDE<br />- Flux: a new message based architecture for cloud based developer tooling<br /><br />These technologies open a lot of new kind of features such as real time live collaboration.<br />During this session, I will live demo of a prototype showing real time collaboration from 3 different IDEs. The prototype will use a Flux server running inside a Che docker workspace that will allow Orion, Eclipse IDE and Che editors to edit the same file in real time like in Google Docs. Come with your laptop, your phone or tablet and join our pair programming session!",
       "difficulty": 1,
       "type": "quickie",
       "track": "cloud",
@@ -343,7 +343,7 @@
     {
       "id": 1467051776736,
       "name": "Angular2 et les standards du web",
-      "description": "Nous avions l'habitude des projets open-source qui réinventait la roue à chaque fois : une \ngestion de l'internationalisation maison, un système de détection de la fin d'une tâche\nasynchrone via des $apply et des $digest, ...\n\nL'équipe en charge du développement d'angular2 a réfléchi longuement, avant de refaire la même erreur. En effet, lorsque vous allez développer votre prochaine (ou première) application Angular2, vous allez utiliser, sans le savoir, les standards actuels et futurs du monde Web. \n\nDans ce talk, je vais vous présenter une partie de ces standards (actuels ou futurs) utilisés lors d'un développement Angular2 : les Web Components,  l'objet Intl pour l'internationalisation, les Décorators, les Zones, ...",
+      "description": "Nous avions l'habitude des projets open-source qui réinventait la roue à chaque fois : une <br />gestion de l'internationalisation maison, un système de détection de la fin d'une tâche<br />asynchrone via des $apply et des $digest, ...<br /><br />L'équipe en charge du développement d'angular2 a réfléchi longuement, avant de refaire la même erreur. En effet, lorsque vous allez développer votre prochaine (ou première) application Angular2, vous allez utiliser, sans le savoir, les standards actuels et futurs du monde Web. <br /><br />Dans ce talk, je vais vous présenter une partie de ces standards (actuels ou futurs) utilisés lors d'un développement Angular2 : les Web Components,  l'objet Intl pour l'internationalisation, les Décorators, les Zones, ...",
       "difficulty": 1,
       "type": "conference",
       "track": "web",
@@ -355,7 +355,7 @@
     {
       "id": 1467189637282,
       "name": "Keynote de fermeture : Qui veut gagner ma carrière ?",
-      "description": "Venez assister à la grande première de cette émission basé sur un format complètement inédit ! \nLe but : trouver le meilleur job ! \nComment ? Le candidat devra répondre à des questions toutes plus techniques les unes que les autres. La technicité et la logique du candidat sera mise à rude épreuve !",
+      "description": "Venez assister à la grande première de cette émission basé sur un format complètement inédit ! <br />Le but : trouver le meilleur job ! <br />Comment ? Le candidat devra répondre à des questions toutes plus techniques les unes que les autres. La technicité et la logique du candidat sera mise à rude épreuve !",
       "difficulty": 1,
       "type": "keynote",
       "track": "DevFest",
@@ -392,7 +392,7 @@
     {
       "id": 1469380401604,
       "name": "Coder ses applications iOS et Android en Go",
-      "description": "Une des forces du langage Go est d’offrir un large choix de cibles de compilation: cross-OS (Linux, Windows, OS X...) et cross-architecture (x86, ARM...). Je vous invite à découvrir le projet experimental Go Mobile qui étend ces possibilités à iOS et Android.\n\nPendant ce Quickie, vous découvrirez concrètement les options offertes par Go Mobile: \n* Compiler et interfacer une librairie codée en Go dans du code Java (Android), Swift ou Objective-C (iOS)\n* Construire des applications mobiles entièrement en Go",
+      "description": "Une des forces du langage Go est d’offrir un large choix de cibles de compilation: cross-OS (Linux, Windows, OS X...) et cross-architecture (x86, ARM...). Je vous invite à découvrir le projet experimental Go Mobile qui étend ces possibilités à iOS et Android.<br /><br />Pendant ce Quickie, vous découvrirez concrètement les options offertes par Go Mobile: <br /><b> Compiler et interfacer une librairie codée en Go dans du code Java (Android), Swift ou Objective-C (iOS)<br /></b> Construire des applications mobiles entièrement en Go",
       "difficulty": 1,
       "type": "quickie",
       "track": "mobile",
@@ -404,7 +404,7 @@
     {
       "id": 1470050577168,
       "name": "Code like a child",
-      "description": "La programmation visuelle, vous connaissez ?\nScratch, Blockly, MBlock font partie des langages que nous utilisons avec les enfants pour leur apprendre à programmer.\nIOT, appels REST, ... jusqu'où peut-on aller avec ces langages ?\nVenez tester et essayer de les pousser dans leurs retranchements, vous serez surpris !",
+      "description": "La programmation visuelle, vous connaissez ?<br />Scratch, Blockly, MBlock font partie des langages que nous utilisons avec les enfants pour leur apprendre à programmer.<br />IOT, appels REST, ... jusqu'où peut-on aller avec ces langages ?<br />Venez tester et essayer de les pousser dans leurs retranchements, vous serez surpris !",
       "difficulty": 1,
       "type": "codelab",
       "track": "discovery",
@@ -429,7 +429,7 @@
     {
       "id": 1469470996994,
       "name": "Mais qu'est-ce que je fous ?",
-      "description": "Il y a deux ans, j'ai écrit puis lancer un programme.  Depuis lors, il me regarde, il note tout ce que je fais au moins une fois par minute.  Mon objectif ? Mieux comprendre ma vie, l'améliorer grâce aux données que ce programme récupère.\n\nJe me retrouve ainsi avec un bien beau projet de DataScience !\n\nA travers cette session, je vais vous montrer les différentes techniques d'apprentissage automatique que j'ai utilisées pour créer plusieurs modèles de mon activité.  Nous aborderons ainsi les bases du Machine Learning à travers une étude de cas appliquée à un contexte réel.  Je montrerai même comment je m'offre des retours en temps réel afin de réduire mon temps gaspille en distraction.\n\nNous tirerons ensemble les conclusions immédiatement applicables à mon activité et nous verrons ensemble comment vous pourriez réaliser cette expérience chez vows.",
+      "description": "Il y a deux ans, j'ai écrit puis lancer un programme.  Depuis lors, il me regarde, il note tout ce que je fais au moins une fois par minute.  Mon objectif ? Mieux comprendre ma vie, l'améliorer grâce aux données que ce programme récupère.<br /><br />Je me retrouve ainsi avec un bien beau projet de DataScience !<br /><br />A travers cette session, je vais vous montrer les différentes techniques d'apprentissage automatique que j'ai utilisées pour créer plusieurs modèles de mon activité.  Nous aborderons ainsi les bases du Machine Learning à travers une étude de cas appliquée à un contexte réel.  Je montrerai même comment je m'offre des retours en temps réel afin de réduire mon temps gaspille en distraction.<br /><br />Nous tirerons ensemble les conclusions immédiatement applicables à mon activité et nous verrons ensemble comment vous pourriez réaliser cette expérience chez vows.",
       "difficulty": 1,
       "type": "conference",
       "track": "discovery",
@@ -441,7 +441,7 @@
     {
       "id": 1470394746917,
       "name": "Chérie, j'ai imprimé Lego'sses !",
-      "description": "Ergo : Salut les techos ! Ça vous dirait de connecter un robot pour le DevFest ?\n<br/>\nDévs : Ouais ! Graaaave ! Super idée !\n<br /><br />\nErgo : Et qu'on l'imprime !\n<br/>\nDévs : Ouais !...\n<br /><br />\nErgo : Et qu'il réagisse à des Tweets !\n<br/>\nDévs : Mouais... et tu ne veux pas non plus qu'il bouge tant que tu y es ?!\n<br /><br />\nErgo : Carrément ! Et qu'on puisse le télécommander !\n<br/>\nDévs : Euh... ouais... et en BLE bien sûr...\n<br /><br />\nErgo : Evidemment ! Et on n'a qu'à en faire deux !\n<br/>\nDévs : T'es sûr ?...\n<br /><br />\nErgo : Oh ! Et on va les faire interagir !!!\n<br/>\nDévs : Pfff, c'est n'importe quoi ! On n'y arrivera jamais...",
+      "description": "Ergo : Salut les techos ! Ça vous dirait de connecter un robot pour le DevFest ?<br /><br />Dévs : Ouais ! Graaaave ! Super idée !<br /><br />Ergo : Et qu'on l'imprime !<br /><br />Dévs : Ouais !...<br /><br />Ergo : Et qu'il réagisse à des Tweets !<br /><br />Dévs : Mouais... et tu ne veux pas non plus qu'il bouge tant que tu y es ?!<br /><br />Ergo : Carrément ! Et qu'on puisse le télécommander !<br /><br />Dévs : Euh... ouais... et en BLE bien sûr...<br /><br />Ergo : Evidemment ! Et on n'a qu'à en faire deux !<br /><br />Dévs : T'es sûr ?...<br /><br />Ergo : Oh ! Et on va les faire interagir !!!<br /><br />Dévs : Pfff, c'est n'importe quoi ! On n'y arrivera jamais...",
       "difficulty": 1,
       "type": "conference",
       "track": "mobile",
@@ -454,7 +454,7 @@
     {
       "id": 1469880580843,
       "name": "Ivre, il décida de commercialiser des apps tout seul",
-      "description": "Si vous êtes un(e) développeur(se) normalement constitué(e) vous y avez déjà songé : faire une app tout seul et devenir riche et/ou célèbre.\n\nEt bien depuis presque 3 ans, j'ai essayé et même plusieurs fois. \n\nDans cette conférence je vous ferai un retour sur cette expérience de \"One man Startup\" sur des applications Android. \n\nOn discutera développement (évidemment) mais aussi de stratégie produit, de marketing et d'UX. On n'oubliera pas de parler d'argent.\n\nOn évoquera aussi et surtout le plaisir de développer son application à soi de A à Z  et tout ce qu'on y apprend.",
+      "description": "Si vous êtes un(e) développeur(se) normalement constitué(e) vous y avez déjà songé : faire une app tout seul et devenir riche et/ou célèbre.<br /><br />Et bien depuis presque 3 ans, j'ai essayé et même plusieurs fois. <br /><br />Dans cette conférence je vous ferai un retour sur cette expérience de \"One man Startup\" sur des applications Android. <br /><br />On discutera développement (évidemment) mais aussi de stratégie produit, de marketing et d'UX. On n'oubliera pas de parler d'argent.<br /><br />On évoquera aussi et surtout le plaisir de développer son application à soi de A à Z  et tout ce qu'on y apprend.",
       "difficulty": 1,
       "type": "conference",
       "track": "discovery",
@@ -479,7 +479,7 @@
     {
       "id": 1470053819525,
       "name": "Continuous deployment avec Spinnaker, automatise tous tes déploiements !",
-      "description": "Spinnaker est un outil open source de déploiement continu multi-cloud développé par Netflix. \nVous savez déjà construire vos applications avec Jenkins, venez découvrir comment automatiser tous vos déploiements.\nNous verrons ensemble comment créer une plate forme complète de déploiement continu jusqu'en production, à base de canary, blue/green et rollback.",
+      "description": "Spinnaker est un outil open source de déploiement continu multi-cloud développé par Netflix. <br />Vous savez déjà construire vos applications avec Jenkins, venez découvrir comment automatiser tous vos déploiements.<br />Nous verrons ensemble comment créer une plate forme complète de déploiement continu jusqu'en production, à base de canary, blue/green et rollback.",
       "difficulty": 1,
       "type": "conference",
       "track": "cloud",
@@ -491,7 +491,7 @@
     {
       "id": 1470522007386,
       "name": "Rust pour l'IOT? Retour d'expérience de Rust sur micro-controlleurs",
-      "description": "Rust se veut un langage de programmation orienté système permettant de concevoir des systèmes rapides et fiables. À l'origine principalement utilisé pour écrire Servo un nouveau moteur de navigateur web par Mozilla, l'éco-système de programmes et bibliothèques écrits en Rust a grandi rapidement séduisant les développeurs de tout bords, qu'ils viennent du monde des serveurs ou des clients, qu'ils programment en C, Javascript ou encore Scala et Haskell.\nLes acteurs de l'IOT, aussi bien dans les serveurs que dans les périphériques, sont en quête de sécurité et robustesse mais aussi de rapidité de développement. Rust semble une alternative intéressante pour remplacer le C dans la programmation de périphériques, montrant des performances similaires tout en amenant des garanties sur la gestion de la mémoire et des abstractions de plus haut niveau facilitant le design logiciel.\nAu cours de cette présentation nous verrons qu'elles sont les contraintes et les particularités de la programmation de micro-contrôlleurs, comment Rust peut y répondre et qu'elles sont ses limitations.",
+      "description": "Rust se veut un langage de programmation orienté système permettant de concevoir des systèmes rapides et fiables. À l'origine principalement utilisé pour écrire Servo un nouveau moteur de navigateur web par Mozilla, l'éco-système de programmes et bibliothèques écrits en Rust a grandi rapidement séduisant les développeurs de tout bords, qu'ils viennent du monde des serveurs ou des clients, qu'ils programment en C, Javascript ou encore Scala et Haskell.<br />Les acteurs de l'IOT, aussi bien dans les serveurs que dans les périphériques, sont en quête de sécurité et robustesse mais aussi de rapidité de développement. Rust semble une alternative intéressante pour remplacer le C dans la programmation de périphériques, montrant des performances similaires tout en amenant des garanties sur la gestion de la mémoire et des abstractions de plus haut niveau facilitant le design logiciel.<br />Au cours de cette présentation nous verrons qu'elles sont les contraintes et les particularités de la programmation de micro-contrôlleurs, comment Rust peut y répondre et qu'elles sont ses limitations.",
       "difficulty": 1,
       "type": "conference",
       "track": "mobile",
@@ -503,7 +503,7 @@
     {
       "id": 1472131616929,
       "name": "Tree shaking - Déployer encore moins de code en production",
-      "description": "La notion d'import/export de modules d'Ecmascript 6 est une fonctionnalité très appréciable et attendue depuis longtemps de manière native dans le langage.\n\nLe packageur très populaire \"webpack\" comporte dans sa prochaine version majeure numéro \"2\" une fonctionnalité elle aussi très intéressante appelée \"tree-shaking\". Celle-ci permet d'obtenir un \"bundle\" final plus léger en ne sélectionant que le code utile en \"production\".\n\nNous allons découvrir dans ce quickie :\n- les avantages de cette approche par rapport à l'approche traditionnelle de l'élimination de code des optimisateurs de code Javascript statique comme UglifyJs par exemple.\n- un exemple simple d'utilisation avec Webpack\n- l'utilité potentielle avec des librairies externes utilisées dans votre projet",
+      "description": "La notion d'import/export de modules d'Ecmascript 6 est une fonctionnalité très appréciable et attendue depuis longtemps de manière native dans le langage.<br /><br />Le packageur très populaire \"webpack\" comporte dans sa prochaine version majeure numéro \"2\" une fonctionnalité elle aussi très intéressante appelée \"tree-shaking\". Celle-ci permet d'obtenir un \"bundle\" final plus léger en ne sélectionant que le code utile en \"production\".<br /><br />Nous allons découvrir dans ce quickie :<br />- les avantages de cette approche par rapport à l'approche traditionnelle de l'élimination de code des optimisateurs de code Javascript statique comme UglifyJs par exemple.<br />- un exemple simple d'utilisation avec Webpack<br />- l'utilité potentielle avec des librairies externes utilisées dans votre projet",
       "difficulty": 2,
       "type": "quickie",
       "track": "web",
@@ -515,7 +515,7 @@
     {
       "id": 1470391194125,
       "name": "Coder son \"mini\" serveur d'intégration continue en JavaScript",
-      "description": "Le meilleur moyen de comprendre l'intégration continue ... C'est de coder son propre serveur de CI ... En JavaScript parce que c'est mieux (que quoi?).\nNous allons vous expliquer:\n\n- les \"grands principes\" de l'intégration continue\n- Comment dans un 1er temps s'abonner aux évènements générés par votre gestion de sources (au hasard nous utiliserons GitHub)\n- Comment  \"dire\"  à votre gestion de sources \"Hey! C'est bon, tu peux merger!\" ou \"Arff! C'est pas top, il faudrait revoir 2,3 trucs\" (Utilisation des API)\n  - installer le projet\n  - lancer les tests\n  - modifier les status en fonction des résultats\n- Comment utiliser un script de votre repository pour expliquer à votre serveur les actions qu'il doit lancer (Comme les \"Jenkins Pipeline as Code\" en Groovy )\n- Comment faire interagir votre serveur de CI avec  Hubot et Slack\n- Et si il reste un peu de temps, nous parlerons déploiement\n\nA la fin du talk, vous devriez savoir refaire la même chose avec votre propre langage.",
+      "description": "Le meilleur moyen de comprendre l'intégration continue ... C'est de coder son propre serveur de CI ... En JavaScript parce que c'est mieux (que quoi?).<br />Nous allons vous expliquer:<br /><br />- les \"grands principes\" de l'intégration continue<br />- Comment dans un 1er temps s'abonner aux évènements générés par votre gestion de sources (au hasard nous utiliserons GitHub)<br />- Comment  \"dire\"  à votre gestion de sources \"Hey! C'est bon, tu peux merger!\" ou \"Arff! C'est pas top, il faudrait revoir 2,3 trucs\" (Utilisation des API)<br />  - installer le projet<br />  - lancer les tests<br />  - modifier les status en fonction des résultats<br />- Comment utiliser un script de votre repository pour expliquer à votre serveur les actions qu'il doit lancer (Comme les \"Jenkins Pipeline as Code\" en Groovy )<br />- Comment faire interagir votre serveur de CI avec  Hubot et Slack<br />- Et si il reste un peu de temps, nous parlerons déploiement<br /><br />A la fin du talk, vous devriez savoir refaire la même chose avec votre propre langage.",
       "difficulty": 1,
       "type": "conference",
       "track": "web",
@@ -527,7 +527,7 @@
     {
       "id": 1470660979759,
       "name": "WebVR : de la réalité virtuelle dans nos navigateurs, en route vers le Metaverse !",
-      "description": "WebVR est une future norme du W3C, en phase de draft actuellement.\nIl s'agit d'une API Javascript expérimentale qui permet d’utiliser le navigateur web de votre ordinateur ou de votre mobile directement dans votre casque de réalité virtuelle, que ce soit depuis un Google Cardboard, un Oculus Rift ou un HTC Vive.",
+      "description": "WebVR est une future norme du W3C, en phase de draft actuellement.<br />Il s'agit d'une API Javascript expérimentale qui permet d’utiliser le navigateur web de votre ordinateur ou de votre mobile directement dans votre casque de réalité virtuelle, que ce soit depuis un Google Cardboard, un Oculus Rift ou un HTC Vive.",
       "difficulty": 1,
       "type": "conference",
       "track": "web",
@@ -539,7 +539,7 @@
     {
       "id": 1470779030956,
       "name": "A la découverte de Go(lang)",
-      "description": "De plus en plus de développeurs Java se tournent vers le Go, langage backend qui monte, qui monte.\nProfitez de cet atelier pour mettre les mains dans le code et vous familiariser avec le langage et son écosystème (test, makefile, vendors,etc.). Il est préférable d'avoir un environnement [Go installé](https://golang.org/doc/install) ainsi que d'avoir fait [le tour of Go](https://tour.golang.org/welcome/1) pour rentrer plus facilement dans le sujet.\nLors de cet atelier, nous vous proposons de développer du sol au plafond un petit service web REST qui expose des données récupérées dans un MongoDB au format JSON. Nous commencerons par le parsing d'argument de la ligne de commande et le logging. Nous verrons ensuite comment modéliser et manipuler la data avec MongoDB. Pour finir nous attaquerons la partie web avec le routage, les middleware et les handler.\n\nEn bonus, nous pourrons déployer le tout dans un docker-compose avec un instance de Mongo.",
+      "description": "De plus en plus de développeurs Java se tournent vers le Go, langage backend qui monte, qui monte.<br />Profitez de cet atelier pour mettre les mains dans le code et vous familiariser avec le langage et son écosystème (test, makefile, vendors,etc.). Il est préférable d'avoir un environnement <a href=\"https://golang.org/doc/install\" target=\"_blank\">Go installé</a> ainsi que d'avoir fait <a href=\"https://tour.golang.org/welcome/1\" target=\"_blank\">le tour of Go</a> pour rentrer plus facilement dans le sujet.<br />Lors de cet atelier, nous vous proposons de développer du sol au plafond un petit service web REST qui expose des données récupérées dans un MongoDB au format JSON. Nous commencerons par le parsing d'argument de la ligne de commande et le logging. Nous verrons ensuite comment modéliser et manipuler la data avec MongoDB. Pour finir nous attaquerons la partie web avec le routage, les middleware et les handler.<br /><br />En bonus, nous pourrons déployer le tout dans un docker-compose avec un instance de Mongo.",
       "difficulty": 1,
       "type": "codelab",
       "track": "web",
@@ -552,7 +552,7 @@
     {
       "id": 1471777299468,
       "name": "Découvrir les bases NoSQL orientées graphes avec Neo4j",
-      "description": "Les bases NoSQL sont devenues assez communes dans le paysage informatique actuel.\nLes bases orientées graphes sont peut-être les moins présentes, et pourtant elles ont beaucoup d'avantages.\nPrenons Neo4j en exemple et apprenons ensemble les bases du concept des graphDB, leurs avantages, leurs inconvénients et comment interagir avec elles.",
+      "description": "Les bases NoSQL sont devenues assez communes dans le paysage informatique actuel.<br />Les bases orientées graphes sont peut-être les moins présentes, et pourtant elles ont beaucoup d'avantages.<br />Prenons Neo4j en exemple et apprenons ensemble les bases du concept des graphDB, leurs avantages, leurs inconvénients et comment interagir avec elles.",
       "difficulty": 1,
       "type": "conference",
       "track": "cloud",
@@ -564,7 +564,7 @@
     {
       "id": 1472473075263,
       "name": "Le reverse engineering de Backlog",
-      "description": "Les objectifs principaux de cet atelier sont de :\n1/ De donner ou redonner du sens à son backlog.\n2/ Différencier la solution de l’objectif.\n3/ Prendre du recul par rapport au formalisme classique de la user story.\n\nL'atelier se déroule en deux temps avec la constitution de trois ou quatre groupes en fonction du nombre de participants.\nDans un premier temps, chaque groupe se voit attribuer un exemplaire de backlog que le PO vient d'écrire. Il s'agira alors pour les participants de reconstituer le(s) objectif(s) du produit à partir de ces items.\nChaque groupe ayant eu le même backlog fera une restitution sur \"Ce que fait le produit et pourquoi\".\n\nAprès un debrief et présentation générale de l'impact mapping, les équipes réfléchissent ensemble sur la finalité du produit en utilisant l'outil d'impact mapping. A la fin de la session quelques users stories pourront alors être décrites.",
+      "description": "Les objectifs principaux de cet atelier sont de :<br />1/ De donner ou redonner du sens à son backlog.<br />2/ Différencier la solution de l’objectif.<br />3/ Prendre du recul par rapport au formalisme classique de la user story.<br /><br />L'atelier se déroule en deux temps avec la constitution de trois ou quatre groupes en fonction du nombre de participants.<br />Dans un premier temps, chaque groupe se voit attribuer un exemplaire de backlog que le PO vient d'écrire. Il s'agira alors pour les participants de reconstituer le(s) objectif(s) du produit à partir de ces items.<br />Chaque groupe ayant eu le même backlog fera une restitution sur \"Ce que fait le produit et pourquoi\".<br /><br />Après un debrief et présentation générale de l'impact mapping, les équipes réfléchissent ensemble sur la finalité du produit en utilisant l'outil d'impact mapping. A la fin de la session quelques users stories pourront alors être décrites.",
       "difficulty": 2,
       "type": "codelab",
       "track": "discovery",
@@ -577,7 +577,7 @@
     {
       "id": 1472674682270,
       "name": "La datavisualisation : depuis quand ? comment ? pour qui ? quels outils ?",
-      "description": "20 minutes pour faire un tour rapide de la datavisualisation. De quand datent les premiers graphes ? quels type de graphes mettre en œuvre en fonction du type de données ? quels outils utiliser ?\nCe quickie vous permettra de découvrir rapidement les concepts de la datavisualisation et vous donnera un aperçu des différentes questions à se poser et de ce qui existe dans ce domaine.",
+      "description": "20 minutes pour faire un tour rapide de la datavisualisation. De quand datent les premiers graphes ? quels type de graphes mettre en œuvre en fonction du type de données ? quels outils utiliser ?<br />Ce quickie vous permettra de découvrir rapidement les concepts de la datavisualisation et vous donnera un aperçu des différentes questions à se poser et de ce qui existe dans ce domaine.",
       "difficulty": 1,
       "type": "quickie",
       "track": "discovery",
@@ -589,7 +589,7 @@
     {
       "id": 1471611313272,
       "name": "Jenkins & continuous delivery pipeline : ce n'est pas toujours un long fleuve tranquille",
-      "description": "Jenkins 2 démocratise le plugin Pipeline. Il vous permet de transformer Jenkins en moteur pilote de Déploiement Continu.\nMais vous avez l’impression que les exemples de Pipeline sont trop simples par rapport à vos applications ?\n\nSi vous avez plusieurs composants avec chacun leur cycle de vie propre à agréger pour construire votre produit, vous serez intéressés par le pattern Fan-in. Son but est exactement de construire un pipeline pour gérer ces différents composants.\n\nJe vais vous démontrer comment construire un ensemble de pipelines pour livrer une application se composant de plusieurs sous-applications, avec chacune son cycle de vie.",
+      "description": "Jenkins 2 démocratise le plugin Pipeline. Il vous permet de transformer Jenkins en moteur pilote de Déploiement Continu.<br />Mais vous avez l’impression que les exemples de Pipeline sont trop simples par rapport à vos applications ?<br /><br />Si vous avez plusieurs composants avec chacun leur cycle de vie propre à agréger pour construire votre produit, vous serez intéressés par le pattern Fan-in. Son but est exactement de construire un pipeline pour gérer ces différents composants.<br /><br />Je vais vous démontrer comment construire un ensemble de pipelines pour livrer une application se composant de plusieurs sous-applications, avec chacune son cycle de vie.",
       "difficulty": 2,
       "type": "conference",
       "track": "cloud",
@@ -601,7 +601,7 @@
     {
       "id": 1471878583557,
       "name": "2h pour analyser les tendances du web avec Spark",
-      "description": "Exploiter les technologies Big Data pour faire parler le web, ça vous dit ?\nNous vous proposons de prendre 2h pour découvrir les bases de la collecte et l’analyse des données autour d’un thème d’actualité. \nNous utiliserons Apache Spark pour récolter les informations provenant de Twitter, afin de déterminer la popularité, les tendances et le sentiment des réseaux sociaux.",
+      "description": "Exploiter les technologies Big Data pour faire parler le web, ça vous dit ?<br />Nous vous proposons de prendre 2h pour découvrir les bases de la collecte et l’analyse des données autour d’un thème d’actualité. <br />Nous utiliserons Apache Spark pour récolter les informations provenant de Twitter, afin de déterminer la popularité, les tendances et le sentiment des réseaux sociaux.",
       "difficulty": 2,
       "type": "codelab",
       "track": "cloud",
@@ -614,7 +614,7 @@
     {
       "id": 1471945120162,
       "name": "Haskell for the noobs",
-      "description": "1 heure pour apprendre un nouveau langage, c'est court. Et quand il s'agit d'un langage aussi particulier que **Haskell**, ça devient sportif ! Mais qu'à cela ne tienne, tentons le coup !\n\nCommençons par étudier un cas topique : **le parsing de fichiers texte**.",
+      "description": "1 heure pour apprendre un nouveau langage, c'est court. Et quand il s'agit d'un langage aussi particulier que <b>Haskell</b>, ça devient sportif ! Mais qu'à cela ne tienne, tentons le coup !<br /><br />Commençons par étudier un cas topique : <b>le parsing de fichiers texte</b>.",
       "difficulty": 1,
       "type": "conference",
       "track": "discovery",
@@ -663,7 +663,7 @@
     {
       "id": 1472110242598,
       "name": "GraphQL vs Falcor",
-      "description": "L’hégémonie de l’architecture REST est ébranlée par de nouveaux venus : GraphQL de Facebook et Falcor de Netflix. Comment ces deux technologies peuvent-elles nous aider à développer des applications web plus rapidement ?\n\nNous commencerons par une rapide introduction de GraphQL et Falcor : le concept qui se cache derrière, leurs objectifs, ainsi que leur place dans nos architectures client-serveur.\n\nNous vous proposerons ensuite de développer une application mobile de transport en commun avec REST, GraphQL et Falcor afin de comparer l’impact de ces technologies sur les propriétés du code et les coûts de développement. Cette comparaison sera assistée par un outil de traduction de requêtes, conçu par nos soins.",
+      "description": "L’hégémonie de l’architecture REST est ébranlée par de nouveaux venus : GraphQL de Facebook et Falcor de Netflix. Comment ces deux technologies peuvent-elles nous aider à développer des applications web plus rapidement ?<br /><br />Nous commencerons par une rapide introduction de GraphQL et Falcor : le concept qui se cache derrière, leurs objectifs, ainsi que leur place dans nos architectures client-serveur.<br /><br />Nous vous proposerons ensuite de développer une application mobile de transport en commun avec REST, GraphQL et Falcor afin de comparer l’impact de ces technologies sur les propriétés du code et les coûts de développement. Cette comparaison sera assistée par un outil de traduction de requêtes, conçu par nos soins.",
       "difficulty": 2,
       "type": "conference",
       "track": "web",
@@ -689,7 +689,7 @@
     {
       "id": 1472453181702,
       "name": "Apache Spark avec NodeJS ? Oui, c'est possible avec EclairJS !",
-      "description": "__NodeJS__ devient incontournable (ou presque !) et JavaScript est votre langage de prédilection, mais vous êtes déçu de devoir (re)faire du Java pour traiter vos données avec __Spark__ ? \nAlors, venez découvrir __EclairJS__, un projet permettant de développer en JavaScript vos traitements de données à destination de Spark. Encore une bonne raison de laisser tomber Java !",
+      "description": "<i>NodeJS</i> devient incontournable (ou presque !) et JavaScript est votre langage de prédilection, mais vous êtes déçu de devoir (re)faire du Java pour traiter vos données avec <i>Spark</i> ? <br />Alors, venez découvrir <i>EclairJS</i>, un projet permettant de développer en JavaScript vos traitements de données à destination de Spark. Encore une bonne raison de laisser tomber Java !",
       "difficulty": 1,
       "type": "quickie",
       "track": "cloud",
@@ -701,7 +701,7 @@
     {
       "id": 1472653456003,
       "name": "Développer une application de pari en ligne avec la blockchain Ethereum et Angular2",
-      "description": "Dans ce CodeLab, nous commencerons par une présentation de la blockchain Ethereum et du principe des smart-contracts.\nPuis nous développerons une Dapp basique de pari en ligne en utilisant les technologies Geth, EthereumJS et Angular2.\n\nCela permettra d'apprendre :\n- à mettre en place une blockchain de test privée multi-noeuds,\n- à installer et utiliser l'écosystème de développement Ethereum,\n- à coder un smart-contract avec Solidity (avec quelques bonnes pratiques),\n- à interfacer ce smart contract avec une IHM Web en Angular2.\n\nDes connaissances du fonctionnement des concepts généraux des blockchains sont fortement conseillées pour CodeLab, même si je ferais quelques rappels au début.\nPar contre, pas besoin de connaître Ethereum, et la partie Angular2 sera fournie dans les grandes lignes aux participants.",
+      "description": "Dans ce CodeLab, nous commencerons par une présentation de la blockchain Ethereum et du principe des smart-contracts.<br />Puis nous développerons une Dapp basique de pari en ligne en utilisant les technologies Geth, EthereumJS et Angular2.<br /><br />Cela permettra d'apprendre :<br />- à mettre en place une blockchain de test privée multi-noeuds,<br />- à installer et utiliser l'écosystème de développement Ethereum,<br />- à coder un smart-contract avec Solidity (avec quelques bonnes pratiques),<br />- à interfacer ce smart contract avec une IHM Web en Angular2.<br /><br />Des connaissances du fonctionnement des concepts généraux des blockchains sont fortement conseillées pour CodeLab, même si je ferais quelques rappels au début.<br />Par contre, pas besoin de connaître Ethereum, et la partie Angular2 sera fournie dans les grandes lignes aux participants.",
       "difficulty": 2,
       "type": "codelab",
       "track": "web",
@@ -726,7 +726,7 @@
     {
       "id": 1472224082408,
       "name": "Cloud Analytics : de 0 à 100 000 événements par seconde en 50'",
-      "description": "En partant de zéro nous aurons au bout de 50' une chaine complète d'analyse de la donnée qui verra transiter 100000 événements par seconde : de l'injection (qui est semble simple mais n'est pas trivial) jusqu'à l'outil de reporting qui montrera un report temps réel sur les données injectées.\n\nEn apportant puissance, flexibilité et coût faible, le cloud s'impose de plus en plus comme l'outil indispensable pour construire une chaine d'analyse de la donnée. Nous l'utiliserons durant cette session qui contiendra trucs et astuces, retours d'expérience et live coding.\n\nTags : #BigQuery #Dataflow #PubSub #DataStudio #Datalab #ComputeEngine",
+      "description": "En partant de zéro nous aurons au bout de 50' une chaine complète d'analyse de la donnée qui verra transiter 100000 événements par seconde : de l'injection (qui est semble simple mais n'est pas trivial) jusqu'à l'outil de reporting qui montrera un report temps réel sur les données injectées.<br /><br />En apportant puissance, flexibilité et coût faible, le cloud s'impose de plus en plus comme l'outil indispensable pour construire une chaine d'analyse de la donnée. Nous l'utiliserons durant cette session qui contiendra trucs et astuces, retours d'expérience et live coding.<br /><br />Tags : #BigQuery #Dataflow #PubSub #DataStudio #Datalab #ComputeEngine",
       "difficulty": 2,
       "type": "conference",
       "track": "cloud",
@@ -738,7 +738,7 @@
     {
       "id": 1472553153816,
       "name": "Docker et Rancher au service d’une infrastructure as code, la fin du métier de Ops ?",
-      "description": "Après l’ère du physique, du virtuel, le Cloud offre aujourd’hui une infrastructure de taille, de performance potentiellement infinie. Scriptable, automatisable, les infrastructures se conçoivent désormais en quelques lignes de codes.\nLa présentation propose à partir des technologies Docker et Rancher, de créer et d’automatiser des architectures Cloud (Exemple pris sur l’offre Amazon Web Service), hautement disponibles et reproductibles. L’objectif étant de démontrer la convergence du métier de Dev et du métier d’Ops et la mutualisation des compétences de plus en plus essentielles.\nAprès une description des stacks techniques Docker et Rancher et AWS, nous procèderons à une démonstration de la création d’une infrastructure as code : incluant un scaling et un déploiement continu sur la base des technologies présentées.",
+      "description": "Après l’ère du physique, du virtuel, le Cloud offre aujourd’hui une infrastructure de taille, de performance potentiellement infinie. Scriptable, automatisable, les infrastructures se conçoivent désormais en quelques lignes de codes.<br />La présentation propose à partir des technologies Docker et Rancher, de créer et d’automatiser des architectures Cloud (Exemple pris sur l’offre Amazon Web Service), hautement disponibles et reproductibles. L’objectif étant de démontrer la convergence du métier de Dev et du métier d’Ops et la mutualisation des compétences de plus en plus essentielles.<br />Après une description des stacks techniques Docker et Rancher et AWS, nous procèderons à une démonstration de la création d’une infrastructure as code : incluant un scaling et un déploiement continu sur la base des technologies présentées.",
       "difficulty": 1,
       "type": "quickie",
       "track": "cloud",
@@ -750,7 +750,7 @@
     {
       "id": 1472390635773,
       "name": "MinuteJS - Les nouveautés Javascript à ne pas rater !",
-      "description": "Si toi aussi tu ne comprends plus rien aux dernières mises à jour de Javascript, alors **ce talk est fait pour toi** !\n\nComment ça fonctionne ? Quelles sont les nouveautés ? Pourquoi certaines personnes les utilisent alors que ce n'est pas officiellement sorti ?\nPourquoi j'en entends moins parler ?\n\nDans ce **Quickie** vous aurez réponses à ces questions. Nous allons revoir la façon dont ECMAScript (et donc Javascript) évolue.\nJe vous présenterai quelques nouveautés depuis l'ES6 (ES2015) qui me semblent intéressantes et applicables dès à présent via une comparaison avant/après et du **livecoding**.\n\nJe vous persuaderai que ces nouveautés vous feront gagner du temps et de la lisibilité !",
+      "description": "Si toi aussi tu ne comprends plus rien aux dernières mises à jour de Javascript, alors <b>ce talk est fait pour toi</b> !<br /><br />Comment ça fonctionne ? Quelles sont les nouveautés ? Pourquoi certaines personnes les utilisent alors que ce n'est pas officiellement sorti ?<br />Pourquoi j'en entends moins parler ?<br /><br />Dans ce <b>Quickie</b> vous aurez réponses à ces questions. Nous allons revoir la façon dont ECMAScript (et donc Javascript) évolue.<br />Je vous présenterai quelques nouveautés depuis l'ES6 (ES2015) qui me semblent intéressantes et applicables dès à présent via une comparaison avant/après et du <b>livecoding</b>.<br /><br />Je vous persuaderai que ces nouveautés vous feront gagner du temps et de la lisibilité !",
       "difficulty": 1,
       "type": "quickie",
       "track": "web",
@@ -762,7 +762,7 @@
     {
       "id": 1472390695765,
       "name": "Mon application React/Redux en production en 2h avec firebase.",
-      "description": "Je commence React/Redux et je ne sais pas trop comment démarrer.\nQuelles sont les bibliothèques à utiliser ?\nQuelles sont les conventions que je vais mettre en place ?\nEt surtout pourquoi ?\n\nDans ce **codelab** de deux heures nous allons, ensemble, transformer une application primitive en une application prête à être déployée (avec firebase).\n\nUne première application servira de base et sera utilisée comme piqure de rappel sur React/Redux.\nPuis nous parcourrons les différentes bibliothèques classiques d'une telle stack en **refactorisant l’application à chaque brique ajoutée**.\n\nNous parlerons, entre autres, de **redux-thunk**, **reselect**, **normalizr** et **react-router**.\nNous reviendrons sur la configuration **webpack** pour faire du Sass __scopé__ et __autoprefixé__.\n\nFinalement avec tout ça, j'espère que nous aurons le temps de parler des High Order Components !",
+      "description": "Je commence React/Redux et je ne sais pas trop comment démarrer.<br />Quelles sont les bibliothèques à utiliser ?<br />Quelles sont les conventions que je vais mettre en place ?<br />Et surtout pourquoi ?<br /><br />Dans ce <b>codelab</b> de deux heures nous allons, ensemble, transformer une application primitive en une application prête à être déployée (avec firebase).<br /><br />Une première application servira de base et sera utilisée comme piqure de rappel sur React/Redux.<br />Puis nous parcourrons les différentes bibliothèques classiques d'une telle stack en <b>refactorisant l’application à chaque brique ajoutée</b>.<br /><br />Nous parlerons, entre autres, de <b>redux-thunk</b>, <b>reselect</b>, <b>normalizr</b> et <b>react-router</b>.<br />Nous reviendrons sur la configuration <b>webpack</b> pour faire du Sass <i>scopé</i> et <i>autoprefixé</i>.<br /><br />Finalement avec tout ça, j'espère que nous aurons le temps de parler des High Order Components !",
       "difficulty": 2,
       "type": "codelab",
       "track": "web",
@@ -774,7 +774,7 @@
     {
       "id": 1472463470824,
       "name": "IoT: from zero to hero for web developers",
-      "description": "The internet of things era is finally starting to happen! We have billions of smart devices coming, from smart factory plants to smart parking spaces, and from smart vending machines to smart toys. But… How can we, as ordinary web developers, ride this wave? We’ll need to know how to build embedded devices, build smartphone apps to go with them, and connect devices to the internet. And when we’re all done: how can people even discover our devices?!\n\nLots of challenges, but one great opportunity. With new tech coming out every day, it gets easier and easier to solve these problems. On the embedded spectrum we see JS engines appear that can run on microcontrollers with just 32KB of RAM, making it possible to run devices for years off a battery. And on the software spectrum Google and Mozilla have been working like crazy on Web Bluetooth, eliminating the need for an app per device. And on top of that: Physical Web, an open protocol that gives ordinary devices a URL, automatically popping up in your homescreen when you’re close to the device. How is that for discovery?\n\nIn this demo heavy talk, Jan Jongboom will balance the fine line between hardware and the web, showing how to get started on building connected devices on both embedded and web side using JavaScript. And while he’s at it, he’ll probably throw some stuff in the air.",
+      "description": "The internet of things era is finally starting to happen! We have billions of smart devices coming, from smart factory plants to smart parking spaces, and from smart vending machines to smart toys. But… How can we, as ordinary web developers, ride this wave? We’ll need to know how to build embedded devices, build smartphone apps to go with them, and connect devices to the internet. And when we’re all done: how can people even discover our devices?!<br /><br />Lots of challenges, but one great opportunity. With new tech coming out every day, it gets easier and easier to solve these problems. On the embedded spectrum we see JS engines appear that can run on microcontrollers with just 32KB of RAM, making it possible to run devices for years off a battery. And on the software spectrum Google and Mozilla have been working like crazy on Web Bluetooth, eliminating the need for an app per device. And on top of that: Physical Web, an open protocol that gives ordinary devices a URL, automatically popping up in your homescreen when you’re close to the device. How is that for discovery?<br /><br />In this demo heavy talk, Jan Jongboom will balance the fine line between hardware and the web, showing how to get started on building connected devices on both embedded and web side using JavaScript. And while he’s at it, he’ll probably throw some stuff in the air.",
       "difficulty": 1,
       "type": "conference",
       "track": "mobile",
@@ -799,7 +799,7 @@
     {
       "id": 1472641651474,
       "name": "Elm, un langage réellement innovant pour web.",
-      "description": "Nous découvrirons ensemble le langage Elm et son architecture très novatrice n'ayant pas peur de bousculer de nombreuses idées reçues.\nLes points abordés seront :\n* Comment le langage Elm réussi à promettre l'absence d'erreur à l’exécution.\n* Son compilateur et ses messages qui vous guideront.\n* Son système de module perfectionné.\n* comment créer une petite application avec la librairie standard et l'architecture naturelle d'Elm.\n\nJ'adore React, Redux la programmation fonctionnelle et je veut vous faire aimer Elm.",
+      "description": "Nous découvrirons ensemble le langage Elm et son architecture très novatrice n'ayant pas peur de bousculer de nombreuses idées reçues.<br />Les points abordés seront :<br /><b> Comment le langage Elm réussi à promettre l'absence d'erreur à l’exécution.<br /></b> Son compilateur et ses messages qui vous guideront.<br /><b> Son système de module perfectionné.<br /></b> comment créer une petite application avec la librairie standard et l'architecture naturelle d'Elm.<br /><br />J'adore React, Redux la programmation fonctionnelle et je veut vous faire aimer Elm.",
       "difficulty": 1,
       "type": "quickie",
       "track": "web",
@@ -811,7 +811,7 @@
     {
       "id": 1472512275589,
       "name": "Jigsaw est prêt à tuer le classpath Java",
-      "description": "En 2009, la mort du classpath a été annoncée. Les classloaders à plat ou hiérarchiques devaient être remplacés par des systèmes modulaires et tous nos problèmes de dépendance devaient se résoudre d'eux-mêmes. C'est le projet Jigsaw qui devait accomplir cette tâche. Il sera finalement intégré au JDK 9 dont la sortie est prévue pour 2017.\n\nDans la première partie de cette présentation, je vous revenir sur le fonctionnement des classloaders du JDK et voir au travers quelques exemples les problèmes étranges qu'ils posent.\n\nDans la deuxième partie, je présenterai ce que Jigsaw va apporter et j'expliquerai quels problèmes il va résourdre. Je le comparerai aux solutions qui existent déjà, comme OSGi et JBoss Modules.",
+      "description": "En 2009, la mort du classpath a été annoncée. Les classloaders à plat ou hiérarchiques devaient être remplacés par des systèmes modulaires et tous nos problèmes de dépendance devaient se résoudre d'eux-mêmes. C'est le projet Jigsaw qui devait accomplir cette tâche. Il sera finalement intégré au JDK 9 dont la sortie est prévue pour 2017.<br /><br />Dans la première partie de cette présentation, je vous revenir sur le fonctionnement des classloaders du JDK et voir au travers quelques exemples les problèmes étranges qu'ils posent.<br /><br />Dans la deuxième partie, je présenterai ce que Jigsaw va apporter et j'expliquerai quels problèmes il va résourdre. Je le comparerai aux solutions qui existent déjà, comme OSGi et JBoss Modules.",
       "difficulty": 2,
       "type": "conference",
       "track": "cloud",
@@ -823,7 +823,7 @@
     {
       "id": 1472541226273,
       "name": "Développez des applications web desktop avec Electron de Github",
-      "description": "D’un côté, nous avons la communauté web qui maintient un écosystème riche permettant de construire des interfaces utilisateurs rapidement malgré des problématiques cross-browser très contraignantes. De l’autre côté, l’écosystème desktop possède des outils très performants mais qui demandent beaucoup d’investissement. Github s’est retroussé les manches pour tirer le meilleur des deux mondes et a créé Electron ! Electron, c’est la possibilité de construire des applications grâce à ES2015 et NodeJs avec pour seul navigateur à supporter Chromium dans sa dernière version.  Et ce n’est pas tout, un ensemble d’API est aussi mis à votre disposition pour faciliter les interactions avec la machine.\n\nAu cours de ce codelab, nous allons développer une application meme generator et découvrir ensemble les raisons du succès grandissant d’Electron. Nous verrons à travers cet atelier tout ce que le framework offre en matière de packaging, de mises à jour automatiques et de stratégies de testing.",
+      "description": "D’un côté, nous avons la communauté web qui maintient un écosystème riche permettant de construire des interfaces utilisateurs rapidement malgré des problématiques cross-browser très contraignantes. De l’autre côté, l’écosystème desktop possède des outils très performants mais qui demandent beaucoup d’investissement. Github s’est retroussé les manches pour tirer le meilleur des deux mondes et a créé Electron ! Electron, c’est la possibilité de construire des applications grâce à ES2015 et NodeJs avec pour seul navigateur à supporter Chromium dans sa dernière version.  Et ce n’est pas tout, un ensemble d’API est aussi mis à votre disposition pour faciliter les interactions avec la machine.<br /><br />Au cours de ce codelab, nous allons développer une application meme generator et découvrir ensemble les raisons du succès grandissant d’Electron. Nous verrons à travers cet atelier tout ce que le framework offre en matière de packaging, de mises à jour automatiques et de stratégies de testing.",
       "difficulty": 1,
       "type": "codelab",
       "track": "web",
@@ -837,7 +837,7 @@
     {
       "id": 1472544348682,
       "name": "Votre application web qui marche même sans réseau, c'est possible!",
-      "description": "Vous vous demandez comment améliorer l'expérience de vos utilisateurs web ? Et pourquoi ne pas leur permettre de lancer et d'interagir avec votre application web même lorsqu'il n'y a pas de réseau?\n\nNous verrons comment mettre en place une stratégie offline-first totale en utilisant des nouvelles APIs comme le **service worker**, **background-sync**, la **cache API** et **indexDB**.",
+      "description": "Vous vous demandez comment améliorer l'expérience de vos utilisateurs web ? Et pourquoi ne pas leur permettre de lancer et d'interagir avec votre application web même lorsqu'il n'y a pas de réseau?<br /><br />Nous verrons comment mettre en place une stratégie offline-first totale en utilisant des nouvelles APIs comme le <b>service worker</b>, <b>background-sync</b>, la <b>cache API</b> et <b>indexDB</b>.",
       "difficulty": 2,
       "type": "conference",
       "track": "web",
@@ -861,7 +861,7 @@
     {
       "id": 1472594325076,
       "name": "Mixité dans le monde des webcomponents",
-      "description": "Ah, les web components, quelle belle idée ! Un nouveau standard, du développement web basé enfin sur une vraie architecture en composants, \nde la réutilisation, de la modularisation, de l'encapsulation... Des choses que les développeurs backend ont depuis plus de trente ans enfin\ndisponibles pour les développeurs web...\n\nMais en attendant que le W3C décide de sortir le standard, ce qu'on a dans le mains c'est une promese d'un beau avenir et une panoplie de \nbibliothèques censées combler le manque en attendant : Polymer, X-Tag,  Bosoonic... Et récement, avec des React, Aurelia et d'autres Angular 2, \nil semble que tous les frameworks JS modernes s'orients vers les composants web.\n\nDans ce talk on va essayer de répondre à une des questions qu'on nous pose le plus souvent quand nous parlons de web components : \n\"OK, le futur sera beau, mais aujourd'hui, si je fais des componsants avec une bibliothèque X et mon pote en fait avec une bibliothèque Y,\nje peux les utiliser dans la même application ? Et ils marcheront dans mon framework favori ?\"\n\nEt pour répondre a cette question, nous allons emprunter quelques techniques au monde de la musique avec un battle entre Cyril Balit, \nWassim Chegham et Horacio Gonzalez afin d'intégrer et fdaire parler des composants web dans un maximum de technologies. \nCar face à la tendance à se polariser avec des querelles de chapelles type Angula vs React vs Aurelia vs Polymer vs Meteor \nnous préférons le slogan *Let's work hand in hand and move the web forward*",
+      "description": "Ah, les web components, quelle belle idée ! Un nouveau standard, du développement web basé enfin sur une vraie architecture en composants, <br />de la réutilisation, de la modularisation, de l'encapsulation... Des choses que les développeurs backend ont depuis plus de trente ans enfin<br />disponibles pour les développeurs web...<br /><br />Mais en attendant que le W3C décide de sortir le standard, ce qu'on a dans le mains c'est une promese d'un beau avenir et une panoplie de <br />bibliothèques censées combler le manque en attendant : Polymer, X-Tag,  Bosoonic... Et récement, avec des React, Aurelia et d'autres Angular 2, <br />il semble que tous les frameworks JS modernes s'orients vers les composants web.<br /><br />Dans ce talk on va essayer de répondre à une des questions qu'on nous pose le plus souvent quand nous parlons de web components : <br />\"OK, le futur sera beau, mais aujourd'hui, si je fais des componsants avec une bibliothèque X et mon pote en fait avec une bibliothèque Y,<br />je peux les utiliser dans la même application ? Et ils marcheront dans mon framework favori ?\"<br /><br />Et pour répondre a cette question, nous allons emprunter quelques techniques au monde de la musique avec un battle entre Cyril Balit, <br />Wassim Chegham et Horacio Gonzalez afin d'intégrer et fdaire parler des composants web dans un maximum de technologies. <br />Car face à la tendance à se polariser avec des querelles de chapelles type Angula vs React vs Aurelia vs Polymer vs Meteor <br />nous préférons le slogan <b>Let's work hand in hand and move the web forward</b>",
       "difficulty": 2,
       "type": "conference",
       "track": "web",
@@ -958,7 +958,7 @@
       "firstname": "Thomas",
       "name": "Belin",
       "company": "doyoubuzz",
-      "bio": "Full-Stack développeur chez doyoubuzz.  \nJe fais la [part belle au code](http://blog.thomasbelin.fr/p/faire-la-part-belle-au-code).  \nJe m'éclate avec Javascript.",
+      "bio": "Full-Stack développeur chez doyoubuzz.  <br />Je fais la <a href=\"http://blog.thomasbelin.fr/p/faire-la-part-belle-au-code\" target=\"_blank\">part belle au code</a>.  <br />Je m'éclate avec Javascript.",
       "photo": "tbelin.jpg",
       "social": {
         "twitter": "atomrc",
@@ -975,7 +975,7 @@
       "firstname": "Francois",
       "name": "Teychene",
       "company": "Tabmo",
-      "bio": "Devops la journée, JUG Leader le soir sur Montpellier, j'aime parler et discuter de Docker.\nAncien développeur Java et devops passé par de grosses structures très (trop) lentes à évoluer je met en place des infras basés sur Docker depuis 1 ans et aime essayer de nouvelles choses sur cet écosystème.",
+      "bio": "Devops la journée, JUG Leader le soir sur Montpellier, j'aime parler et discuter de Docker.<br />Ancien développeur Java et devops passé par de grosses structures très (trop) lentes à évoluer je met en place des infras basés sur Docker depuis 1 ans et aime essayer de nouvelles choses sur cet écosystème.",
       "photo": "fteychene.jpg",
       "social": {
         "twitter": "https://twitter.com/fteychene",
@@ -1026,7 +1026,7 @@
       "firstname": "Olivier",
       "name": "Laurendeau",
       "company": "LaFourchette",
-      "bio": "Ayant travaillé en SSII, Agence web et Free-Lance, j'ai trouvé ma place depuis quelques années chez un pure player, LaFourchette qui m'a offert l'opportunité de quitter Paris pour venir travailler à Nantes en septembre 2015.\n\nD'un point de vue language j'utilise essentiellement `PHP`,  `bash` et `javascript`. Je travaille au quotidien avec `Symfony 2`, `RabbitMQ`,  `jenkins`, `new relic`, `kibana` et de plus en plus `docker`.\n\nPersonnellement trois long voyages en Asie et en Amérique du sud m'ont énormément enrichis et j'aime pratiquer régulièrement un ensemble de disciplines sportives.",
+      "bio": "Ayant travaillé en SSII, Agence web et Free-Lance, j'ai trouvé ma place depuis quelques années chez un pure player, LaFourchette qui m'a offert l'opportunité de quitter Paris pour venir travailler à Nantes en septembre 2015.<br /><br />D'un point de vue language j'utilise essentiellement <pre>PHP</pre>,  <pre>bash</pre> et <pre>javascript</pre>. Je travaille au quotidien avec <pre>Symfony 2</pre>, <pre>RabbitMQ</pre>,  <pre>jenkins</pre>, <pre>new relic</pre>, <pre>kibana</pre> et de plus en plus <pre>docker</pre>.<br /><br />Personnellement trois long voyages en Asie et en Amérique du sud m'ont énormément enrichis et j'aime pratiquer régulièrement un ensemble de disciplines sportives.",
       "photo": "olaurendeau.jpg",
       "social": {
         "twitter": null,
@@ -1060,7 +1060,7 @@
       "firstname": "Emmanuel",
       "name": "DEMEY",
       "company": "Zenika",
-      "bio": "Consultant et Formateur Web chez Zenika Lille depuis avril 2015. Je suis spécialisé dans AngularJS / Angular 2 / TypeScript et l'Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c'est normal...), le Jazz et la Domotique. \n\nPlusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. \n- ESLint au Jug Summer Camp et ChtiJS\n- Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, ...",
+      "bio": "Consultant et Formateur Web chez Zenika Lille depuis avril 2015. Je suis spécialisé dans AngularJS / Angular 2 / TypeScript et l'Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c'est normal...), le Jazz et la Domotique. <br /><br />Plusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. <br />- ESLint au Jug Summer Camp et ChtiJS<br />- Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, ...",
       "photo": "edemey.jpg",
       "social": {
         "twitter": "EmmanuelDemey",
@@ -1161,7 +1161,7 @@
       "firstname": "Jeff",
       "name": "Abrahamson",
       "company": "Jellybooks",
-      "bio": "Jeff Abrahamson (ré)invente l'analyse de livres électroniques chez Jellybooks.\nDerrière chaque livre se cache une histoire dans les données de lecture : à trouver, à éclairer, à visualiser.\nJeff anime le Nantes Machine Learning Meetup et co-organise des formations professionnelles en DataScience à travers l'initiative ML Week.",
+      "bio": "Jeff Abrahamson (ré)invente l'analyse de livres électroniques chez Jellybooks.<br />Derrière chaque livre se cache une histoire dans les données de lecture : à trouver, à éclairer, à visualiser.<br />Jeff anime le Nantes Machine Learning Meetup et co-organise des formations professionnelles en DataScience à travers l'initiative ML Week.",
       "photo": "jabrahamson.jpg",
       "social": {
         "twitter": "https://twitter.com/#!/Jeff_Abrahamson",
@@ -1194,7 +1194,7 @@
       "firstname": "Pierre",
       "name": "Benayoun",
       "company": "Le cabinet numérique",
-      "bio": "Je suis développeur depuis 2001. \n\nJe me suis lancé dans l'aventure Android en 2011 et suis en mode \"one man startup\" sur des applications indépendantes depuis 2014.",
+      "bio": "Je suis développeur depuis 2001. <br /><br />Je me suis lancé dans l'aventure Android en 2011 et suis en mode \"one man startup\" sur des applications indépendantes depuis 2014.",
       "photo": "pbenayoun.jpg",
       "social": {
         "twitter": "@Pierre_Benayoun",
@@ -1227,7 +1227,7 @@
       "firstname": "Jérémie",
       "name": "Monsinjon",
       "company": null,
-      "bio": "Développeur Java passionné chez Ippon Technologies depuis plus d'1 an.\nJe me suis focalisé ces derniers temps sur le monitoring avec ELK, le développement de microservices avec SpringBoot, et un peu de DevOps avec la gestion dynamique d'une plateforme de production avec Docker et Mesos.",
+      "bio": "Développeur Java passionné chez Ippon Technologies depuis plus d'1 an.<br />Je me suis focalisé ces derniers temps sur le monitoring avec ELK, le développement de microservices avec SpringBoot, et un peu de DevOps avec la gestion dynamique d'une plateforme de production avec Docker et Mesos.",
       "photo": "jmonsinjon.jpg",
       "social": {
         "twitter": "@jmonsinjon",
@@ -1243,7 +1243,7 @@
       "firstname": "Christophe",
       "name": "Augier",
       "company": null,
-      "bio": "Après 5 ans à développer des hyperviseurs pour les systèmes embarquées et un cours passage en SSII je m'occupe à depuis 5 ans du développement du debugger intégré à Simics une solution de simulation de cartes électroniques multi-architectures et plus récemment du développement d'outils Cloud pour ce dernier.\n\nInscrit dans le mouvement Software Craftmanship j'essaie au jour le jour d'améliorer mes pratiques et celles de mon équipe.\n\nQuand il me reste un peu de temps, j'anime des ateliers pour Makerspace56 une association que j'ai co-fondé en 2012, un pilier du FabLab de Vannes.",
+      "bio": "Après 5 ans à développer des hyperviseurs pour les systèmes embarquées et un cours passage en SSII je m'occupe à depuis 5 ans du développement du debugger intégré à Simics une solution de simulation de cartes électroniques multi-architectures et plus récemment du développement d'outils Cloud pour ce dernier.<br /><br />Inscrit dans le mouvement Software Craftmanship j'essaie au jour le jour d'améliorer mes pratiques et celles de mon équipe.<br /><br />Quand il me reste un peu de temps, j'anime des ateliers pour Makerspace56 une association que j'ai co-fondé en 2012, un pilier du FabLab de Vannes.",
       "photo": "caugier.jpg",
       "social": {
         "twitter": "@tytouf",
@@ -1259,7 +1259,7 @@
       "firstname": "Philippe",
       "name": "Charrière",
       "company": "GitHub",
-      "bio": "Le jour: je suis Solution Architect chez GitHub.\nLa nuit: je \"geek\" en JavaScript, Golo, Java, Groovy, ... avec une addiction sévère à L'IOT et au JS\nJ’ai aussi le plaisir d’être co-organisateur de la conférence Lyonnaise Mix-IT.",
+      "bio": "Le jour: je suis Solution Architect chez GitHub.<br />La nuit: je \"geek\" en JavaScript, Golo, Java, Groovy, ... avec une addiction sévère à L'IOT et au JS<br />J’ai aussi le plaisir d’être co-organisateur de la conférence Lyonnaise Mix-IT.",
       "photo": "pcharriere.jpg",
       "social": {
         "twitter": "@k33g_org",
@@ -1294,7 +1294,7 @@
       "firstname": "Sébastien",
       "name": "Friess",
       "company": "SFEIR",
-      "bio": "Développeur backend chez **SFEIR**. Après 10 années de Java dans des environnements distribués, il a récemment sauté le pas pour le *Go* chez ses clients dans le domaine de l'IoT. Il vous propose aujourd'hui de partager son expérience pour la première fois.",
+      "bio": "Développeur backend chez <b>SFEIR</b>. Après 10 années de Java dans des environnements distribués, il a récemment sauté le pas pour le <b>Go</b> chez ses clients dans le domaine de l'IoT. Il vous propose aujourd'hui de partager son expérience pour la première fois.",
       "photo": "sfriess.jpg",
       "social": {
         "twitter": "https://twitter.com/sebastienfriess",
@@ -1311,7 +1311,7 @@
       "firstname": "Kevin",
       "name": "Biger",
       "company": "SQLI",
-      "bio": "Développeur chez SQLI et co-responsable du pôle NoSQL/Big Data, je suis passionné par la sécurité, Java, les WebAPIs et le NoSQL. \nJe suis impliqué dans la communauté Neo4j et ai créé un meetup nantais sur le sujet.",
+      "bio": "Développeur chez SQLI et co-responsable du pôle NoSQL/Big Data, je suis passionné par la sécurité, Java, les WebAPIs et le NoSQL. <br />Je suis impliqué dans la communauté Neo4j et ai créé un meetup nantais sur le sujet.",
       "photo": "kbiger.jpg",
       "social": {
         "twitter": "https://twitter.com/kevin_biger",
@@ -1344,7 +1344,7 @@
       "firstname": "Vincent",
       "name": "Demeester",
       "company": null,
-      "bio": "Architecte et développeur polyglotte ascendant Java, depuis bientôt 8\nans. Après 6 années en startup dans le monde des « Energy Management\nSystem », Vincent a intégré l’agence parisienne de Zenika en tant que\nConsultant et Formateur. \n\nDevops, Craftsman, Factotum, free-software fan, Sysadmin à ses heures\nperdues et surtout passionné, il est core mainteneur sur le projet Docker (ainsi que libcompose ou encore containous/traefik).",
+      "bio": "Architecte et développeur polyglotte ascendant Java, depuis bientôt 8<br />ans. Après 6 années en startup dans le monde des « Energy Management<br />System », Vincent a intégré l’agence parisienne de Zenika en tant que<br />Consultant et Formateur. <br /><br />Devops, Craftsman, Factotum, free-software fan, Sysadmin à ses heures<br />perdues et surtout passionné, il est core mainteneur sur le projet Docker (ainsi que libcompose ou encore containous/traefik).",
       "photo": "vdemeester.jpg",
       "social": {
         "twitter": "vdemeest",
@@ -1361,7 +1361,7 @@
       "firstname": "Jean-Philippe",
       "name": "Briend",
       "company": "CloudBees",
-      "bio": "Jean-Philippe traîne autour de Hudson/Jenkins depuis plus de 8 ans. Il a mis en place des environnements d'Intégration Continue complexe puis poussé les Best Practices de Déploiement Continu dans des entreprises de toutes tailles.\nIl est maintenant Solutions Architect chez CloudBees et côtoie tous les jours des usages très diversifiés (voir exotiques) de Jenkins en entreprise.",
+      "bio": "Jean-Philippe traîne autour de Hudson/Jenkins depuis plus de 8 ans. Il a mis en place des environnements d'Intégration Continue complexe puis poussé les Best Practices de Déploiement Continu dans des entreprises de toutes tailles.<br />Il est maintenant Solutions Architect chez CloudBees et côtoie tous les jours des usages très diversifiés (voir exotiques) de Jenkins en entreprise.",
       "photo": "jbriend.png",
       "social": {
         "twitter": "jpbriend",
@@ -1377,7 +1377,7 @@
       "firstname": "Nathanael",
       "name": "GUIBERTEAU",
       "company": "Sopra Steria",
-      "bio": "Issu d’un parcours de consultant en architecture SI avec une expérience plus poussée sur les domaines décisionnel, Big Data et architecture d’entreprise, je contribue à la réalisation de missions de transformation digitale. J'ai une appétence particulière pour tous les sujets liés à l'analytique et à la donnée.\n \nJe suis acteur de cette transformation numérique notamment par la conduite d’avant-ventes, la réalisation de mission de conseil, d’expertise et de POC ainsi que par le développement local de  notre offre Big Data sur les aspects commerce, orientations stratégiques et technologiques, RH et compétences.",
+      "bio": "Issu d’un parcours de consultant en architecture SI avec une expérience plus poussée sur les domaines décisionnel, Big Data et architecture d’entreprise, je contribue à la réalisation de missions de transformation digitale. J'ai une appétence particulière pour tous les sujets liés à l'analytique et à la donnée.<br /> <br />Je suis acteur de cette transformation numérique notamment par la conduite d’avant-ventes, la réalisation de mission de conseil, d’expertise et de POC ainsi que par le développement local de  notre offre Big Data sur les aspects commerce, orientations stratégiques et technologiques, RH et compétences.",
       "photo": "nguiberteau.jpg",
       "social": {
         "twitter": null,
@@ -1410,7 +1410,7 @@
       "firstname": "Morresi",
       "name": "Alfredo",
       "company": "Google",
-      "bio": "I have always been addicted by innovation since 12 years old. My last passion (and work, of course) is Android, but in the past I managed Windows and Linux infrastructures for middle-size companies (250-300 empl.) and developed applications using .NET and Java.\n\nNow, in Google, I’m taking care of the developers ecosystem, providing technical contents, organizing events, teaching in universities, working with communities and much more.\n\nIn parallel, I’ve been actively participating to the Italian technical social scene, giving talk on a wide range of topics: courses on Android development, Linux training, security matters etc, and my degree in “Communication Science” strengthened my communication and human-relation skills.",
+      "bio": "I have always been addicted by innovation since 12 years old. My last passion (and work, of course) is Android, but in the past I managed Windows and Linux infrastructures for middle-size companies (250-300 empl.) and developed applications using .NET and Java.<br /><br />Now, in Google, I’m taking care of the developers ecosystem, providing technical contents, organizing events, teaching in universities, working with communities and much more.<br /><br />In parallel, I’ve been actively participating to the Italian technical social scene, giving talk on a wide range of topics: courses on Android development, Linux training, security matters etc, and my degree in “Communication Science” strengthened my communication and human-relation skills.",
       "photo": "amorresi.jpg",
       "social": {
         "twitter": "https://twitter.com/rainbowbreeze",
@@ -1557,7 +1557,7 @@
       "firstname": "Olivier",
       "name": "Bierlaire",
       "company": "Sparklane",
-      "bio": "Je suis actuellement DevOps chez Sparklane, premier éditeur français de solutions d’intelligence commerciale et marketing dédiées au marché B2B, en France et en Europe.\nPour garantir la performance et la haute disponibilité des solutions BigData de la société, j’ai en charge la définition de l’architecture Cloud, la mise en œuvre et le maintien en conditions opérationnelles de l’ensemble des plateformes.\nDans le cloud Amazon (AWS), nous déployons et organisons nos composants dans des technologies fiables et managées : Docker, Rancher, pour assurer performance et haute disponibilité.",
+      "bio": "Je suis actuellement DevOps chez Sparklane, premier éditeur français de solutions d’intelligence commerciale et marketing dédiées au marché B2B, en France et en Europe.<br />Pour garantir la performance et la haute disponibilité des solutions BigData de la société, j’ai en charge la définition de l’architecture Cloud, la mise en œuvre et le maintien en conditions opérationnelles de l’ensemble des plateformes.<br />Dans le cloud Amazon (AWS), nous déployons et organisons nos composants dans des technologies fiables et managées : Docker, Rancher, pour assurer performance et haute disponibilité.",
       "photo": "obierlaire.jpg",
       "social": {
         "twitter": "@obierlaire",
@@ -1574,7 +1574,7 @@
       "firstname": "Fabien",
       "name": "JUIF",
       "company": "Zenika",
-      "bio": "Fabien JUIF a baigné dans l’informatique depuis son adolescence. Il installait sa première Gentoo stage 1 en 1ère pour migrer vers Archlinux quelques années après.\nPour lui pacman n’est pas un jeu, on ne rigole pas avec ça.\n\nPassioné par la création de jeux vidéos, il s’intéressa très rapidement au développement logiciel. Avec 6 années dans le métier et une veille technologique personnelle depuis son plus jeune âge, il est devenu un peu touche à tout _GNU+Linux, Docker, développement backend, développement frontend, etc_\n\nChez Zenika, son attrait du moment c'est le Web, et plus précisément le développement ReactJS.\n\nIl espère pouvoir partager un peu de sa passion avec vous !",
+      "bio": "Fabien JUIF a baigné dans l’informatique depuis son adolescence. Il installait sa première Gentoo stage 1 en 1ère pour migrer vers Archlinux quelques années après.<br />Pour lui pacman n’est pas un jeu, on ne rigole pas avec ça.<br /><br />Passioné par la création de jeux vidéos, il s’intéressa très rapidement au développement logiciel. Avec 6 années dans le métier et une veille technologique personnelle depuis son plus jeune âge, il est devenu un peu touche à tout <i>GNU+Linux, Docker, développement backend, développement frontend, etc</i><br /><br />Chez Zenika, son attrait du moment c'est le Web, et plus précisément le développement ReactJS.<br /><br />Il espère pouvoir partager un peu de sa passion avec vous !",
       "photo": "fjuif.jpg",
       "social": {
         "twitter": null,
@@ -1642,7 +1642,7 @@
       "firstname": "Alexis",
       "name": "Hassler",
       "company": null,
-      "bio": "Alexis Hassler est développeur Java depuis la fin du siècle dernier. Il exerce son métier comme indépendant, en codant, mais aussi en accompagnant ou formant les entreprises pour les aider à améliorer leur façon de développer et de déployer leurs applications Java. \nIl a été un des fondateurs du LyonJUG (lyonjug.org) et aide à l’organisation de Mix-IT (mix-it.fr), l'excellente conférence annuelle à Lyon.",
+      "bio": "Alexis Hassler est développeur Java depuis la fin du siècle dernier. Il exerce son métier comme indépendant, en codant, mais aussi en accompagnant ou formant les entreprises pour les aider à améliorer leur façon de développer et de déployer leurs applications Java. <br />Il a été un des fondateurs du LyonJUG (lyonjug.org) et aide à l’organisation de Mix-IT (mix-it.fr), l'excellente conférence annuelle à Lyon.",
       "photo": "ahassler.jpg",
       "social": {
         "twitter": "AlexisHassler",
@@ -1674,7 +1674,7 @@
       "firstname": "Olivier",
       "name": "Leplus",
       "company": "Google",
-      "bio": "My day to day my mission is to help developers create successful and quality apps.\nAs a passionate web developer, I am always discovering and playing with new web technologies !",
+      "bio": "My day to day my mission is to help developers create successful and quality apps.<br />As a passionate web developer, I am always discovering and playing with new web technologies !",
       "photo": "oleplus.jpg",
       "social": {
         "twitter": "https://twitter.com/olivierleplus",
@@ -1708,7 +1708,7 @@
       "firstname": "Horacio",
       "name": "Gonzalez",
       "company": "Cityzen Data",
-      "bio": "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d'années déjà. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n'a pas arrêté de bosser autour. \n\nAprès quelques années comme architecte technique au Crédit Mutuel Arkea, Horacio travaille actuellement à Cityzen Data, entreprise spécialisée dans le domaine du Big Data. Il est aussi leader et cofondateur du FinistJUG, le JUG francophone le plus proche de la Silicon Valley. \n\nPassionné par le développement web et tout ce qui gravite autour des composants web, Horacio a été nommé Google Developer Expert (GDE) en Web Technologies et Polymer.",
+      "bio": "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a une quinzaine d'années déjà. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert Java en 1997 et depuis il n'a pas arrêté de bosser autour. <br /><br />Après quelques années comme architecte technique au Crédit Mutuel Arkea, Horacio travaille actuellement à Cityzen Data, entreprise spécialisée dans le domaine du Big Data. Il est aussi leader et cofondateur du FinistJUG, le JUG francophone le plus proche de la Silicon Valley. <br /><br />Passionné par le développement web et tout ce qui gravite autour des composants web, Horacio a été nommé Google Developer Expert (GDE) en Web Technologies et Polymer.",
       "photo": "hgonzalez.jpg",
       "social": {
         "twitter": "https://plus.google.com/u/0/+LostInBrittany",
@@ -1740,7 +1740,7 @@
       "firstname": "Thomas",
       "name": "Fournaise",
       "company": "La Poste",
-      "bio": "Chef de projet et développeur. \nEn charge de l'opendata et de la réalisation de dataviz au sein du groupe La Poste. Je pratique assez régulièrement D3 pour créer de l'interactivité autour des données.",
+      "bio": "Chef de projet et développeur. <br />En charge de l'opendata et de la réalisation de dataviz au sein du groupe La Poste. Je pratique assez régulièrement D3 pour créer de l'interactivité autour des données.",
       "photo": "tfournaise.jpg",
       "social": {
         "twitter": "FournaiseThomas",
@@ -1838,7 +1838,7 @@
       "firstname": "Julie",
       "name": "Moynat",
       "company": "Capgemini",
-      "bio": "Ayant la double casquette de webdesigner et d'intégratrice web, la qualité a toujours été un objectif pour moi car il fallait, entre autres, réaliser des maquettes intégrables. Au fil de l'eau, j'ai découvert que la façon dont on écrit le HTML et le CSS a un réel impact que ce soit pour les différents navigateurs mais aussi et surtout pour les personnes en situation de handicap. Je me suis donc tout naturellement orientée vers l'accessibilité web pour essayer, même si ça reste encore assez utopique, de rendre le web meilleur et donc plus accessible.\nJe co-organise, par ailleurs, les Web Apéros Nantais ; un évènement qui vise à se faire rencontrer les acteurs du web nantais.",
+      "bio": "Ayant la double casquette de webdesigner et d'intégratrice web, la qualité a toujours été un objectif pour moi car il fallait, entre autres, réaliser des maquettes intégrables. Au fil de l'eau, j'ai découvert que la façon dont on écrit le HTML et le CSS a un réel impact que ce soit pour les différents navigateurs mais aussi et surtout pour les personnes en situation de handicap. Je me suis donc tout naturellement orientée vers l'accessibilité web pour essayer, même si ça reste encore assez utopique, de rendre le web meilleur et donc plus accessible.<br />Je co-organise, par ailleurs, les Web Apéros Nantais ; un évènement qui vise à se faire rencontrer les acteurs du web nantais.",
       "photo": "jmoynat.jpg",
       "social": {
         "twitter": "@juliemoynat",
@@ -1873,7 +1873,7 @@
       "firstname": "Stéphane",
       "name": "Cohan",
       "company": null,
-      "bio": "Conquis par les makers et l'univers DIY, Stéphane Cohan est curieux et n'hésite pas à bidouiller des trucs et des machins, notamment autour des interfaces tangibles pour les enfants.\nDans la vraie vie, Stéphane est consultant UI/UX depuis près de 20 ans mais ça n'a rien à voir avec le schmilblick, à moins que...",
+      "bio": "Conquis par les makers et l'univers DIY, Stéphane Cohan est curieux et n'hésite pas à bidouiller des trucs et des machins, notamment autour des interfaces tangibles pour les enfants.<br />Dans la vraie vie, Stéphane est consultant UI/UX depuis près de 20 ans mais ça n'a rien à voir avec le schmilblick, à moins que...",
       "photo": "scohan.jpg",
       "social": {
         "twitter": "@SCxPro",
@@ -1979,7 +1979,7 @@
       "firstname": "Gautier",
       "name": "de SAINT MARTIN LACAZE",
       "company": "Freelance",
-      "bio": "Développeur freelance passionné, Gautier travaille principalement sur les technologies Java et JavaScript. Afin de rester au fait des nouveautés, il participe régulièrement à des conférences nantaises ou nationales. Il coorganise également le Nantes JUG depuis juin 2014.\nAyant appris à dompter l'IDE Eclipse lors de ses premières années de travail, il contribue aujourd'hui à l'amélioration de son outil de travail via des patchs et la formation de ses clients.",
+      "bio": "Développeur freelance passionné, Gautier travaille principalement sur les technologies Java et JavaScript. Afin de rester au fait des nouveautés, il participe régulièrement à des conférences nantaises ou nationales. Il coorganise également le Nantes JUG depuis juin 2014.<br />Ayant appris à dompter l'IDE Eclipse lors de ses premières années de travail, il contribue aujourd'hui à l'amélioration de son outil de travail via des patchs et la formation de ses clients.",
       "photo": "glacaze.jpg",
       "social": {
         "twitter": "@darkjabberwock",
@@ -2087,7 +2087,7 @@
       "firstname": "Raphaël",
       "name": "Thebaud",
       "company": "Conserto",
-      "bio": "Raphaël est directeur technique chez Conserto, en charge de l’offre digitale.\nPassionné de culture geek et de jeux en tout genre, Raphäel a découvert la programmation par le jeu vidéo à 10 ans en développant son premier casse-brique en BASIC sur l’Amstrad familial.\nMême si aujourd’hui le développement se fait pour lui dans un contexte beaucoup plus sérieux, coder reste une bonne façon de s’amuser !",
+      "bio": "Raphaël est directeur technique chez Conserto, en charge de l’offre digitale.<br />Passionné de culture geek et de jeux en tout genre, Raphäel a découvert la programmation par le jeu vidéo à 10 ans en développant son premier casse-brique en BASIC sur l’Amstrad familial.<br />Même si aujourd’hui le développement se fait pour lui dans un contexte beaucoup plus sérieux, coder reste une bonne façon de s’amuser !",
       "photo": "rthebaud.jpg",
       "social": {
         "twitter": null,
@@ -2195,7 +2195,7 @@
       "firstname": "Christian",
       "name": "RENOULIN",
       "company": "Néo-Soft",
-      "bio": "Christian RENOULIN, peintre amateur mais surtout développeur confirmé chez Néo-Soft depuis plus de 5 ans ! Spécialisé dans la programmation Java/JEE et dans les processus d’intégration continues.\nChristian est impliqué au sein de sa société mais également dans de nombreux projets personnels open source où il met à disposition son expertise et son savoir-faire.\nVoici l’un de ses nombreux projets : https://mieuxtrieranantes.wordpress.com/",
+      "bio": "Christian RENOULIN, peintre amateur mais surtout développeur confirmé chez Néo-Soft depuis plus de 5 ans ! Spécialisé dans la programmation Java/JEE et dans les processus d’intégration continues.<br />Christian est impliqué au sein de sa société mais également dans de nombreux projets personnels open source où il met à disposition son expertise et son savoir-faire.<br />Voici l’un de ses nombreux projets : https://mieuxtrieranantes.wordpress.com/",
       "photo": "crenoulin.jpg",
       "social": {
         "twitter": null,
