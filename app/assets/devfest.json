@@ -441,7 +441,7 @@
     {
       "id": 1470394746917,
       "name": "Chérie, j'ai imprimé Lego'sses !",
-      "description": "Ergo : Salut les techos ! Ça vous dirait de connecter un robot pour le DevFest ?<br /><br/><br />Dévs : Ouais ! Graaaave ! Super idée !<br /><br /><br /><br />Ergo : Et qu'on l'imprime !<br /><br/><br />Dévs : Ouais !...<br /><br /><br /><br />Ergo : Et qu'il réagisse à des Tweets !<br /><br/><br />Dévs : Mouais... et tu ne veux pas non plus qu'il bouge tant que tu y es ?!<br /><br /><br /><br />Ergo : Carrément ! Et qu'on puisse le télécommander !<br /><br/><br />Dévs : Euh... ouais... et en BLE bien sûr...<br /><br /><br /><br />Ergo : Evidemment ! Et on n'a qu'à en faire deux !<br /><br/><br />Dévs : T'es sûr ?...<br /><br /><br /><br />Ergo : Oh ! Et on va les faire interagir !!!<br /><br/><br />Dévs : Pfff, c'est n'importe quoi ! On n'y arrivera jamais...",
+      "description": "Ergo : Salut les techos ! Ça vous dirait de connecter un robot pour le DevFest ?<br /><br />Dévs : Ouais ! Graaaave ! Super idée !<br /><br />Ergo : Et qu'on l'imprime !<br /><br />Dévs : Ouais !...<br /><br />Ergo : Et qu'il réagisse à des Tweets !<br /><br />Dévs : Mouais... et tu ne veux pas non plus qu'il bouge tant que tu y es ?!<br /><br />Ergo : Carrément ! Et qu'on puisse le télécommander !<br /><br />Dévs : Euh... ouais... et en BLE bien sûr...<br /><br />Ergo : Evidemment ! Et on n'a qu'à en faire deux !<br /><br />Dévs : T'es sûr ?...<br /><br />Ergo : Oh ! Et on va les faire interagir !!!<br /><br />Dévs : Pfff, c'est n'importe quoi ! On n'y arrivera jamais...",
       "difficulty": 1,
       "type": "conference",
       "track": "mobile",
@@ -539,7 +539,7 @@
     {
       "id": 1470779030956,
       "name": "A la découverte de Go(lang)",
-      "description": "De plus en plus de développeurs Java se tournent vers le Go, langage backend qui monte, qui monte.<br />Profitez de cet atelier pour mettre les mains dans le code et vous familiariser avec le langage et son écosystème (test, makefile, vendors,etc.). Il est préférable d'avoir un environnement [Go installé](https://golang.org/doc/install) ainsi que d'avoir fait [le tour of Go](https://tour.golang.org/welcome/1) pour rentrer plus facilement dans le sujet.<br />Lors de cet atelier, nous vous proposons de développer du sol au plafond un petit service web REST qui expose des données récupérées dans un MongoDB au format JSON. Nous commencerons par le parsing d'argument de la ligne de commande et le logging. Nous verrons ensuite comment modéliser et manipuler la data avec MongoDB. Pour finir nous attaquerons la partie web avec le routage, les middleware et les handler.<br /><br />En bonus, nous pourrons déployer le tout dans un docker-compose avec un instance de Mongo.",
+      "description": "De plus en plus de développeurs Java se tournent vers le Go, langage backend qui monte, qui monte.<br />Profitez de cet atelier pour mettre les mains dans le code et vous familiariser avec le langage et son écosystème (test, makefile, vendors,etc.). Il est préférable d'avoir un environnement <a href=\"https://golang.org/doc/install\" target=\"_blank\">Go installé</a> ainsi que d'avoir fait <a href=\"https://tour.golang.org/welcome/1\" target=\"_blank\">le tour of Go</a> pour rentrer plus facilement dans le sujet.<br />Lors de cet atelier, nous vous proposons de développer du sol au plafond un petit service web REST qui expose des données récupérées dans un MongoDB au format JSON. Nous commencerons par le parsing d'argument de la ligne de commande et le logging. Nous verrons ensuite comment modéliser et manipuler la data avec MongoDB. Pour finir nous attaquerons la partie web avec le routage, les middleware et les handler.<br /><br />En bonus, nous pourrons déployer le tout dans un docker-compose avec un instance de Mongo.",
       "difficulty": 1,
       "type": "codelab",
       "track": "web",
@@ -958,7 +958,7 @@
       "firstname": "Thomas",
       "name": "Belin",
       "company": "doyoubuzz",
-      "bio": "Full-Stack développeur chez doyoubuzz.  <br />Je fais la [part belle au code](http://blog.thomasbelin.fr/p/faire-la-part-belle-au-code).  <br />Je m'éclate avec Javascript.",
+      "bio": "Full-Stack développeur chez doyoubuzz.  <br />Je fais la <a href=\"http://blog.thomasbelin.fr/p/faire-la-part-belle-au-code\" target=\"_blank\">part belle au code</a>.  <br />Je m'éclate avec Javascript.",
       "photo": "tbelin.jpg",
       "social": {
         "twitter": "atomrc",
@@ -1494,7 +1494,7 @@
       "bio": "Architecte logiciel, développeur full stack avec une prédilection pour les technologies Java, JavaScript, NoSQL (MongoDB, Elasticsearch) et Big Data (Hadoop). Développe depuis l’époque du ZX Spectrum et pense toujours que c’est la meilleure machine de tous les temps (même si Spark a du mal a tourné dessus) !",
       "photo": "bbonnin.jpg",
       "social": {
-        "twitter": "@<i>bruno</i>b_",
+        "twitter": "@_bruno_b_",
         "googleplus": null,
         "github": "https://github.com/bbonnin",
         "linkedin": "https://www.linkedin.com/in/bruno-bonnin-24531854"
