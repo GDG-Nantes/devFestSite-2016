@@ -56,7 +56,7 @@
       "name": "After party",
       "type": "after",
       "image": "/images/agenda/after.png",
-      "track": "by Hardis",
+      "track": "TBD",
       "agenda" : { "day": 1, "hour": 11 }
     },{
       "id": 4,
