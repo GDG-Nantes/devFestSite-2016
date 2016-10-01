@@ -18,6 +18,9 @@
           <div class="devfest-ribbon-crumbs mdl-color-text--grey-500">
             Devfest Nantes 2016 &gt; Agenda
           </div>
+          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-cell--hide-phone" href="#indoor_map">
+            <i class="material-icons">explore</i>&nbsp;Indoor map
+          </a>
 
           <div style="display:flex;">
             <div style="display:flex;flex-direction:column;margin-right: 50px;" class="mdl-cell--hide-phone">
@@ -60,6 +63,12 @@
 
           <h4 v-if="day2 || (!day1 && !day2)">Thursday, November 10th</h4>
           <agenda v-if="day2 || (!day1 && !day2)" day="2" :hours="agenda.day2" :sessions="displayedSessions" :favorites="favorites"></agenda>
+
+          <div class="mdl-cell--hide-phone">
+            <a name="indoor_map"></a>
+            <h4>Indoor map</h4>
+            <img class="simple-padding-bottom" src="/images/cite/indoor_map.png">
+          </div>
 
       </div>
       </div>
