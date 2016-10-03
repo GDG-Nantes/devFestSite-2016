@@ -218,7 +218,7 @@ gulp.task('scripts', () => gulp.src([
   // Note: Since we are not using useref in the scripts build pipeline,
   //       you need to explicitly list your scripts here in the right order
   //       to be correctly concatenated
-  './app/scripts/main.js',
+  //'./app/scripts/main.js',
   './app/scripts/utils.js',
   // Attention l'ordre de declaration des scripts est important (notamment l'ordre des composants)
   './app/scripts/components/favorite.js',
@@ -296,7 +296,7 @@ gulp.task('serve', ['scripts', 'styles', 'assets', 'inject', 'inject_en'], () =>
     port: 3000
   });
   gulp.watch(['.tmp/**/*.html']);
-  gulp.watch(['app/assets/*.json']);
+  gulp.watch(['app/assets/*.json'], ['assets', reload]);
   gulp.watch(['app/**/*.html'], ['inject', 'inject_en', reload]);
   gulp.watch(['app/styles/**/*.{scss,css}'], ['styles', reload]);
   gulp.watch(['app/scripts/**/*.js'], ['scripts', reload]);

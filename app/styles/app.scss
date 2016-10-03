@@ -632,14 +632,18 @@ video#bgvid {
 
 // GENERAL - other page
 .devfest-ribbon {
+  padding-top: 10px;
+  text-align: center;
   width: 100%;
-  height: 50vh;
-  background-color: #3F51B5;
+  height: 150px;
+  background-color: #ffffff;
   flex-shrink: 0;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.14),0 3px 3px -2px rgba(0,0,0,.2),0 1px 8px 0 rgba(0,0,0,.12);
 }
 
 .devfest-ribbon-main {
-  margin-top: -50vh;
+  //background: url('../images/tz-logo.png') center top no-repeat;
+  //background-size: cover;
 }
 
 .devfest-ribbon-header .mdl-layout__header-row {

@@ -7,16 +7,15 @@
 
   <body class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-    <!-- inject:menu:html -->
-    <!-- endinject -->
-
-    <div class="devfest-ribbon"></div>
     <main id="speakerVue" class="devfest-ribbon-main mdl-layout__content">
+      <div class="devfest-ribbon">
+        <img src="/images/tz-logo.png" />
+      </div>
       <div class="devfest-ribbon-container mdl-grid" v-if="speaker">
         <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
         <div class="devfest-ribbon-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
           <div class="devfest-ribbon-crumbs mdl-color-text--grey-500">
-            Devfest Nantes 2016 &gt; Speakers &gt; {{ speaker.firstname }} {{ speaker.name }}
+            Technozaure Nantes &gt; Speakers &gt; {{ speaker.firstname }} {{ speaker.name }}
           </div>
 
           <div class="devfest-back-button">
