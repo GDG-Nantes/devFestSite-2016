@@ -14,7 +14,6 @@ const agendaSlotTemplate =
 + '    <span v-if="session.track" class={{this.getTrackColor(session.track)}}>{{ session.track }}</span>'
 + '    <span v-if="session.type" class={{this.getTypeColor(session.type)}}>{{ session.type }}</span>'
 + '    <span v-if="session.type" class="devfest-chip color-bg-default">{{this.getTimeLabel(session.type)}}</span>'
-+ '    <span v-if="session.agenda.room" class="devfest-chip color-bg-default">{{this.getRoomLabel(session.agenda.room) }}</span>'
 + '  </div>'
 + '</div>'
 + '<div style="align-self:flex-start"><favorite :sid="session.id" :active="isFavorite(session.id, favorites)" ></favorite></div>'

@@ -7,32 +7,31 @@
 
   <body class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-    <!-- inject:menu:html -->
-    <!-- endinject -->
-
-      <div class="devfest-ribbon"></div>
-      <main id="speakersVue" class="devfest-ribbon-main mdl-layout__content">
-        <div class="devfest-ribbon-container mdl-grid">
-          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-          <div class="devfest-ribbon-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-            <div class="devfest-ribbon-crumbs mdl-color-text--grey-500">
-              Devfest Nantes 2016 &gt; Speakers
-            </div>
-              <h6>
-                <b>{{ speakers.length }} speakers</b> participent à cette 5ème édition du DevFest Nantes.
-              </h6>
-
-              <div class="mdl-grid devfest-speakers-list">
-                <speaker-card v-for="speaker in speakers" :speaker="speaker"></speaker-card>
-              </div>
-
+    <main id="speakersVue" class="devfest-ribbon-main mdl-layout__content">
+      <div class="devfest-ribbon">
+        <img src="/images/tz-logo.png" />
+      </div>
+      <div class="devfest-ribbon-container mdl-grid">
+        <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+        <div class="devfest-ribbon-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+          <div class="devfest-ribbon-crumbs mdl-color-text--grey-500">
+            Technozaure Nantes &gt; Speakers
           </div>
+            <h6>
+              <b>{{ speakers.length }} speakers</b> participent à cette 2ème édition 2016.
+            </h6>
+
+            <div class="mdl-grid devfest-speakers-list">
+              <speaker-card v-for="speaker in speakers" :speaker="speaker"></speaker-card>
+            </div>
+
         </div>
+      </div>
 
-         <!-- inject:footer:html -->
-         <!-- endinject -->
+       <!-- inject:footer:html -->
+       <!-- endinject -->
 
-      </main>
+    </main>
 
 
     <script src="https://npmcdn.com/vue@1.0.26/dist/vue.min.js"></script>

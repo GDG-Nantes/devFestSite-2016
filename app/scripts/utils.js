@@ -55,7 +55,7 @@ var getTimeLabel = function getTimeLabel(type) {
     case 'keynote':
       return '50 min';
     case 'repas':
-      return '2 h';
+      return '1 h';
     case 'conference':
       return '50 min';
     case 'codelab':
@@ -63,7 +63,9 @@ var getTimeLabel = function getTimeLabel(type) {
     case 'quickie':
       return '20 min';
     case 'after':
-      return '4h30';
+      return '1 h';
+    case 'café':
+      return '15 min';
     default:
       return '50 min';
   }

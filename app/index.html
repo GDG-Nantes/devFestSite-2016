@@ -1,518 +1,111 @@
 <!doctype html>
 <html lang="">
   <head>
-    <!-- inject:head:html -->
-    <!-- endinject -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="La Technozaure c'est une journée de conférences internes Zenika">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technozaure Zenika Nantes</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ZenikaNantes">
+    <meta name="twitter:title" content="Technozaure Zenika Nantes 2016">
+    <meta name="twitter:description" content="La Technozaure c'est une journée de conférences internes Zenika">
+    <meta name="twitter:image:src" content="https://tz-nantes.appspot.com/images/sharing.png">
+
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:title" content="Technozaure Zenika Nantes 2016" />
+    <meta property="og:site_name" content="Technozaure Zenika Nantes 2016" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tz-nantes.appspot.com" />
+    <meta property="og:image" content="https://tz-nantes.appspot.com/images/sharing.png" />
+    <meta property="og:description" content="La Technozaure c'est une journée de conférences internes Zenika" />
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <link rel="canonical" href="https://tz-nantes.appspot.com">
+
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" type=text/css>
+    <!-- Material Design Lite page styles: choose other color schemes from the CDN, more info here http://www.getmdl.io/customize/index.html -->
+    <link rel="stylesheet" href="/styles/material.indigo-red.min.css">
+
+    <!-- Material Design icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--<script src="https://use.fontawesome.com/f991c55420.js"></script>-->
+
+    <!-- Your styles -->
+    <link rel="stylesheet" href="/styles/app.css">
+
+    <script src="/scripts/material.min.js"></script>
+
+
   </head>
 
   <body class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-    <!-- inject:menu:html -->
-    <!-- endinject -->
-
-    <!-- Website content -->
-    <main class="devfest-content mdl-layout__content">
-
-      <!-- SECTION : Welcome page -->
-      <a name="top"></a>
-      <section class="devfest-hero mdl-typography--text-center">
-        <div class="video-bg">
-          <video muted loop id="bgvid" data-webm="/images/2015/devfest2015.webm" data-mp4="/images/2015/devfest2015.mp4">
-          </video>
-        </div>
-        <div class="devfest-video-overlay">
-          <div class="devfest-slogan mdl-typography--display-1">#dev the future brick by brick</div>
-          <img class="devfest-main-logo" src="/images/title.png">
-          <p>
-            <br>
-            <a class="devfest-video-overlay mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" href="#tickets">
-              <i class="material-icons">receipt</i>&nbsp;&nbsp;Sold out!
-            </a>
-          </p>
-
-          <a href="#description">
-            <button class="devfest-video-overlay devfest-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-              <i class="material-icons">expand_more</i>
-            </button>
-          </a>
-        </div>
-      </section>
-
-      <!-- SECTION : Description -->
-      <section class="devfest-description mdl-grid mdl-grid--no-spacing">
-        <a name="description"></a>
-        <div class="devfest-description-inner mdl-typography--text-center">
-          <div class="mdl-typography--display-3">DevFest Nantes 2016</div>
-          <br>
-          <p class="mdl-typography--headline mdl-typography--font-thin">
-            9 &amp; 10 Novembre 2016 à la Cité des Congrès de Nantes, France
-          </p>
-          <br>
-          <p class="mdl-typography--text-center">
-            <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=YjhkODQ5a2phaWFnamY1bjkxZ25jZzVnNWMgOWkwbDBma2M3NzVua2ticWVwazdrcnRqMmdAZw&amp;tmsrc=9i0l0fkc775nkkbqepk7krtj2g%40group.calendar.google.com#" target="_NEW">
-              <i class="material-icons">event</i>&nbsp;&nbsp;Ajouter à l'agenda
-            </a>
-          </p>
-          <br>
-          <p class="devfest-description-content mdl-typography--font-light mdl-typography--subhead">
-            Le DevFest <strong>2016</strong> est la 5ème édition d’un événement complet de conférences sur Android, AppEngine, Angular, Chrome, HTML5, Docker...  C'est une occasion unique de partager et d’échanger autour des technologies du Web, du Cloud, du Mobile et des Objets Connectés.
-          </p>
-
-        </div>
-      </section>
-
-      <!-- SECTION : Statistiques -->
-      <section class="devfest-statistics section--center mdl-grid mdl-grid--no-spacing">
-        <a name="statistics"></a>
-        <div class="devfest-statistics-inner">
-          <div class="devfest-js-video">
-            <iframe 
-              src="https://www.youtube.com/embed/erpakXUGPfY?list=PLuZ_sYdawLiVZTEIxKLCsVWWGZBpPHwQy" 
-              frameborder="0" 
-              allowfullscreen>
-            </iframe>
-          </div> 
-          <div class="devfest-statistics-content mdl-color-text--grey-700">
-             <div class="mdl-grid mdl-grid--no-spacing">
-                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-                  <p class="mdl-typography--display-3 mdl-typography--font-thin">1000+<p>
-                  <p class="mdl-typography--display-1 mdl-typography--font-thin">Participants</p>
-                  <img class="simple-padding-bottom" src="/images/lego/brick_simple_blue.png" height="40px">
-                  <p class="mdl-typography--font-light mdl-typography--subhead">Développeurs, Architectes, CTO, Chefs de projets...</p>
-                </div>
-                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-                  <p class="mdl-typography--display-3 mdl-typography--font-thin">50+<p>
-                  <p class="mdl-typography--display-1 mdl-typography--font-thin">Conférences</p>
-                  <img class="simple-padding-bottom" src="/images/lego/brick_simple_red.png" height="40px">
-                  <p class="mdl-typography--font-light mdl-typography--subhead">Talks, quickies, codelabs, tables rondes...</p>
-                </div>
-                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-                  <p class="mdl-typography--display-3 mdl-typography--font-thin">50+<p>
-                  <p class="mdl-typography--display-1 mdl-typography--font-thin">Speakers</p>
-                  <img class="simple-padding-bottom" src="/images/lego/brick_simple_green.png" height="40px">
-                  <p class="mdl-typography--font-light mdl-typography--subhead">Nantais, <br>Français, <br>Internationaux</p>
-                </div>
-                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-                  <p class="mdl-typography--display-3 mdl-typography--font-thin">4<p>
-                  <p class="mdl-typography--display-1 mdl-typography--font-thin">Tracks</p>
-                  <img class="simple-padding-bottom" src="/images/lego/brick_simple_yellow.png" height="40px">
-                  <p class="mdl-typography--font-light mdl-typography--subhead">IoT & Mobile, Web, Cloud & BigData, Découverte</p>
-                </div>
-              </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- SECTION : Items -->
-      <section class="devfest-items mdl-grid mdl-grid--no-spacing">
-        <a name="items"></a>
-        <div class="devfest-items-inner">
-          <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Un programme complet</div>
-           <div class="mdl-grid mdl-grid--no-spacing">
-              <div class="devfest-items-item mdl-cell mdl-cell--4-col mdl-typography--text-center">
-                <img src="/images/lego/lego_happy.png" height="128px">
-                <p class="mdl-typography--headline  mdl-typography--font-thin devfest-items-item-title">Conférences inédites</p>
-                <p class="mdl-typography--font-light">
-                  Plus de 50 conférences filmées autour de 4 thèmes : Web, Cloud & BigData, IoT & Mobile, Découverte.
-                </p>
-              </div>
-              <div class="devfest-items-item mdl-cell mdl-cell--4-col mdl-typography--text-center">
-                <img src="/images/lego/lego_geek.png" height="128px">
-                <p class="mdl-typography--headline  mdl-typography--font-thin devfest-items-item-title">Orienté développeur</p>
-                <p class="mdl-typography--font-light">
-                  Envie d'apprendre par le code ? Les codelabs, une occasion de s'essayer à une technologie avec un expert.
-                </p>
-              </div>
-              <div class="devfest-items-item mdl-cell mdl-cell--4-col mdl-typography--text-center">
-                <img src="/images/lego/lego_computer.png" height="128px">
-                <p class="mdl-typography--headline  mdl-typography--font-thin devfest-items-item-title">Stands & Innovation</p>
-                <p class="mdl-typography--font-light">
-                  Des stands de démonstrations technologiques proposées par les partenaires mais aussi des startups.
-                </p>
-              </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- SECTION SPEAKERS -->
-      <!--
-      <section class="devfest-speakers">
-        <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Top speakers</div>
-        <div class="devfest-card-container mdl-grid mdl-typography--text-center">
-          <div class="demo-speakers-card mdl-cell mdl-card mdl-shadow--3dp">
-            <div class="mdl-card__title mdl-card--expand" style="background: url('/images/speakers/lfrank.png') center / cover">
-               <div class="mdl-card__title-text" style="color:white">Laura Frank</div>
-            </div>
-            <div class="mdl-card__supporting-text">
-              Senior engineer at Codeship
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                View Updates
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="devfest-speakers-cfp mdl-typography--text-center">
-          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="https://drive.google.com/open?id=0Bx5mRU2mXdx0R2U4Q3ZJR284dkk" target="_NEW">
-            <i class="material-icons">lightbulb_outline</i>&nbsp;&nbsp;Proposer un talk
-          </a>
-          &nbsp;
-          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="./agenda.html">
-           <i class="material-icons">event</i>&nbsp;&nbsp;Accéder à l'agenda
-          </a>
-        </div>
-      </section>-->
-
-
-      <!-- SECTION LOCATION -->
-      <section class="devfest-location">
-        <a name="location"></a>
-        <div class="devfest-location-band section--center mdl-grid mdl-grid--no-spacing">
-          <div class="devfest-location-band-inner">
-            <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Un Lieu Parfait</div>
-            <div class="devfest-location-band-content">
-              <div class="mdl-typography--display-1 mdl-typography--font-thin">Cité des Congrès, Nantes</div>
-              <p class="mdl-typography--subhead mdl-typography--font-thin">
-                Située en plein cœur de ville, La Cité des Congrès de Nantes propose pour le DevFest Nantes plus de 1000m² de salles de conférences, codelabs et lieu de rencontre...
-              </p>
-              <p>
-                <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="https://www.google.fr/maps/place/La+Cit%C3%A9/@47.2129658,-1.5425652,15z/data=!4m2!3m1!1s0x0:0xede2746ae20dfebf" target="_NEW">
-                 <i class="material-icons">explore</i>&nbsp;&nbsp;Google maps
-                </a>
-                &nbsp;
-                <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="./pratique.html#directions">
-                 <i class="material-icons">directions</i>&nbsp;&nbsp;Comment s'y rendre ?
-                </a>
-                &nbsp;
-                <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="./pratique.html#hotel">
-                 <i class="material-icons">hotel</i>&nbsp;&nbsp;Comment se loger ?
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- map -->
-        <div class="mdl-grid mdl-grid--no-spacing">
-          <div  id="map" class="mdl-cell mdl-cell--4-col mdl-typography--text-center">
-          </div>
-          <div class="mdl-cell mdl-cell--8-col mdl-typography--text-center">
-            <img src="/images/cite/background.jpg" width="100%" >
-          </div>
-        </div>
-      </section>
-
-      <!-- SECTION NEWSLETTER -->
-      <section class="devfest-newsletter">
-        <a name="newsletter"></a>
-        <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Newsletter</div>
-        <div class="devfest-newsletter-inner mdl-typography--text-center">
-          <form action="https://gdgnantes.us9.list-manage.com/subscribe/post?u=b44affc3cdfd00b20bcae502c&amp;id=e0e7ceee5d" method="post" target="_blank" novalidate>
-              <div>
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                  <input id="newsletter" type="email" value="" name="EMAIL" class="mdl-textfield__input devfest-newsletter-input" autocomplete="off">
-                  <label class="mdl-textfield__label" for="newsletter">Inscrivez-vous à la newsletter</label>
-                </div>
-                <input class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored" type="submit" value="S'inscrire" name="subscribe">
-              </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;">
-                  <input type="text" name="b_b44affc3cdfd00b20bcae502c_e0e7ceee5d" tabindex="-1" value="">
-              </div>
-          </form>
-        </div>
-        <p class="mdl-typography--text-center">
-          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-             href="http://us9.campaign-archive2.com/?u=b44affc3cdfd00b20bcae502c&id=cd8dc7f4c5" target="_NEW">
-            &nbsp;&nbsp;Newsletter 1
-          </a>
-        </p>
-        <p class="mdl-typography--text-center">
-          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-             href="http://us9.campaign-archive2.com/?u=b44affc3cdfd00b20bcae502c&id=0e021f7524" target="_NEW">
-            &nbsp;&nbsp;Newsletter 2
-          </a>
-        </p>
-        <p class="mdl-typography--text-center">
-          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-             href="http://us9.campaign-archive1.com/?u=b44affc3cdfd00b20bcae502c&id=4de16be06a" target="_NEW">
-            &nbsp;&nbsp;Newsletter 3
-          </a>
-        </p>
-        <p class="mdl-typography--text-center">
-          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-             href="http://us9.campaign-archive2.com/?u=b44affc3cdfd00b20bcae502c&id=896d71323b" target="_NEW">
-            &nbsp;&nbsp;Newsletter 4
-          </a>
-        </p>
-      </section>
-
-      <!-- SECTION : TICKETS -->
-      <section class="devfest-tickets">
-        <a name="tickets"></a>
-        
-        <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Tickets</div>
-           
-           <div class="devfest-tickets-inner devfest-card-container mdl-grid">
-             <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
-                <div class="mdl-card__title">
-                   <h4 class="mdl-card__title-text">Pass Standard</h4>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <p class="mdl-typography--font-light mdl-typography--subhead">
-                    Le pass standard est disponible sous 2 formules :
-                  </p>
-                  <ul  class="mdl-typography--font-light mdl-typography--subhead">
-                    <li>un accès pour <b>une journée à 40€</b>,
-                    <li>un accès pour les <b>2 jours complets à 70€</b>.
-                  </ul>
-                  <p  class="mdl-typography--font-light mdl-typography--subhead">Ces formules comprennent :</p>
-                  <ul  class="mdl-typography--font-light mdl-typography--subhead">
-                    <li>Un accès à toutes les conférences de la formule choisie,
-                    <li>Le repas du midi sous forme de buffet complet,
-                    <li>L'after party (uniquement pour les participants de la journée du 9/11).
-                  </ul>
-                  <small class="mdl-typography--font-light">
-                      * Par votre inscription, vous autorisez le GDG à utiliser et à publier les photos prises lors de l'évènement sans limite de durée.
-                  </small>
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                   <a class="mdl-button mdl-js-button mdl-typography--text-uppercase mdl-js-ripple-effect" target="_NEW" href="https://yurplan.com/event/Dev-Fest-Nantes-2016/9606">
-                    Réserver&nbsp;<i class="material-icons">chevron_right</i>
-                   </a>
-                </div>
-              </div>
-
-              <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
-                <div class="mdl-card__title">
-                   <h4 class="mdl-card__title-text">Pass Tarif Réduit</h4>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <p class="mdl-typography--font-light mdl-typography--subhead">
-                    Le pass tarif réduit à <b>10€</b> comprend l'ensemble des éléments du ticket standard pour <b>une journée</b>, mais est soumis aux conditions suivantes :
-                    <ul class="mdl-typography--font-light mdl-typography--subhead">
-                      <li>Etudiant, universitaire
-                      <li>Chercheur, enseignant
-                      <li>ou à la recherche d'un emploi
-                    </ul>
-                  </p>
-                  <p class="mdl-typography--font-light mdl-typography--subhead">
-                    Un justificatif sera demandé à l'accueil pour récupérer son badge.
-                  </p>
-                  <p class="mdl-typography--font-light mdl-typography--subhead">
-                    Pour assister aux 2 jours, vous devez prendre 2 tickets.
-                  </p>
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                   <a class="mdl-button mdl-js-button mdl-typography--text-uppercase mdl-js-ripple-effect" target="_NEW" href="https://yurplan.com/event/Dev-Fest-Nantes-2016/9606">
-                    Réserver&nbsp;<i class="material-icons">chevron_right</i>
-                   </a>
-                </div>
-              </div>
-            </div>
-      </section>
-
-      <!-- SECTION SPONSORS -->
-      <section class="devfest-sponsors section--center mdl-grid mdl-grid--no-spacing">
-        <a name="sponsors"></a>
-
-        <div class="devfest-sponsors-inner">
-          <div class="devfest-section-title mdl-typography--display-2 mdl-typography--text-center">Merci aux sponsors</div>
-          <p class="mdl-typography--text-center">
-            <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="https://drive.google.com/open?id=0Bx5mRU2mXdx0R2U4Q3ZJR284dkk" target="_NEW">
-              <i class="material-icons">file_download</i>&nbsp;&nbsp;Dossier de sponsoring
-            </a>
-          </p>
-
-          <div class="devfest-sponsors-text  mdl-typography--display-1 mdl-typography--text-center">Sponsors Platinium</div>
-          <div class="mdl-grid devfest-sponsors-platinium">
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="https://www.google.com" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/google.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://www.epitech.eu/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/epitech.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://www.zenika.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/zenika.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://www.sqli.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/sqli.png" ></a>
-            </div>
-          </div>
-          <div class="mdl-grid devfest-sponsors-platinium">
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://www.conserto.pro/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/conserto.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://www.soprasteria.com/fr" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/sopra.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://www.groupe-creative.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/creative.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://www.neo-soft.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/neosoft.png" ></a>
-            </div>
+    <main id="agendaVue" class="devfest-ribbon-main mdl-layout__content">
+      <div class="devfest-ribbon">
+        <img src="/images/tz-logo.png" />
+      </div>
+      <div class="devfest-ribbon-container mdl-grid">
+        <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+        <div class="devfest-ribbon-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+          <div class="devfest-ribbon-crumbs mdl-color-text--grey-500">
+            Technozaure Nantes &gt; Agenda
           </div>
 
-          <div class="devfest-sponsors-text mdl-typography--display-1 mdl-typography--text-center">Sponsors Gold</div>
-          <div class="mdl-grid devfest-sponsors-gold">
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://www.github.com" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/github.png" ></a>
+          <div style="display:flex;">
+            <div style="display:flex;flex-direction:column;margin-right: 50px;" class="mdl-cell--hide-phone">
+              <h6>Jours</h6>
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="day1">
+                <input type="checkbox" id="day1" value="day1" v-model="day1" class="mdl-checkbox__input">
+                <span class={{this.getTypeColor('day1')}}>Vendredi 28 Octobre</span>
+              </label>
             </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://www.e-doceo.net/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/edoceo.png" ></a>
+            <div style="display:flex;flex-direction:column;margin-right: 50px;" class="mdl-cell--hide-phone">
+              <h6>Type de session</h6>
+              <label v-for="filter in typeFilters" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for={{filter}}>
+                <input type="checkbox" id={{filter}} value={{filter}} v-model="curTypeFilters" class="mdl-checkbox__input">
+                <span class={{this.getTypeColor(filter)}}>{{filter}}</span>
+              </label>
             </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="https://www.fr.capgemini.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/cap.png" ></a>
+            <div style="display:flex;flex-direction:column;margin-right: 50px;" class="mdl-cell--hide-phone">
+              <h6>Track</h6>
+              <label v-for="filter in trackFilters" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for={{filter}}>
+                <input type="checkbox" id={{filter}} value={{filter}} v-model="curTrackFilters" class="mdl-checkbox__input">
+                <span class={{this.getTrackColor(filter)}}>{{filter}}</span>
+              </label>
             </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://www.netapsys.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/netapsys.png" ></a>
+            <div style="display:flex;flex-direction:column">
+              <h6>Favoris</h6>
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="favorites">
+                <input type="checkbox" id="favorites" value="favorites" v-model="curFavoriteFilter" class="mdl-checkbox__input">
+                <span class="devfest-favorite-active"><i class="material-icons">favorite</i></span>
+              </label>
             </div>
-          </div>
-          <div class="mdl-grid devfest-sponsors-gold">
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="https://www.accenture.com/fr-fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/accenture.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://www.open-groupe.com" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/open.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://www.groupe-sii.com/fr" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/sii.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="https://www.vif.fr" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/vif.png" ></a>
-            </div>
-          </div>
-          <div class="mdl-grid devfest-sponsors-gold">
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-              <a href="http://fr.talend.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/talend.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
-                <a href="https://www.mozilla.org/en-US/foundation/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/mozilla.png" ></a>
-              </div>
+
           </div>
 
-          <div class="devfest-sponsors-text mdl-typography--display-1 mdl-typography--text-center">Sponsors Silver</div>
-          <div class="mdl-grid devfest-sponsors-silver">
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.apside.fr" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/apside.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.asi.fr" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/asi.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://corp.beapp.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/beapp.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.beemoov.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/beemoov.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.cat-amania.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/catamania.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.externatic.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/externatic.png" ></a>
-            </div>
-          </div>
-          <div class="mdl-grid devfest-sponsors-silver">
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.gfi.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/gfi.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.lafourchette.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/lafourchette.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.groupeonepoint.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/onepoint.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://seyos.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/seyos.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.softeam.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/softeam.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.fr.sogeti.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/sogeti.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="https://www.sparklane-group.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/sparklane.png" ></a>
-            </div>
-          </div>
+          <h4 v-if="day1 || (!day1 && !day2)">Vendredi 28 Octobre 2016</h4>
+          <agenda  v-if="day1 || (!day1 && !day2)" day="1" :hours="agenda.day1" :sessions="displayedSessions" :favorites="favorites"></agenda>
 
-          <div class="devfest-sponsors-text mdl-typography--display-1 mdl-typography--text-center">Partenaires</div>
-          <div class="mdl-grid mdl-grid--no-spacing devfest-sponsors-partners">
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://remy-chautard.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/remy_chautard.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.mstream.fr" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/mstream.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="https://www.chooseyourboss.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/chooseyourboss.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.nantestech.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/nantestech.png" ></a>
-            </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
-              <a href="http://www.residhome.com/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/residhome.png" ></a>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+      </div>
 
-     <!-- inject:footer:html -->
-     <!-- endinject -->
+      <!-- inject:footer:html -->
+      <!-- endinject -->
+
 
     </main>
 
     <script src="https://npmcdn.com/vue@1.0.26/dist/vue.min.js"></script>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js"></script>
     <!-- build:js(app/) ../../scripts/main.min.js -->
     <script async src="/scripts/main.js"></script>
     <!-- endbuild -->
 
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-35116426-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <script async src='//www.google-analytics.com/analytics.js'></script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyACfHSzG30jmydm6XXqA5J5YmGEwkAuie0"></script>
-    <script>
-        (function() {
-          var myLatLng = {lat: 47.212966, lng: -1.542565};
-          var map = new google.maps.Map(document.getElementById('map'), {
-            center: myLatLng,
-            scrollwheel: false,
-            zoom: 4
-          });
-          // Create a marker and set its position.
-          var marker = new google.maps.Marker({
-            map: map,
-            position: myLatLng
-          });
-        })();
-
-    </script>
-    <script>
-      if (window.matchMedia("(min-width: 900px)").matches) {
-        var playing = false;
-        var video = document.querySelector("#bgvid");
-        if (video.canPlayType("video/webm") === "maybe" ||
-         video.canPlayType("video/webm") === "probably") {
-         video.src = video.getAttribute("data-webm");
-        } else {
-          video.src = video.getAttribute("data-mp4");
-        }
-        document.querySelector('.mdl-js-layout').addEventListener('mdl-componentupgraded', e => {
-          if (document.querySelector('.mdl-js-layout').classList.contains('is-upgraded')) {
-            if(!playing) {
-              playing = true;
-              video.play();
-            }
-          }
-        });
-      }
-    </script>
-
-     <!-- Built with love using Web Starter Kit -->
   </body>
 </html>
