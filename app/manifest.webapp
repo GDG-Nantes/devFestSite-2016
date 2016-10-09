@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "name": "DevFest 2016 Nantes",
   "launch_path": "/index.html",
-  "description": "Le DevFest Nantes 2016, ce sont 2 journées de conférences accueillant 1000 développeurs à la Cité des Congrès de Nantes",
+  "description": "Le DevFest Nantes 2016, ce sont 2 journées de conférences accueillant 1400 développeurs à la Cité des Congrès de Nantes",
   "icons": {
     "128": "/images/touch/icon-128x128.png"
   },
@@ -19,11 +19,11 @@
   "locales": {
     "en": {
       "name": "DevFest 2016 Nantes",
-      "description": "The DevFest Nantes 2016, it is 2 days of conferences 1000 developers at Congress City in Nantes"
+      "description": "The DevFest Nantes 2016, it is 2 days of conferences 1400 developers at Congress City in Nantes"
     },
     "fr": {
       "name": "DevFest 2016 Nantes",
-      "description": "Le DevFest Nantes 2016, ce sont 2 journées de conférences accueillant 1000 développeurs à la Cité des Congrès de Nantes"
+      "description": "Le DevFest Nantes 2016, ce sont 2 journées de conférences accueillant 1400 développeurs à la Cité des Congrès de Nantes"
     }
   }
 }
