@@ -1177,7 +1177,7 @@
       "id": 1469097650471,
       "firstname": "Vincent",
       "name": "Piard",
-      "company": "SQLi",
+      "company": "SQLI",
       "bio": "Biberonné aux joies du Cobol, engraissé aux compotes Php, gavé de Java, sustenté aux sucreries C#, repu au Flex et finalement dernièrement nourri en intraveineuse de JS, je me délecte en ce moment d'IOT. A mes heures perdues, je cuisine également quelques mets open source.",
       "photo": "vpiard.jpg",
       "social": {
@@ -1872,7 +1872,7 @@
       "id": 203,
       "firstname": "Stéphane",
       "name": "Cohan",
-      "company": null,
+      "company": "SQLI",
       "bio": "Conquis par les makers et l'univers DIY, Stéphane Cohan est curieux et n'hésite pas à bidouiller des trucs et des machins, notamment autour des interfaces tangibles pour les enfants.<br />Dans la vraie vie, Stéphane est consultant UI/UX depuis près de 20 ans mais ça n'a rien à voir avec le schmilblick, à moins que...",
       "photo": "scohan.jpg",
       "social": {
