@@ -2068,7 +2068,7 @@
       "id": 215,
       "firstname": "Emile",
       "name": "Vauge",
-      "company": "Zenika",
+      "company": "Containo.us",
       "bio": "Emile is founder of Containous, the container delivery company. More than 10 years experience developing applications for the web and the industry, certified Docker trainer, he got interested lately in the DevOps method. He is particularly interested container orchestrators like Kubernetes, Mesos, Docker Swarm. Creator of traefik.io",
       "photo": "evauge.jpg",
       "social": {
