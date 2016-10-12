@@ -20,6 +20,19 @@ $secondary-color: rgb(255,82,82);
 $text-color: rgb(97,97,97);
 $background-altern: #F1F1F1;
 $background-base: white;
+$boxShadowCard: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+$colorBgDefault: #DDD;
+$colorBgDiscovery: #EA4335;
+$colorBgConference: #E1722A;
+$colorBgCodelab: #387066;
+$colorBgQuickie: purple;
+$colorBgWeb: #FBBC05;
+$colorBgCloud: #4285F4;
+$colorBgMobile: #34A853;
+$colorBgGithub: black;
+$colorBgTwitter: #EA4335;
+$colorFavoriteActive: #EA4335;
 
 
 body {
@@ -57,7 +70,7 @@ a img{
 }
 
 .shadowLight {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: $boxShadowCard;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
@@ -812,7 +825,7 @@ video#bgvid {
   align-items: center;
   margin: 5px;
   padding: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: $boxShadowCard;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   font-size: 0.9em;
   cursor: pointer;
@@ -862,7 +875,7 @@ video#bgvid {
   cursor: pointer;
 }
 .devfest-favorite-active {
-  color: #EA4335;
+  color: $colorFavoriteActive;
 }
 .devfest-favorite-unactive {
   color: #DDD;
@@ -874,42 +887,42 @@ video#bgvid {
 }
 
 .color-bg-discovery {
-  background-color: #EA4335;
+  background-color: $colorBgDiscovery;
   color: white;
 }
 
 .color-bg-cloud {
-  background-color: #4285F4;
+  background-color: $colorBgCloud;
   color: white;
 }
 
 .color-bg-mobile {
-  background-color: #34A853;
+  background-color: $colorBgMobile;
   color: white;
 }
 
 .color-bg-web {
-  background-color: #FBBC05;
+  background-color: $colorBgWeb;
   color: black;
 }
 
 .color-bg-conference {
-  background-color: #E1722A;
+  background-color: $colorBgConference;
   color: white;
 }
 
 .color-bg-codelab {
-  background-color: #387066;
+  background-color: $colorBgCodelab;
   color: white;
 }
 
 .color-bg-quickie {
-  background-color: purple;
+  background-color: $colorBgQuickie;
   color: white;
 }
 
 .color-bg-twitter {
-  background-color: #3CF;
+  background-color: $colorBgTwitter;
   a {
     color: white;
     text-decoration: none;
@@ -1042,6 +1055,96 @@ video#bgvid {
   }
 }
 
+@media print {
+    /* General overrides */
+    a[href]:after {
+        content: "";
+    }
+    body.mdl-layout {
+        height: auto;
+    }
+    img {
+        max-width: none !important;
+    }
+    *, *:before, *:after, *:first-letter {
+        color: inherit !important;
+    }
 
+    .shadowLight {
+        box-shadow: $boxShadowCard !important;
+    }
+    
+    .color-bg-default {
+        background-color: $colorBgDefault !important;
+    }
+    .color-bg-discovery {
+        background-color: $colorBgDiscovery !important;
+        color: white !important;
+    }
+    .color-bg-conference {
+        background-color: $colorBgConference !important;
+        color: white !important;
+    }
+    .color-bg-codelab {
+        background-color: $colorBgCodelab !important;
+        color: white !important;
+    }
+    .color-bg-quickie {
+        background-color: $colorBgQuickie !important;
+        color: white !important;
+    }
+    .color-bg-web {
+        background-color: $colorBgWeb !important;
+    }
+    .color-bg-cloud {
+        background-color: $colorBgCloud !important;
+        color: white !important;
+    }
+    .color-bg-mobile {
+        background-color: $colorBgMobile !important;
+        color: white !important;
+    }
+    .color-bg-twitter {
+        background-color: $colorBgTwitter !important;
+    }
+    .color-bg-github {
+        background-color: $colorBgGithub !important;
+    }
+    .color-bg-twitter, .color-bg-github {
+        a {
+          color: white !important;
+        }
+    }
+
+    /* Agenda overrides */
+    .devfest-agenda2-hour-line {
+        .devfest-agenda2-hour-col {
+            .devfest-agenda2-hour-line {
+                background-color: $colorBgDefault !important;
+            }
+        }
+    }
+    .devfest-favorite-unactive {
+        display: none !important;
+    }
+    .devfest-agenda-card {
+        box-shadow: $boxShadowCard !important;
+    }
+    #agendaVue {
+        h4:last-of-type {
+            page-break-before: always;
+        }
+        .material-icons {
+            display: none;
+        }
+        .devfest-favorite-active {
+            width: 20px;
+            height: 20px;
+            display: block;
+            border-radius: 50%;
+            background-color: $colorFavoriteActive !important;
+        }
+    }
+}
 
 @import "socials";
