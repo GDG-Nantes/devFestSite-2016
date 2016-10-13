@@ -678,6 +678,10 @@ video#bgvid {
   margin-top: 48px;
 }
 
+.devfest-ribbon-checkboxes {
+  display: flex; 
+}
+
 .devfest-ribbon-footer {
   padding-left: 40px;
 }
@@ -1116,6 +1120,50 @@ video#bgvid {
         }
     }
 
+    /* Hide div for print */
+    .devfest-header {
+      background: url(/images/logo-title.png) no-repeat !important;
+      height: 200px;
+      .mdl-layout__header-row {
+        display: none;
+      }
+      .mdl-layout__drawer-button {
+        display: none;
+      }
+    }
+
+    .devfest-ribbon-content {
+      padding: 0px;
+    }
+
+    .devfest-ribbon-crumbs {
+      display: none;
+    }
+
+    .devfest-ribbon-checkboxes {
+      display: none;
+    }
+
+    .indoor_map {
+      display: none;
+    }
+
+    footer {
+      display: none !important;
+    }
+
+    .mdl-mega-footer__middle-section {
+      display: none;
+    }
+
+    .mdl-mega-footer__bottom-section {
+      display: none;
+    }
+
+    .devfest-chip {
+      font-size: 0.9em;
+    }
+
     /* Agenda overrides */
     .devfest-agenda2-hour-line {
         .devfest-agenda2-hour-col {
@@ -1128,6 +1176,7 @@ video#bgvid {
         display: none !important;
     }
     .devfest-agenda-card {
+        page-break-inside: avoid;
         box-shadow: $boxShadowCard !important;
     }
     #agendaVue {
