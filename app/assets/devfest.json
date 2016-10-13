@@ -606,7 +606,6 @@
       "type": "codelab",
       "track": "cloud",
       "speaker": [
-        1471859250404,
         208
       ],
       "agenda" : { "day": 1, "hour": 3, "room": 5 }
@@ -1370,23 +1369,6 @@
       },
       "sessions": [
         1471611313272
-      ]
-    },
-    {
-      "id": 1471859250404,
-      "firstname": "Nathanael",
-      "name": "GUIBERTEAU",
-      "company": "Sopra Steria",
-      "bio": "Issu d’un parcours de consultant en architecture SI avec une expérience plus poussée sur les domaines décisionnel, Big Data et architecture d’entreprise, je contribue à la réalisation de missions de transformation digitale. J'ai une appétence particulière pour tous les sujets liés à l'analytique et à la donnée.<br /> <br />Je suis acteur de cette transformation numérique notamment par la conduite d’avant-ventes, la réalisation de mission de conseil, d’expertise et de POC ainsi que par le développement local de  notre offre Big Data sur les aspects commerce, orientations stratégiques et technologiques, RH et compétences.",
-      "photo": "nguiberteau.jpg",
-      "social": {
-        "twitter": null,
-        "googleplus": null,
-        "github": null,
-        "linkedin": "https://www.linkedin.com/in/nathana%C3%ABl-guiberteau-242a2341"
-      },
-      "sessions": [
-        1471878583557
       ]
     },
     {
