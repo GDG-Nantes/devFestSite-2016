@@ -16,12 +16,13 @@
       <!-- SECTION : Welcome page -->
       <a name="top"></a>
       <section class="devfest-hero mdl-typography--text-center">
-        <div class="devfest-slogan mdl-typography--display-1">#dev the future brick by brick</div>
         <div class="video-bg">
           <video muted loop id="bgvid" data-webm="/images/2015/devfest2015.webm" data-mp4="/images/2015/devfest2015.mp4">
           </video>
         </div>
-        <div class="devfest-main-logo"><img src="/images/title.png"></div>
+        <div class="devfest-video-overlay">
+          <div class="devfest-slogan mdl-typography--display-1">#dev the future brick by brick</div>
+          <img class="devfest-main-logo" src="/images/title.png">
         <p>
           <br>
           <a class="devfest-video-overlay mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" href="#tickets">
@@ -30,10 +31,11 @@
         </p>
 
         <a href="#description">
-          <button class="devfest-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+            <button class="devfest-video-overlay devfest-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
             <i class="material-icons">expand_more</i>
           </button>
         </a>
+        </div>
       </section>
 
       <!-- SECTION : Description -->
@@ -385,6 +387,9 @@
             <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
                 <a href="https://www.mozilla.org/en-US/foundation/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/mozilla.png" ></a>
               </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+              <a href="http://www.editions-eni.fr/" target="_NEW"><img class="simple-padding-bottom" src="/images/sponsors/eni.png" ></a>
+            </div>
           </div>
 
           <div class="devfest-sponsors-text mdl-typography--display-1 mdl-typography--text-center">Silver Sponsors</div>
@@ -458,7 +463,7 @@
 
     </main>
 
-
+    <script src="https://npmcdn.com/vue@1.0.26/dist/vue.min.js"></script>
     <!-- build:js(app/) ../../scripts/main.min.js -->
     <script async src="/scripts/main.js"></script>
     <!-- endbuild -->
