@@ -392,7 +392,7 @@
     {
       "id": 1469380401604,
       "name": "Coder ses applications iOS et Android en Go",
-      "description": "Une des forces du langage Go est d’offrir un large choix de cibles de compilation: cross-OS (Linux, Windows, OS X...) et cross-architecture (x86, ARM...). Je vous invite à découvrir le projet experimental Go Mobile qui étend ces possibilités à iOS et Android.<br /><br />Pendant ce Quickie, vous découvrirez concrètement les options offertes par Go Mobile: <br /><b> Compiler et interfacer une librairie codée en Go dans du code Java (Android), Swift ou Objective-C (iOS)<br /></b> Construire des applications mobiles entièrement en Go",
+      "description": "Une des forces du langage Go est d’offrir un large choix de cibles de compilation: cross-OS (Linux, Windows, OS X...) et cross-architecture (x86, ARM...). Je vous invite à découvrir le projet experimental Go Mobile qui étend ces possibilités à iOS et Android.<br /><br />Pendant ce Quickie, vous découvrirez concrètement les options offertes par Go Mobile: <ul><li>Compiler et interfacer une librairie codée en Go dans du code Java (Android), Swift ou Objective-C (iOS)</li><li>Construire des applications mobiles entièrement en Go</li></ul>",
       "difficulty": 1,
       "type": "quickie",
       "track": "mobile",
