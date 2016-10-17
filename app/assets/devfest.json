@@ -1339,23 +1339,6 @@
       ]
     },
     {
-      "id": 1471523171504,
-      "firstname": "Vincent",
-      "name": "Demeester",
-      "company": null,
-      "bio": "Architecte et développeur polyglotte ascendant Java, depuis bientôt 8<br />ans. Après 6 années en startup dans le monde des « Energy Management<br />System », Vincent a intégré l’agence parisienne de Zenika en tant que<br />Consultant et Formateur. <br /><br />Devops, Craftsman, Factotum, free-software fan, Sysadmin à ses heures<br />perdues et surtout passionné, il est core mainteneur sur le projet Docker (ainsi que libcompose ou encore containous/traefik).",
-      "photo": "vdemeester.jpg",
-      "social": {
-        "twitter": "vdemeest",
-        "googleplus": null,
-        "github": "vdemeester",
-        "blog": "http://vincent.demeester.fr"
-      },
-      "sessions": [
-        1471606432407
-      ]
-    },
-    {
       "id": 1471610942207,
       "firstname": "Jean-Philippe",
       "name": "Briend",
