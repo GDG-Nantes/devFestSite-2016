@@ -601,7 +601,7 @@
     {
       "id": 1471878583557,
       "name": "2h pour analyser les tendances du web avec Spark",
-      "description": "Exploiter les technologies Big Data pour faire parler le web, ça vous dit ?<br />Nous vous proposons de prendre 2h pour découvrir les bases de la collecte et l’analyse des données autour d’un thème d’actualité. <br />Nous utiliserons Apache Spark pour récolter les informations provenant de Twitter, afin de déterminer la popularité, les tendances et le sentiment des réseaux sociaux.",
+      "description": "Exploiter les technologies Big Data pour faire parler le web, ça vous dit ?<br /><br />Nous vous proposons de prendre 2h pour découvrir les bases de l’analyse des données autour d’un thème d’actualité. Nous utiliserons Apache Spark pour travailler les informations provenant de Twitter, afin de déterminer la popularité et  les tendances des réseaux sociaux.<br /><br />Afin d'optimiser le déroulement du codelab, je vous recommande de préparer votre machine en suivant la procédure suivante : <a href=\"https://github.com/nicolasterral/codelab-tendancesweb\" target=\"blank\">codelab-tendancesweb</a>. Merci !",
       "difficulty": 2,
       "type": "codelab",
       "track": "cloud",
