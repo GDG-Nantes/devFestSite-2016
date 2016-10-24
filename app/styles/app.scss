@@ -748,6 +748,8 @@ video#bgvid {
       justify-content: space-between;
     }
 
+    pre { display:inline }
+
     .devfest-speaker-card-desc {
       display: flex;
       justify-content: space-between;
@@ -771,6 +773,8 @@ video#bgvid {
 
   .devfest-session-desc {
     padding-top: 10px;
+
+    pre { display:inline }
   }
 }
 
