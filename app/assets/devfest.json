@@ -233,8 +233,8 @@
     },
     {
       "id": 1465579632798,
-      "name": "Talk Android",
-      "description": "Bientôt la description mais pour sûr, c'est un talk sur des nouveautés Android",
+      "name": "Seamless Linking To Your App",
+      "description": "An Android app is usually only a single part of a larger product. Indeed, a product is usually made of several independent entities such as a website, one or several mobile apps, etc.<br />In this talk, we will learn how to increase app engagement and tear down the walls between your website and your apps. You will also discover how you can give your users the most integrated mobile experience possible with features such as Related Apps Banner, Smart Lock for Passwords and more… In a nutshell, this talk is all about driving users to your mobile app and making your product successful.",
       "difficulty": 2,
       "type": "conference",
       "track": "mobile",
