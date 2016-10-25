@@ -83,8 +83,8 @@
       "agenda" : { "day": 1, "hour": 6 }
     },{
       "id": 8,
-      "name": "Table ronde / Round table",
-      "type": "table ronde",
+      "name": "TO BE DEFINED",
+      "type": "",
       "track": "discovery",
       "agenda" : { "day": 2, "hour": 3, "room": 2  },
       "speaker": [
@@ -2140,9 +2140,9 @@
     },
     {
       "id": 221,
-      "firstname": "Table Ronde 1",
+      "firstname": "TO BE DEFINED",
       "name": "",
-      "company": "",
+      "company": "TBD",
       "bio": "TBD",
       "photo": "default.jpg",
       "social": {
