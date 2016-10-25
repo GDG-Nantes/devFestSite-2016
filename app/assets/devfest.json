@@ -1223,15 +1223,16 @@
     },
     {
       "id": 1470053410611,
-      "firstname": "Jérémie",
-      "name": "Monsinjon",
-      "company": null,
-      "bio": "Développeur Java passionné chez Ippon Technologies depuis plus d'1 an.<br />Je me suis focalisé ces derniers temps sur le monitoring avec ELK, le développement de microservices avec SpringBoot, et un peu de DevOps avec la gestion dynamique d'une plateforme de production avec Docker et Mesos.",
-      "photo": "jmonsinjon.jpg",
+      "firstname": "Stéphane",
+      "name": "Lagraulet",
+      "company": "Ippon Technologies",
+      "bio": "Architecte chez Ippon Technologies Bordeaux depuis Janvier 2013, je m'intéresse depuis quelques années à l'émergence des micro-services et ai pu bâtir une solution s'appuyant sur cette architecture depuis près de deux ans.<br>La mise à l'échelle de ce type d'architecture et la responsabilitation des équipes de développements m'amènent à expérimenter de nouvelles organisations et de nouveaux outils.",
+      "photo": "slagraulet.jpg",
       "social": {
-        "twitter": "@jmonsinjon",
-        "googleplus": "https://plus.google.com/108876182616078672534",
-        "github": null
+        "twitter": "@stephlag",
+        "googleplus": null,
+        "github": "stephlag",
+        "linkedin": "https://fr.linkedin.com/in/stephanlagraulet"
       },
       "sessions": [
         1470053819525
