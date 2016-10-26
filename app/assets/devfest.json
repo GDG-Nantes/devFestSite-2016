@@ -90,7 +90,7 @@
       "track": "discovery",
       "agenda" : { "day": 2, "hour": 3, "room": 2  },
       "speaker": [
-        223
+        221
       ]
     },{
       "id": 9,
@@ -2143,16 +2143,16 @@
     },
     {
       "id": 221,
-      "firstname": "TO BE DEFINED",
-      "name": "",
-      "company": "TBD",
-      "bio": "TBD",
-      "photo": "default.jpg",
+      "firstname": "Cédric",
+      "name": "Gillet",
+      "company": "Santéclair",
+      "bio": "Ancien militaire parachutiste, je me suis reconverti dans l'informatique ou j'ai très vite rejoint la société Santéclair en tant que développeur puis en tant qu’architecte (mais bon je fais toujours le même boulot qu'avant... ). Féru de développement (comme vous à priori si vous lisez ces lignes), j'aime remettre en question l'ordre établi (ce doit être une résurgence de mes années sous les drapeaux) et relever des challenges permanents.",
+      "photo": "cgillet.jpg",
       "social": {
-        "twitter": null,
-        "googleplus": null,
+        "twitter": "https://twitter.com/telligcirdec",
+        "googleplus": "https://plus.google.com/u/0/108192160837556609422/posts",
         "blog": null,
-        "github": null,
+        "github": "https://github.com/telligcirdec",
         "linkedin": null
       },
       "sessions": [
@@ -2176,25 +2176,6 @@
       "sessions": [
         996
       ]
-    },
-    {
-      "id": 223,
-      "firstname": "Cédric",
-      "name": "Gillet",
-      "company": "Santéclair",
-      "bio": "Ancien militaire parachutiste, je me suis reconverti dans l'informatique ou j'ai très vite rejoint la société Santéclair en tant que développeur puis en tant qu’architecte (mais bon je fais toujours le même boulot qu'avant... ). Féru de développement (comme vous à priori si vous lisez ces lignes), j'aime remettre en question l'ordre établi (ce doit être une résurgence de mes années sous les drapeaux) et relever des challenges permanents.",
-      "photo": "cgillet.jpg",
-      "social": {
-        "twitter": "https://twitter.com/telligcirdec",
-        "googleplus": "https://plus.google.com/u/0/108192160837556609422/posts",
-        "blog": null,
-        "github": "https://github.com/telligcirdec",
-        "linkedin": null
-      },
-      "sessions": [
-        8
-      ]
     }
-
   ]
 }
