@@ -83,8 +83,10 @@
       "agenda" : { "day": 1, "hour": 6 }
     },{
       "id": 8,
-      "name": "TO BE DEFINED",
-      "type": "",
+      "name": "Du DevOps chez les Commandos",
+      "description": "Durant mes années de service au sein de l'armée, j'ai eu l'occasion d'être sélectionné pour intégrer les Groupements Commando Parachutistes. J'ai donc suivi la formation inhérente à cette unité spéciale sans me douter alors que je retrouverai dans ma deuxième vie, dans le civil, des similitudes entre le management d'une équipe commando et ce que préconise DevOps.<br /><br />Le parallèle m'est apparu comme évident lors d'un stage que j'ai suivi sur DevOps. Dans cette conférence, je me propose de présenter les méthodes de management d'une section commando et comment ses méthodes sont en fait très proches des méthodes de management DevOps : une équipe restreinte, géographiquement proche, des profiles experts et polycompétents, des missions de courte durée, une qualité assurée tout au long de la mission, un commandement à l'exemplarité et au delà du galon, favoriser le groupe et la culture, créer de la cohésion, encourager les initiatives et l'entraide dans le groupe, s'adapter rapidement aux imprévus. <br /><br />En somme, faire du DevOps comme dans une unité commando ! Pour finir, je citerai les premiers mots d'un chant commando qui résume assez l'état d'esprit qui animera cette conférence : \"La route vers l'inconnu est toujours bienvenu, le but est devant nous, braquons les armes, la défaillance exclue, plus rien ne compte plus, pour nous c'est le devoir pour vous les larmes !\"",
+      "difficulty": 1,
+      "type": "conference",
       "track": "discovery",
       "agenda" : { "day": 2, "hour": 3, "room": 2  },
       "speaker": [
@@ -206,7 +208,8 @@
       "speaker":[
         220
       ]
-    },  {
+    },
+    {
       "id": 1465225950184,
       "name": "Containers' Jungle. Docker, Rocket, RunC, LXD ... WTF ?",
       "description": "Nous avons tout juste commencé à utiliser les containers Docker, et voilà que des solutions concurrentes apparaissent et sèment la confusion. <br />Est-ce que Docker est insuffisant ? Faut-il lui préférer CoreOS Rocket ? Que vient faire RunC là dedans ? Et LXD dans tout ça ? C'est quoi ce délire avec Systemd ?<br /><br />Cette session va (essayer de) mettre les idées au clair sur ce qu'est un conteneur, comment les runtimes se différencient techniquement et pourquoi utiliser untel plutôt qu'un autre, ou peut être les combiner ensemble, pourquoi, comment, quelles sont les contraintes pour que cela fonctionne.",
@@ -2140,16 +2143,16 @@
     },
     {
       "id": 221,
-      "firstname": "TO BE DEFINED",
-      "name": "",
-      "company": "TBD",
-      "bio": "TBD",
-      "photo": "default.jpg",
+      "firstname": "Cédric",
+      "name": "Gillet",
+      "company": "Santéclair",
+      "bio": "Ancien militaire parachutiste, je me suis reconverti dans l'informatique ou j'ai très vite rejoint la société Santéclair en tant que développeur puis en tant qu’architecte (mais bon je fais toujours le même boulot qu'avant... ). Féru de développement (comme vous à priori si vous lisez ces lignes), j'aime remettre en question l'ordre établi (ce doit être une résurgence de mes années sous les drapeaux) et relever des challenges permanents.",
+      "photo": "cgillet.jpg",
       "social": {
-        "twitter": null,
-        "googleplus": null,
+        "twitter": "https://twitter.com/telligcirdec",
+        "googleplus": "https://plus.google.com/u/0/108192160837556609422/posts",
         "blog": null,
-        "github": null,
+        "github": "https://github.com/telligcirdec",
         "linkedin": null
       },
       "sessions": [
@@ -2174,6 +2177,5 @@
         996
       ]
     }
-
   ]
 }
