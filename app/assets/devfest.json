@@ -321,11 +321,11 @@
     },
     {
       "id": 1466789828567,
-      "name": "Codelab RabbitMQ",
-      "description": "Après une brève présentation de ce qu'est RabbitMQ, des services qu'il peut rendre, de l'usage qu'on en fait à LaFourchette et de comment il s'installe. Construisons ensemble une application permettant à l'internaute de générer un lourd PDF qu'il reçoive par email tout en étant notifié sur l'application une fois que l'envoi est achevé.<br /><br />Une base de code assez simple en <pre>php</pre> sera fournie, il s'agira de modifier l'application gérant toutes les opérations en une requête bloquante pour y inclure de l'asynchronisme avec RabbitMQ. Des tests fonctionnels permettront de valider les étapes au fur et à mesure de l'atelier.",
+      "name": "Codelab découvrir RabbitMQ",
+      "description": "Après une brève présentation de ce qu'est RabbitMQ, des services qu'il peut rendre, de l'usage qu'on en fait à LaFourchette et de comment il s'installe. Construisons ensemble une application permettant à l'internaute de générer un lourd PDF qu'il reçoive par email tout en étant notifié sur l'application une fois que l'envoi est achevé.<br /><br />Une base de code assez simple en <pre>php</pre> sera fournie, il s'agira de modifier l'application gérant toutes les opérations en une requête bloquante pour y inclure de l'asynchronisme avec RabbitMQ. Des tests fonctionnels permettront de valider les étapes au fur et à mesure de l'atelier.<br/><br/>Venez avec votre ordinateur portable ! Pour éviter de surcharger le réseau de la cité des congrès suivez la procédure d'installation sur <a href=\"https://github.com/olaurendeau/rabbitmq-workshop\">https://github.com/olaurendeau/rabbitmq-workshop</a> !",
       "difficulty": 1,
       "type": "codelab",
-      "track": "cloud",
+      "track": "discovery",
       "speaker": [
         1466786786895
       ],
