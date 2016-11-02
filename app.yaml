@@ -13,16 +13,16 @@ handlers:
   upload: index.html
   expiration: "0d 5m"
   secure: always
-  http_headers:
-    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style, </images/background.jpg>; rel=preload; as=image, </images/title.png>; rel=preload; as=image'
+#  http_headers:
+#    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style, </images/background.jpg>; rel=preload; as=image, </images/title.png>; rel=preload; as=image'
 
 - url: /en
   static_files: en/index.html
   upload: en/index.html
   expiration: "0d 5m"
   secure: always
-  http_headers:
-    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style, </images/background.jpg>; rel=preload; as=image, </images/title.png>; rel=preload; as=image'
+#  http_headers:
+#    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style, </images/background.jpg>; rel=preload; as=image, </images/title.png>; rel=preload; as=image'
 
 # re-direct to index.html
 - url: /index.html(.*)
@@ -30,8 +30,8 @@ handlers:
   upload: index.html(.*)
   expiration: "0d 5m"
   secure: always
-  http_headers:
-    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style, </images/background.jpg>; rel=preload; as=image, </images/title.png>; rel=preload; as=image'
+#  http_headers:
+#    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style, </images/background.jpg>; rel=preload; as=image, </images/title.png>; rel=preload; as=image'
 
 
 # Service Go de favoris
@@ -46,8 +46,8 @@ handlers:
 - url: /(.*\.(html))
   static_files: \1
   upload: (.*\.(html))
-  http_headers:
-    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style'
+#  http_headers:
+#    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style'
 
 skip_files:
 - ^node_modules/*.*
