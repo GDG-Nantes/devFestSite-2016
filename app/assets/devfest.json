@@ -53,10 +53,10 @@
       "agenda" : { "day": 1, "hour": 5, "room": 8 }
     },{
       "id": 3,
-      "name": "After party",
+      "name": "After Party",
       "type": "after",
       "image": "/images/agenda/after.png",
-      "track": "TBD",
+      "track": "Système U (GIE - IRIS)",
       "agenda" : { "day": 1, "hour": 11 }
     },{
       "id": 4,

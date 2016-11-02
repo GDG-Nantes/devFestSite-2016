@@ -529,6 +529,19 @@ video#bgvid {
   max-height: 100px;
 }
 
+.devfest-sponsors-after {
+  justify-content: center;
+  padding: 10px;
+}
+
+.devfest-sponsors-after img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  max-width: 180px;
+  max-height: 90px;
+}
+
 .devfest-sponsors-gold  {
   justify-content: center;
   padding: 10px;
