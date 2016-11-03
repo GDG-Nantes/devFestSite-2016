@@ -54,9 +54,10 @@
     },{
       "id": 3,
       "name": "After Party",
+      "description": "Cette année l’After Party est organisé par notre partenaires U GIE IRIS (Système U). <br>Elle aura lieu dans la Grande Galerie à partir de 18h30 le Mercredi 9 Novembre. <br>Retrouvons-nous autour d'un apéro pour discuter des événements de la 1ère journée et faire du networking. A l'affiche, des démos, des découvertes, de la musique...<br>Venez nombreux !!",
       "type": "after",
       "image": "/images/agenda/after.png",
-      "track": "Système U (GIE - IRIS)",
+      "track": "GIE - IRIS (Système U)",
       "agenda" : { "day": 1, "hour": 11 }
     },{
       "id": 4,
