@@ -1643,7 +1643,7 @@
       "id": 1471601816772,
       "firstname": "Olivier",
       "name": "Leplus",
-      "company": "Google",
+      "company": null,
       "bio": "My day to day my mission is to help developers create successful and quality apps.<br />As a passionate web developer, I am always discovering and playing with new web technologies !",
       "photo": "oleplus.jpg",
       "social": {
