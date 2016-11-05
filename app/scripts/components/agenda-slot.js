@@ -1,6 +1,6 @@
 /* eslint-disable */
 const agendaSlotTemplate =
-'<div class="devfest-agenda-card" onClick="location.href=\'./session.html?id={{session.id}}\';">'
+'<a class="devfest-agenda-card" href="./session.html?id={{session.id}}">'
 + '<div class="devfest-agenda-card-avatars mdl-cell--hide-phone">'
 + '  <img v-if="session.image" :src="session.image" class="devfest-agenda-card-img" />'
 + '  <img v-if="session.speaker" v-for="speaker in session.speaker" :src="this.getSpeakerPhoto(speaker, this.$root.speakers)" class="devfest-agenda-card-img" />'
@@ -18,7 +18,7 @@ const agendaSlotTemplate =
 + '  </div>'
 + '</div>'
 + '<div style="align-self:flex-start"><favorite :sid="session.id" :active="isFavorite(session.id, favorites)" ></favorite></div>'
-+ '</div>'
++ '</a>'
 
 var AgendaSlot = Vue.extend({
   props: {

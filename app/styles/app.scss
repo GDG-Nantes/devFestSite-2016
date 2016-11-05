@@ -838,6 +838,7 @@ video#bgvid {
 }
 
 .devfest-agenda-card {
+  text-decoration: none !important;
   display: flex;
   align-items: center;
   margin: 5px;
@@ -865,6 +866,7 @@ video#bgvid {
 
     .devfest-agenda-card-content-session {
       padding: 5px 0px;
+      color: #424242!important
     }
 
     .devfest-agenda-card-content-speaker {
