@@ -33,6 +33,12 @@ handlers:
 #  http_headers:
 #    Link: '</scripts/material.min.js>; rel=preload; as=script, </styles/material.indigo-red.min.css>; rel=preload; as=style, </images/background.jpg>; rel=preload; as=image, </images/title.png>; rel=preload; as=image'
 
+# Cas du json de programme
+- url: /assets/devfest.json
+  static_files: assets/devfest.json
+  upload: /assets/devfest.json
+  http_headers:
+    Access-Control-Allow-Origin: "*"
 
 # Service Go de favoris
 - url: /(\.well-known|api)/.* 
