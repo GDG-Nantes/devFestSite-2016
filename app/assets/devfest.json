@@ -518,7 +518,7 @@
     },
     {
       "id": 1470391194125,
-      "name": "Coder son \"mini\" serveur d'intégration continue en JavaScript",
+      "name": "[ANNULÉ] Coder son \"mini\" serveur d'intégration continue en JavaScript",
       "description": "Le meilleur moyen de comprendre l'intégration continue ... C'est de coder son propre serveur de CI ... En JavaScript parce que c'est mieux (que quoi?).<br />Nous allons vous expliquer:<br /><br />- les \"grands principes\" de l'intégration continue<br />- Comment dans un 1er temps s'abonner aux évènements générés par votre gestion de sources (au hasard nous utiliserons GitHub)<br />- Comment  \"dire\"  à votre gestion de sources \"Hey! C'est bon, tu peux merger!\" ou \"Arff! C'est pas top, il faudrait revoir 2,3 trucs\" (Utilisation des API)<br />  - installer le projet<br />  - lancer les tests<br />  - modifier les status en fonction des résultats<br />- Comment utiliser un script de votre repository pour expliquer à votre serveur les actions qu'il doit lancer (Comme les \"Jenkins Pipeline as Code\" en Groovy )<br />- Comment faire interagir votre serveur de CI avec  Hubot et Slack<br />- Et si il reste un peu de temps, nous parlerons déploiement<br /><br />A la fin du talk, vous devriez savoir refaire la même chose avec votre propre langage.",
       "difficulty": 1,
       "type": "conference",
