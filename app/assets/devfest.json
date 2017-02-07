@@ -10,12 +10,17 @@
       {"id" : 7, "label": "12h10"},
       {"id" : 8, "label": "12h30"},
       {"id" : 9, "label": "13h45"},
-      {"id" : 10, "label": "15h45"},
-      {"id" : 11, "label": "16h00"},
-      {"id" : 12, "label": "16h25"},
-      {"id" : 13, "label": "17h15"},
-      {"id" : 14, "label": "17h40"},
-      {"id" : 15, "label": "18h00"}
+      {"id" : 10, "label": "14h10"},
+      {"id" : 11, "label": "14h35"},
+      {"id" : 12, "label": "14h55"},
+      {"id" : 13, "label": "15h10"},
+      {"id" : 14, "label": "15h35"},
+      {"id" : 15, "label": "16h00"},
+      {"id" : 16, "label": "16h20"},
+      {"id" : 17, "label": "16h30"},
+      {"id" : 18, "label": "16h55"},
+      {"id" : 19, "label": "17h20"},
+      {"id" : 20, "label": "17h50"}
     ]
   },
   "sessions": [
@@ -39,72 +44,139 @@
       "image": "/images/agenda/coffee.png",
       "agenda" : { "day": 1, "hour": 4 }
     },{
-      "id": 10,
+      "id": 12,
       "name": "Pause",
       "type": "café",
       "image": "/images/agenda/coffee.png",
-      "agenda" : { "day": 1, "hour": 10 }
+      "agenda" : { "day": 1, "hour": 12 }
     },{
-      "id": 15,
+      "id": 16,
+      "name": "Pause",
+      "type": "café",
+      "image": "/images/agenda/coffee.png",
+      "agenda" : { "day": 1, "hour": 16 }
+    },{
+      "id": 20,
       "name": "Fin de la journée",
       "type": "after",
       "track": "Technozaure",
       "image": "/images/agenda/after.png",
-      "agenda" : { "day": 1, "hour": 15 }
+      "agenda" : { "day": 1, "hour": 20 }
     },
     {
       "id": 2,
-      "name": "Cloud patterns",
-      "description": "Connaissez-vous les 12-factor apps ? Au travers de ce talk, nous expliquerons les différents patterns pour réaliser une application moderne 'Cloud Ready' en 2016.",
+      "name": "Serverless: just a buzzword?",
+      "description": "TODO",
       "difficulty": 2,
       "type": "conference",
       "track": "cloud",
       "agenda" : { "day": 1, "hour": 2 },
       "speaker":[
-        2
+        2,
+        51
       ]
     },
     {
       "id": 3,
-      "name": "GraphQL vs Falcor",
-      "description": "L’hégémonie de l’architecture REST est ébranlée par de nouveaux venus : GraphQL de Facebook et Falcor de Netflix. Comment ces deux technologies peuvent-elles nous aider à développer des applications web plus rapidement ?<br /><br />Nous commencerons par une rapide introduction de GraphQL et Falcor : le concept qui se cache derrière, leurs objectifs, ainsi que leur place dans nos architectures client-serveur.<br /><br />Nous vous proposerons ensuite de développer une application mobile de transport en commun avec REST, GraphQL et Falcor afin de comparer l’impact de ces technologies sur les propriétés du code et les coûts de développement. Cette comparaison sera assistée par un outil de traduction de requêtes, conçu par nos soins.",
+      "name": "Lodasheries pour un JS plus clair",
+      "description": "TODO",
       "difficulty": 2,
       "type": "conference",
       "track": "web",
       "speaker": [
-        31,
-        32
+        31
       ],
       "agenda" : { "day": 1, "hour": 3, "room": 1 }
     },
     {
       "id": 5,
-      "name": "Atterrir sur Mars avec un algo génétique",
-      "description": "",
+      "name": "CycleJS",
+      "description": "TODO",
       "references": null,
-      "difficulty": 1,
-      "type": "quickie",
-      "track": "discovery",
-      "speaker": [
-        5
-      ],
-      "agenda" : { "day": 1, "hour": 5, "room": 4 }
-    },
-    {
-      "id": 6,
-      "name": "MinuteJS - Les nouveautés Javascript à ne pas rater !",
-      "description": "Si toi aussi tu ne comprends plus rien aux dernières mises à jour de Javascript, alors <b>ce talk est fait pour toi</b> !<br /><br />Comment ça fonctionne ? Quelles sont les nouveautés ? Pourquoi certaines personnes les utilisent alors que ce n'est pas officiellement sorti ?<br />Pourquoi j'en entends moins parler ?<br /><br />Dans ce <b>Quickie</b> vous aurez réponses à ces questions. Nous allons revoir la façon dont ECMAScript (et donc Javascript) évolue.<br />Je vous présenterai quelques nouveautés depuis l'ES6 (ES2015) qui me semblent intéressantes et applicables dès à présent via une comparaison avant/après et du <b>livecoding</b>.<br /><br />Je vous persuaderai que ces nouveautés vous feront gagner du temps et de la lisibilité !",
       "difficulty": 1,
       "type": "quickie",
       "track": "web",
       "speaker": [
         6
       ],
+      "agenda" : { "day": 1, "hour": 5, "room": 4 }
+    },
+    {
+      "id": 6,
+      "name": "Alimenter son Elastic avec Kafka Streams",
+      "description": "TODO",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "cloud",
+      "speaker": [
+        52
+      ],
       "agenda" : { "day": 1, "hour": 6, "room": 1 }
     },
     {
       "id": 7,
-      "name": "React-Native web, ou comment partager son code sur toutes les plateformes",
+      "name": "Npm vs Yarn",
+      "description": "TODO",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "web",
+      "speaker": [
+        53
+      ],
+      "agenda" : { "day": 1, "hour": 7, "room": 2 }
+    },
+    {
+      "id": 9,
+      "name": "Présentation des idées offres Zenika Nantes",
+      "description": "TODO: Dashboard, Veille techno, Labs, Coaching...",
+      "difficulty": 2,
+      "type": "quickie",
+      "track": "discovery",
+      "speaker": [
+        13,
+        54
+      ],
+      "agenda" : { "day": 1, "hour": 9, "room": 5 }
+    },
+    {
+      "id": 10,
+      "name": "Kotlin, 1 an après",
+      "description": "",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "cloud",
+      "speaker": [
+        55
+      ],
+      "agenda" : { "day": 1, "hour": 10, "room": 1 }
+    },
+    {
+      "id": 11,
+      "name": "REX Ionic 2 / Angular 2",
+      "description": "",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "mobile",
+      "speaker": [
+        56
+      ],
+      "agenda" : { "day": 1, "hour": 11, "room": 1 }
+    },
+    {
+      "id": 13,
+      "name": "Cayley, graph oriented \"database\" written in Go",
+      "description": "",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "cloud",
+      "speaker": [
+        5
+      ],
+      "agenda" : { "day": 1, "hour": 13, "room": 1 }
+    },
+    {
+      "id": 14,
+      "name": "Inferno, Preact, Deku... Pourquoi réécrire la roue ?",
       "description": "",
       "difficulty": 1,
       "type": "quickie",
@@ -112,47 +184,36 @@
       "speaker": [
         7
       ],
-      "agenda" : { "day": 1, "hour": 7, "room": 2 }
+      "agenda" : { "day": 1, "hour": 14, "room": 1 }
     },
     {
-      "id": 9,
-      "name": "Développer une application de pari en ligne avec la blockchain Ethereum et Angular2",
-      "description": "Dans ce CodeLab, nous commencerons par une présentation de la blockchain Ethereum et du principe des smart-contracts.<br />Puis nous développerons une Dapp basique de pari en ligne en utilisant les technologies Geth, EthereumJS et Angular2.<br /><br />Cela permettra d'apprendre :<br />- à mettre en place une blockchain de test privée multi-noeuds,<br />- à installer et utiliser l'écosystème de développement Ethereum,<br />- à coder un smart-contract avec Solidity (avec quelques bonnes pratiques),<br />- à interfacer ce smart contract avec une IHM Web en Angular2.<br /><br />Des connaissances du fonctionnement des concepts généraux des blockchains sont fortement conseillées pour CodeLab, même si je ferais quelques rappels au début.<br />Par contre, pas besoin de connaître Ethereum, et la partie Angular2 sera fournie dans les grandes lignes aux participants.",
-      "difficulty": 2,
-      "type": "codelab",
-      "track": "discovery",
-      "speaker": [
-        9
-      ],
-      "agenda" : { "day": 1, "hour": 9, "room": 5 }
-    },
-    {
-      "id": 11,
-      "name": "La spécification WebComponents et quels avantages par rapport aux frameworks JS",
+      "id": 15,
+      "name": "Jenkins + Docker en live coding",
       "description": "",
       "difficulty": 1,
       "type": "quickie",
-      "track": "web",
+      "track": "cloud",
       "speaker": [
-        11
+        50
       ],
-      "agenda" : { "day": 1, "hour": 11, "room": 1 }
+      "agenda" : { "day": 1, "hour": 15, "room": 1 }
     },
     {
-      "id": 12,
-      "name": "Advanced React",
+      "id": 17,
+      "name": "Pitch des stages !",
       "description": "",
       "difficulty": 1,
-      "type": "conference",
-      "track": "web",
+      "type": "quickie",
+      "track": "discovery",
       "speaker": [
-        12
+        57,
+        58
       ],
-      "agenda" : { "day": 1, "hour": 12, "room": 1 }
+      "agenda" : { "day": 1, "hour": 17, "room": 1 }
     },
     {
-      "id": 13,
-      "name": "Myers Briggs Type Indicator ou MBTI ! Ce truc est génial !",
+      "id": 18,
+      "name": "Savoir pitcher - pitch elevator - 2 min pour convaincre",
       "description": "",
       "difficulty": 1,
       "type": "quickie",
@@ -160,19 +221,19 @@
       "speaker": [
         13
       ],
-      "agenda" : { "day": 1, "hour": 13, "room": 1 }
+      "agenda" : { "day": 1, "hour": 18, "room": 1 }
     },
     {
-      "id": 14,
-      "name": "Progressive Web Apps, le futur ? ",
+      "id": 19,
+      "name": "Initiation Zythologique",
       "description": "",
       "difficulty": 1,
       "type": "quickie",
-      "track": "web",
+      "track": "discovery",
       "speaker": [
-        14
+        59
       ],
-      "agenda" : { "day": 1, "hour": 14, "room": 1 }
+      "agenda" : { "day": 1, "hour": 19, "room": 1 }
     }
   ],
   "speakers": [
@@ -199,7 +260,8 @@
       "social": {
       },
       "sessions": [
-        13
+        9,
+        18
       ]
     },
     {
@@ -229,7 +291,7 @@
         "blog": "http://www.monbook.tech"
       },
       "sessions": [
-        
+        15
       ]
     },
     {
@@ -254,14 +316,14 @@
       "name": "Lepage",
       "company": null,
       "bio": "",
-      "photo": "default.jpg",
+      "photo": "nlepage.jpg",
       "social": {
         "twitter": null,
         "googleplus": null,
         "github": null
       },
       "sessions": [
-        5
+        13
       ]
     },
     {
@@ -278,7 +340,7 @@
         "linkedin": null
       },
       "sessions": [
-        7
+        14
       ]
     },
     {
@@ -310,7 +372,7 @@
         "github": "fabienjuif"
       },
       "sessions": [
-        6
+        5
       ]
     },
     {
@@ -362,7 +424,7 @@
         "linkedin": null
       },
       "sessions": [
-        
+        2
       ]
     },
     {
@@ -381,6 +443,142 @@
       },
       "sessions": [
         2
+      ]
+    },
+    {
+      "id": 52,
+      "firstname": "Vickrame",
+      "name": "Ujoodha",
+      "company": null,
+      "bio": "",
+      "photo": "default.jpg",
+      "social": {
+        "twitter": "@vickrame",
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        6
+      ]
+    },
+    {
+      "id": 53,
+      "firstname": "Franck",
+      "name": "Abgrall",
+      "company": null,
+      "bio": "",
+      "photo": "fabgrall.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        7
+      ]
+    },
+    {
+      "id": 54,
+      "firstname": "Vincent",
+      "name": "Vimard",
+      "company": null,
+      "bio": "",
+      "photo": "vvimard.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        9
+      ]
+    },
+    {
+      "id": 55,
+      "firstname": "Gregory",
+      "name": "Bevan",
+      "company": null,
+      "bio": "",
+      "photo": "gbevan.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        10
+      ]
+    },
+    {
+      "id": 56,
+      "firstname": "Amelin",
+      "name": "Orenge",
+      "company": null,
+      "bio": "",
+      "photo": "aorenge.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        11
+      ]
+    },
+    {
+      "id": 57,
+      "firstname": "Valentin",
+      "name": "Cocaud",
+      "company": null,
+      "bio": "",
+      "photo": "default.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        17
+      ]
+    },
+    {
+      "id": 58,
+      "firstname": "Maxime",
+      "name": "Claveau",
+      "company": null,
+      "bio": "",
+      "photo": "default.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        17
+      ]
+    },
+    {
+      "id": 59,
+      "firstname": "Yoann",
+      "name": "Prot",
+      "company": null,
+      "bio": "",
+      "photo": "yprot.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        19
       ]
     }
   ]
