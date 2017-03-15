@@ -13,9 +13,8 @@
       {"id" : 10, "label": "14h10"},
       {"id" : 11, "label": "14h35"},
       {"id" : 12, "label": "14h55"},
-      {"id" : 13, "label": "15h10"},
-      {"id" : 14, "label": "15h35"},
-      {"id" : 15, "label": "16h00"},
+      {"id" : 13, "label": "15h15"},
+      {"id" : 15, "label": "15h40"},
       {"id" : 16, "label": "16h20"},
       {"id" : 17, "label": "16h30"},
       {"id" : 18, "label": "16h55"},
@@ -172,7 +171,7 @@
       "speaker": [
         5
       ],
-      "agenda" : { "day": 1, "hour": 13, "room": 1 }
+      "agenda" : {}
     },
     {
       "id": 14,
@@ -184,7 +183,7 @@
       "speaker": [
         7
       ],
-      "agenda" : { "day": 1, "hour": 14, "room": 1 }
+      "agenda" : { "day": 1, "hour": 13, "room": 1 }
     },
     {
       "id": 15,
