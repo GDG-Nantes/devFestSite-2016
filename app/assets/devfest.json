@@ -99,7 +99,7 @@
       "speaker": [
         6
       ],
-      "agenda" : { "day": 1, "hour": 5, "room": 4 }
+      "agenda" : { "day": 1, "hour": 11, "room": 4 }
     },
     {
       "id": 6,
@@ -160,7 +160,7 @@
       "speaker": [
         56
       ],
-      "agenda" : { "day": 1, "hour": 11, "room": 1 }
+      "agenda" : { "day": 1, "hour": 5, "room": 1 }
     },
     {
       "id": 13,
