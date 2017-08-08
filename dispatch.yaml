@@ -1,0 +1,3 @@
+dispatch:
+  - url: "tz-nantes.appspot.com"
+    service: tz-2017-09

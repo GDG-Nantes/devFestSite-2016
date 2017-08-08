@@ -92,6 +92,7 @@ gulp.task('copy', () => {
   gulp.src([
     'app/*',
     'app.yaml',
+    'dispatch.yaml',
     '!app/*.html'
     // 'node_modules/apache-server-configs/dist/.htaccess'
   ], {
