@@ -47,8 +47,9 @@
   <body class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
     <main id="agendaVue" class="devfest-ribbon-main mdl-layout__content">
-      <div class="devfest-ribbon">
-        <img src="/images/tz-logo.png" />
+      <div class="devfest-ribbon" style="background-color: black;height: 360px;
+">
+        <img src="/images/tz-2017-09.png" style="width: 750px"/>
       </div>
       <div class="devfest-ribbon-container mdl-grid">
         <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
@@ -62,7 +63,7 @@
               <h6>Jours</h6>
               <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="day1">
                 <input type="checkbox" id="day1" value="day1" v-model="day1" class="mdl-checkbox__input">
-                <span class={{this.getTypeColor('day1')}}>Vendredi 17 Mars</span>
+                <span class={{this.getTypeColor('day1')}}>Vendredi 29 Septembre</span>
               </label>
             </div>
             <div style="display:flex;flex-direction:column;margin-right: 50px;" class="mdl-cell--hide-phone">
@@ -89,7 +90,7 @@
 
           </div>
 
-          <h4 v-if="day1 || (!day1 && !day2)">Vendredi 17 Mars 2017</h4>
+          <h4 v-if="day1 || (!day1 && !day2)">Vendredi 29 Septembre 2017</h4>
           <agenda  v-if="day1 || (!day1 && !day2)" day="1" :hours="agenda.day1" :sessions="displayedSessions" :favorites="favorites"></agenda>
 
       </div>

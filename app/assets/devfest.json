@@ -3,23 +3,20 @@
     "day1" : [
       {"id" : 1, "label": "9h00"},
       {"id" : 2, "label": "9h15"},
-      {"id" : 3, "label": "10h15"},
-      {"id" : 4, "label": "11h10"},
-      {"id" : 5, "label": "11h20"},
-      {"id" : 6, "label": "11h45"},
-      {"id" : 7, "label": "12h10"},
-      {"id" : 8, "label": "12h30"},
-      {"id" : 9, "label": "13h45"},
-      {"id" : 10, "label": "14h10"},
-      {"id" : 11, "label": "14h35"},
-      {"id" : 12, "label": "14h55"},
-      {"id" : 13, "label": "15h15"},
-      {"id" : 15, "label": "15h40"},
-      {"id" : 16, "label": "16h20"},
-      {"id" : 17, "label": "16h30"},
-      {"id" : 18, "label": "16h55"},
-      {"id" : 19, "label": "17h20"},
-      {"id" : 20, "label": "17h50"}
+      {"id" : 3, "label": "10h10"},
+      {"id" : 4, "label": "11h00"},
+      {"id" : 5, "label": "11h15"},
+      {"id" : 6, "label": "12h10"},
+      {"id" : 7, "label": "12h30"},
+      {"id" : 8, "label": "14h00"},
+      {"id" : 9, "label": "14h25"},
+      {"id" : 10, "label": "14h50"},
+      {"id" : 11, "label": "15h15"},
+      {"id" : 12, "label": "15h40"},
+      {"id" : 13, "label": "16h00"},
+      {"id" : 14, "label": "16h15"},
+      {"id" : 15, "label": "17h10"},
+      {"id" : 16, "label": "18h00"}
     ]
   },
   "sessions": [
@@ -30,12 +27,12 @@
       "track": "Technozaure",
       "agenda" : { "day": 1, "hour": 1 }
     },{
-      "id": 8,
+      "id": 7,
       "name": "Déjeuner",
       "type": "repas",
       "image": "/images/agenda/eat.png",
       "track": "Technozaure",
-      "agenda" : { "day": 1, "hour": 8, "room": 8 }
+      "agenda" : { "day": 1, "hour": 7}
     },{
       "id": 4,
       "name": "Pause",
@@ -43,196 +40,162 @@
       "image": "/images/agenda/coffee.png",
       "agenda" : { "day": 1, "hour": 4 }
     },{
-      "id": 12,
+      "id": 13,
       "name": "Pause",
       "type": "café",
       "image": "/images/agenda/coffee.png",
-      "agenda" : { "day": 1, "hour": 12 }
+      "agenda" : { "day": 1, "hour": 13 }
+    },{
+      "id": 66,
+      "name": "Pause",
+      "type": "café",
+      "image": "/images/agenda/coffee.png",
+      "agenda" : { "day": 1, "hour": 42 }
     },{
       "id": 16,
-      "name": "Pause",
-      "type": "café",
-      "image": "/images/agenda/coffee.png",
-      "agenda" : { "day": 1, "hour": 16 }
-    },{
-      "id": 20,
       "name": "Fin de la journée",
       "type": "after",
       "track": "Technozaure",
       "image": "/images/agenda/after.png",
-      "agenda" : { "day": 1, "hour": 20 }
+      "agenda" : { "day": 1, "hour": 16 }
     },
     {
       "id": 2,
-      "name": "Serverless: just a buzzword?",
-      "description": "TODO",
+      "name": "Avec Redux & RxJS, Angular aussi peut être hype!",
+      "description": "L’heure n’est plus au choix d’un framework front plutôt qu’un autre sachant qu’ils reposent dorénavant tous sur le même principe: la manipulation de composants. La vraie problématique est maintenant: comment gérer correctement des états à travers ces composants ? \n\nRedux est souvent associé à React, nous allons voir que c’est autant bénéfique de le mettre en place avec Angular. De plus, à travers un live coding nous ferons la migration d’une application Angular avec une architecture sommaire vers une application utilisant les principes de Redux et toute la puissance de RxJs.",
       "difficulty": 2,
       "type": "conference",
-      "track": "cloud",
+      "track": "web",
       "agenda" : { "day": 1, "hour": 2 },
       "speaker":[
-        2,
-        51
+        32,
+        60
       ]
     },
     {
       "id": 3,
-      "name": "Lodasheries pour un JS plus clair",
-      "description": "TODO",
-      "difficulty": 2,
+      "name": "Linuxkit : le linux façon ikea",
+      "description": "Cela fait des années que certaines distributions linux permettent de construire son linux “from scratch” mais cela restait une opération compliquée et périlleuse. LinuxKit propose la même chose mais avec une approche beaucoup plus moderne et outillée. Cela devient presque aussi facile que de monter un meuble ikea ! (avec une notice quand même)\n\nLe projet LinuxKit, créé par Docker Inc., a été pensé pour créer un OS aussi minimaliste et maintenable que possible (sans compromis avec la sécurité) et y déployer des conteneurs.\n\nNous allons vous présenter la genèse et les concepts du projet, l’écosystème des outils complémentaires qui vous permettront de composer et construire votre distribution. Puis, nous créerons notre première distribution en live !",
+      "difficulty": 1,
       "type": "conference",
-      "track": "web",
+      "track": "cloud",
       "speaker": [
-        31
+        51,
+        61
       ],
       "agenda" : { "day": 1, "hour": 3, "room": 1 }
     },
     {
       "id": 5,
-      "name": "CycleJS",
-      "description": "TODO",
+      "name": "mobx-state-tree, ne vous mettez plus dans tous vos états !",
+      "description": "Vous en avez marre de devoir créer 300 fonctions pour mettre à jour une simple variable dans votre store Redux ?\nImaginez un monde où le store pourrait simplement se mettre à jour comme s’il s’agissait d’une variable mutable MAIS avec les avantages d’un store immutable, et rejouable… haa le paradis des développeurs React :)\n\nEt bien c’est possible ! (Vous nous avez vu venir ?!)\n\nSuivez nous dans cette présentation de mobx-state-tree, une bibliothèque créée par Michel Weststrate, le créateur de MobX.",
       "references": null,
       "difficulty": 1,
-      "type": "quickie",
+      "type": "conference",
       "track": "web",
       "speaker": [
-        6
+        6,
+        62
       ],
-      "agenda" : { "day": 1, "hour": 11, "room": 4 }
+      "agenda" : { "day": 1, "hour": 5, "room": 1 }
     },
     {
       "id": 6,
-      "name": "Alimenter son Elastic avec Kafka Streams",
-      "description": "TODO",
+      "name": "Simple vs Facile",
+      "description": "Un des plus gros problème du développement logiciel c'est la gestion de la complexité. Mais comment distinguer ce qui est complexe de ce qui ne l'est pas ? C'est spécialement difficile quand des mots comme \"simple\" et \"facile\" sont utilisés de manière interchangeable. Ce quickie est un condensé du talk qui influence le plus ma façon de penser le code : \"Simple Made Easy\" de Rich Hickey donné en 2011. On s'y réapproprie la notion objective de simplicité, on montre qu'elle est utile, on évalue les outils du programmeur par rapport à elle.",
       "difficulty": 1,
       "type": "quickie",
-      "track": "cloud",
+      "track": "discovery",
       "speaker": [
-        52
+        31
       ],
       "agenda" : { "day": 1, "hour": 6, "room": 1 }
     },
     {
-      "id": 7,
-      "name": "Npm vs Yarn",
-      "description": "TODO",
-      "difficulty": 1,
+      "id": 8,
+      "name": "Le type-checking en javascript, vraie ou fausse bonne idée ?",
+      "description": "Propulsé après son association avec Angular, Typescript de Microsoft a introduit l’inférence de type et le typage statique dans l'écosystème javascript. \n\nDepuis, des alternatives à Typescript émergent, comme Flow développé par Facebook. \n\nFaut-il intégrer ces solutions dans nos projets, et si oui, laquelle ? \n\nAprès avoir présenté les concepts derrière ces outils et la façon de les mettre en oeuvre, nous nous interrogerons sur leurs avantages et inconvénients.",
+      "difficulty": 2,
       "type": "quickie",
       "track": "web",
       "speaker": [
-        53
+        11,
+        59
       ],
-      "agenda" : { "day": 1, "hour": 7, "room": 2 }
+      "agenda" : { "day": 1, "hour": 8, "room": 2 }
     },
     {
       "id": 9,
-      "name": "Présentation des idées offres Zenika Nantes",
-      "description": "TODO: Dashboard, Veille techno, Labs, Coaching...",
+      "name": "<EMPTY SLOT>",
+      "description": "TODO",
       "difficulty": 2,
       "type": "quickie",
       "track": "discovery",
       "speaker": [
-        13,
-        54
+        
       ],
       "agenda" : { "day": 1, "hour": 9, "room": 5 }
     },
     {
       "id": 10,
-      "name": "Kotlin, 1 an après",
-      "description": "",
+      "name": "From Node to Rust",
+      "description": "Vous avez toujours voulu faire du Rust et de poutrer du poney de bamako ?\nAprès une présentation du langage, suivez-moi dans la ré-écriture d'un exemple de code NodeJS en Rust et r0xxons du poney ensemble.",
       "difficulty": 1,
       "type": "quickie",
-      "track": "cloud",
+      "track": "discovery",
       "speaker": [
-        55
+        63
       ],
       "agenda" : { "day": 1, "hour": 10, "room": 1 }
     },
     {
       "id": 11,
-      "name": "REX Ionic 2 / Angular 2",
-      "description": "",
-      "difficulty": 1,
-      "type": "quickie",
-      "track": "mobile",
-      "speaker": [
-        56
-      ],
-      "agenda" : { "day": 1, "hour": 5, "room": 1 }
-    },
-    {
-      "id": 13,
-      "name": "Cayley, graph oriented \"database\" written in Go",
-      "description": "",
+      "name": "Les ids de corrélation",
+      "description": "Les applications sont de plus en plus interconnectées entre elles. Il n'est plus rare qu'une requête HTTP fait par un utilisateur sur un écran génère de nombreux échanges derrière.\nIl est nécessaire de pouvoir lier ces requêtes entre elles, que ce soit dans un souci d'analyses d'anomalies, de problématiques de temps de réponse ou de statistiques.\nUn des éléments qui pourra répondre à ce besoin est l'id de corrélation.\nCe talk présentera le concept de l'id de corrélation, sous quelle forme on le retrouve dans la plupart des librairies (entêtes http) , une présentation des principales librairies (java principalement), l'intégration de ces données dans les logs et dans un outil dédié à la consultation de ces données.",
       "difficulty": 1,
       "type": "quickie",
       "track": "cloud",
       "speaker": [
-        5
+        64
       ],
-      "agenda" : {}
+      "agenda" : { "day": 1, "hour": 11, "room": 1 }
     },
     {
-      "id": 14,
-      "name": "Inferno, Preact, Deku... Pourquoi réécrire la roue ?",
-      "description": "",
-      "difficulty": 1,
-      "type": "quickie",
-      "track": "web",
-      "speaker": [
-        7
-      ],
-      "agenda" : { "day": 1, "hour": 13, "room": 1 }
-    },
-    {
-      "id": 15,
-      "name": "Jenkins + Docker en live coding",
-      "description": "",
-      "difficulty": 1,
-      "type": "quickie",
-      "track": "cloud",
-      "speaker": [
-        50
-      ],
-      "agenda" : { "day": 1, "hour": 15, "room": 1 }
-    },
-    {
-      "id": 17,
-      "name": "Pitch des stages !",
-      "description": "",
+      "id": 12,
+      "name": "Node JS ! Et si nous n’avions rien compris ?",
+      "description": "Node JS ! Une révolution ?\n\nEt si cette révolution n'était pas seulement technique ?\n\nComment Node JS nous montre l'intérêt de la démarche BDD/TDD et trouve écho dans la démarche DevOps.\n\nSans oublié le rapport avec l’écologie.",
       "difficulty": 1,
       "type": "quickie",
       "track": "discovery",
       "speaker": [
-        57,
-        58
+        65
       ],
-      "agenda" : { "day": 1, "hour": 17, "room": 1 }
+      "agenda" : { "day": 1, "hour": 12, "room": 1 }
     },
     {
-      "id": 18,
-      "name": "Savoir pitcher - pitch elevator - 2 min pour convaincre",
-      "description": "",
+      "id": 14,
+      "name": "react-workbench, le projet, nos erreurs, nos solutions !",
+      "description": "react-workbench est un projet dont l'ambition est de vous permettre de développer vos composant react(/redux) isolé de votre application !\n\nIl promet, à terme de vous aider à :\n - développer votre composant\n - générer la documentation (avec capture d'écran)\n - générer des tests\n\nCe projet, comme nous l'avons dit, est plutôt ambitieux. Un autre projet avec le même nom existait et a été abandonné. Vous vous en doutez, nous sommes tombés sur plein de problèmes.\n\nVenez nous voir pour que nous puissions répondre à certaines de vos questions : \n - Comment avons nous résolus ces problèmes ?\n - Quelles étaient nos erreurs ?\n - Comment s'organise t-on pour faire vivre ce projet ?",
       "difficulty": 1,
-      "type": "quickie",
+      "type": "conference",
+      "track": "web",
+      "speaker": [
+        6,
+        12
+      ],
+      "agenda" : { "day": 1, "hour": 14, "room": 1 }
+    },
+    {
+      "id": 15,
+      "name": "Découvrir l'intelligence collective avec le Nasa Game",
+      "description": "Comprendre l'intelligence collective avec le NASA GAME !",
+      "difficulty": 1,
+      "type": "conference",
       "track": "discovery",
       "speaker": [
         13
       ],
-      "agenda" : { "day": 1, "hour": 18, "room": 1 }
-    },
-    {
-      "id": 19,
-      "name": "Initiation Zythologique",
-      "description": "",
-      "difficulty": 1,
-      "type": "quickie",
-      "track": "discovery",
-      "speaker": [
-        59
-      ],
-      "agenda" : { "day": 1, "hour": 19, "room": 1 }
+      "agenda" : { "day": 1, "hour": 15, "room": 1 }
     }
   ],
   "speakers": [
@@ -246,7 +209,7 @@
       "social": {
       },
       "sessions": [
-        12
+        14
       ]
     },
     {
@@ -259,8 +222,7 @@
       "social": {
       },
       "sessions": [
-        9,
-        18
+        15
       ]
     },
     {
@@ -273,7 +235,7 @@
       "social": {
       },
       "sessions": [
-        14
+        
       ]
     },
     {
@@ -290,7 +252,7 @@
         "blog": "http://www.monbook.tech"
       },
       "sessions": [
-        15
+        
       ]
     },
     {
@@ -306,7 +268,7 @@
         "github": "hgwood"
       },
       "sessions": [
-        3
+        6
       ]
     },
     {
@@ -322,7 +284,7 @@
         "github": null
       },
       "sessions": [
-        13
+        
       ]
     },
     {
@@ -339,7 +301,7 @@
         "linkedin": null
       },
       "sessions": [
-        14
+        
       ]
     },
     {
@@ -355,7 +317,7 @@
         "github": "https://github.com/benjaminfontaine"
       },
       "sessions": [
-        9
+        
       ]
     },
     {
@@ -371,7 +333,8 @@
         "github": "fabienjuif"
       },
       "sessions": [
-        5
+        5,
+        14
       ]
     },
     {
@@ -387,7 +350,7 @@
         "github": "https://github.com/frinyvonnick"
       },
       "sessions": [
-        11
+        8
       ]
     },
     {
@@ -405,7 +368,7 @@
         "linkedin": "https://www.linkedin.com/in/antoine-cellier-34b69954"
       },
       "sessions": [
-        3
+        2
       ]
     },
     {
@@ -423,7 +386,7 @@
         "linkedin": null
       },
       "sessions": [
-        2
+        3
       ]
     },
     {
@@ -441,7 +404,7 @@
         "linkedin": null
       },
       "sessions": [
-        2
+        
       ]
     },
     {
@@ -458,7 +421,7 @@
         "linkedin": null
       },
       "sessions": [
-        6
+        
       ]
     },
     {
@@ -475,7 +438,7 @@
         "linkedin": null
       },
       "sessions": [
-        7
+        
       ]
     },
     {
@@ -492,7 +455,7 @@
         "linkedin": null
       },
       "sessions": [
-        9
+        
       ]
     },
     {
@@ -509,7 +472,7 @@
         "linkedin": null
       },
       "sessions": [
-        10
+        
       ]
     },
     {
@@ -526,7 +489,7 @@
         "linkedin": null
       },
       "sessions": [
-        11
+        
       ]
     },
     {
@@ -543,7 +506,7 @@
         "linkedin": null
       },
       "sessions": [
-        17
+        
       ]
     },
     {
@@ -560,7 +523,7 @@
         "linkedin": null
       },
       "sessions": [
-        17
+        
       ]
     },
     {
@@ -577,7 +540,109 @@
         "linkedin": null
       },
       "sessions": [
-        19
+        8
+      ]
+    },
+    {
+      "id": 60,
+      "firstname": "Thomas",
+      "name": "Betous",
+      "company": null,
+      "bio": "",
+      "photo": "tbetous.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        2
+      ]
+    },
+    {
+      "id": 61,
+      "firstname": "Pierre-Yves",
+      "name": "Aillet",
+      "company": null,
+      "bio": "",
+      "photo": "paillet.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        3
+      ]
+    },
+    {
+      "id": 62,
+      "firstname": "Delphine",
+      "name": "Millet",
+      "company": null,
+      "bio": "",
+      "photo": "dmillet.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        5
+      ]
+    },
+    {
+      "id": 63,
+      "firstname": "Charles-Henri",
+      "name": "Guérin",
+      "company": null,
+      "bio": "",
+      "photo": "cguerin.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        10
+      ]
+    },
+    {
+      "id": 64,
+      "firstname": "Florian",
+      "name": "Nègre",
+      "company": null,
+      "bio": "",
+      "photo": "fnegre.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        11
+      ]
+    },
+    {
+      "id": 65,
+      "firstname": "Emeric",
+      "name": "Martineau",
+      "company": null,
+      "bio": "",
+      "photo": "emartineau.jpg",
+      "social": {
+        "twitter": null,
+        "blog": null,
+        "github": null,
+        "linkedin": null
+      },
+      "sessions": [
+        12
       ]
     }
   ]
