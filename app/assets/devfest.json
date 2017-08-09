@@ -132,7 +132,7 @@
       "type": "quickie",
       "track": "discovery",
       "speaker": [
-        
+
       ],
       "agenda" : { "day": 1, "hour": 9, "room": 5 }
     },
@@ -205,7 +205,7 @@
       "name": "Petetot",
       "company": null,
       "bio": "",
-      "photo": "bpetetot.jpg",
+      "photo": "bpetetot.png",
       "social": {
       },
       "sessions": [
@@ -235,7 +235,7 @@
       "social": {
       },
       "sessions": [
-        
+
       ]
     },
     {
@@ -252,7 +252,7 @@
         "blog": "http://www.monbook.tech"
       },
       "sessions": [
-        
+
       ]
     },
     {
@@ -284,7 +284,7 @@
         "github": null
       },
       "sessions": [
-        
+
       ]
     },
     {
@@ -301,7 +301,7 @@
         "linkedin": null
       },
       "sessions": [
-        
+
       ]
     },
     {
@@ -317,7 +317,7 @@
         "github": "https://github.com/benjaminfontaine"
       },
       "sessions": [
-        
+
       ]
     },
     {
@@ -326,7 +326,7 @@
       "name": "Juif",
       "company": null,
       "bio": "Fabien JUIF a baigné dans l’informatique depuis son adolescence. Il installait sa première Gentoo stage 1 en 1ère pour migrer vers Archlinux quelques années après.<br />Pour lui pacman n’est pas un jeu, on ne rigole pas avec ça.<br /><br />Passioné par la création de jeux vidéos, il s’intéressa très rapidement au développement logiciel. Avec 6 années dans le métier et une veille technologique personnelle depuis son plus jeune âge, il est devenu un peu touche à tout <i>GNU+Linux, Docker, développement backend, développement frontend, etc</i><br /><br />Chez Zenika, son attrait du moment c'est le Web, et plus précisément le développement ReactJS.<br /><br />Il espère pouvoir partager un peu de sa passion avec vous !",
-      "photo": "fjuif.jpg",
+      "photo": "fjuif.png",
       "social": {
         "twitter": null,
         "googleplus": null,
@@ -404,7 +404,7 @@
         "linkedin": null
       },
       "sessions": [
-        
+
       ]
     },
     {
@@ -421,7 +421,7 @@
         "linkedin": null
       },
       "sessions": [
-        
+
       ]
     },
     {
@@ -438,7 +438,7 @@
         "linkedin": null
       },
       "sessions": [
-        
+
       ]
     },
     {
@@ -455,7 +455,7 @@
         "linkedin": null
       },
       "sessions": [
-        
+
       ]
     },
     {
@@ -472,7 +472,7 @@
         "linkedin": null
       },
       "sessions": [
-        
+
       ]
     },
     {
@@ -489,7 +489,7 @@
         "linkedin": null
       },
       "sessions": [
-        
+
       ]
     },
     {
@@ -506,7 +506,7 @@
         "linkedin": null
       },
       "sessions": [
-        
+
       ]
     },
     {
@@ -523,7 +523,7 @@
         "linkedin": null
       },
       "sessions": [
-        
+
       ]
     },
     {
