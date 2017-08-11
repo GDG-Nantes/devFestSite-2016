@@ -126,13 +126,13 @@
     },
     {
       "id": 9,
-      "name": "<EMPTY SLOT>",
-      "description": "TODO",
-      "difficulty": 2,
+      "name": "Avec les PWA, le natif a-t-il encore une chance ?",
+      "description": "Les progressive web apps envahissent progressivement le marché comme Twitter avec Twitter Lite.\nY'a-t-il encore aujourd'hui à développer une application native, avec toutes les difficultés que celà entraîne ?",
+      "difficulty": 1,
       "type": "quickie",
-      "track": "discovery",
+      "track": "web",
       "speaker": [
-
+        7
       ],
       "agenda" : { "day": 1, "hour": 9, "room": 5 }
     },
