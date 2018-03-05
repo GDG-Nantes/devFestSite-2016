@@ -55,7 +55,7 @@ var getTimeLabel = function getTimeLabel(type) {
     case 'keynote':
       return '50 min';
     case 'repas':
-      return '1 h';
+      return '1h30';
     case 'conference':
       return '50 min';
     case 'codelab':
@@ -63,7 +63,7 @@ var getTimeLabel = function getTimeLabel(type) {
     case 'quickie':
       return '20 min';
     case 'after':
-      return '1 h';
+      return '30 min';
     case 'café':
       return '15 min';
     default:
@@ -96,12 +96,13 @@ getRoomLabel = function getRoomLabel(id) {
 
 // Get the day label
 var getDayLabel = function getDayLabel(day) {
-  switch (day) {
-    case 2:
-      return language === 'en' ? 'Thursday, November 10th' : 'Jeudi 10 novembre';
-    case 1:
-      return language === 'en' ? 'Wednesday, November 9th' : 'Mercredi 9 novembre';
-  }
+  return 'Vendredi 16 Mars'
+  // switch (day) {
+  //   case 2:
+  //     return language === 'en' ? 'Thursday, November 10th' : 'Jeudi 10 novembre';
+  //   case 1:
+  //     return language === 'en' ? 'Wednesday, November 9th' : 'Mercredi 9 novembre';
+  // }
 };
 
 // Get the hour label
