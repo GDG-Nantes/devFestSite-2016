@@ -1,25 +1,26 @@
 {
   "agenda": {
-    "day1" : [
-      {"id" : 1, "label": "9h00"},
-      {"id" : 2, "label": "9h15"},
-      {"id" : 3, "label": "9h40"},
-      {"id" : 4, "label": "10h35"},
-      {"id" : 5, "label": "11h00"},
-      {"id" : 6, "label": "11h15"},
-      {"id" : 7, "label": "11h40"},
-      {"id" : 8, "label": "12h05"},
-      {"id" : 9, "label": "12h30"},
-      {"id" : 10, "label": "14h00"},
-      {"id" : 11, "label": "14h25"},
-      {"id" : 12, "label": "14h50"},
-      {"id" : 13, "label": "15h15"},
-      {"id" : 14, "label": "15h40"},
-      {"id" : 15, "label": "16h00"},
-      {"id" : 16, "label": "16h15"},
-      {"id" : 17, "label": "16h40"},
-      {"id" : 18, "label": "17h05"},
-      {"id" : 19, "label": "17h30"}
+    "day1": [
+      { "id": 1, "label": "9h00" },
+      { "id": 2, "label": "9h15" },
+      { "id": 3, "label": "9h40" },
+      { "id": 41, "label": "10h05" },
+      { "id": 42, "label": "10h30" },
+      { "id": 5, "label": "10h50" },
+      { "id": 6, "label": "11h15" },
+      { "id": 7, "label": "11h40" },
+      { "id": 8, "label": "12h05" },
+      { "id": 9, "label": "12h30" },
+      { "id": 10, "label": "14h00" },
+      { "id": 11, "label": "14h25" },
+      { "id": 12, "label": "14h50" },
+      { "id": 13, "label": "15h15" },
+      { "id": 14, "label": "15h40" },
+      { "id": 15, "label": "16h00" },
+      { "id": 16, "label": "16h15" },
+      { "id": 17, "label": "16h40" },
+      { "id": 18, "label": "17h05" },
+      { "id": 19, "label": "17h30" }
     ]
   },
   "sessions": [
@@ -28,213 +29,188 @@
       "name": "Ouverture des portes",
       "image": "/images/agenda/open.png",
       "track": "Technozaure",
-      "agenda" : { "day": 1, "hour": 1 }
-    },{
+      "agenda": { "day": 1, "hour": 1 }
+    },
+    {
       "id": 9,
       "name": "Déjeuner",
       "type": "repas",
       "image": "/images/agenda/eat.png",
       "track": "Technozaure",
-      "agenda" : { "day": 1, "hour": 9}
-    },{
+      "agenda": { "day": 1, "hour": 9 }
+    },
+    {
       "id": 5,
       "name": "Pause",
       "type": "café",
       "image": "/images/agenda/coffee.png",
-      "agenda" : { "day": 1, "hour": 5 }
-    },{
+      "agenda": { "day": 1, "hour": 5 }
+    },
+    {
       "id": 15,
       "name": "Pause",
       "type": "café",
       "image": "/images/agenda/coffee.png",
-      "agenda" : { "day": 1, "hour": 15 }
-    },{
-      "id": 66,
-      "name": "Pause",
-      "type": "café",
-      "image": "/images/agenda/coffee.png",
-      "agenda" : { "day": 1, "hour": 42 }
-    },{
+      "agenda": { "day": 1, "hour": 15 }
+    },
+    {
       "id": 19,
       "name": "Fin de la journée",
       "type": "after",
       "track": "Technozaure",
       "image": "/images/agenda/after.png",
-      "agenda" : { "day": 1, "hour": 19 }
+      "agenda": { "day": 1, "hour": 19 }
     },
     {
       "id": 2,
-      "name": "Apprenez à dessiner en 20 minutes",
-      "description": "<p>Ici pas d'informatique, mais de l'art... bien que l'informatique soit de l'art de temps en temps.</p><p>En 20 minutes, il est possible d'apprendre à dessiner un visage juste en mettant en pratique quelques notions de proportions et placements. \n\nMême si vous ne savez pas du tout dessiner, vous dessinerez... Je relève le défis ! 💪</p><p>Il n'y aura quasiment pas de slide, en live, nous dessinerons tous ensemble et à la fin de la session, vous pourrez dire: </p><h3><strong>je sais dessiner un visage !</strong></h3><p>Et en allant un peu plus loin, je suis sûr que nous trouverons quelques corrélations avec le développement d'applications  ! </p><h1>✏️👨</h1>",
+      "name": "Rendez votre service mesh intelligent avec Istio",
+      "description": "<p>Le déploiement d’une architecture microservice en production pose de nombreuses questions. Comment gérer la découverte des services? Comment gérer le load balancing? Comment gérer les erreurs?<br><br>L’approche traditionnelle est celle du “smart endpoints and dumb pipes” énoncée par Martin Fowler et selon laquelle ces problématiques doivent êtres gérées par les microservices eux même. Par exemple on va utiliser Hystrix comme circuit breaker dans les services java mais comment faire si un service est écrit en Ruby et ne dispose pas de librairie équivalente?<br><br>Istio propose de rendre nos tuyaux intelligents tout en gardant la configuration au plus près de nos services.</p>",
       "difficulty": 1,
       "type": "quickie",
-      "track": "discovery",
-      "agenda" : { "day": 1, "hour": 2 },
-      "speaker":[
-        12
-      ]
+      "track": "cloud",
+      "speaker": [61, 74],
+      "agenda": { "day": 1, "hour": 2 }
     },
     {
       "id": 3,
-      "name": "Zenika Papers : le casse du siècle",
-      "description": "<p>Depuis le scandale chez un célèbre courtier en assurances, Florian et Vickrame, enquêteurs à la PJ ont été mis au placard.\nUne nouvelle affaire surgit, un scandale financier éclabousse une célèbre entreprise Nantaise, c'est le début des Zenika Papers.</p><p>Le budget CE de l'entreprise a été détourné, les conséquences sont lourdes :</p><ul><li>Les bières devront être remplacées par de l'eau du robinet</li><li>Le déménagement étant compromis, les nouveaux locaux seront finalement dans la cave de Cap Gemini</li><li>Mise en place de quotas sur la consommation de papier toilette par consultant\nVenez nous aider à identifier le ou les coupables, afin que la prochaine épidémie de gastro ne soit pas une catastrophe.</li></ul><p>A notre disposition, nous aurons un volume colossal de données (emails, photos, historiques de navigation, logs, transactions bancaires, etc.). \nNeo4J nous permettra de faire face à cette masse d'informations afin d'extraire les indices qui nous permettront de résoudre cette affaire, et de relancer notre carrière d'enquêteurs. </p>",
-      "difficulty": 1,
-      "type": "conference",
-      "track": "discovery",
-      "speaker": [
-        52,
-        64
-      ],
-      "agenda" : { "day": 1, "hour": 3 }
-    },
-    {
-      "id": 4,
-      "name": "Êtes-vous invisible ou non sur le net ? ",
-      "description": "<p>Vous pensez être invisible ou plutôt être connus et reconnus de tous sur internet&nbsp;?</p>\n\n\n<p>Voyons ça ensemble lors d’un petit exercice.</p>",
+      "name": "Sketching the world",
+      "description": "<p>Dans la série \"Les outils de l'UX designer\", je vous propose une rapide présentation d'Axure. Ce sera l’occasion de construire un petit prototype fonctionnel... sans aucune ligne de code !</p>",
       "difficulty": 1,
       "type": "quickie",
       "track": "discovery",
-      "speaker": [
-        66
-      ],
-      "agenda" : { "day": 1, "hour": 4 }
+      "speaker": [75],
+      "agenda": { "day": 1, "hour": 3 }
+    },
+    {
+      "id": 41,
+      "name": "Programmation réactive et Reactor",
+      "description": "<p>L'usage de nos applications web a changé (augmentation des transactions, gestion de notifications, ...). Dans ce contexte, comment améliorer l'expérience des utilisateurs tout en construisant un système robuste et flexible ?<br><br>La programmation réactive est l'une des réponses. A travers ce quickie nous verrons les concepts de ce paradigme, puis côté Java, la spécification Reactive Streams ainsi qu'une de ses implémentations: Reactor de Pivotal.</p>",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "web",
+      "speaker": [76],
+      "agenda": { "day": 1, "hour": 41 }
+    },
+    {
+      "id": 42,
+      "name": "\"PrismaPizza\", votre serveur GraphQL livré chez vous en moins de 20min",
+      "description": "<p>Depuis quelques temps, on entend parler de GraphQL à toutes les sauces. Servi comme le remplaçant de REST, il nous tarde de goûter à ce langage.<br><br>Mais par quel bout commencer ? Ensemble, nous découvrirons comment utiliser Prisma et Yoga pour mettre en place un serveur GraphQL et le relier à votre base de donnée plus rapidement qu'une livraison Domino's.<br><br>Pour pimenter le tout, nous développerons le serveur d'une application de commande de Pizza en livecode durant ce talk.<br><br>Vous êtes prêt ? Alors allons-y, on a du pain sur la planche !</p>",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "web",
+      "speaker": [68],
+      "agenda": { "day": 1, "hour": 42 }
     },
     {
       "id": 6,
-      "name": "La difficulté dans le jeu vidéo",
-      "description": "<p>En terme de game design, comment concilier l'accessibilité et la vision des artistes ?</p>",
+      "name": "Elixir : qui a dit que disponibilité rimait avec complexité ?",
+      "description": "<p>Aujourd'hui, la disponibilité des systèmes est devenue une des principales préoccupation lors de leur conception. Si les microservices sont une solution à ce problème, Erlang, développé par Ericson dans la fin des années 80, n'a pas grand-chose à leur envier.<br><br>Elixir est tout simplement l'Erlang des temps modernes. Au programme : programmation fonctionnelle, modèle acteur et supervision.</p>",
       "references": null,
       "difficulty": 1,
       "type": "quickie",
-      "track": "discovery",
-      "speaker": [
-        67
-      ],
-      "agenda" : { "day": 1, "hour": 6 }
+      "track": "cloud",
+      "speaker": [57, 77],
+      "agenda": { "day": 1, "hour": 6 }
     },
     {
       "id": 7,
-      "name": "Pitch des stages",
-      "description": "<p>1 agence, 2 stagiaires: C'est le pitch des stages !</p>\n\n<p>Au programme:</p><ul><li>PWA paris sportifs</li><li>La FAQ Zenika</li></ul>",
+      "name": "Dérouiller le Web avec Rust et WASM",
+      "description": "<p>Dans ce talk, je vais présenter comment utiliser le language Rust et WebAssembly pour réaliser des applications webs qui vont plus vite que la lumière !</p>",
       "difficulty": 1,
       "type": "quickie",
-      "track": "discovery",
-      "speaker": [
-        68,
-        69
-      ],
-      "agenda" : { "day": 1, "hour": 7 }
+      "track": "web",
+      "speaker": [78],
+      "agenda": { "day": 1, "hour": 7 }
     },
     {
       "id": 8,
-      "name": "Comment grandir sans perdre en qualité de vie",
-      "description": "<p>Dans cette présentation, on identifiera les différentes problématiques auxquelles une équipe peut être confrontées lorsqu'elle grandit. Nous essayerons ensuite de vous présenter les diverses \"bonnes\" pratiques que nous avons pu observées autour de nous ou tout simplement déjà mises en place.</p>",
+      "name": "Ok Google, is my tram ready yet?",
+      "description": "<p>J'habite dans un immeuble juste en face d'un arrêt de tram : je peux le voir depuis mon salon. A chaque fois que je dois descendre prendre le tram, je me pose une question : Quand est-ce que le prochain tram arrive ?<br><br>Je n'ai pas une vue de sentinelle et j'ai le réflexe de penser très fort : Ok google, quand est-ce que le tram arrive ? ...<br><br>Au bout de plusieurs fois, j'ai décidé de me lancer dans l'écriture d'un assistant google qui répondrait à mon besoin : ne pas attendre dehors alors que je peux rester tranquille chez moi et sortir au bon moment !<br><br>Alors, est-ce que mon tram est finalement prêt ?<br><br>Dans ce talk, je vous présente IMTRY mon projet du moment. Il s'agit d'un assistant google créé à l'aide de DialogFlow et déployé avec les CloudFunctions Firebase. Je m'appuie sur l'API temps réel de la Semitan (❤️Open Data Nantes)</p>",
       "difficulty": 2,
       "type": "quickie",
-      "track": "discovery",
-      "speaker": [
-        13,
-        56
-      ],
-      "agenda" : { "day": 1, "hour": 8 }
+      "track": "mobile",
+      "speaker": [63],
+      "agenda": { "day": 1, "hour": 8 }
     },
     {
       "id": 10,
-      "name": "Au pays des Gophers (à partir de 3 ans)",
-      "description": "<p>Au pays des Gophers, les Goroutines sauvages gambadent librement, et s’échangent des bisous au travers des channels.</p><p>Les méchants Locks sont tous deads (ou presque), et le Scheduler règne sur ce monde paisible qui ne connaît plus le nom des anciens dieux les Threads.</p><p>La concurrence en Go expliquée à ma fille de 3 ans !</p>",
+      "name": "Crafter un set d'armure rutilante !",
+      "description": "<p>La nouvelle extension de World of Warcraft vient de sortir. Je n'y connais rien, je n'y joue pas. Mais peut-être y jouez-vous. Je vous propose l'exercice suivant. <br>Dans quelques semaines a lieu le premier affrontement Horde / Alliance. Il vous faut une armure complète prête pour ce combat exceptionnel. Construire et crafter une armure est un gros projet en soi. Voyons comment nous pouvons organiser notre projet pour être prêt à temps !<br><br>Dans ce court atelier vous allez m'aider à prouver qu'il y a de bonnes et de moins bonnes façons de gérer un projet en fonction du contexte. Ce n'est pas forcément trivial !</p>",
       "difficulty": 1,
       "type": "quickie",
       "track": "discovery",
-      "speaker": [
-        5
-      ],
-      "agenda" : { "day": 1, "hour": 10 }
+      "speaker": [72, 73],
+      "agenda": { "day": 1, "hour": 10 }
     },
     {
       "id": 11,
-      "name": "Storytelling",
-      "description": "<p>L'attention d'un public serait de 15mn max, avec le Storytelling vous pouvez poussez cette limite, capter et garder l'attention de votre audience le temps que vous voulez.</p><p>Nous en découvrirons le Why, le How et le What ;-)</p><p>Et verrons comment il peut nous être utile dans notre métier de \"consultant / formateur\" sans oublier bien sûr les autres méthodes de communication.</p>",
+      "name": "Jouons avec Skaffold & Container Structure Test",
+      "description": "<p>Vous développez des images Docker ? Vous les déployez sur K8S ? Venez découvrir deux outils bien pratiques : Skaffold & Container Structure Test<br><br>L’un permet de valider vos images Docker tandis que l’autre permet de recharger votre cluster Kubernetes rapidement… à chaque sauvegarde par exemple.<br><br>Venez découvrir l’utilisation conjointe des ces 2 outils pour être plus productif au jour le jour.</p>",
       "difficulty": 1,
       "type": "quickie",
-      "track": "discovery",
-      "speaker": [
-        70
-      ],
-      "agenda" : { "day": 1, "hour": 11 }
+      "track": "cloud",
+      "speaker": [2],
+      "agenda": { "day": 1, "hour": 11 }
     },
     {
       "id": 12,
-      "name": "Accorder GraphQL avec de l'Event Sourcing ⏪⏯⏹⏺⏩",
-      "description": "<p>À travers ce quickie, nous reviendrons rapidement sur DDD et CQRS, les fondements de l'Event Sourcing et nous verrons en quoi et comment la spécification GraphQL est adaptée à l'event sourcing. Afin d'illustrer nos propos nous en verrons l'application sur une application Node.js avec un front Angular et l'implémentation GraphQL d'Apollo. </p><ul><li>DDD et CQRS, les fondements de l'Event Sourcing</li><li>Où et comment intervient GraphQL</li><li>Présentation d'une application concrète</li></ul>",
+      "name": "Out of the Tar Pit",
+      "description": "<p>La gangrène de notre industrie c'est la complexité.<br><br>\"Out of the Tar Pit\" est un papier publié en 2006 qui s'attaque à l'étude de ce problème. Les auteurs y classifient les différents types de complexités et leurs causes, puis propose une architecture pour tenter de les contenir. Je vous propose de vous résumer le papier autour d'un exemple d'application, et d'explorer comment on pourrait se rapprocher de l'idéal du papier avec des technologies actuelles.<br><br>Avec Simple Made Easy que je vous ai présenté en septembre 2017, Out of the Tar Pit est une des influences majeures sur mon style de programmation.</p>",
       "difficulty": 1,
       "type": "quickie",
-      "track": "web",
-      "speaker": [
-        55,
-        60
-      ],
-      "agenda" : { "day": 1, "hour": 12 }
+      "track": "discovery",
+      "speaker": [31],
+      "agenda": { "day": 1, "hour": 12 }
     },
     {
       "id": 13,
-      "name": "A journey to craftsmanship",
-      "description": "Quand vous commencez à perdre un tiers de vos sprints à résoudre des bugs ou des régressions, deux choix s'offrent à vous. Soit vous laissez tomber et le projet meurt d'une lente agonie, soit vous vous retroussez les manches et cherchez des solutions. Suivez nous dans cette aventure à la recherche de la qualité au travers de nos erreurs, nos réussites et nos sources d'inspirations. Laissez nous vous montrer comment nous avons rendu plus maintenable notre projet chez MyMoneyBank.",
+      "name": "Premiers pas avec AWS",
+      "description": "J'explique la mise en oeuvre chez mon client actuel d'une infra AWS from scratch avec Terraform et un peu de shell pour aller du commit à la prod en passant dans des Review App avec Gitlab. L'appli est composée d'un front en React avec Gatsby accompagnée de plusieurs back en Node et SpringBoot. L'ensemble est déployé sur du S3 avec un CDN en frontal et ECS pour la partie Docker.",
       "difficulty": 1,
       "type": "quickie",
-      "track": "discovery",
-      "speaker": [
-        11,
-        59
-      ],
-      "agenda" : { "day": 1, "hour": 13 }
+      "track": "cloud",
+      "speaker": [50],
+      "agenda": { "day": 1, "hour": 13 }
     },
     {
       "id": 14,
-      "name": "À l’assaut des Web Components avec Stencil.js !",
-      "description": "<p>Avec l’émergence des Progressive Web Apps, les Web Components se présentent comme la solution idéale pour réaliser des applications légères et performantes, avec des composants réutilisables dans n’importe quel contexte.</p><p>Stencil.js est un compilateur permettant de générer des composants basés sur les nouveaux standards du web à partir d’un code combinant les meilleures fonctionnalités des frameworks frontend les plus populaires.</p><p>Dans cette présentation, nous verrons de quelle manière cet outil peut nous simplifier la prise en main des Web Components.</p>",
+      "name": "Quand L'IA fait le job !",
+      "description": "<p><b>L'Intelligence Artificielle</b> est au coeur des préoccupations dans le monde d'aujourd'hui.<br><br>Source de frayeurs pour les uns et d'espoirs pour les autres, fort de son couplage à la révolution numérique que nous vivons , il devient évident que son impact sociétal va boulverser nos vies dans les prochaines années.<br><br>Dressons un rapide panaroma, quels sont les domaines qu'elle va \"disrupter\" (santé , éducation , transports, agriculture, ...) et imaginons les conséquences sur le travail pour les Femmes et les Hommes du 21 ème siècle.</p>",
       "difficulty": 1,
       "type": "quickie",
-      "track": "web",
-      "speaker": [
-        53
-      ],
-      "agenda" : { "day": 1, "hour": 14 }
+      "track": "discovery",
+      "speaker": [54],
+      "agenda": { "day": 1, "hour": 14 }
     },
     {
       "id": 16,
-      "name": "101 - Self Marketing for Developers",
-      "description": "<p>Nous sommes tous curieux et passionnés à Zenika.\nNous aimons partager nos connaissances, présenter nos idées et challenger l'existant avec notre ouverture d'esprit.\nComment diffuser cela plus largement à l'extérieur ? Quelles sont les bases pour créer <em>\"sa\" marque</em> ?\nLe meilleur de tous les commerciaux du monde, c'est vous-même : comment initier cette démarche ?\nL'idée est de présenter quelques concepts du self marketing et d'imaginer ensemble une déclinaison pour nous développeur.</p>",
-      "difficulty": 1,
-      "type": "quickie",
-      "track": "discovery",
-      "speaker": [
-        2
-      ],
-      "agenda" : { "day": 1, "hour": 16 }
-    },
-    {
-      "id": 17,
-      "name": "Osez l'accessibilité !",
-      "description": "Vous l'avez peut-être remarqué sur Twitter ou dans les conférences, l'accessibilité est le buzzword du moment. L'inclusivité aussi. Et ce n'est pas un hasard : un site accessible est un site qui n'exclut personne. Mais on ne va pas se mentir, c'est chiant à mettre en place 🙊. Alors quand vient le moment de développer, on se dit que ça n'est pas forcément utile. Mon défi : m'auto convaincre et, par la même occasion, vous convaincre de l'importance d'intégrer l'accessibilité dans nos développements !",
+      "name": "La face cachée des Devtools",
+      "description": "<p>Les Devtools de Chrome proposent aux développeurs frontend une boîte à outil aujourd'hui quasi indispensable pour réaliser une application web. Mais la plupart des développeurs (et moi-même) nous les utilisons a 10% de leur capacité.<br><br>Dans ce quickie nous verrons les fonctionnalités sous utilisées, des astuces afin d'être efficaces et leur fonctionnement interne.<br><br>Après ce talk vous ne serez plus l.e.a même développeu.r.se Front :)</p>",
       "difficulty": 1,
       "type": "quickie",
       "track": "web",
-      "speaker": [
-        62
-      ],
-      "agenda" : { "day": 1, "hour": 17 }
+      "speaker": [12],
+      "agenda": { "day": 1, "hour": 16 }
+    },
+    {
+      "id": 17,
+      "name": "L'importance de la communication non-verbale",
+      "description": "« Il m’a fait mauvaise impression, je sais pas pourquoi... » « Dans quel état d’esprit est mon interlocuteur ? » « C’est pourtant intéressant ce qu’il dit, pourquoi je m’ennuie autant ? » « Je ne le sens pas, celui-là… » « Ce type a un de ces charismes !!! » « Et moi, quelle image je donne vu de l’extérieur ? »<br><br>Que vous soyez speaker, formateur, recruteur, quelques notions de communication non-verbale pourront vous donner des clés pour décrypter les autres et vous-même !<br><br>(Avec de vrais exemples joués par un vrai acteur !)",
+      "difficulty": 1,
+      "type": "quickie",
+      "track": "web",
+      "speaker": [73],
+      "agenda": { "day": 1, "hour": 17 }
     },
     {
       "id": 18,
-      "name": "Techniques de Négociation #1",
-      "description": "Que ça soit au travail ou dans la vie perso, on passe ça vie à négocier . Vous découvrirez quelques techniques bien utiles pour vos prochaines négociations. Je donnerai aussi des exemples de négociations qui ont fonctionnées et d'autres beaucoup moins ;)",
+      "name": "3 techniques de manipulation facile",
+      "description": "En 20min je vous apprends trois techniques de manipulation pour influencer les gens qui vous entourent et ne pas vous faire influencer facilement.",
       "difficulty": 1,
       "type": "quickie",
       "track": "discovery",
-      "speaker": [
-        13
-      ],
-      "agenda" : { "day": 1, "hour": 18 }
+      "speaker": [66],
+      "agenda": { "day": 1, "hour": 18 }
     }
   ],
   "speakers": [
@@ -245,11 +221,8 @@
       "company": null,
       "bio": "",
       "photo": "bpetetot.jpg",
-      "social": {
-      },
-      "sessions": [
-        2
-      ]
+      "social": {},
+      "sessions": [16]
     },
     {
       "id": 13,
@@ -258,11 +231,8 @@
       "company": null,
       "bio": "",
       "photo": "abonneau.jpg",
-      "social": {
-      },
-      "sessions": [
-        8
-      ]
+      "social": {},
+      "sessions": [8]
     },
     {
       "id": 14,
@@ -271,11 +241,8 @@
       "company": null,
       "bio": "",
       "photo": "vmenard.jpg",
-      "social": {
-      },
-      "sessions": [
-
-      ]
+      "social": {},
+      "sessions": []
     },
     {
       "id": 50,
@@ -290,9 +257,7 @@
         "github": null,
         "blog": "http://www.monbook.tech"
       },
-      "sessions": [
-
-      ]
+      "sessions": [13]
     },
     {
       "id": 31,
@@ -306,9 +271,7 @@
         "googleplus": null,
         "github": "hgwood"
       },
-      "sessions": [
-        6
-      ]
+      "sessions": [12]
     },
     {
       "id": 5,
@@ -322,9 +285,7 @@
         "googleplus": null,
         "github": null
       },
-      "sessions": [
-
-      ]
+      "sessions": []
     },
     {
       "id": 7,
@@ -339,9 +300,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-
-      ]
+      "sessions": []
     },
     {
       "id": 9,
@@ -355,9 +314,7 @@
         "googleplus": "https://plus.google.com/100218727706940554885",
         "github": "https://github.com/benjaminfontaine"
       },
-      "sessions": [
-
-      ]
+      "sessions": []
     },
     {
       "id": 6,
@@ -371,10 +328,7 @@
         "googleplus": null,
         "github": "fabienjuif"
       },
-      "sessions": [
-        5,
-        14
-      ]
+      "sessions": [5, 14]
     },
     {
       "id": 11,
@@ -388,9 +342,7 @@
         "googleplus": null,
         "github": "https://github.com/frinyvonnick"
       },
-      "sessions": [
-        13
-      ]
+      "sessions": [13]
     },
     {
       "id": 32,
@@ -406,9 +358,7 @@
         "github": null,
         "linkedin": "https://www.linkedin.com/in/antoine-cellier-34b69954"
       },
-      "sessions": [
-        2
-      ]
+      "sessions": [2]
     },
     {
       "id": 51,
@@ -424,9 +374,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        3
-      ]
+      "sessions": [3]
     },
     {
       "id": 2,
@@ -442,9 +390,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        16
-      ]
+      "sessions": [11]
     },
     {
       "id": 52,
@@ -459,9 +405,7 @@
         "github": "vickrame",
         "linkedin": null
       },
-      "sessions": [
-        3
-      ]
+      "sessions": [3]
     },
     {
       "id": 53,
@@ -476,9 +420,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        14
-      ]
+      "sessions": [14]
     },
     {
       "id": 54,
@@ -493,9 +435,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-
-      ]
+      "sessions": [14]
     },
     {
       "id": 55,
@@ -510,9 +450,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        12
-      ]
+      "sessions": [12]
     },
     {
       "id": 56,
@@ -527,9 +465,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        8
-      ]
+      "sessions": [8]
     },
     {
       "id": 57,
@@ -537,16 +473,14 @@
       "name": "Cocaud",
       "company": null,
       "bio": "",
-      "photo": "default.jpg",
+      "photo": "vcocaud.jpg",
       "social": {
-        "twitter": null,
+        "twitter": "ragorn44",
         "blog": null,
-        "github": null,
+        "github": "EmrysMyrddin",
         "linkedin": null
       },
-      "sessions": [
-
-      ]
+      "sessions": [6]
     },
     {
       "id": 58,
@@ -561,9 +495,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-
-      ]
+      "sessions": []
     },
     {
       "id": 59,
@@ -578,9 +510,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        13
-      ]
+      "sessions": [13]
     },
     {
       "id": 60,
@@ -595,9 +525,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        12
-      ]
+      "sessions": [12]
     },
     {
       "id": 61,
@@ -612,9 +540,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        3
-      ]
+      "sessions": [2]
     },
     {
       "id": 62,
@@ -629,9 +555,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        17
-      ]
+      "sessions": [17]
     },
     {
       "id": 63,
@@ -646,9 +570,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        10
-      ]
+      "sessions": [8]
     },
     {
       "id": 64,
@@ -663,9 +585,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        3
-      ]
+      "sessions": [3]
     },
     {
       "id": 65,
@@ -680,9 +600,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        12
-      ]
+      "sessions": [12]
     },
     {
       "id": 66,
@@ -697,9 +615,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        4
-      ]
+      "sessions": [18]
     },
     {
       "id": 67,
@@ -714,9 +630,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        6
-      ]
+      "sessions": [6]
     },
     {
       "id": 68,
@@ -724,16 +638,14 @@
       "name": "Courtoison",
       "company": null,
       "bio": "",
-      "photo": "tcourtoison.jpg",
+      "photo": "tcourtoison.png",
       "social": {
         "twitter": "@Errorname_",
         "blog": null,
         "github": "Errorname",
         "linkedin": null
       },
-      "sessions": [
-        7
-      ]
+      "sessions": [42]
     },
     {
       "id": 69,
@@ -748,9 +660,7 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        7
-      ]
+      "sessions": [7]
     },
     {
       "id": 70,
@@ -765,9 +675,127 @@
         "github": null,
         "linkedin": null
       },
-      "sessions": [
-        11
-      ]
+      "sessions": [11]
+    },
+    {
+      "id": 71,
+      "firstname": "Patrice",
+      "name": "De Saint Steban",
+      "company": null,
+      "bio": "Développeur FullStack depuis 8 ans, sur les technologies Java, Gwt, Angular, Ionic.",
+      "photo": "pdesaintsteban.jpg",
+      "social": {
+        "twitter": "patoudss",
+        "blog": null,
+        "github": "patou",
+        "linkedin": null
+      },
+      "sessions": [16]
+    },
+    {
+      "id": 72,
+      "firstname": "Johan",
+      "name": "Bonneau",
+      "company": null,
+      "bio": "",
+      "photo": "jbonneau.jpg",
+      "social": {
+        "twitter": "JohanBonneau",
+        "blog": null,
+        "github": "Zenigata",
+        "linkedin": null
+      },
+      "sessions": [10]
+    },
+    {
+      "id": 73,
+      "firstname": "Séverine",
+      "name": "Luzeau",
+      "company": null,
+      "bio": "",
+      "photo": "sluzeau.jpg",
+      "social": {
+        "twitter": "",
+        "blog": null,
+        "github": "",
+        "linkedin": null
+      },
+      "sessions": [10, 17]
+    },
+    {
+      "id": 74,
+      "firstname": "Vincent",
+      "name": "Poilvert",
+      "company": null,
+      "bio": "",
+      "photo": "vpoilvert.jpg",
+      "social": {
+        "twitter": "VincentPoilvert",
+        "blog": null,
+        "github": "vpoilvert",
+        "linkedin": null
+      },
+      "sessions": [2]
+    },
+    {
+      "id": 75,
+      "firstname": "Stéphane",
+      "name": "Cohan",
+      "company": null,
+      "bio": "",
+      "photo": "scohan.jpg",
+      "social": {
+        "twitter": "SCxPro",
+        "blog": "https://naoned-makers.github.io/",
+        "github": "",
+        "linkedin": null
+      },
+      "sessions": [3]
+    },
+    {
+      "id": 76,
+      "firstname": "Joanna",
+      "name": "Cartron",
+      "company": null,
+      "bio": "",
+      "photo": "jcartron.jpg",
+      "social": {
+        "twitter": "",
+        "blog": null,
+        "github": "",
+        "linkedin": null
+      },
+      "sessions": [41]
+    },
+    {
+      "id": 77,
+      "firstname": "Pierre",
+      "name": "Legall",
+      "company": null,
+      "bio": "",
+      "photo": "plegall.png",
+      "social": {
+        "twitter": "lepieru",
+        "blog": null,
+        "github": "lepieru",
+        "linkedin": null
+      },
+      "sessions": [6]
+    },
+    {
+      "id": 78,
+      "firstname": "Maël",
+      "name": "Naccache",
+      "company": null,
+      "bio": "",
+      "photo": "mnaccache.png",
+      "social": {
+        "twitter": "",
+        "blog": null,
+        "github": "maeln",
+        "linkedin": null
+      },
+      "sessions": [7]
     }
   ]
 }
