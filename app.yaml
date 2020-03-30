@@ -1,7 +1,7 @@
 #application: devfestnantes2016
 #version: v3
-runtime: go
-api_version: go1
+runtime: python27
+api_version: 1
 threadsafe: true
 
 default_expiration: "15m"
@@ -39,10 +39,6 @@ handlers:
   upload: /assets/devfest.json
   http_headers:
     Access-Control-Allow-Origin: "*"
-
-# Service Go de favoris
-- url: /(\.well-known|api)/.* 
-  script: _go_app
 
 # access the static resources in the root director
 - url: /(.*\.(css|gif|png|jpg|jpeg|ico|js|htm|xml|txt|ttf|json|svg|woff|eot|xcf|webm|mp4))
